@@ -1,16 +1,16 @@
 # mainSections = ["post", "posts"] # Default to ["posts"].
 
 # titleSeparator = "|" # Title separator. Default to "-".
-
-description = "An extreme fast, responsive and feature-rich blog theme for Hugo"
-keywords = "Hugo, Bootstrap, Blog Theme"
+description = "yshalsager's personal website and blog."
+keywords = "yshalsager, Youssif Shaaban, Youssif Shaaban Alsager"
 # images = ["site-feature-image.jpg"]
+rssDescription = "Latest posts from "
 
-# logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
+logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
 # logo = false # Disable Logo
-brand = "BOOTSTRAP"
+brand = ""
 
-palette = "blue" # Default palette. Optional.
+palette = "blue gray" # Default palette. Optional.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
 # palettes = [] # Disable palette switcher.
 
@@ -19,17 +19,17 @@ palette = "blue" # Default palette. Optional.
 # fullWidth = true # Full width.
 # fixedHeader = false # Turn on/off fixed header.
 
-# dateFormat = "Jan 2, 2006"
+dateFormat = "2 Jan, 2006"
 
 # Google Adsense
 googleAdsense = ""
 
 # math = true # Enable math globally.
 # toc = false # Disable TOC globally.
-# breadcrumb = false # Disable breadcrumb
+breadcrumb = false # Disable breadcrumb
 # diagram = true
 
-# poweredBy = false # Whether to show powered by.
+poweredBy = false # Whether to show powered by.
 
 # readingTime = false # Whether to display the reading time.
 # postDate = false # Whether to display the post date in the post meta section.
@@ -40,7 +40,7 @@ googleAdsense = ""
 # categoryCount = 10 # The number of categories shown in sidebar. Turn off by setting it to false.
 # tagCount = 10 # The number of tags shown in sidebar. Turn off by setting it to false.
 # seriesCount = 10 # The number of series shown in sidebar. Turn off by setting it to false.
-taxonomyPaginate = 5 # Default to 10.
+taxonomyPaginate = 10 # Default to 10.
 # taxonomyPostCount = 5 # The number of posts of taxonomy. Turn off by setting it to false.
 
 # Custom CSS and JS
@@ -57,14 +57,14 @@ viewer = true # Image Viewer
 
 [codeBlock]
   # maxLines = 8
-  lineNos = false # true/false represents that show/hide the line numbers by default.
+  lineNos = true # true/false represents that show/hide the line numbers by default.
 
 [post]
-  # excerpt = "description"
-  # excerptMaxLength = 120
+  excerpt = "description"
+  excerptMaxLength = 300
 
 [archive]
-  paginate = 8 # Archive pagination. Default to 100.
+  #paginate = 8 # Archive pagination. Default to 100.
   # dateFormat = "01-02" # Archive date format. Default to "Jan 2".
 
 [analytics]
@@ -81,13 +81,13 @@ viewer = true # Image Viewer
   shenma = ""
 
 [creativeCommons]
-  # by = true # Credit must be given to you, the creator.
+  by = true # Credit must be given to you, the creator.
   # nc = true # Only noncommercial use of your work is permitted.
   # nd = true # No derivatives or adaptations of your work are permitted.
   # sa = true # Adaptations must be shared under the same terms.
 
-[utterances]
-  repo = "razonyang/hugo-theme-bootstrap-comments" # Replace with your repository.
+#[utterances]
+  #repo = "razonyang/hugo-theme-bootstrap-comments" # Replace with your repository.
   #issueTerm = "pathname" # pathname, url, title, og:title
   #label = "comment"
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
@@ -95,23 +95,21 @@ viewer = true # Image Viewer
   #theme = "" 
 
 [search]
-  paginate = 5 # Pagination. Default to 10.
+  paginate = 10 # Pagination. Default to 10.
   # resultContentWordCount = 240 # The maximum word count of result content for displaying.
   # Fuse.js options. See https://fusejs.io/api/options.html.
   [search.fuse]
     # ignoreLocation = true
     # location = 0
-    # isCaseSensitive = false
-    # minMatchCharLength = 1
-    threshold = 0.1
+    isCaseSensitive = false
+    minMatchCharLength = 3
+    threshold = 0.6
     # distance = 100
-    # useExtendedSearch = true
+    useExtendedSearch = true
 
 [reward]
-  alipay = "images/reward/alipay.png"
-  wechat = "images/reward/wechat.png"
-  #paypal = "images/reward/paypal.png"
-  #patreon = "images/reward/patreon.png"
+  paypal = "images/reward/paypal.png"
+  liberapay = "images/reward/liberapay.png"
 
 #[share]
   #addThis = "" # AddThis pubid.

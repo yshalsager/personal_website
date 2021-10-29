@@ -1,0 +1,9 @@
+title = "يوسف شعبان الصغير"
+copyright = "جميع الحقوق محفوطة © 2020-{year} yshalsager."
+languageCode = 'ar-eg'
+
+[author]
+  name = "يوسف شعبان الصغير"
+  avatar = "images/profile.png"
+  bio = "مطور بايثون وكاتب/مترجم تقني."
+  location = "مصر"

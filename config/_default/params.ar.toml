@@ -1,0 +1,7 @@
+dateFormat = "02-01-2006"
+description = "مطور بايثون وكاتب / مترجم تقني."
+keywords = "يوسف شعبان الصغير, yshalsager"
+rssDescription = "آخر التدوينات من "
+
+[archive]
+  dateFormat = "01-02"

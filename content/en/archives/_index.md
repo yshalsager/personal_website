@@ -2,7 +2,7 @@
 title = "Archives"
 layout = "archive"
 [menu.main]
-  weight = 10
+  weight = 40
   pre = '<i class="fas fa-fw fa-file-archive"></i>'
   url = "archives"
 +++

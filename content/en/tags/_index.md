@@ -1,7 +1,7 @@
 +++
 title = "Tags"
 [menu.main]
-  weight = 30
+  weight = 20
   pre = '<i class="fas fa-fw fa-tags"></i>'
   url = "tags"
 +++

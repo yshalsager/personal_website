@@ -1,0 +1,36 @@
+.component {
+    border-radius: 1em;
+    box-shadow: none;
+}
+
+html[lang="ar"] {
+    direction: rtl;
+}
+
+.navbar-brand:lang(ar) {
+    margin-right: unset;
+    margin-left: 1rem!important;
+}
+
+.breadcrumb-item:lang(ar) {
+    padding-left: unset;
+    padding-inline-start: .5rem;
+}
+
+.breadcrumb-item:lang(ar)::before {
+    float: right!important;
+}
+
+.row {
+    --hbs-gutter-x: unset;
+    --hbs-gutter-y: 0.5rem;
+}
+
+.logo {
+    height: 32px;
+}
+
+[lang="ar"] .fa-chevron-right, .fa-chevron-left {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

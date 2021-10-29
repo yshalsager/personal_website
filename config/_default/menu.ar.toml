@@ -1,0 +1,5 @@
+[[main]]
+  name = "مشاريعي"
+  identifier = "projects"
+  pre = '<i class="fas fa-fw fa-code"></i>'
+  url = "ar/projects"
