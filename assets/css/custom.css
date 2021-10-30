@@ -30,7 +30,7 @@ html[lang="ar"] {
     height: 32px;
 }
 
-[lang="ar"] .fa-chevron-right, .fa-chevron-left {
+[lang="ar"] .fa-chevron-right, [lang="ar"] .fa-chevron-left {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
