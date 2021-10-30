@@ -1,0 +1,8 @@
+{{ if eq hugo.Environment "production" }}
+<!-- Redirect for pages.dev -->
+<script>
+    if (window.location.hostname !== "yshalsager.com" && window.location.hostname !== "www.yshalsager.com") {
+        window.location.replace('https://yshalsager.com' + window.location.pathname);
+    }
+</script>
+{{ end }}
