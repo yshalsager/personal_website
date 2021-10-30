@@ -1,11 +1,12 @@
----
-title: Debugging and fixing Selenium's send_keys() wrong text input
-description: "I recently faced a weird problem while working on a freelance Selenium project in Python which is: send_keys method is sending random wrong input. Here are the details of the problem, how did I debug it and how I manged to fix after hours of investigating!"
-tags:
-  - Python
-date: 2020-09-28
-image: /static/img/posts/en/debugging-and-fixing-selenium-send-keys-wrong-text-input/Main.png
----
++++
+title = "Debugging and fixing Selenium's send_keys() wrong text input"
+description = "I recently faced a weird problem while working on a freelance Selenium project in Python which is: send_keys method is sending random wrong input. Here are the details of the problem, how did I debug it and how I manged to fix after hours of investigating!"
+tags = ["Python",  "Development"]
+date = "2020-09-28"
+images = ["images/main.png"]
++++
+![main](images/main.png?width=800px#center)
+
 *There are many kinds of bugs you may face while programming, but without a doubt, ghost bugs are the worse!*
 
 I recently faced a weird problem while working on a freelance [Selenium](https://www.selenium.dev/) (A portable framework for testing web applications) project in Python which is: [send_keys](https://selenium-python.readthedocs.io/api.html?highlight=execute_script#selenium.webdriver.remote.webelement.WebElement.send_keys) method is sending random wrong input. Here are the details of the problem, how did I debug it, and how I managed to fix after hours of investigating!
