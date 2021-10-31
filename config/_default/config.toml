@@ -1,4 +1,4 @@
-baseURL = "https://yshalsager.com"
+baseURL = "/"
 title = "yshalsager"
 theme = "hugo-theme-bootstrap"
 copyright = "Copyright © 2020-{year} yshalsager. All Rights Reserved."
