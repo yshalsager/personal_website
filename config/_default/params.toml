@@ -28,6 +28,8 @@ googleAdsense = ""
 # toc = false # Disable TOC globally.
 breadcrumb = false # Disable breadcrumb
 # diagram = true
+socialshare = false # disable social network sharing
+# searchBar = false # disable search-bar
 
 poweredBy = false # Whether to show powered by.
 
