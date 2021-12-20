@@ -14,7 +14,7 @@ images = ["images/windows_8_wallpaper_by_pavelstrobl-d6412rg.png"]
 
 ## طريقة تحميل الويندوز بروابط رسمية من مايكروسوفت
 
-كل ما عليك هو الدخول إلى هذا الرابط: [حمل من هنا](https://tb.rg-adguard.net/public.php)
+كل ما عليك هو الدخول إلى هذا الرابط:: [حمل من هنا](https://tb.rg-adguard.net/public.php)
 
 ![img](images/1.jpg)
 
