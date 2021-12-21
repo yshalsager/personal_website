@@ -5,7 +5,7 @@ description = "كثير منا يحتاج في بعض الأحيان أو إلى
 
 categories = ["ويندوز",]
 
-tags = ["حيل", "افهم تكنولوجيا"]
+tags = ["افهم تكنولوجيا"]
 
 images = ["images/Main.png"]
 

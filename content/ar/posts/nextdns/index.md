@@ -8,7 +8,7 @@ categories = [
   "الخصوصية",
 ]
 tags = [
-  "خدمات",
+  "المدونة",
 ]
 series = [
   "NextDNS"

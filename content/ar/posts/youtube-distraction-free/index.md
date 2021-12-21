@@ -7,6 +7,9 @@ featured = true
 categories = [
   "الإنتاجية",
 ]
+tags = [
+  "المدونة",
+]
 images = [
   "images/szabo-viktor-UfseYCHvIH0-unsplash.jpg"
 ]
