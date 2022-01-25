@@ -61,7 +61,6 @@ def main():
             continue
         book_title = book_page["properties"]['اسم الكتاب']['title'][0]['plain_text']
         print(book_title)
-        print()
         try:
             book_markdown = Notion2Markdown(environ["NOTION_TOKEN"], book_page["id"]).parse()
         except AttributeError as err:
