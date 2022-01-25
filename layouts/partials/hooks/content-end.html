@@ -1,0 +1,19 @@
+<!-- Derived from https://github.com/zoni/hugo-theme-modern/blob/main/layouts/partials/page_metadata.html -->
+<div class="post-metadata mb-3 row card component" id="post-meta">
+  <div class="card-header">
+    <h2 class="card-title"><span class="icon" aria-hidden="true">📂</span>{{ i18n "metadata" }}</h2>
+  </div>
+  <div class="card-body">
+    <ul>
+      <li><strong>{{ i18n "last_changed" }}:</strong> {{ .Lastmod.Format "Mon, 02 Jan 2006 15:04 PM" }}</li>
+      {{ if .GitInfo }}
+      <li>
+        <strong>{{ i18n "change_id" }}:</strong>
+        {{ if $.Site.Params.repo }}<a href="{{ $.Site.Params.repo }}/commit/{{ .GitInfo.Hash }}"
+          >{{ .GitInfo.AbbreviatedHash }}</a
+        >{{ else }}{{ .GitInfo.AbbreviatedHash }}{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

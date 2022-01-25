@@ -13,17 +13,17 @@ html[lang="ar"] {
 }
 
 .breadcrumb-item:lang(ar) {
-    padding-left: unset;
-    padding-inline-start: .5rem;
+    padding: unset;
 }
 
 .breadcrumb-item:lang(ar)::before {
-    float: right!important;
+    float: right;
+    padding-inline: .5rem;
 }
 
 .row {
     --hbs-gutter-x: unset;
-    --hbs-gutter-y: 0.5rem;
+    --hbs-gutter-y: .5rem;
 }
 
 .logo {
