@@ -9,7 +9,7 @@ html[lang="ar"] {
 
 .navbar-brand:lang(ar) {
     margin-right: unset;
-    margin-left: 1rem!important;
+    margin-left: 1rem !important;
 }
 
 .breadcrumb-item:lang(ar) {
@@ -33,4 +33,12 @@ html[lang="ar"] {
 [lang="ar"] .fa-chevron-right, [lang="ar"] .fa-chevron-left {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+aside.docs-catalog ul:lang(ar) {
+    padding: unset;
+}
+
+.post-panel:lang(ar) {
+    right: -1.5rem;
 }

@@ -49,3 +49,5 @@ pygmentsUseClasses = true
   category = "categories"
   series = "series"
   tag = "tags"
+
+enableGitInfo = true
