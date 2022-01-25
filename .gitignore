@@ -1,1 +1,6 @@
 .hugo_build.lock
+.python-version
+.idea/
+.vscode/
+venv/
+/index.md
