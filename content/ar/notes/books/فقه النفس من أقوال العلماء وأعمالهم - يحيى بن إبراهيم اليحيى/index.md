@@ -18,7 +18,7 @@ images = ["image.jpg"]
 | **تاريخ القراءة**  |  2022-01-22   |
 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/77f471e1-c623-486c-96c0-8e3635111395/37808792._SX318_.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220129%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220129T153816Z&X-Amz-Expires=3600&X-Amz-Signature=75900290beeba43448521ee421c5cc63639273db4f2f808cd3cb362b1a9770ba&X-Amz-SignedHeaders=host&x-id=GetObject)
+![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/77f471e1-c623-486c-96c0-8e3635111395/37808792._SX318_.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220304%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220304T191621Z&X-Amz-Expires=3600&X-Amz-Signature=4c443f5e42cbc1c22c7019996ba8a2d9d5b2f93b23cde142262ccce915a18fde&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 هذا الكتاب جمع فيه المؤلف طائفةٌ مما نقل عن بعض العلماء من كلمات، وما حُكي من أعمال فيها حثٌّ وترغيب على ما يُزكِّي النفس، وتنفيرٌ وترهيب مما يُوردها مواردَ ومزالق لا تحمَد.
 
