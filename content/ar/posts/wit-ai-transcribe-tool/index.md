@@ -29,7 +29,7 @@ images = ["images/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.webp"]
 
 1. افتح wit.ai وسجل الدخول بحساب فيس بوك.
 
-   ![01](images/01.jpg)
+   ![01](images/01.png)
 
 2. اضغط على New App لإنشاء تطبيق جديد.
 
