@@ -16,3 +16,5 @@ readingTime = false
 أيضا أقوم بشكل مستمر بالتعديل على هواتف أندرويد وتطوير الرومات المعدلة منذ 2014، جميع أعمالي متاحة على [موقع XDA-Developers](https://forum.xda-developers.com/member.php?u=6084385).
 
 يمكنك الإطلاع على قائمة مشاريعي [هنا](/ar/projects)، وإذا رغبت في التواصل معي فيمكنك معرفة كيفية القيام بذلك [من هنا](/ar/contact).
+
+ولتحميل نسخة من سيرتي الذاتية اضغط [هنا](/Youssif_Shaaban_yshalsager_Resume.pdf).
