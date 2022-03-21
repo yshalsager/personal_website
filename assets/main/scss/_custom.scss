@@ -18,21 +18,21 @@ html[lang="ar"] {
 
 .breadcrumb-item:lang(ar)::before {
     float: right;
-    padding-inline: .5rem;
+    padding-inline: 0.5rem;
 }
 
 .row {
     --hbs-gutter-x: unset;
-    --hbs-gutter-y: .5rem;
+    --hbs-gutter-y: 0.5rem;
 }
 
 .logo {
     height: 32px;
 }
 
-[lang="ar"] .fa-chevron-right, [lang="ar"] .fa-chevron-left {
-    -webkit-transform: scaleX(-1);
+[lang="ar"] .post-nav .fa-chevron-circle-down {
     transform: scaleX(-1);
+    transform-origin: unset !important;
 }
 
 aside.docs-catalog ul:lang(ar) {

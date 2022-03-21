@@ -1,11 +1,8 @@
 {
- "compilerOptions": {
-  "baseUrl": ".",
-  "paths": {
-   "*": [
-    "*",
-    "../themes/hugo-theme-bootstrap/assets/*"
-   ]
-  }
- }
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": ["*", "../themes/hugo-theme-bootstrap/assets/*"]
+        }
+    }
 }
