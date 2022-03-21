@@ -6,7 +6,6 @@ description = "اليوم هو ختام عام 2021 الذي استخدمت في
 featured = true
 categories = ["الإنتاجية",]
 tags = ["المدونة",]
-images = ["images/pauline-bernard-5QgGvT1smdI-unsplash.jpg"]
 +++
 
 التخطيط الجيد هو أول طريق تحقيق الأهداف، ومن حسن حظنا أننا نعيش في زمان فيه أدوات تخطيط رقمية تمكننا من تصور اﻷمور ووضع الخطط بطريقة أفضل من الورقة والقلم. واحدة من هذه اﻷدوات هي أداة [نوشن Notion](https://notion.so/) لتدوين الملاحظات والتخطيط وتنظيم المهام، وقد تعرفت عليها لأول مرة منذ سنتين تقريبا، وبدأت باستخدامها في كتابة الملاحظات وإدارة المهام دون اتباع أي نظام معين لفترة طويلة.
@@ -15,7 +14,7 @@ images = ["images/pauline-bernard-5QgGvT1smdI-unsplash.jpg"]
 
 واليوم نصل إلى ختام عام 2021 الذي استخدمت فيه نوشن بشكل يومي لتنظيم المهام والمشاريع والعادات والقراءة والعمل الحر وكتابة المحتوى! وفي السطور القادمة سأستعرض خلاصة استخدامي لنوشن لمدة سنة في التخطيط وتنظيم اﻷمور المختلفة، وكيف يمكن الاستفادة من هذه اﻷداة لتحقيق أقصى استفادة وإدارة الحياة بشكل أكثر تنظيمًا وفعالية.
 
-|    ![photo](images/pauline-bernard-5QgGvT1smdI-unsplash.jpg) |
+|    ![photo](thumbnail-pauline-bernard-5QgGvT1smdI-unsplash.jpg) |
 | -----------------------------------------------------------: |
 | الصورة بواسطة [Pauline Bernard](https://unsplash.com/@studiopoline?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) من موقع [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) |
 

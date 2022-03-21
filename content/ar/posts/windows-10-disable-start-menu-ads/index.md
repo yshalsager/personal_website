@@ -5,7 +5,6 @@ description = "بعد التحديث إلى الإصدار 1511 البناء 105
 categories = ["ويندوز",]
 series = ["ويندوز 10"]
 tags = ["موقع لغة العصر"]
-images = ["images/0.jpg"]
 
 +++
 

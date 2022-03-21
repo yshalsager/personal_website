@@ -7,7 +7,6 @@ categories = ["ويندوز",]
 
 tags = ["افهم تكنولوجيا"]
 
-images = ["images/Main.png"]
 
 +++
 

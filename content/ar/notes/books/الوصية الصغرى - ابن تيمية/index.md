@@ -4,7 +4,6 @@ date = "2021-11-23"
 layout = "docs"
 type = "docs"
 tags = ["ملاحظات"]
-images = ["image.jpg"]
 +++
 **معلومات الكتاب**:
 

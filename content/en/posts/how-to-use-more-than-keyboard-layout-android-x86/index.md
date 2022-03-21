@@ -4,7 +4,6 @@ description: "Android x86 supports multiple keyboard layouts but it doesn't supp
 tags:
   - Android
 date: 2016-06-18
-images: [images/main.png]
 ---
 
 Android x86 supports multiple keyboard layouts but it doesn't support switching between them easily using a shortcut like alt+shift. Here's how you can do this!

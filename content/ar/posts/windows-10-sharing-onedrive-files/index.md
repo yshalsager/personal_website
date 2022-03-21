@@ -5,7 +5,6 @@ description = "مع تكامل OneDrive في ويندوز من السهل مشا
 categories = ["ويندوز",]
 series = ["ويندوز 10"]
 tags = ["موقع لغة العصر"]
-images = ["images/0.jpg"]
 
 +++
 

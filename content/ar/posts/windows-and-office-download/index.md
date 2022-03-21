@@ -5,12 +5,11 @@ description = "كم مرة حاولت أن تقوم بتحميل نسخة وين
 categories = ["ويندوز",]
 tags = ["افهم تكنولوجيا"]
 series = ["ويندوز 10"]
-images = ["images/windows_8_wallpaper_by_pavelstrobl-d6412rg.png"]
 +++
 
 كم مرة حاولت أن تقوم بتحميل نسخة ويندوز أو أوفيس وظللت تبحث لوقت طويل عن ما تريد، وفى الغالب وجدت نسخ مقرصنة والتي غالبا ما يكون مدمج بها برمجيات خبيثة من Trojan أو Malware مما يسبب العديد من المشكلات فى جهازك. لا داعي للبحث بعد الآن، فطريقة الوصول للروابط الرسمية لإصدارات مايكروسوفت أصبحت سهلة للغاية بفضل موقع TechBench.
 
-![img](images/windows_8_wallpaper_by_pavelstrobl-d6412rg.png)
+![img](thumbnail-windows_8_wallpaper_by_pavelstrobl-d6412rg.png)
 
 ## طريقة تحميل الويندوز بروابط رسمية من مايكروسوفت
 

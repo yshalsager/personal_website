@@ -4,13 +4,12 @@ date = "2022-01-01"
 description = "محاولة البحث عن ملفات أو مجلدات معينة في ويندوز تكون في أغلب اﻷحيان مهمة شاقة، وخصوصا عندما نحتاج لإيجاد ملف بشكل عاجل. ويرجع ذلك إلى عدة أسباب أهمها الطريقة التي يعمل بها البحث في نظام ويندوز بمختلف إصداراته. ولحل هذه المشكلة هناك عدد من البرامج واﻷدوات التي تقوم بفهرسة الملفات على جهازك وتمكنك من البحث بشكل أسرع لتصل إلى ملفاتك في لحظات معدودة مثل أداة Everything المتميزة التي سنتحدث عنها اليوم."
 categories = ["مهارات رقمية",]
 tags = ["مجلة لغة العصر"]
-images = ["images/mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.jpg"]
 
 +++
 
 محاولة البحث عن ملفات أو مجلدات معينة في ويندوز تكون في أغلب اﻷحيان مهمة شاقة، وخصوصا عندما نحتاج لإيجاد ملف بشكل عاجل. ويرجع ذلك إلى عدة أسباب أهمها الطريقة التي يعمل بها البحث في نظام ويندوز بمختلف إصداراته. ولحل هذه المشكلة هناك عدد من البرامج واﻷدوات التي تقوم بفهرسة الملفات على جهازك وتمكنك من البحث بشكل أسرع لتصل إلى ملفاتك في لحظات معدودة مثل أداة Everything المتميزة التي سنتحدث عنها اليوم.
 
-| ![photo](images/mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.jpg) |
+| ![photo](thumbnail-mr-cup-fabien-barral-o6GEPQXnqMY-unsplash.jpg) |
 | -----------------------------------------------------------: |
 | الصورة بواسطة [Mr Cup / Fabien Barral](https://unsplash.com/@iammrcup?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) من موقع [Unsplash](https://unsplash.com/s/photos/files?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText). |
 

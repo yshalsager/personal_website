@@ -5,7 +5,6 @@ description = "تحدثنا في الدرس السابق عن خاصية Snap ف
 categories = ["ويندوز",]
 series = ["ويندوز 10"]
 tags = ["موقع لغة العصر"]
-images = ["images/2016-635930434557156082-715_thumb705x335.png"]
 
 +++
 

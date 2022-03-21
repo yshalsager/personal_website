@@ -5,7 +5,6 @@ description = "إذا كنت من مستخدمي وضع السبات Hibernation
 categories = ["ويندوز",]
 series = ["ويندوز 10"]
 tags = ["موقع لغة العصر"]
-images = ["images/2016-635997081495974342-597_thumb705x335.jpg"]
 
 +++
 

@@ -4,13 +4,12 @@ date = "2022-01-01"
 description = "يوفر ويندوز 11 لمستخدميه عدة طرق وأدوات لتصوير الشاشة وتسجيلها بالفيديو دون الحاجة لتثبيت أي برامج خارجية، وهي أدوات بسيطة وسهلة الاستخدام توفر الوقت عند الحاجة لتصوير أو تسجيل الشاشة بشكل سريع، كما أن بعض هذه الأدوات توفر إمكانية التعديل على لقطات الشاشة قبل نسخها إلى البرامج المختلفة، فدعونا نتعرف على طرق تصوير الشاشة في ويندوز 11 وأدوات Snipping Tool وشريط ألعاب Xbox."
 categories = ["ويندوز", "مهارات رقمية",]
 tags = ["مجلة لغة العصر"]
-images = ["images/windows-AigsWJmvoEo-unsplash.webp"]
 
 +++
 
 يوفر ويندوز 11 لمستخدميه عدة طرق وأدوات لتصوير الشاشة وتسجيلها بالفيديو دون الحاجة لتثبيت أي برامج خارجية، وهي أدوات بسيطة وسهلة الاستخدام توفر الوقت عند الحاجة لتصوير أو تسجيل الشاشة بشكل سريع، كما أن بعض هذه الأدوات توفر إمكانية التعديل على لقطات الشاشة قبل نسخها إلى البرامج المختلفة، فدعونا نتعرف على طرق تصوير الشاشة في ويندوز 11 وأدوات Snipping Tool وشريط ألعاب Xbox.
 
-|           ![photo](images/windows-AigsWJmvoEo-unsplash.webp) |
+|           ![photo](thumbnail-windows-AigsWJmvoEo-unsplash.webp) |
 | -----------------------------------------------------------: |
 | الصورة بواسطة [Windows](https://unsplash.com/@windows?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) من موقع [Unsplash](https://unsplash.com/s/photos/windows-11?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText). |
 
