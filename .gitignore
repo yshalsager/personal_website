@@ -4,3 +4,6 @@
 .vscode/
 venv/
 /index.md
+node_modules/
+/resources
+hugo_stats.json

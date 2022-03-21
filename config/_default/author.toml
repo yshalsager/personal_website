@@ -1,6 +1,6 @@
 name = "Youssif Shaaban Alsager"
 avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
-bio = "Python Developer and Technical Writer / Translator."
+bio = "Software Developer and Technical Writer / Translator."
 #company = "Company"
 location = "Egypt"
 # about = "https://domain.tld" # The external about page. The internal about page will be used if not set.

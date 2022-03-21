@@ -51,3 +51,6 @@ pygmentsUseClasses = true
   tag = "tags"
 
 enableGitInfo = true
+
+[build]
+  writeStats = true

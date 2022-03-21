@@ -1,3 +1,4 @@
+mainSections = ["posts"]
 repo = "https://github.com/yshalsager/personal_website"
 # mainSections = ["post", "posts"] # Default to ["posts"].
 
@@ -45,6 +46,9 @@ poweredBy = false # Whether to show powered by.
 # seriesCount = 10 # The number of series shown in sidebar. Turn off by setting it to false.
 taxonomyPaginate = 10 # Default to 10.
 taxonomyPostCount = 20 # The number of posts of taxonomy. Turn off by setting it to false.
+countTaxonomyPosts = false # Count posts of taxonomy.
+
+sidebarTaxonomies = ["categories", "tags", "series"] # The order of taxonomies on the sidebar.
 
 # pinnedPost = false # Turn on/off pinned posts.
 pinnedPostCount = 3 # The number of pinned posts.
@@ -53,7 +57,6 @@ pinnedPostCount = 3 # The number of pinned posts.
 customCSS = [
 ]
 customJS = [
-  "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/js/solid.min.js" # Import fontawesome solid icons.
 ]
 
 tocWordCount = 120 # TOC is displayed only if the post's word count exceeds this value.
