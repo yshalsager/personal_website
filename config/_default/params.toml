@@ -1,7 +1,5 @@
 mainSections = ["posts"]
-repo = "https://github.com/yshalsager/personal_website"
 # mainSections = ["post", "posts"] # Default to ["posts"].
-
 # titleSeparator = "|" # Title separator. Default to "-".
 description = "yshalsager's personal website and blog."
 keywords = "yshalsager, Youssif Shaaban, Youssif Shaaban Alsager"
@@ -149,3 +147,9 @@ viewer = true # Image Viewer
     [[pwa.manifest.icons]]
       sizes = "512x512"
       src = "/images/favicons/android-chrome-512x512.png"
+
+[repo]
+  url = "https://github.com/yshalsager/personal_website"
+  # branch = "main"
+  #subPath = "exampleSite"
+  # dateFormat = "02/01/2006, 15:04:05 PM"
