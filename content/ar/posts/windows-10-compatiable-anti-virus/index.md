@@ -12,8 +12,6 @@ tags = ["موقع لغة العصر"]
 
 1. Windows Defender (version 4.6.9841.0) مضاد الفيروسات الخاص المجاني الخاص بمايكروسوفت والمدمج مع ويندوز 10.
 
-![](thumbnail-2015-635735104994565734-456.jpg "1")
-
 2. [Avast Free Antivirus 2015 (02/10/2215 Final version)](https://www.avast.com/ar-ww/index)
 
 ![](images/2015-635735105074565734-456.png "2")
@@ -57,6 +55,7 @@ Ultimate Protection Suite Avira
 ملاحظة: هذا الترتيب لا يعنى أن البرنامج رقم 1 هو الأفضل.
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/21078.aspx

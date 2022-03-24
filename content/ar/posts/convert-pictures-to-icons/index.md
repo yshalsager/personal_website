@@ -15,8 +15,6 @@ tags = ["موقع لغة العصر"]
 
 قم بتحميل البرنامج من [موقعه الرسمي من هنا](http://www.carifred.com/quick_any2ico/).
 
-![1](thumbnail-2015-635630855493938316-393.png)
-
 قم باختيار الايقونة من Select destination icon ثم حدد الدقة التي تريدها واضغط Convert It.
 
 ## ثانيا: عن طريق زر الفأرة الأيمن وبرنامج XnShellEx:
@@ -39,6 +37,7 @@ tags = ["موقع لغة العصر"]
 4. موقع [convertico.com](http://convertico.com/).
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/8205.aspx

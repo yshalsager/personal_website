@@ -7,11 +7,10 @@ tags = ["مجلة لغة العصر"]
 series = ["دليل لينكس"]
 
 +++
+
 تحدثنا في الجزء السابق عن نظام لينكس، ما هو، مميزاته، وتوقفنا عند اكتمال تثبيت أوبنتو، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على كيفية إضافة الدعم الكامل للغة العربية إلى أوبنتو لينكس.
 
-![img](thumbnail-0.png)
-
-##  أولا: تغيير لغة الواجهة إلى اللغة العربية
+## أولا: تغيير لغة الواجهة إلى اللغة العربية
 
 1. قم بالدخول إلى إعدادات النظام System settings عن طريق الضغط بزر الفأرة على رمز التحكم أعلى يمين الشاشة، ثم قم باختيار System settings.
 
@@ -57,15 +56,15 @@ series = ["دليل لينكس"]
 
 ![img](images/11.png)
 
-- لحل هذه المشكلة قم بفتح مركز برمجيات أوبنتو ثم من قائمة Edit قم باختيار Software Sources.
+-   لحل هذه المشكلة قم بفتح مركز برمجيات أوبنتو ثم من قائمة Edit قم باختيار Software Sources.
 
 ![img](images/12.png)
 
-- من قائمة Download Server قم باختيار Main Server، ثم أعد إدخال كلمة السر.
+-   من قائمة Download Server قم باختيار Main Server، ثم أعد إدخال كلمة السر.
 
 ![img](images/13.png)
 
-- انتظر حتى ينتهي المتجر من تحديث مصادر البرامج ثم أعد إضافة اللغة مرة أخري.
+-   انتظر حتى ينتهي المتجر من تحديث مصادر البرامج ثم أعد إضافة اللغة مرة أخري.
 
 ![img](images/14.png)
 
@@ -103,15 +102,15 @@ series = ["دليل لينكس"]
 
 3. قم بتحميل حزمة اللغة التالية:
 
-   لنظام 32: https://launchpad.net/~behnam/+archive/ppa/+build/574785/+files/bicon_0.2.0-1ubuntu0~ppa4_i386.deb
+    لنظام 32: https://launchpad.net/~behnam/+archive/ppa/+build/574785/+files/bicon_0.2.0-1ubuntu0~ppa4_i386.deb
 
-   لنظام 64:
+    لنظام 64:
 
-   https://launchpad.net/~behnam/+archive/ppa/+build/567388/+files/bicon_0.2.0-1ubuntu0~ppa4_amd64.deb
+    https://launchpad.net/~behnam/+archive/ppa/+build/567388/+files/bicon_0.2.0-1ubuntu0~ppa4_amd64.deb
 
-   ثم قم بفتح الحزمة باستخدام مركز برمجيات أوبنتو.
+    ثم قم بفتح الحزمة باستخدام مركز برمجيات أوبنتو.
 
-   ![img](images/21.png)
+    ![img](images/21.png)
 
 4. اضغط على "ثبت" وانتظر حتى ينتهي التثبيت.
 
@@ -149,4 +148,3 @@ Exec=/usr/bin/bicon.bin
 ![img](images/182-5.png)
 
 ![img](images/182-6.png)
-

@@ -6,13 +6,10 @@ categories = ["لينكس",]
 tags = ["مجلة لغة العصر"]
 
 +++
+
 تعد توزيعة OpenSUSE من أفضل توزيعات لينكس وأكثرها انتشارا، ومع نهاية عام 2015 تم إطلاق الإصدار الأخير من التوزيعة وهو Leap 42.1 نقدم لك عزيزي القارئ مراجعة سريعة لأهم التغييرات الجديدة في توزيعة OpenSUSE Leap 42.1.
 
-![img](thumbnail-0.png)
-
 وفقًا لمدونة أوبن سوزي فإن الإصدار الجديد 42.1 يوفر مستوى أعلى من الاستقرار في النظام والذي يُضاهي بل ويتفوق على معظم توزيعات لينكس الأخرى، وعلى رأس هذه التحسينات.
-
- 
 
 1. تحديث اصدار النواة إلى 4.1 مما يقدم دعم متميز لأنظمة ملفات EXT4, GFS2, CIFS, HFS, HFS+, HostFS, HPFS, OCFS2, OverlayFS, ReiserFS, وXFS كما يقدم أيضا تحسينات إلى ARM, x86, PowerPC وBtrfs.
 
@@ -28,7 +25,7 @@ tags = ["مجلة لغة العصر"]
 
 ![img](images/kde.png)
 
- كما يتضمن أيضا واجهة GNOME 3.16.2 التي أصبحت أكثر تكاملًا وسلاسة مع أوبن سوزي.
+كما يتضمن أيضا واجهة GNOME 3.16.2 التي أصبحت أكثر تكاملًا وسلاسة مع أوبن سوزي.
 
 ![img](images/gnome.png)
 
@@ -36,32 +33,32 @@ tags = ["مجلة لغة العصر"]
 
 5. أهم البرامج التي تضمنتها التوزيعة:
 
-- ​	VLC 2.2.1
-- ​	GIMP 2.8.14
-- ​	GCC 5.2
-- ​	Qt5.5
-- ​	QEMU 2.3.1
-- ​	VirtualBox 5.0.6
-- ​	Docker 1.8.2
-- ​	GTK2 and GTK3 toolkits
-- ​	Enlightenment 19 (0.19.12)
-- ​	YaST
+-   ​ VLC 2.2.1
+-   ​ GIMP 2.8.14
+-   ​ GCC 5.2
+-   ​ Qt5.5
+-   ​ QEMU 2.3.1
+-   ​ VirtualBox 5.0.6
+-   ​ Docker 1.8.2
+-   ​ GTK2 and GTK3 toolkits
+-   ​ Enlightenment 19 (0.19.12)
+-   ​ YaST
 
 ![img](images/yast.png)
 
-- ​	LibreOffice 5
-- ​	Mozilla Firefox 41
+-   ​ LibreOffice 5
+-   ​ Mozilla Firefox 41
 
 ![img](images/firefox.png)
 
-- ​	ThunderBird 38.2
-- ​	CMake 3.3.1.
-- ​	KMail
-- ​	digiKAM
-- ​	Filezilla
-- ​	Opera
-- ​	Kate
-- ​	Midori 
+-   ​ ThunderBird 38.2
+-   ​ CMake 3.3.1.
+-   ​ KMail
+-   ​ digiKAM
+-   ​ Filezilla
+-   ​ Opera
+-   ​ Kate
+-   ​ Midori
 
 6. شملت التوزيعة مزيد من التوافق مع ال Hardware وبالأخص أجهزة اللاب توب حيث دعمت عددا كبيرا من لوحات اللمس والبلوتوث.
 
@@ -82,4 +79,3 @@ tags = ["مجلة لغة العصر"]
 ![img](images/182-1.png)
 
 ![img](images/182-2.png)
-

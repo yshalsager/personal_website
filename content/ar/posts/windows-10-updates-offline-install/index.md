@@ -13,19 +13,20 @@ tags = ["موقع لغة العصر"]
 كل ما ستحتاج اليه لتنفيذ هذه الحيلة هو برنامج **[Portable](http://www.portableupdate.com/) Update** وهو برنامج بسيط لا يحتاج للتثبيت، يقوم بالبحث في قاعدة بيانات التحديثات، ثم يتيح لك اختيار ما تريد تحميله وتثبيته من التحديثات المتوافرة، أفضل مميزات هذا البرنامج هو أنه يقوم بإعطائك الملفات التنفيذية لتثبيت التحديث، فيمكنك تثبيته بطريقة يدوية بدون الحاجة إلى اتصال بالإنترنت، كما يمكنك نسخ ملفات التحديث وتثبيتها على أي جهاز آخر يعمل بويندوز.
 
 **أنظمة التشغيل التي يعمل عليها البرنامج:**
-* Microsoft Windows 10;
-* Microsoft Windows 8.1;
-* Microsoft Windows Server 2012;
-* Microsoft Windows Server 2012 R2;
-* Microsoft Windows 8;
-* Microsoft Windows 7;
-* Microsoft Windows Server 2008 R2;
-* Microsoft Windows Server 2008;
-* Microsoft Windows Embedded POSReady 2009;
-* Microsoft Windows Xp starting from Sp3;
-* Microsoft Windows Vista;
-* Microsoft Windows Server 2003;
-* Microsoft Windows 2000 starting from SP4;
+
+-   Microsoft Windows 10;
+-   Microsoft Windows 8.1;
+-   Microsoft Windows Server 2012;
+-   Microsoft Windows Server 2012 R2;
+-   Microsoft Windows 8;
+-   Microsoft Windows 7;
+-   Microsoft Windows Server 2008 R2;
+-   Microsoft Windows Server 2008;
+-   Microsoft Windows Embedded POSReady 2009;
+-   Microsoft Windows Xp starting from Sp3;
+-   Microsoft Windows Vista;
+-   Microsoft Windows Server 2003;
+-   Microsoft Windows 2000 starting from SP4;
 
 1. قم بتحميل البرنامج من [هنا](http://www.portableupdate.com/).
 
@@ -34,8 +35,6 @@ tags = ["موقع لغة العصر"]
 ![1](images/2015-635801916629922899-992.jpg)
 
 3. سيقوم البرنامج الآن بتحميل الملفات الضرورية للتحديثات.
-
-![2](thumbnail-2015-635801916809765498-976.png)
 
 4. بعد تحميل الملفات بالخطوة السابقة، ستظهر لك قائمة التحديثات المتاحة، قم باختيار التحديثات التي تريد تحميلها.
 
@@ -48,6 +47,7 @@ tags = ["موقع لغة العصر"]
 6. يمكنك الدخول إلى التبويب Search للبحث عن تحديث محدد وتحميله.
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/32507.aspx

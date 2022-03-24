@@ -12,47 +12,47 @@ tags = ["موقع لغة العصر"]
 
 ## أولا: قائمة اختصارات تطبيق الإعدادات في ويندوز 10:
 
-| الإختصار | صفحة الإعدادات | التصنيف |
-| ---- | ---- | ---- |
-| ms-settings: | Landing page for Settings | Home |
-| ms-settings:displayms-settings:screenrotation | Display | System |
-| ms-settings:notifications | Notifications | |
-| ms-settings:storagesense | Storage | |
-| ms-settings:batterysaver | Battery Saver | |
-| ms-settings:batterysaver-settings | Battery Saver | |
-| ms-settings:batterysaver-usagedetails | Battery Saver | |
-| ms-settings:maps | Offline Maps | |
-| ms-settings:bluetooth | Bluetooth | Devices |
-| ms-settings:connecteddevices | Connected Devices | |
-| ms-settings:mousetouchpad | Mouse & Touchpad | |
-| ms-settings:powersleep | Power & Sleep | Network and Wi-fi |
-| ms-settings:network-airplanemode | Airplane mode | |
-| ms-settings:network-cellular | Cellular | |
-| ms-settings:network-dialup | Dial-up | |
-| ms-settings:network-ethernet | Ethernet | |
-| ms-settings:network-proxy | Proxy | |
-| ms-settings:datausage | Data Sense | |
-| ms-settings:network-wifi | Wi-Fi | |
-| ms-settings:network-mobilehotspot | Mobile Hotspot | |
-| ms-settings:personalization-start | Start | |
-| ms-settings:lockscreen | Lock screen | Personalization |
-| ms-settings:personalization | Personalization | |
-| ms-settings:emailandaccounts | Your account | Accounts |
-| ms-settings:workplace | Your workplace | |
-| ms-settings:dateandtime | Date & time | Time and language |
-| ms-settings:regionlanguage | Region & language | |
-| ms-settings:speech | Speech | |
-| ms-settings:privacy-calendar | Calendar | Privacy |
-| ms-settings:privacy-contacts | Contacts | |
-| ms-settings:privacy-feedback | Feedback & diagnostics | |
-| ms-settings:privacy-location | Location | |
-| ms-settings:privacy-messaging | Messaging | |
-| ms-settings:privacy-microphone | Microphone | |
-| ms-settings:privacy-customdevices | Other | |
-| ms-settings:privacy-radios | Radio | |
-| ms-settings:privacy-speechtyping | Speech | |
-| ms-settings:privacy-webcam | Webcam | |
-| ms-settings:windowsupdate | Windows update | Update & Security |
+| الإختصار                                     | صفحة الإعدادات           | التصنيف           |
+| --------------------------------------------- | ------------------------- | ----------------- |
+| ms-settings:                                  | Landing page for Settings | Home              |
+| ms-settings:displayms-settings:screenrotation | Display                   | System            |
+| ms-settings:notifications                     | Notifications             |                   |
+| ms-settings:storagesense                      | Storage                   |                   |
+| ms-settings:batterysaver                      | Battery Saver             |                   |
+| ms-settings:batterysaver-settings             | Battery Saver             |                   |
+| ms-settings:batterysaver-usagedetails         | Battery Saver             |                   |
+| ms-settings:maps                              | Offline Maps              |                   |
+| ms-settings:bluetooth                         | Bluetooth                 | Devices           |
+| ms-settings:connecteddevices                  | Connected Devices         |                   |
+| ms-settings:mousetouchpad                     | Mouse & Touchpad          |                   |
+| ms-settings:powersleep                        | Power & Sleep             | Network and Wi-fi |
+| ms-settings:network-airplanemode              | Airplane mode             |                   |
+| ms-settings:network-cellular                  | Cellular                  |                   |
+| ms-settings:network-dialup                    | Dial-up                   |                   |
+| ms-settings:network-ethernet                  | Ethernet                  |                   |
+| ms-settings:network-proxy                     | Proxy                     |                   |
+| ms-settings:datausage                         | Data Sense                |                   |
+| ms-settings:network-wifi                      | Wi-Fi                     |                   |
+| ms-settings:network-mobilehotspot             | Mobile Hotspot            |                   |
+| ms-settings:personalization-start             | Start                     |                   |
+| ms-settings:lockscreen                        | Lock screen               | Personalization   |
+| ms-settings:personalization                   | Personalization           |                   |
+| ms-settings:emailandaccounts                  | Your account              | Accounts          |
+| ms-settings:workplace                         | Your workplace            |                   |
+| ms-settings:dateandtime                       | Date & time               | Time and language |
+| ms-settings:regionlanguage                    | Region & language         |                   |
+| ms-settings:speech                            | Speech                    |                   |
+| ms-settings:privacy-calendar                  | Calendar                  | Privacy           |
+| ms-settings:privacy-contacts                  | Contacts                  |                   |
+| ms-settings:privacy-feedback                  | Feedback & diagnostics    |                   |
+| ms-settings:privacy-location                  | Location                  |                   |
+| ms-settings:privacy-messaging                 | Messaging                 |                   |
+| ms-settings:privacy-microphone                | Microphone                |                   |
+| ms-settings:privacy-customdevices             | Other                     |                   |
+| ms-settings:privacy-radios                    | Radio                     |                   |
+| ms-settings:privacy-speechtyping              | Speech                    |                   |
+| ms-settings:privacy-webcam                    | Webcam                    |                   |
+| ms-settings:windowsupdate                     | Windows update            | Update & Security |
 
 ## ثانيا: الوصول السريع إلى الإعدادات عن طريق RUN:
 
@@ -83,9 +83,8 @@ tags = ["موقع لغة العصر"]
 5. قم باختيار الأيقونة التي تريد وضعها لهذا الاختصار ثم اضغط OK/Apply.
 6. عند فتحك لهذا الاختصار سيظهر تطبيق الإعدادات مباشرة كما وضعت مسار الاختصار.
 
-![](thumbnail-2015-635742954835693284-569.jpg "6")
-
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/21928.aspx

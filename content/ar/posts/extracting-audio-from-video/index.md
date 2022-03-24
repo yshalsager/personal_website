@@ -14,27 +14,19 @@ tags = ["موقع لغة العصر"]
 
 العيب الوحيد بهذا الموقع هو الإعلانات الكثيرة الموجودة به.
 
-![img](thumbnail-2.png)
-
 في خانة Enter Video url below to convert into MP3 قم بإدخال رابط الفيديو المراد تحويله ثم اضغط Download.
 
 بعد ذلك انتظر حتى يتم تحويل الملف وإعطائك رابط التحميل.
 
 ![img](images/3.png)
 
-
-
 تظهر لك كلمة Click here to get your Download Link اضغط عليها كما بالصورة.
 
 ![img](images/4.png)
 
-
-
 بعد ذلك قم بإزالة العلامة عن Download with accelerator and get recommendation offers لتجنب تحميل أي برمجيات خبيثة غير مرغوب فيها، ثم اضغط Download Mp3.
 
 ![img](images/5.png)
-
-
 
 الموقع الثاني:[video2mp3.net](http://www.video2mp3.net)
 
@@ -42,13 +34,9 @@ tags = ["موقع لغة العصر"]
 
 ![img](images/6.png)
 
-
-
 قم بإدخال رابط الفيديو المراد تحويله في مكان الكتابة ثم اضغط Convert.
 
 ![img](images/7.png)
-
-
 
 ننتظر حتى ينتهي الموقع من التحويل.
 
@@ -66,25 +54,17 @@ tags = ["موقع لغة العصر"]
 
 ![img](images/9.png)
 
-
-
 في خانة Media URL to Download قم بإدخال رابط الفيديو المراد تحويله ثم اضغط Continue.
 
 ![img](images/10.png)
-
-
 
 تظهر لك الخيارات التي يمكنك التعامل بها مع الفيديو، ما يهمنا في هذه الخيارات هو الضغط على كلمة MP3 ثم Start!.
 
 ![img](images/11.png)
 
-
-
 ننتظر حتى ينتهي الموقع من التحويل.
 
 ![img](images/12.png)
-
-
 
 بعد ذلك قم بإزالة العلامة عن Download with accelerator and get recommendation offers لتجنب تحميل أي برمجيات خبيثة غير مرغوب فيها، ثم اضغط Download.
 
@@ -95,6 +75,7 @@ tags = ["موقع لغة العصر"]
 ![img](images/13.png)
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/1783.aspx

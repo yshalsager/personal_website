@@ -14,12 +14,9 @@ tags = ["موقع لغة العصر"]
 
 إذا كان جهازك يقوم بتشغيل خدمات مهمة في الخلفية مثل سيرفر ملفات أو تحميل ملف، فباستخدامك لهذه الطريقة ستمنع أي شخص من إغلاق الجهاز إذا كان موجودا على شاشة تسجيل الدخول (وكذلك شاشة القفل).
 
-![1](thumbnail-2016-635947800377292258-729.png)
-
-
 **الطريقة الأولى: إزالة زر ايقاف التشغيل من شاشة تسجيل الدخول باستخدام ملف Registry:**
 
- قم بتحميل [هذا الملف](http://www.howtogeek.com/wp-content/uploads/2016/03/Shutdown-Button-Hacks.zip) ثم قم بتشغيل الملف "Hide Shutdown Button at Login” واضغط yes ثم OK.
+قم بتحميل [هذا الملف](http://www.howtogeek.com/wp-content/uploads/2016/03/Shutdown-Button-Hacks.zip) ثم قم بتشغيل الملف "Hide Shutdown Button at Login” واضغط yes ثم OK.
 
 ![2](images/2016-635947800487116962-711.png)
 
@@ -42,6 +39,7 @@ Computer Configuration > Windows Settings > Security Settings > Local Policies >
 ![4](images/2016-635947800670886140-88.png)
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/47065.aspx

@@ -13,8 +13,6 @@ tags = ["موقع لغة العصر"]
 1. قم بالدخول إلى صفحة التحميل [من هنا](https://www.microsoft.com/en-us/software-download/techbench).
 2. قم بالنزول إلى أسفل الصفحة إلى أن تجد Windows 10 ISO Downloads.
 
-![](thumbnail-2015-635745568356499134-649.png "1")
-
 3. قم بالضغط على القائمة المنسدلة Select edition ثم اختر ويندوز 10.
 4. اضغط على Confirm.
 
@@ -37,7 +35,7 @@ tags = ["موقع لغة العصر"]
 ![](images/2015-635745569173374134-337.jpg "6")
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/22148.aspx
-

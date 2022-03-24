@@ -11,9 +11,7 @@ tags = ["موقع لغة العصر"]
 
 1. قم بفتح مربع Run عن طريق قائمة البداية أو الضغط على Windows+R.
 2. قم بكتابة الأمر التالي ثم اضغط Enter:
-%appdata%\microsoft\Windows\Network Shortcuts
-
-![1](thumbnail-2015-635640276173440964-344.png)
+   %appdata%\microsoft\Windows\Network Shortcuts
 
 3. ستُفتح لك نافذة جديدة يمكنك لصق الاختصار الذي تريد بداخله "Paste Shortcut"، أو يمكنك إضافة اختصار جديد عن طريق الضغط بزر الفأرة الأيمن ثم اختيار New Shortcut من قائمة New.
 
@@ -32,6 +30,7 @@ tags = ["موقع لغة العصر"]
 ![5](images/2015-635640276939227115-922.png)
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/9126.aspx

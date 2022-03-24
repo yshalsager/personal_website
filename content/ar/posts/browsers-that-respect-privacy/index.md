@@ -6,8 +6,8 @@ categories = ["الخصوصية",]
 tags = ["مجلة لغة العصر"]
 
 +++
+
 يستخدم أغلبنا متصفحات إنترنت معينة وفقًا لما تعود عليه، فإذا كنت تستخدم متصفح مايكروسوفت إيدج فقد يكون سبب ذلك أنك تستخدم نظام ويندوز، وإذا كنت تستخدم متصفح سفاري فالأغلب أنك مستخدم لأجهزة أبل، وإذا كنت تستخدم جوجل كروم فهذا لأنك تستخدم هاتف يعمل بنظام أندرويد يأتي مع متصفح كروم بنسبة كبيرة. وبمعنى آخر، يستخدم جميعا عددًا من المتصفحات المتاحة والتي تتسم بالسهولة والسرعة، وعلى الرغم من كون غالب المتصفحات متشابهة وتؤدي جميعها نفس الغرض فهناك عنصر قد يغيب عن البعض وهو الخصوصية. ليست كل المتصفحات مثل بعضها باعتبار الخصوصية، فمثلا متصفحات جوجل كروم وسفاري هي برمجيات احتكارية مغلقة المصدر تمتلكها شركات معروفة بتجميع أكبر قدر ممكن من البيانات، مما يجعلنا نضع هذان المتصفحان في أسفل القائمة. كما أن هناك متصفحات أخرى أغلبها مفتوح المصدر متوفرة لكل أنظمة التشغيل تجعل خصوصية المستخدم أعلى أولوياتها سنتعرف عليها في السطور القادمة.
-![img](thumbnail-0.jpg)
 
 تتعد أشكال انتهاكات الخصوصية التي تقوم بها بعض المتصفحات، مثل جمع البيانات دون موافقة، أو جمع البيانات بشكل افتراضي وإتاحة إلغاء الاشتراك، أو إدماج برامج طرف ثالث تقوم بجمع البيانات حول المستخدم. وعلى النقيض من ذلك، توفر المتصفحات التي تحترم الخصوصية عددًا من الأمور مثل تقليل البيانات التي يتم جمعها حولك عن طريق منع التقنيات المستخدمة للتتبع، إلى جانب عدم جمع بيانات عنك من البداية.
 
@@ -17,33 +17,32 @@ tags = ["مجلة لغة العصر"]
 
 فايرفوكس هو الخيار الأفضل لكل شخص يبحث عن متصفح انترنت يحترم الخصوصية. ولتحقيق أقصى درجة من الخصوصية يمكنك تثبيت إضافات مثل uBlock Origin – HTTPS Everywhere – Decentraleyes – ClearURLs، وأيضا تغيير مجموعة من الإعدادات الافتراضية من خلال صفحة تهيئة المتصفح about:config:
 
-
-| **الإعداد** | **القيمة** |
+|                    **الإعداد**                    | **القيمة** |
 | :-----------------------------------------------: | :--------: |
-| privacy.firstparty.isolate | true |
-| privacy.resistFingerprinting | true |
-| privacy.trackingprotection.fingerprinting.enabled | true |
-| privacy.trackingprotection.cryptomining.enabled | true |
-| privacy.trackingprotection.enabled | true |
-| browser.send_pings | false |
-| browser.urlbar.speculativeConnect.enabled | false |
-| dom.event.clipboardevents.enabled | false |
-| media.eme.enabled | false |
-| media.gmp-widevinecdm.enabled | false |
-| media.navigator.enabled | false |
-| network.cookie.cookieBehavior | 1 |
-| network.http.referer.XOriginPolicy | 2 |
-| network.http.referer.XOriginTrimmingPolicy | 2 |
-| webgl.disabled | true |
-| browser.sessionstore.privacy_level | 2 |
-| beacon.enabled | false |
-| browser.safebrowsing.downloads.remote.enabled | false |
-| network.dns.disablePrefetch | true |
-| network.dns.disablePrefetchFromHTTPS | true |
-| network.predictor.enabled | false |
-| network.predictor.enable-prefetch | false |
-| network.prefetch-next | false |
-| network.IDN_show_punycode | true |
+|            privacy.firstparty.isolate             |    true    |
+|           privacy.resistFingerprinting            |    true    |
+| privacy.trackingprotection.fingerprinting.enabled |    true    |
+|  privacy.trackingprotection.cryptomining.enabled  |    true    |
+|        privacy.trackingprotection.enabled         |    true    |
+|                browser.send_pings                 |   false    |
+|     browser.urlbar.speculativeConnect.enabled     |   false    |
+|         dom.event.clipboardevents.enabled         |   false    |
+|                 media.eme.enabled                 |   false    |
+|           media.gmp-widevinecdm.enabled           |   false    |
+|              media.navigator.enabled              |   false    |
+|           network.cookie.cookieBehavior           |     1      |
+|        network.http.referer.XOriginPolicy         |     2      |
+|    network.http.referer.XOriginTrimmingPolicy     |     2      |
+|                  webgl.disabled                   |    true    |
+|        browser.sessionstore.privacy_level         |     2      |
+|                  beacon.enabled                   |   false    |
+|   browser.safebrowsing.downloads.remote.enabled   |   false    |
+|            network.dns.disablePrefetch            |    true    |
+|       network.dns.disablePrefetchFromHTTPS        |    true    |
+|             network.predictor.enabled             |   false    |
+|         network.predictor.enable-prefetch         |   false    |
+|               network.prefetch-next               |   false    |
+|             network.IDN_show_punycode             |    true    |
 
 المتصفح متوفر على: ويندوز – لينكس – ماك – أندرويد – iOS.
 
@@ -71,7 +70,7 @@ https://www.torproject.org
 
 ![img](images/brave-logo.webp)
 
-https://brave.com	
+https://brave.com
 
 ## Bromite
 
@@ -88,8 +87,6 @@ https://www.bromite.org
 DuckDuckGo معروف أكثر على أنه محرك بحث بديل لجوجل، لكنه يوفر أيضًا متصفح آمن لهواتف أندرويد وiOS تبقيك محميًا بشكل أفضل عبر الإنترنت، وتعطيك الكثير من المعلومات حول ما يتم حجبه. يقوم متصفح DuckDuckGo بفرض استخدام اتصالات HTTPS المشفرة عند الاتصال بمواقع الويب، والحماية من التعقب عن طريق ملفات تعريف الارتباط، وفحص سياسات خصوصية المواقع وإعطاءك تقارير مفصلة. كما يمكنك في نهاية كل جلسة تصفح اختيار غلق التبويبات وحذف بيانات التصفح تلقائيا، أو التحكم في هذه الأمور يدويًا بنقرة واحدة.
 
 المتصفح متوفر على: أندرويد – iOS.
-
-
 
 ![img](images/duckduckgo.webp)
 

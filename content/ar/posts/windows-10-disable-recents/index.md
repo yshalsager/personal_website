@@ -12,9 +12,9 @@ tags = ["موقع لغة العصر"]
 
 **الأماكن التي يخزن بها قوائم الملفات الأخيرة والأماكن المتكررة:**
 
-%AppData%\Microsoft\Windows\Recent Items 
+%AppData%\Microsoft\Windows\Recent Items
 
-%AppData%\Microsoft\Windows\Recent\AutomaticDestinations 
+%AppData%\Microsoft\Windows\Recent\AutomaticDestinations
 
 %AppData%\Microsoft\Windows\Recent\CustomDestinations
 
@@ -28,12 +28,9 @@ tags = ["موقع لغة العصر"]
 
 كما تظهر هكذا في قائمة Quick Access
 
-![3](thumbnail-2016-635887173651079566-107.png)
-
 وفي قائمة File
 
 ![4](images/2016-635887174268531524-853.png)
-
 
 **كيفية إيقاف قوائم العناصر الحديثة في ويندوز 10**
 
@@ -50,4 +47,5 @@ tags = ["موقع لغة العصر"]
 3- عندما تقوم بإغلاق قوائم الملفات الأخيرة والأماكن المتكررة سيقوم الويندوز بحذفها باستثناء العناصر التي قمت بتثبيتها، فإذا أردت ازالتها قم بعمل unpin لها.
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على [موقع مجلة لغة العصر](http://aitmag.ahram.org.eg/News/41604/%D8%AF%D8%B1%D9%88%D8%B3/%D8%B4%D8%B1%D8%AD-%D9%88%D8%AA%D8%B9%D9%84%D9%8A%D9%85/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%AA%D8%B9%D8%B7%D9%8A%D9%84-%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D9%85%D9%84%D9%81%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%AE%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%88%D9%8A%D9%86%D8%AF%D9%88%D8%B2-.aspx).

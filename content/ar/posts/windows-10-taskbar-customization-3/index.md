@@ -35,8 +35,6 @@ tags = ["موقع لغة العصر"]
 
 هذه الخاصية وجدت مع ويندوز 7 ولكن لا يزال بإمكانك عزيزي القارئ استخدامها في ويندوز 10 عن طريق بالضغط بزر الماوس الأيمن على شريط المهام واختيار Properties.
 
-![6](thumbnail-2016-635892336876704298-670.png)
-
 قم بتفعيل ميزة Use peek to preview the desktop when you move your mouse to the Show desktop button at the end of the taskbar واضغط OK.
 
 ![7](images/2016-635892337172482194-248.png)
@@ -74,6 +72,7 @@ tags = ["موقع لغة العصر"]
 ![12](images/2016-635892339244487476-448.png)
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/41981.aspx

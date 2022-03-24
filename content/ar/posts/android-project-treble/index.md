@@ -6,20 +6,19 @@ categories = ["أندرويد",]
 tags = ["مجلة لغة العصر"]
 
 +++
-إذا سألت أي مستخدم لهاتف يعمل بنظام أندرويد عن أكبر السلبيات الموجودة في النظام سيجيبك بشيء واحد: التحديثات. فمقارنة بالتحديثات المستمرة التي تحصل عليها هواتف أيفون، لا تحصل أغلب الهواتف المتوسطة إلا على تحديث واحد، وقد يصل الأمر في بعض الأجهزة الرائدة إلى ثلاثة تحديثات. وفى خطوة جديدة قد تغير قواعد اللعبة من جوجل، تم الإعلان عن الألية الجديدة لحل مشكلة التحديثات تحت اسم Project Treble.
 
-![img](thumbnail-0.jpg)
+إذا سألت أي مستخدم لهاتف يعمل بنظام أندرويد عن أكبر السلبيات الموجودة في النظام سيجيبك بشيء واحد: التحديثات. فمقارنة بالتحديثات المستمرة التي تحصل عليها هواتف أيفون، لا تحصل أغلب الهواتف المتوسطة إلا على تحديث واحد، وقد يصل الأمر في بعض الأجهزة الرائدة إلى ثلاثة تحديثات. وفى خطوة جديدة قد تغير قواعد اللعبة من جوجل، تم الإعلان عن الألية الجديدة لحل مشكلة التحديثات تحت اسم Project Treble.
 
 ## لماذا تتأخر التحديثات في الوصول لأجهزة أندرويد؟
 
-تتعدد أسباب تأخر أو انعدام وصول التحديثات إلى الأجهزة المختلفة، باستثناء أجهزة Google Pixel وNexus سابقا، وذلك يرجع لطبيعة نظام أندرويد مفتوح المصدر بشكل كبير، فإذا نظرت إلى إحصائيات نسبة انتشار إصدارات أندرويد الموجودة على الموقع الرسمي ستلاحظ أن أعلى الإصدارات انتشارا في الوقت الحالي لا يزال أندرويد 7 نوجا بنسبة 28.5% 
+تتعدد أسباب تأخر أو انعدام وصول التحديثات إلى الأجهزة المختلفة، باستثناء أجهزة Google Pixel وNexus سابقا، وذلك يرجع لطبيعة نظام أندرويد مفتوح المصدر بشكل كبير، فإذا نظرت إلى إحصائيات نسبة انتشار إصدارات أندرويد الموجودة على الموقع الرسمي ستلاحظ أن أعلى الإصدارات انتشارا في الوقت الحالي لا يزال أندرويد 7 نوجا بنسبة 28.5%
 
 ![img](images/Chart.png)
-
 
 ![img](images/developer.android.com.png)
 
 فعند إصدار جوجل لنسخة جديدة يمر النظام بعده مراحل حتى يصل للمستخدم:
+
 1. نشر الكود المصدري للنظام، والمعروف باسم AOSP.
 2. يتم تعديل النظام من قبل شركات تصنيع الشرائح الإلكترونية والمعالجات مثل كوالكم وإنتل وسامسونج حتى يعمل الهاردوير بشكل صحيح على النسخة الجديدة.
 3. يتم تعديل النسخة مرة أخرى من قبل شركات التصنيع المختلفة، وتقوم كل شركة بإضافة الواجهة والتطبيقات الخاصة بها.
@@ -67,14 +66,12 @@ tags = ["مجلة لغة العصر"]
 
 ![img](images/GSI.jpg)
 
- وهو ما قد تم تجربته بالفعل من قبل المطورين، حيث أن نفس نسخة النظام الذي تم بناؤوها من الكود المصدري للأندرويد AOSP قد عملت بكفاءة على هواتف مثل Huawei Mate 10 (معالجHiSilicon Kirin) وSony Xperia XZ1 Compact (معالج Qualcomm Snapdragon) وSamsung Galaxy S9 (معالج Exynos) بل وحتى بعض أجهزة التابلت التي تعمل بمعالجات MediaTek مثلAllView V3 Viper.
+وهو ما قد تم تجربته بالفعل من قبل المطورين، حيث أن نفس نسخة النظام الذي تم بناؤوها من الكود المصدري للأندرويد AOSP قد عملت بكفاءة على هواتف مثل Huawei Mate 10 (معالجHiSilicon Kirin) وSony Xperia XZ1 Compact (معالج Qualcomm Snapdragon) وSamsung Galaxy S9 (معالج Exynos) بل وحتى بعض أجهزة التابلت التي تعمل بمعالجات MediaTek مثلAllView V3 Viper.
 ولمن يرغب في تجربة تشغيل نسخة GSI على هاتفه، قام موقع المطورين بنشر دليل تفصيلي للخطوات اللازمة لتثبيتها يمكنك الاطلاع عليها من هنا. https://www.xda-developers.com/flash-generic-system-image-project-treble-device/
 
 ![img](images/S9.jpg)
 
-
 ![img](images/mediatek.png)
-
 
 ![img](images/Mate10.png)
 
@@ -97,56 +94,54 @@ https://play.google.com/store/apps/details?id=com.kevintresuelo.treble
 
 ![img](images/Check.jpg)
 
-
 إذن في النهاية، سوف يستغرق الأمر بضع سنوات قبل أن نتمكن من رؤية ما إذا كان لهذه الحركة تأثيرًا كبيرًا على تقليل الوقت الذي تنتظره للحصول على النسخة التالية من أندرويد أم لا، ومع ذلك، يعد هذا تطورا مثيرا لمحبي أندرويد ، حيث أنه يعالج إحدى المشاكل الأساسية في نظام التشغيل، بل ويضمن لكل الهواتف التي تعمل بأندرويد 8 أو أعلى التحديثات القادمة (ولو بشكل غير رسمي!)، كما أنه يوفر تربة خصبة للمطورين وخاصة محبي النسخ المعدلة من أندرويد Custom ROMs، فربما تكون الفترة القادمة هي أزهى عصور أندرويد على الإطلاق!
 
 ## [قائمة بالهواتف التي تدعم Project Treble](https://github.com/phhusson/treble_experimentations/wiki)
 
-
-| **الهاتف** | **دعم رسمي** |
-| :----------------------------------------------------------: | :------------------: |
-| [AllView V3 Viper](https://github.com/phhusson/treble_experimentations/wiki/AllView-V3-Viper) | ✓ |
-| [Asus Zenfone 4 (2017)](https://github.com/phhusson/treble_experimentations/wiki/Asus-Zenfone-4-(2017)) | ✓ |
-| [Essential PH-1](https://github.com/phhusson/treble_experimentations/wiki/Essential-PH-1) | ✓ |
-| [Google Pixel / Pixel XL](https://github.com/phhusson/treble_experimentations/wiki/Google-Pixel-and-Pixel-XL) | ✓ |
-| [Google Pixel 2 / Pixel 2 XL](https://github.com/phhusson/treble_experimentations/wiki/Google-Pixel-2-and-Pixel-2-XL) | ✓ |
-| [HTC U11+](https://github.com/phhusson/treble_experimentations/wiki/HTC-U11-) | ✓ |
-| [Huawei Honor 7X](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-7X) | ✓ |
-| [Huawei Honor 8 Pro](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-8-Pro) | ✓ |
-| [Huawei Honor 9](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-9) | ✓ |
-| [Huawei Honor 9i / Mate 10 Lite](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-9i---Mate-10-Lite) | ✓ |
-| [Huawei Honor 9 Lite](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-9-Lite) | ✓ |
-| [Huawei Mate 9](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Mate-9) | ✓ |
-| [Huawei Mate 10 Pro](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Mate-10-Pro) | ✓ |
-| [Huawei P8 Lite 2017](https://github.com/phhusson/treble_experimentations/wiki/Huawei-P8-Lite-2017) | |
-| [Huawei P10 / P10 Plus](https://github.com/phhusson/treble_experimentations/wiki/Huawei-P10-and-P10-Plus) | ✓ |
-| [Huawei P20 Lite](https://github.com/phhusson/treble_experimentations/wiki/Huawei-P20-Lite) | ✓ |
-| [Huawei P20 Pro](https://github.com/phhusson/treble_experimentations/wiki/Huawei-P20-Pro) | ✓ |
-| [Huawei View 10](https://github.com/phhusson/treble_experimentations/wiki/Huawei-View-10) | ✓ |
-| [Moto Z](https://github.com/phhusson/treble_experimentations/wiki/Moto-Z) | |
-| [Moto Z Play](https://github.com/phhusson/treble_experimentations/wiki/Moto-Z-Play) | |
-| [Nokia 6 (2018)](https://github.com/phhusson/treble_experimentations/wiki/Nokia-6-(2018)) | ✓ |
-| [Nokia 7](https://github.com/phhusson/treble_experimentations/wiki/Nokia-7) | ✓ |
-| [Nokia 7 Plus](https://github.com/phhusson/treble_experimentations/wiki/Nokia-7-Plus) | ✓ |
-| [Nokia 8 Sirocco](https://github.com/phhusson/treble_experimentations/wiki/Nokia-8-Sirocco) | ✓ |
-| [OnePlus 5 / 5T](https://github.com/phhusson/treble_experimentations/wiki/OnePlus-5-and-5T) | |
-| [Oppo R11 / R11s](https://github.com/phhusson/treble_experimentations/wiki/Oppo-R11---R11s) | ✓ |
-| [Razer Phone](https://github.com/phhusson/treble_experimentations/wiki/Razer-Phone) | ✓ |
-| [Samsung Galaxy S9 / S9 Plus (Exynos)](https://github.com/phhusson/treble_experimentations/wiki/Samsung-Galaxy-S9-and-S9-Plus-(Exynos)) | ✓ |
-| [Samsung Galaxy S9 / S9 Plus (Snapdragon)](https://github.com/phhusson/treble_experimentations/wiki/Samsung-Galaxy-S9-and-S9-Plus-(Snapdragon)) | ✓ |
-| [Sharp Aquos S2](https://github.com/phhusson/treble_experimentations/wiki/Sharp-Aquos-S2) | ✓ |
-| [Sony Xperia XA2 / XA2 Ultra](https://github.com/phhusson/treble_experimentations/wiki/Sony-Xperia-XA2-and-XA2-Ultra) | ✓ |
-| [Sony Xperia XZ1 / XZ1 Compact](https://github.com/phhusson/treble_experimentations/wiki/Sony-Xperia-XZ1-and-XZ1-Compact) | ✓ |
-| [Sony Xperia XZ2 / XZ2 Compact](https://github.com/phhusson/treble_experimentations/wiki/Sony-Xperia-XZ2-and-XZ2-Compact) | ✓ |
-| [Xiaomi Mi 5](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Mi-5) | |
-| [Xiaomi Mi 5s / Mi 5s Plus](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Mi-5s-and-Mi-5s-Plus) | |
-| [Xiaomi Mi 6](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Mi-6) | |
-| [Xiaomi Mi Mix 2s](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Mi-Mix-2s) | ✓ |
-| [Xiaomi Redmi 3S/Prime/3X](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Redmi-3S-Prime-3X) | |
-| [Xiaomi Redmi Note 4 (Snapdragon)](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Redmi-Note-4-(Snapdragon)) | |
-| [Xiaomi Redmi Note 5 / 5 Plus](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Redmi-Note-5---5-Plus) | |
-| [Xiaomi Redmi Note 5 (Pro)](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Redmi-Note-5-(Pro)) | ✓ |
-| [Zuk Z2 Plus / Z2 Pro](https://github.com/phhusson/treble_experimentations/wiki/Zuk-Z2-Plus-and-Z2-Pro) | |
+|                                                                    **الهاتف**                                                                     | **دعم رسمي** |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------: | :----------: |
+|                           [AllView V3 Viper](https://github.com/phhusson/treble_experimentations/wiki/AllView-V3-Viper)                           |      ✓       |
+|                     [Asus Zenfone 4 (2017)](<https://github.com/phhusson/treble_experimentations/wiki/Asus-Zenfone-4-(2017)>)                     |      ✓       |
+|                             [Essential PH-1](https://github.com/phhusson/treble_experimentations/wiki/Essential-PH-1)                             |      ✓       |
+|                   [Google Pixel / Pixel XL](https://github.com/phhusson/treble_experimentations/wiki/Google-Pixel-and-Pixel-XL)                   |      ✓       |
+|               [Google Pixel 2 / Pixel 2 XL](https://github.com/phhusson/treble_experimentations/wiki/Google-Pixel-2-and-Pixel-2-XL)               |      ✓       |
+|                                   [HTC U11+](https://github.com/phhusson/treble_experimentations/wiki/HTC-U11-)                                   |      ✓       |
+|                            [Huawei Honor 7X](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-7X)                            |      ✓       |
+|                         [Huawei Honor 8 Pro](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-8-Pro)                         |      ✓       |
+|                             [Huawei Honor 9](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-9)                             |      ✓       |
+|             [Huawei Honor 9i / Mate 10 Lite](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-9i---Mate-10-Lite)             |      ✓       |
+|                        [Huawei Honor 9 Lite](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Honor-9-Lite)                        |      ✓       |
+|                              [Huawei Mate 9](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Mate-9)                              |      ✓       |
+|                         [Huawei Mate 10 Pro](https://github.com/phhusson/treble_experimentations/wiki/Huawei-Mate-10-Pro)                         |      ✓       |
+|                        [Huawei P8 Lite 2017](https://github.com/phhusson/treble_experimentations/wiki/Huawei-P8-Lite-2017)                        |              |
+|                     [Huawei P10 / P10 Plus](https://github.com/phhusson/treble_experimentations/wiki/Huawei-P10-and-P10-Plus)                     |      ✓       |
+|                            [Huawei P20 Lite](https://github.com/phhusson/treble_experimentations/wiki/Huawei-P20-Lite)                            |      ✓       |
+|                             [Huawei P20 Pro](https://github.com/phhusson/treble_experimentations/wiki/Huawei-P20-Pro)                             |      ✓       |
+|                             [Huawei View 10](https://github.com/phhusson/treble_experimentations/wiki/Huawei-View-10)                             |      ✓       |
+|                                     [Moto Z](https://github.com/phhusson/treble_experimentations/wiki/Moto-Z)                                     |              |
+|                                [Moto Z Play](https://github.com/phhusson/treble_experimentations/wiki/Moto-Z-Play)                                |              |
+|                            [Nokia 6 (2018)](<https://github.com/phhusson/treble_experimentations/wiki/Nokia-6-(2018)>)                            |      ✓       |
+|                                    [Nokia 7](https://github.com/phhusson/treble_experimentations/wiki/Nokia-7)                                    |      ✓       |
+|                               [Nokia 7 Plus](https://github.com/phhusson/treble_experimentations/wiki/Nokia-7-Plus)                               |      ✓       |
+|                            [Nokia 8 Sirocco](https://github.com/phhusson/treble_experimentations/wiki/Nokia-8-Sirocco)                            |      ✓       |
+|                            [OnePlus 5 / 5T](https://github.com/phhusson/treble_experimentations/wiki/OnePlus-5-and-5T)                            |              |
+|                            [Oppo R11 / R11s](https://github.com/phhusson/treble_experimentations/wiki/Oppo-R11---R11s)                            |      ✓       |
+|                                [Razer Phone](https://github.com/phhusson/treble_experimentations/wiki/Razer-Phone)                                |      ✓       |
+|     [Samsung Galaxy S9 / S9 Plus (Exynos)](<https://github.com/phhusson/treble_experimentations/wiki/Samsung-Galaxy-S9-and-S9-Plus-(Exynos)>)     |      ✓       |
+| [Samsung Galaxy S9 / S9 Plus (Snapdragon)](<https://github.com/phhusson/treble_experimentations/wiki/Samsung-Galaxy-S9-and-S9-Plus-(Snapdragon)>) |      ✓       |
+|                             [Sharp Aquos S2](https://github.com/phhusson/treble_experimentations/wiki/Sharp-Aquos-S2)                             |      ✓       |
+|               [Sony Xperia XA2 / XA2 Ultra](https://github.com/phhusson/treble_experimentations/wiki/Sony-Xperia-XA2-and-XA2-Ultra)               |      ✓       |
+|             [Sony Xperia XZ1 / XZ1 Compact](https://github.com/phhusson/treble_experimentations/wiki/Sony-Xperia-XZ1-and-XZ1-Compact)             |      ✓       |
+|             [Sony Xperia XZ2 / XZ2 Compact](https://github.com/phhusson/treble_experimentations/wiki/Sony-Xperia-XZ2-and-XZ2-Compact)             |      ✓       |
+|                                [Xiaomi Mi 5](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Mi-5)                                |              |
+|                 [Xiaomi Mi 5s / Mi 5s Plus](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Mi-5s-and-Mi-5s-Plus)                 |              |
+|                                [Xiaomi Mi 6](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Mi-6)                                |              |
+|                           [Xiaomi Mi Mix 2s](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Mi-Mix-2s)                           |      ✓       |
+|                   [Xiaomi Redmi 3S/Prime/3X](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Redmi-3S-Prime-3X)                   |              |
+|          [Xiaomi Redmi Note 4 (Snapdragon)](<https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Redmi-Note-4-(Snapdragon)>)          |              |
+|               [Xiaomi Redmi Note 5 / 5 Plus](https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Redmi-Note-5---5-Plus)               |              |
+|                 [Xiaomi Redmi Note 5 (Pro)](<https://github.com/phhusson/treble_experimentations/wiki/Xiaomi-Redmi-Note-5-(Pro)>)                 |      ✓       |
+|                      [Zuk Z2 Plus / Z2 Pro](https://github.com/phhusson/treble_experimentations/wiki/Zuk-Z2-Plus-and-Z2-Pro)                      |              |
 
 ---
 
@@ -161,4 +156,3 @@ https://play.google.com/store/apps/details?id=com.kevintresuelo.treble
 ![img](images/209-4.png)
 
 ![img](images/209-5.png)
-

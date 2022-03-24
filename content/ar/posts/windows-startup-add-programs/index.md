@@ -19,8 +19,6 @@ tags = ["موقع لغة العصر"]
 
 2. قم بفتح مربع Run عن طريق الضغط على زر ويندوز + R، ثم اكتب الامر " shell:startup" بدون علامتي التنصيص، ثم اضغط OK.
 
-![2](thumbnail-2015-635634224275712942-571.png)
-
 3. في مكان فارغ قم بالضغط على زر الفأرة الأيمن ثم اختر "لصق Paste".
 
 ![3](images/2015-635634224598683759-868.png)
@@ -32,8 +30,8 @@ tags = ["موقع لغة العصر"]
 ## ثانيا: إذا لم يوجد للبرنامج اختصار على سطح المكتب:
 
 1. قم بالدخول الى هذا المسار عن طريق اضافته في شريط العنوان:
-C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
-مع استبدال USERNAME باسم المستخدم الخاص بك.
+   C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+   مع استبدال USERNAME باسم المستخدم الخاص بك.
 2. قم بالضغط على زر الفأرة الأيمن في مكان فارغ ثم من قائمة New اختر "اختصار Shortcut".
 
 ![5](images/2015-635634226726041124-604.png)
@@ -57,6 +55,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 وبهذا عندما يقوم الويندوز بالفتح مرة أخرى ستفتح البرامج التي قمت باضافتها بشكل اوتوماتيكي.
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/8638.aspx
