@@ -5,6 +5,6 @@
 
 [ar]
   languageName = "العربية"
-  languagedirection = 'rtl'
+  LanguageDirection = 'rtl'
   weight = 2
   contentDir = "content/ar"
