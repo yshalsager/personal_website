@@ -1,44 +1,13 @@
+@import "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic|Noto+Sans&display=swap";
+:root {
+  --#{$variable-prefix}body-font-family: "Noto Naskh Arabic", "Noto Sans", sans-serif;
+}
+
 .component {
-    border-radius: 1em;
-    box-shadow: none;
-}
-
-html[lang="ar"] {
-    direction: rtl;
-}
-
-.navbar-brand:lang(ar) {
-    margin-right: unset;
-    margin-left: 1rem !important;
-}
-
-.breadcrumb-item:lang(ar) {
-    padding: unset;
-}
-
-.breadcrumb-item:lang(ar)::before {
-    float: right;
-    padding-inline: 0.5rem;
-}
-
-.row {
-    --hbs-gutter-x: unset;
-    --hbs-gutter-y: 0.5rem;
+  border-radius: 1em;
+  box-shadow: none;
 }
 
 .logo {
-    height: 32px;
-}
-
-[lang="ar"] .post-nav .fa-chevron-circle-down {
-    transform: scaleX(-1);
-    transform-origin: unset !important;
-}
-
-aside.docs-catalog ul:lang(ar) {
-    padding: unset;
-}
-
-.post-panel:lang(ar) {
-    right: -1.5rem;
+  height: 32px;
 }
