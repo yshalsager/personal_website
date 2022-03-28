@@ -63,6 +63,9 @@ titleCase = true # Capitalized title.
 
 viewer = true # Image Viewer
 
+[sidebar]
+  fixed = false
+
 [codeBlock]
   # maxLines = 8
   lineNos = true # true/false represents that show/hide the line numbers by default.
@@ -70,6 +73,7 @@ viewer = true # Image Viewer
 [post]
   excerpt = "description"
   excerptMaxLength = 300
+  featuredImage = true
 
 [archive]
   #paginate = 8 # Archive pagination. Default to 100.
