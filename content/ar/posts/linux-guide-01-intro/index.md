@@ -7,9 +7,10 @@ tags = ["مجلة لغة العصر"]
 series = ["دليل لينكس"]
 
 +++
+
 نظام لينكس هو نظام تشغيل مفتوح المصدر تم اختراعه عام 1984، مر بالعديد من مراحل التطوير أهمها عام 1991 وحاليا هو مشروع كبير يتم تطويره بواسطة مجموعة من المتطوعين من كل أنحاء العالم، أهم ما يميز نظام لينكس هو الثبات والسرعة والمجانية، نستعرض معا في الأسطر القادمة أهم ما يميز نظام لينكس وطريقة تثبيته على جهازك.
 
- ![img](thumbnail-1.png)
+![img](featured-1.png)
 
 ## لماذا يجب عليك تجربة لينكس؟
 
@@ -33,7 +34,7 @@ series = ["دليل لينكس"]
 
 - يوجد العديد من التوزيعات العالمية أشهرها:
 
-(Debian)  دبيان https://www.debian.org/
+(Debian) دبيان https://www.debian.org/
 
 (Ubuntu) أوبنتو http://www.ubuntu.com/
 
@@ -48,8 +49,6 @@ series = ["دليل لينكس"]
 هلال لينكس http://helallinux.com/ أعجوبة http://ojuba.org/
 
 ![img](images/2.png)
-
-
 
 قمت باختيار توزيعة Ubuntu لشرحها لأنها تعتبر من أشهر توزيعات اللينكس وأكثرها بساطة في التعامل وجمالا في الشكل، يوجد العديد من إصدارات Ubuntu أكثرها استقرارا هو 14.04.3 (مدعوم إلى نهاية 2019-04) وأحدثها هو 15.10 (مدعوم إلى نهاية 2016-07) ولكن سأقوم بشرح التثبيت على الإصدار 14.04.3.
 
@@ -68,8 +67,6 @@ series = ["دليل لينكس"]
 - بطاقة صوت.
 
 - اتصال بالإنترنت (مُستحسن).
-
-
 
 ## أولا: تحميل Ubuntu Linux
 
@@ -97,8 +94,6 @@ series = ["دليل لينكس"]
 
 http://www.ubuntu.com/download/alternative-downloads
 
-
-
 ## ثانيا: التحضير لتثبيت Ubuntu Linux
 
 - لاحظ عزيزي القارئ أنه لتثبيت لينكس بجوار الويندوز يجب عليك أن تقوم بعمل 2 Partition فارغان أحدهم على الأقل مساحته 5 جيجا (الذي سنقوم بتثبيت النظام عليه) والأخر كما تريد (يستخدم كـ Swap لأداء المزيد من العمليات) ويفضل تركهما بدون عمل Format على الحالة UnPartitioned.
@@ -106,8 +101,6 @@ http://www.ubuntu.com/download/alternative-downloads
 ![img](images/8.png)
 
 - يمكنك تثبيت لينكس بجانب الويندوز أو بجانب نظام الماك أو بجانب أي توزيعة لينكس أخري يدون أي مشاكل.
-
-
 
 1. تحتاج إلى حرق نظام Ubuntu على قرص DVD فارغ أو USB:
 
@@ -131,7 +124,7 @@ http://www.ubuntu.com/download/alternative-downloads
 
 ![img](images/11.png)
 
-​	اضغط على "Change settings that are currently unavailable" ثم أسفل Shutdown Settings ستجد الاختيار Turn on fast startup (recommended) قم بتعطيله ثم اضغط Save Changes.
+​ اضغط على "Change settings that are currently unavailable" ثم أسفل Shutdown Settings ستجد الاختيار Turn on fast startup (recommended) قم بتعطيله ثم اضغط Save Changes.
 
 3. يُفضل عمل نسخة احتياطية من ملفاتك المهمة تجنبا لفقد البيانات نتيجة لأي أمر خاطئ.
 
@@ -232,4 +225,3 @@ http://www.ubuntu.com/download/alternative-downloads
 ![img](images/181-4.png)
 
 ![img](images/181-5.png)
-

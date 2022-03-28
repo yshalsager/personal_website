@@ -32,12 +32,14 @@ tags = ["موقع لغة العصر"]
 5. اضغط OK.
 
 **الطريقة الثانية: عن طريق ملف ريجيستري:**
-1. قم بتحميل هذا الملف [من هنا.](http://www.sevenforums.com/attachments/tutorials/118266d1311789208-thumbnail-previews-enable-disable-disable_explorer_thumbnails_all_users.reg)
+
+1. قم بتحميل هذا الملف [من هنا.](http://www.sevenforums.com/attachments/tutorials/118266d1311789208-featured-previews-enable-disable-disable_explorer_thumbnails_all_users.reg)
 2. قم بفتحه ثم اضغط Yes ثم OK.
 
 ملاحظة: إذا أردت إعادة تشغيلها مرة أخرى [حمل هذا الملف](http://www.sevenforums.com/attachments/tutorials/118265d1311789208-thumbnail-previews-enable-disable-enable_explorer_thumbnails_all_users.reg)، ثم قم بنفس الخطوات السابقة
 
 ---
+
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
 http://aitmag.ahram.org.eg/News/16366.aspx
