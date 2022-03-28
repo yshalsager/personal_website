@@ -10,9 +10,6 @@ categories = [
 tags = [
   "المدونة",
 ]
-images = [
-  "images/szabo-viktor-UfseYCHvIH0-unsplash.jpg"
-]
 
 +++
 

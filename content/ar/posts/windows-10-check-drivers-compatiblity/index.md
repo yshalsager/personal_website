@@ -34,4 +34,4 @@ tags = ["موقع لغة العصر"]
 ---
 هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.
 
-http://aitmag.ahram.org.eg/News/16596.aspx 
+http://aitmag.ahram.org.eg/News/16596.aspx
