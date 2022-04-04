@@ -26,6 +26,7 @@ googleAdsense = ""
 
 # math = true # Enable math globally.
 # toc = false # Disable TOC globally.
+tocPosition = "content"
 breadcrumb = true # Disable breadcrumb
 # diagram = true
 # socialshare = false # disable social network sharing
