@@ -16,4 +16,4 @@ Also, I've been tinkering with Android software development since 2014, building
 
 You can checkout my projects [here](/en/projects), and if you would like to contact me here's [how to reach me out](/en/contact).
 
-You can also download a copy from my resume from [here](/Youssif_Shaaban_yshalsager_Resume.pdf).
+You can also download a copy from my resume from [here](/resume/Youssif_Shaaban_yshalsager_Resume.pdf).

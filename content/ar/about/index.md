@@ -17,4 +17,4 @@ readingTime = false
 
 يمكنك الإطلاع على قائمة مشاريعي [هنا](/ar/projects)، وإذا رغبت في التواصل معي فيمكنك معرفة كيفية القيام بذلك [من هنا](/ar/contact).
 
-ولتحميل نسخة من سيرتي الذاتية اضغط [هنا](/Youssif_Shaaban_yshalsager_Resume.pdf).
+ولتحميل نسخة من سيرتي الذاتية اضغط [هنا](/resume/Youssif_Shaaban_yshalsager_Resume.pdf).
