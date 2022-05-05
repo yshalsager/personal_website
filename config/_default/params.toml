@@ -116,7 +116,7 @@ viewer = true # Image Viewer
     # location = 0
     isCaseSensitive = false
     minMatchCharLength = 3
-    threshold = 0.1
+    #threshold = 0.6
     # distance = 100
     useExtendedSearch = true
 
@@ -158,3 +158,8 @@ viewer = true # Image Viewer
   # branch = "main"
   #subPath = "exampleSite"
   # dateFormat = "02/01/2006, 15:04:05 PM"
+
+
+[fullWidth]
+  post = true
+  docs = true
