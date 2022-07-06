@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic|Noto+Sans&display=swap";
 :root {
-  --#{$variable-prefix}body-font-family: "Noto Naskh Arabic", "Noto Sans", sans-serif;
+  --#{$prefix}body-font-family: "Noto Naskh Arabic", "Noto Sans", sans-serif;
 }
 
 .component {

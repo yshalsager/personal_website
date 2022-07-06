@@ -34,16 +34,12 @@ pygmentsUseClasses = true
     suffixes = ["json"]
 
 [outputFormats]
-  [outputFormats.MANIFEST]
-    name = "manifest"
-    baseName = "manifest"
-    mediaType = "application/manifest+json"
   [outputFormats.RSS]
     mediatype = "application/rss"
     baseName = "rss"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "MANIFEST"]
+  home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
   category = "categories"

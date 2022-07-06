@@ -9,7 +9,7 @@ rssDescription = "Latest posts from "
 logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
 # logo = false # Disable Logo
 brand = ""
-
+color = "auto"
 palette = "blue" # Default palette. Optional.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
 # palettes = [] # Disable palette switcher.
@@ -75,9 +75,14 @@ viewer = true # Image Viewer
   excerpt = "description"
   excerptMaxLength = 300
   featuredImage = true
+  numberifyHeadings = false # Count headings automatically.
+  # numberifyHeadingsEndLevel = 4 # The depth of headings to count. Default to 6.
+  numberifyHeadingsSeparator = "." # The separator between of number and headings.
+  # tocStyleType = "decimal" # The TOC's CSS list-style-type property.
+  imageTitleAsCaption = true
 
 [archive]
-  #paginate = 8 # Archive pagination. Default to 100.
+  basePath = "/archives" # The base path of archive pages.
   # dateFormat = "01-02" # Archive date format. Default to "Jan 2".
 
 [analytics]
@@ -159,7 +164,17 @@ viewer = true # Image Viewer
   #subPath = "exampleSite"
   # dateFormat = "02/01/2006, 15:04:05 PM"
 
-
-[fullWidth]
+[fullWidthInSections]
   post = true
   docs = true
+
+[docs]
+[docs.nav]
+  expand = true
+
+[actionsPanel]
+  disabled = false
+
+[topAppBar]
+  [topAppBar.social]
+    github = "yshalsager/personal_website"
