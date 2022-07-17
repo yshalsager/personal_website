@@ -1,7 +1,7 @@
 +++
 title = "السلاسل"
 [menu.main]
-  weight = 30
+  navWeight = 30
   pre = '<i class="fas fa-fw fa-columns"></i>'
   url = "series"
 +++
