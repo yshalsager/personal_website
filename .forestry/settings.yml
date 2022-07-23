@@ -1,0 +1,59 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: heading
+  label: Config
+- type: directory
+  path: config
+  label: Configuration
+  create: all
+  match: "**/*.toml"
+  new_doc_ext: toml
+- type: heading
+  label: Content
+- type: directory
+  path: content/ar
+  label: Arabic
+  create: all
+  match: "**/*.md"
+  exclude: notes/**/*.md
+  templates:
+  - blog-post
+- type: directory
+  path: content/en
+  label: English
+  create: all
+  match: "**/*.md"
+  exclude: notes/**/*.md
+  templates:
+  - blog-post
+- type: heading
+  label: Notes
+- type: directory
+  path: content/ar/notes
+  label: Arabic Notes
+  create: all
+  match: "**/*.md"
+  templates:
+  - note
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.101.0
+  - NODE_VERSION=16
+  preview_output_directory: public
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --renderToDisk --gc --enableGitInfo  -d
+    public
+version: 0.81.0

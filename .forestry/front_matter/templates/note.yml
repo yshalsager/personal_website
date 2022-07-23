@@ -1,0 +1,24 @@
+---
+label: Note
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: layout
+  label: layout
+  default: docs
+- type: text
+  name: type
+  label: type
+  default: docs
+- type: list
+  name: tags
+  label: tags
+  config:
+    use_select: false
+    min: 1
