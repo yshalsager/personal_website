@@ -8,5 +8,5 @@
   name = "حديقتي الرقمية"
   identifier = "digital-garden"
   pre = '<i class="fas fa-fw fa-leaf"></i>'
-  url = "ar/notes"
+  url = "https://notes.yshalsager.com/ar/"
   weight = 90
