@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>yshalsager</title><link>https://yshalsager.com/en/</link><description>Latest posts from yshalsager</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2013-{year} yshalsager. All Rights Reserved.</copyright><lastBuildDate>Mon, 28 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/en/rss.xml" rel="self" type="application/rss+xml"/><item><title>Debugging and fixing Selenium's send_keys() wrong text input</title><link>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</link><pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</guid><description>&lt;p>&lt;em>There are many kinds of bugs you may face while programming, but without a doubt, ghost bugs are the worse!&lt;/em>&lt;/p>
+&lt;p>I recently faced a weird problem while working on a freelance &lt;a href="https://www.selenium.dev/" target="_blank" rel="noopener noreferrer">Selenium&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> (A portable framework for testing web applications) project in Python which is: &lt;a href="https://selenium-python.readthedocs.io/api.html?highlight=execute_script#selenium.webdriver.remote.webelement.WebElement.send_keys" target="_blank" rel="noopener noreferrer">send_keys&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> method is sending random wrong input. Here are the details of the problem, how did I debug it, and how I managed to fix after hours of investigating!&lt;/p>
+&lt;p>I have been working on a freelance Selenium web automation and scraping project and we need to move the script to a better Linux server that runs Ubuntu 20.04. After migrating I found out that Selenium text input became so random (although it works perfectly on local PCs). For example, spaces are no longer sent, numbers are mixed, some characters are dropped, and so forth.&lt;/p>
+&lt;p>I started to debug with &lt;a href="https://python.org" target="_blank" rel="noopener noreferrer">Python&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&amp;rsquo;s &lt;a href="https://docs.python.org/3/library/logging.html" target="_blank" rel="noopener noreferrer">logging&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> standard module, but the log said that the correct input was being entered, which is logical since no code changes happened. Then, I tried to see if there&amp;rsquo;s something wrong with &lt;a href="https://chromedriver.chromium.org/" target="_blank" rel="noopener noreferrer">chromedriver&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> that being used to automate Google Chrome browser, but again, version on the old and new servers was the same. I have also tried on another (third) server that runs Ubuntu 18.04 and the same bug occurred. It&amp;rsquo;s Google and &lt;a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">stackoverflow&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> time! I searched our beloved websites to see if any people faced this problem besides me. I found many results from 6 years ago till 5 months ago. The most interesting one was a &lt;a href="https://chromedriver.chromium.org/" target="_blank" rel="noopener noreferrer">chromedriver&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&amp;rsquo;s &lt;a href="https://bugs.chromium.org/p/chromedriver/issues/detail?id=1771" target="_blank" rel="noopener noreferrer">bug&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> that got closed with &lt;code>WontFix&lt;/code> status. This bug aside, the suggested solutions were:&lt;/p>
+&lt;ul>
+&lt;li>Using &lt;a href="https://selenium-python.readthedocs.io/api.html?highlight=WebElement#selenium.webdriver.remote.webelement.WebElement.clear" target="_blank" rel="noopener noreferrer">clear()&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> method of the &lt;a href="https://selenium-python.readthedocs.io/api.html?highlight=WebElement#module-selenium.webdriver.remote.webelement" target="_blank" rel="noopener noreferrer">WebElement&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> before sending the text input.&lt;/li>
+&lt;li>Clicking the text box before sending keys.&lt;/li>
+&lt;li>Using &lt;a href="https://selenium-python.readthedocs.io/api.html?highlight=execute_script#webdriver-api" target="_blank" rel="noopener noreferrer">WebDriver&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&amp;rsquo;s &lt;a href="https://selenium-python.readthedocs.io/api.html?highlight=execute_script#selenium.webdriver.remote.webdriver.WebDriver.execute_script" target="_blank" rel="noopener noreferrer">execute_script()&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> method to execute JavaScript code that modifies the value of the input form to the required text.&lt;/li>
+&lt;li>Using &lt;a href="https://docs.python.org/3/library/time.html?highlight=sleep#time.sleep" target="_blank" rel="noopener noreferrer">sleep&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> from &lt;code>time&lt;/code> standard module to wait for seconds between two &lt;code>send_keys()&lt;/code> calls.&lt;/li>
+&lt;li>Changing the server&amp;rsquo;s keyboard layout to &lt;code>US&lt;/code>.&lt;/li>
+&lt;li>Using &lt;a href="https://github.com/asweigart/pyperclip/" target="_blank" rel="noopener noreferrer">pyperclip&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> module to paste the text into the browser directly.&lt;/li>
+&lt;/ul>
+&lt;p>But surprisingly, none of the mentioned solutions above did it, so I gave up and planned to switch to Firefox&amp;rsquo;s &lt;a href="https://github.com/mozilla/geckodriver" target="_blank" rel="noopener noreferrer">geckodriver&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> in the next day.&lt;/p>
+&lt;p>After starting to add &lt;code>geckodriver&lt;/code> support, I decided to search for a solution again since the code works &lt;strong>perfectly&lt;/strong> on the PC. While reading stackoverflow&amp;rsquo;s solutions my eyes caught a very interesting &lt;a href="https://stackoverflow.com/a/23411005" target="_blank" rel="noopener noreferrer">answer&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>I also experienced this problem when connecting to a VM using VNC and then running the Selenium test that way.
+The VNC was actually the one dropping characters. Once I moved to a direct connection to the VM using the VirtualBox console&amp;hellip; it worked fine.&lt;/p>
+&lt;/blockquote>
+&lt;p>This sounded very logical to me, so I quickly check what is the used &lt;a href="https://en.wikipedia.org/wiki/Virtual_Network_Computing" target="_blank" rel="noopener noreferrer">VNC&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> on the new server (Ubuntu 20.04) and the third server (Ubuntu 18.04). It was &lt;a href="https://www.tightvnc.com/" target="_blank" rel="noopener noreferrer">TightVNC&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>. The old server VNC was available externally from the service provider so I couldn&amp;rsquo;t check what does it use.&lt;/p>
+&lt;p>After more quick googling I found out that &lt;a href="https://tigervnc.org/" target="_blank" rel="noopener noreferrer">TigerVNC&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> should be a good alternative to the current VNC server. Using apt (a package manager for Debian, Ubuntu, and related Linux distributions), I installed &lt;code>tigervnc-standalone-server tigervnc-common tigervnc-xorg-extension&lt;/code> packages and boom! it worked like a charm.&lt;/p>
+&lt;p>It was a very weird problem that occurred out of the blue and I took a very long time to figure it out and fix it. Hopes this post helps you if came here for fixing this problem!&lt;/p></description></item><item><title>How to build a Project Treble GSI ROM from source?</title><link>https://yshalsager.com/en/posts/how-to-build-gsi-rom-from-source/</link><pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/how-to-build-gsi-rom-from-source/</guid><description>&lt;p>&lt;strong>Note:&lt;/strong> &lt;em>This guide is super old and some steps might be changed, please refer to the community edited guide for a more recent guide.&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>As you read this guide now I&amp;rsquo;ll assume you already have a previous knowledge about How to build android from source, so I won&amp;rsquo;t cover some points with too many basic details.
+So, let&amp;rsquo;s start:&lt;/p>
+&lt;p>What you’ll need:&lt;/p>
+&lt;ul>
+&lt;li>A treble enabled device, basically all devices that come with Android 8.1 out of box support it.&lt;/li>
+&lt;li>A relatively recent 64-bit computer (Linux, OS X, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable ccache or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster build times than traditional hard drives.&lt;/li>
+&lt;li>A USB cable compatible with your device&lt;/li>
+&lt;li>A decent internet connection &amp;amp; reliable electricity&lt;/li>
+&lt;li>Some familiarity with basic Android operation and terminology. It would help if you’ve installed custom ROMs on other devices and are familiar with recovery. It may also be useful to know some basic command line concepts such as cd for “change directory”, the concept of directory hierarchies, that in Linux they are separated by /. etc.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Summary&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>Installing SDK&lt;/li>
+&lt;li>Installing build packages&lt;/li>
+&lt;li>Install the repo command&lt;/li>
+&lt;li>Configuring git&lt;/li>
+&lt;li>Turning on caching to speed up build&lt;/li>
+&lt;li>Building using phhusson&amp;rsquo;s script&lt;/li>
+&lt;li>Building using dakkar&amp;rsquo;s script&lt;/li>
+&lt;li>Building using the manual way&lt;/li>
+&lt;/ol>
+&lt;h2 id="1-installing-sdk" data-numberify>1. Installing SDK&lt;a class="anchor ms-1 d-none" href="#1-installing-sdk">#&lt;/a>&lt;/h2>
+&lt;p>If you haven’t previously installed adb and fastboot, you can &lt;a href="https://dl.google.com/android/repository/platform-tools-latest-linux.zip" target="_blank" rel="noopener noreferrer">download them from Google&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>. Extract it using:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">unzip platform-tools-latest-linux.zip -d ~
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Now we have to add adb and fastboot to our path. Open ~/.profile and add the following:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="c1"># add Android SDK platform tools to path&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="o">[&lt;/span> -d &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$HOME&lt;/span>&lt;span class="s2">/platform-tools&amp;#34;&lt;/span> &lt;span class="o">]&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="k">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl"> &lt;span class="nv">PATH&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$HOME&lt;/span>&lt;span class="s2">/platform-tools:&lt;/span>&lt;span class="nv">$PATH&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">&lt;span class="k">fi&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then, run this to update your environment.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.profile
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="2-installing-build-packages" data-numberify>2. Installing build packages&lt;a class="anchor ms-1 d-none" href="#2-installing-build-packages">#&lt;/a>&lt;/h2>
+&lt;p>Several packages are needed to build Android. You can install these using your distribution’s package manager.
+You’ll need:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">lib32readline-gplv2-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk3.0-dev
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev openjdk-8-jdk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="3-installing-the-repo-command" data-numberify>3. Installing the repo command&lt;a class="anchor ms-1 d-none" href="#3-installing-the-repo-command">#&lt;/a>&lt;/h2>
+&lt;p>Enter the following to download the repo binary and make it executable (runnable):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">mkdir -p ~/bin
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">curl https://storage.googleapis.com/git-repo-downloads/repo &amp;gt; ~/bin/repo
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">chmod a+x ~/bin/repo
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Put the ~/bin directory in your path of execution&lt;/p>
+&lt;p>In recent versions of Ubuntu, ~/bin should already be in your PATH. You can check this by opening ~/.profile with a text editor and verifying the following code exists (add it if it is missing):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="c1"># set PATH so it includes user&amp;#39;s private bin if it exists&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="o">[&lt;/span> -d &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$HOME&lt;/span>&lt;span class="s2">/bin&amp;#34;&lt;/span> &lt;span class="o">]&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="k">then&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl"> &lt;span class="nv">PATH&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$HOME&lt;/span>&lt;span class="s2">/bin:&lt;/span>&lt;span class="nv">$PATH&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">&lt;span class="k">fi&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then, use this to update your environment.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.profile
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="4-configuring-git" data-numberify>4. Configuring git&lt;a class="anchor ms-1 d-none" href="#4-configuring-git">#&lt;/a>&lt;/h2>
+&lt;p>You’ll need to set up git identity in order to sync the source, run these commands:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git config --global user.name &lt;span class="s2">&amp;#34;your username&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">git config --global user.email yourmail@example.com
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="5-turning-on-caching-to-speed-up-build" data-numberify>5. Turning on caching to speed up build&lt;a class="anchor ms-1 d-none" href="#5-turning-on-caching-to-speed-up-build">#&lt;/a>&lt;/h2>
+&lt;p>You can speed up subsequent builds by running:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">USE_CCACHE&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">CCACHE_COMPRESS&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And adding that line to your &lt;code>~/.bashrc&lt;/code> file. Then, specify the maximum amount of disk space you want the cache to use by typing this from the top of your Android tree:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">prebuilts/misc/linux-x86/ccache/ccache -M 50G
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where 50G corresponds to 50GB of cache. This needs to be run once. Anywhere from 25GB-100GB will result in very noticeably increased build speeds (for instance, a typical 1hr build time can be reduced to 20min). If you’re only building for one device, 25GB-50GB is fine. If you plan to build for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this into consideration. See more information about ccache on &lt;a href="https://source.android.com/source/initializing.html#setting-up-ccache" target="_blank" rel="noopener noreferrer">Google’s Android build environment initialization page&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;h2 id="6-building-using-phhussons-script" data-numberify>6. Building using phhusson&amp;rsquo;s script&lt;a class="anchor ms-1 d-none" href="#6-building-using-phhussons-script">#&lt;/a>&lt;/h2>
+&lt;p>We can&amp;rsquo;t deny that &lt;a href="https://forum.xda-developers.com/m/1915408/" target="_blank" rel="noopener noreferrer">@phhusson&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> has made amazing works and countless contributions to Project Treble ROMs development apart from his &lt;a href="https://github.com/phhusson/treble_experimentations/" target="_blank" rel="noopener noreferrer">experimentations&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> is a build script which make build a GSI super simple job.
+By default, it supports building LineageOS - RR - Carbon.
+1- Open your terminal and run:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git clone https://github.com/phhusson/treble_experimentations
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>2- To clone and build enter the following command and replace &amp;ldquo;romname&amp;rdquo; with lineage|rr|carbon&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">mkdir romname&lt;span class="p">;&lt;/span> &lt;span class="nb">cd&lt;/span> romname
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">bash ../treble_experimentations/build-rom.sh android-8.1 romname
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>3- The script will automatically initialize the repository, sync the source, apply patches and start building.&lt;/p>
+&lt;h2 id="7-building-using-dakkars-script" data-numberify>7. Building using dakkar&amp;rsquo;s script&lt;a class="anchor ms-1 d-none" href="#7-building-using-dakkars-script">#&lt;/a>&lt;/h2>
+&lt;p>dakkar&amp;rsquo;s script is another treble building script, originally made by &lt;a href="https://forum.xda-developers.com/m/260854/" target="_blank" rel="noopener noreferrer">@Dakkar&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> and improved by contributors on &lt;a href="https://github.com/phhusson/treble_experimentations/" target="_blank" rel="noopener noreferrer">treble experimentations&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> repo. It&amp;rsquo;s customizable, easy to understand and can build almost all &lt;a href="https://github.com/phhusson/treble_experimentations/blob/master/build-dakkar.sh#L29" target="_blank" rel="noopener noreferrer">ROMs&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> with simple &lt;a href="https://github.com/phhusson/treble_experimentations/commit/a5e1b285cb3a3c0430a85b2ad8db16cbee3328f5" target="_blank" rel="noopener noreferrer">edits&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>1- Open your terminal and run:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git clone https://github.com/phhusson/treble_experimentations
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>2- To start the process:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">bash ../treble_experimentations/build-dakkar.sh romname variant
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Variants are dash-joined combinations of (in order):&lt;/p>
+&lt;ul>
+&lt;li>processor type&lt;/li>
+&lt;li>&amp;ldquo;arm&amp;rdquo; for ARM 32 bit&lt;/li>
+&lt;li>&amp;ldquo;arm64&amp;rdquo; for ARM 64 bit&lt;/li>
+&lt;li>A or A/B partition layout (&amp;ldquo;aonly&amp;rdquo; or &amp;ldquo;ab&amp;rdquo;)&lt;/li>
+&lt;li>GApps selection&lt;/li>
+&lt;li>&amp;ldquo;vanilla&amp;rdquo; to not include GApps&lt;/li>
+&lt;li>&amp;ldquo;gapps&amp;rdquo; to include opengapps&lt;/li>
+&lt;li>&amp;ldquo;go&amp;rdquo; to include gapps go&lt;/li>
+&lt;li>SU selection (&amp;ldquo;su&amp;rdquo; or &amp;ldquo;nosu&amp;rdquo;)
+for example:&lt;/li>
+&lt;li>arm-aonly-vanilla-nosu&lt;/li>
+&lt;li>arm64-ab-gapps-su&lt;/li>
+&lt;/ul>
+&lt;p>Click to collapse&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>Note:&lt;/strong> check patches when you use these auto scripts, if some patch is broken you&amp;rsquo;ll have build errors &lt;picture>&lt;img class="img-fluid " alt=":p" src="#ZgotmplZ" loading="lazy" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="8-building-using-the-manual-way" data-numberify>8. Building using the manual way&lt;a class="anchor ms-1 d-none" href="#8-building-using-the-manual-way">#&lt;/a>&lt;/h2>
+&lt;p>In simple steps:&lt;/p>
+&lt;ol>
+&lt;li>Repo init the rom you want to build GSI for.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">mkdir ~/rom &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">cd&lt;/span> ~/rom
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">repo init -u https://github.com/LineageOS/android.git -b lineage-15.1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Add phh repos to your local_manifest&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git clone https://github.com/phhusson/treble_manifest .repo/local_manifests -b android-8.1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After git clone you need to remove replace.xml if you&amp;rsquo;re building any rom expect aosp.&lt;/p>
+&lt;blockquote>
+&lt;p>phhusson said:&lt;/p>
+&lt;p>The replace.xml is meant only for AOSP, if you build a custom ROM, remove it, but don&amp;rsquo;t forget to cherry-pick the patches.&lt;/p>
+&lt;/blockquote>
+&lt;ol start="3">
+&lt;li>Sync the source&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">repo sync -c -j4 --force-sync --no-tags --no-clone-bundle
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Modify the source to fix issues in other devices using one of these methods:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Apply &lt;a href="https://github.com/phhusson/treble_patches/tree/android-8.1/patches" target="_blank" rel="noopener noreferrer">phh patches&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git clone https://github.com/phhusson/treble_patches -b android-8.1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then apply each path in its project&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">patch -p1 &amp;lt; patch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Or cherry-pick changes by phhusson from here, remember to choose the latest branch
+&lt;a href="https://github.com/phhusson/platform_build/" target="_blank" rel="noopener noreferrer">platform_build&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_external_selinux" target="_blank" rel="noopener noreferrer">platform_external_selinux&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_frameworks_av" target="_blank" rel="noopener noreferrer">platform_frameworks_av&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_frameworks_base" target="_blank" rel="noopener noreferrer">platform_frameworks_base&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_frameworks_native" target="_blank" rel="noopener noreferrer">platform_frameworks_native&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_frameworks_opt_telephony" target="_blank" rel="noopener noreferrer">platform_frameworks_opt_telephony&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_system_bt" target="_blank" rel="noopener noreferrer">platform_system_bt&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_system_core" target="_blank" rel="noopener noreferrer">platform_system_core&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_system_libvintf" target="_blank" rel="noopener noreferrer">platform_system_libvintf&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> - &lt;a href="https://github.com/phhusson/platform_system_vold" target="_blank" rel="noopener noreferrer">platform_system_vold&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git fetch repo branch &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> git cherry-pick commit
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Go to the phh device repo and edit the .mk for your ROM (example lineage.mk)&lt;/li>
+&lt;li>Lunch the &lt;a href="https://github.com/phhusson/treble_experimentations/blob/master/build.sh#L38" target="_blank" rel="noopener noreferrer">build varaint&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> you want (ex. treble_arm64_avN-userdebug) and start the build&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">. build/envsetup.sh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">lunch treble_arm64_avN-userdebug
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">&lt;span class="nv">WITHOUT_CHECK_API&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb">true&lt;/span> make -j8 systemimage
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="7">
+&lt;li>If you want to compress the system image after build finishes, go to out/target/product/phh_*/ folder and run&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">xz -c system.img &amp;gt; system.img.xz
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Credits:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://forum.xda-developers.com/m/1915408/" target="_blank" rel="noopener noreferrer">@phhusson&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> for all his contributions, without his efforts this can&amp;rsquo;t be possible.&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/m/260854/" target="_blank" rel="noopener noreferrer">@Dakkar&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> for his build script&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/m/6817926/" target="_blank" rel="noopener noreferrer">@fAIyaZ&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> for helping me build my first GSI&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/m/4460995/" target="_blank" rel="noopener noreferrer">@sooti&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> for his simplified instruction on phh-treble telegram.&lt;/li>
+&lt;li>&lt;a href="https://forum.xda-developers.com/m/7967832/" target="_blank" rel="noopener noreferrer">@lineageos&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> guys for their wiki&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Note:&lt;/strong> This article was posted originally on XDA Developers forums, you can find it &lt;a href="https://forum.xda-developers.com/t/guide-how-to-build-a-project-treble-gsi-rom-from-source-31-08.3801803/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p></description></item><item><title>DualBootPatcher Ultimate Guide: How to use, build and add new devices!</title><link>https://yshalsager.com/en/posts/dualboot-patcher-ultimate-guide/</link><pubDate>Sat, 26 Aug 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/dualboot-patcher-ultimate-guide/</guid><description>&lt;h2 id="introduction--how-to-use-dualbootpatcher" data-numberify>Introduction &amp; How to use DualBootPatcher?&lt;a class="anchor ms-1 d-none" href="#introduction--how-to-use-dualbootpatcher">#&lt;/a>&lt;/h2>
+&lt;h3 id="what-is-dualbootpatcher" data-numberify>What is DualBootPatcher?&lt;a class="anchor ms-1 d-none" href="#what-is-dualbootpatcher">#&lt;/a>&lt;/h3>
+&lt;blockquote>
+&lt;p>DualBootPatcher is an open-source app that allows multiple ROMs to be installed on a single Android device. It does its best to work with existing code and does not require explicit support from ROMs. There are currently 270+ supported devices and their variations.
+It&amp;rsquo;s originally developed by the amazing developer @chenxiaolong with help of many &lt;a href="https://github.com/chenxiaolong/DualBootPatcher/graphs/contributors" target="_blank" rel="noopener noreferrer">contributors&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="what-does-this-app-do-" data-numberify>What does this app do ?&lt;a class="anchor ms-1 d-none" href="#what-does-this-app-do-">#&lt;/a>&lt;/h3>
+&lt;p>&lt;strong>It patches&amp;hellip;&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Custom kernels for dual boot support&lt;/li>
+&lt;li>ROMs so that they can be installed as secondary&lt;/li>
+&lt;li>Google Apps packages for AOSP-based ROMs&lt;/li>
+&lt;li>SuperSU so that it can be used in the secondary ROM&lt;/li>
+&lt;/ul>
+&lt;h3 id="where-can-i-find-it" data-numberify>Where can i find it?&lt;a class="anchor ms-1 d-none" href="#where-can-i-find-it">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://dbp.noobdev.io/" target="_blank" rel="noopener noreferrer">Website&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://forum.xda-developers.com/showthread.php?t=2447534" target="_blank" rel="noopener noreferrer">XDA Main Thread&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/chenxiaolong/DualBootPatcher" target="_blank" rel="noopener noreferrer">Github&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="whats-supported-" data-numberify>What&amp;rsquo;s supported ?&lt;a class="anchor ms-1 d-none" href="#whats-supported-">#&lt;/a>&lt;/h3>
+&lt;blockquote>
+&lt;p>Except Toaster and Alarm clocks pretty much everything is supported.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="how-to-use-the-app" data-numberify>How to use the App?&lt;a class="anchor ms-1 d-none" href="#how-to-use-the-app">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>Download, install and open the app.&lt;/li>
+&lt;li>Swipe to the right to open the menu. Click &amp;ldquo;ROMS&amp;rdquo;. Now if this is the first time you use it, it will ask you if you want to set kernel. Do so!&lt;/li>
+&lt;li>After it has finished go to ROM Settings (primary ROM 3 dot menu) and select Update Ramdisk. It will update it and will ask you to reboot. Press Reboot Now, or Reboot later.&lt;/li>
+&lt;li>Now Download any ROM you like and open the app again and open the menu and open Patch Zip File from the menu. Ensure that your Device is set to (yourdevicename) and under Partition configuration select secondary/dataslot (will install 2nd ROM in /system) or data slot.&lt;/li>
+&lt;li>Click continue and select where to save the patched file.&lt;/li>
+&lt;li>You should see the file is being put in &amp;ldquo;Queue&amp;rdquo;. Just click the confirm button to the upper right.
+&lt;strong>Note:&lt;/strong> If you want to go back, just swipe the ROM in queue to right and start over.&lt;/li>
+&lt;li>The app will patch the zip. When done, go back to &amp;ldquo;ROMs&amp;rdquo;.&lt;/li>
+&lt;li>Click &amp;ldquo;Flash zip files&amp;rdquo; (the big pink button on the lower right). Click the pink plus button to add your previously patched zip file.&lt;/li>
+&lt;li>Locate the file you have patched in step 7. Unless you have changed the name there, it should be something like ROM_name_partition_config_ID.zip (like RR-N-v5.8.3-20170707-cheeseburger-Unofficial_dual.zip).&lt;/li>
+&lt;li>Click on that file and choose &amp;ldquo;Keep location&amp;rdquo;. Now confirm the flash with the button on the upper right side.
+&lt;strong>Note:&lt;/strong> You can also install the patched zip files in recovery.&lt;/li>
+&lt;li>It will now open the terminal and begin flashing the file. This requires some patience. After it has flashed the file you&amp;rsquo;ll see success message in green.&lt;/li>
+&lt;li>Now click back and you should see your newly installed ROM along with the Primary ROM.
+&lt;strong>Note:&lt;/strong> You can find more options by clicking on the three buttons on each ROM.&lt;/li>
+&lt;li>Now reboot and wait till finishing 2nd ROM first boot. install DualBootPatcher apk so you can easily switch ROMs, there is another way to change ROMs: flash DualBootUtilities.zip and switch ROM manually.&lt;/li>
+&lt;/ul>
+&lt;h4 id="using-bootui" data-numberify>Using Bootui:&lt;a class="anchor ms-1 d-none" href="#using-bootui">#&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>Open app then select settings and press install (update) bootui. then Swipe to the right to open the menu. Click &amp;ldquo;ROMS&amp;rdquo; again and open secondary ROM Settings) and select Update Ramdisk, Now you can change ROMs simply using boot ui (something like grub bootloader but it works like twrp).&lt;/li>
+&lt;/ul>
+&lt;h3 id="partitions-configurations" data-numberify>Partitions Configurations:&lt;a class="anchor ms-1 d-none" href="#partitions-configurations">#&lt;/a>&lt;/h3>
+&lt;p>The patcher offers several locations for installing ROMs:&lt;/p>
+&lt;ul>
+&lt;li>Primary: This is normally used for installing a zip to the primary ROM. It is not required, but is strongly recommended because it has code to prevent the zip from inadvertently affecting other ROMs.&lt;/li>
+&lt;li>Dual: Dual/Secondary is the first multiboot installation location. It installs to the system partition. This is a good spot for installing a second ROM because it doesn&amp;rsquo;t take any space away from the internal storage.&lt;/li>
+&lt;li>Multi-slots: There are 3 multislots: multi-slot-1, multi-slot-2, multi-slot-3. These install to the cache partition. This is specifically for devices, like the Galaxy S4, that have a massive cache partition.&lt;/li>
+&lt;li>Data-slots: There can be an unlimited number of data slots. These install to the data partition and eat up space on the internal storage. This is useful for devices where the system partition is nearly full and the cache partition is tiny. These slots are named &amp;ldquo;data-slot-[id]&amp;rdquo;, where &amp;ldquo;id&amp;rdquo; is something you provide in the app.&lt;/li>
+&lt;li>Extsd-slots: There can be an unlimited number of extsd slots. These install to the external SD card, which is useful as it keeps the ROMs off of the internal storage. Note that the ROM&amp;rsquo;s data files are still stored on the data partition.&lt;/li>
+&lt;/ul>
+&lt;h3 id="apps-and-data-sharing" data-numberify>Apps and Data sharing:&lt;a class="anchor ms-1 d-none" href="#apps-and-data-sharing">#&lt;/a>&lt;/h3>
+&lt;blockquote>
+&lt;p>DualBootPatcher very recently got support for sharing apps and their data across ROMs. Maybe sharing is somewhat of a misleading term. The feature actually makes Android load the shared apps and data from a centralized location, /data/multiboot/_appsharing. So you&amp;rsquo;re not sharing apps from one ROM to another per se. The ROMs are just loading the apps from one shared location. Let me make this clearer with an analogy.&lt;/p>
+&lt;p>Think of the people in a company office as ROMs. You want to share with your coworkers some documents (apps). Instead of telling them to come over to your desk to see those documents (sharing apps from one ROM to another), everyone goes to the conference room to look at the documents together (loading apps from a shared location). That&amp;rsquo;s how app and data sharing is implemented.&lt;/p>
+&lt;/blockquote>
+&lt;p>To use app sharing, follow these steps &lt;strong>in every ROM that you want to use app sharing&lt;/strong>: (doesn&amp;rsquo;t work with JB ROMs)&lt;/p>
+&lt;ul>
+&lt;li>Install the app you want to share&lt;/li>
+&lt;li>Open DualBootPatcher and go to &amp;ldquo;App Sharing&amp;rdquo; in the navigation drawer&lt;/li>
+&lt;li>Enable individual app sharing&lt;/li>
+&lt;li>Tap &amp;ldquo;Manage shared applications&amp;rdquo; and enable APK/data sharing for the app&lt;/li>
+&lt;li>Reboot&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>When you uninstall an app that&amp;rsquo;s shared, it simply become unshared for the current ROM. That way, other ROMs are not affected. To continue the analogy above, if you quit your job, you won&amp;rsquo;t shred the documents that everybody else was looking at.&lt;/p>
+&lt;p>If you unshare an app&amp;rsquo;s data, it will go back to using the data it had before it was shared. In other words, you leave the conference room and go back to work on your own documents at your desk.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="faq" data-numberify>FAQ:&lt;a class="anchor ms-1 d-none" href="#faq">#&lt;/a>&lt;/h3>
+&lt;p>&lt;strong>How to boot to another ROM ?&lt;/strong>&lt;/p>
+&lt;p>This is simple &amp;hellip; There is no reboot to primary, secondary or whatever. So all you have to do is:&lt;/p>
+&lt;ol>
+&lt;li>Go to ROMs section of the App.&lt;/li>
+&lt;li>Click on the ROM you want to boot to. You should see &amp;ldquo;Switching ROM&amp;rdquo; message. After few seconds, you should see a report message saying that &amp;ldquo;ROM successfully switched&amp;rdquo;.&lt;/li>
+&lt;li>Now just do a normal reboot of your device. See the magic! It should boot to the ROM you have switched on step 2.
+&lt;strong>Note&lt;/strong>: You can find more options by selecting the three buttons on each ROMs (like creating reboot widgets for directly rebooting to specific rom).
+You also need to install the App to all of the ROMs you install. Otherwise, you want be able to boot to other ROMs!&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Wipe /cache, /data, /system, or dalvik-cache?&lt;/strong>
+The easiest way is to do it from the app while booted in another ROM. Just go to &amp;ldquo;Roms&amp;rdquo; in the navigation drawer, tap the 3 dots options menu for the ROM you want to wipe, and tap &amp;ldquo;Wipe ROM&amp;rdquo;.
+&lt;strong>Update the primary ROM?&lt;/strong>
+Patch the zip for primary and flash it. The &amp;ldquo;primary&amp;rdquo; installation target is designed so that other ROMs won&amp;rsquo;t be affected when you want to flash something for the primary ROM.
+&lt;strong>Update a non-primary ROM?&lt;/strong>
+Patch and flash the zip exactly like how you did it the first time.
+&lt;strong>Flash a mod or custom kernel for the primary ROM?&lt;/strong>
+Patch it for primary before flashing. If the zip does not wipe /cache, it is also safe to flash it directly.
+&lt;strong>Flash a mod or custom kernel for a non-primary ROM?&lt;/strong>
+Just patch and flash it :)&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-build-dualbootpatcher-from-source" data-numberify>How to build DualBootPatcher from source?&lt;a class="anchor ms-1 d-none" href="#how-to-build-dualbootpatcher-from-source">#&lt;/a>&lt;/h2>
+&lt;p>When you deeply exploring DualBootPatcher &lt;a href="https://github.com/chenxiaolong/DualBootPatcher/blob/master/docs/" target="_blank" rel="noopener noreferrer">repository&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> you&amp;rsquo;ll find all information and guides you need but for some people instructions isn&amp;rsquo;t clear enough, so let me explain it here &lt;picture>&lt;img class="img-fluid " alt=":D" src="#ZgotmplZ" loading="lazy" />
+&lt;/picture>
+- You&amp;rsquo;ll need linux, whichever distribution you use. but i&amp;rsquo;m sure building works on [Debian-Ubuntu-Fedora-Arch] and all its derivations.&lt;/p>
+&lt;h3 id="a-prerequisites" data-numberify>A) Prerequisites&lt;a class="anchor ms-1 d-none" href="#a-prerequisites">#&lt;/a>&lt;/h3>
+&lt;p>- You&amp;rsquo;ll need these packages whatever version you want to build:&lt;/p>
+&lt;ul>
+&lt;li>Android NDK&lt;/li>
+&lt;/ul>
+&lt;p>Currently NDK r15 is required to build, you can get it &lt;a href="https://dl.google.com/android/repository/android-ndk-r15-linux-x86_64.zip" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+Download, Extract and rename it to &amp;ldquo;android-ndk&amp;rdquo;&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">wget https://dl.google.com/android/repository/android-ndk-r15-linux-x86_64.zip &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> unzip android-ndk-r15-linux-x86_64.zip &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> mv android-ndk-r15 android-ndk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And then export android ndk:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;export ANDROID_NDK=&lt;/span>&lt;span class="k">$(&lt;/span>&lt;span class="nb">pwd&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="s2">/android-ndk&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;export ANDROID_NDK_HOME=&lt;/span>&lt;span class="k">$(&lt;/span>&lt;span class="nb">pwd&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="s2">/android-ndk&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>cmake&lt;/li>
+&lt;/ul>
+&lt;p>DBP needs cmake 3.7.2 or higher. you need to &lt;a href="https://cmake.org/files/v3.7/cmake-3.7.2.tar.gz" target="_blank" rel="noopener noreferrer">download it here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+Downloading &amp;amp; Extract command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">wget https://cmake.org/files/v3.7/cmake-3.7.2.tar.gz &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> tar xzf cmake-3.7.2.tar.gz
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>extract to folder and run the following commands in cmake folder&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sed -i &lt;span class="s1">&amp;#39;s|cmake_options=&amp;#34;-DCMAKE_BOOTSTRAP=1&amp;#34;|cmake_options=&amp;#34;-DCMAKE_BOOTSTRAP=1 -DCMAKE_USE_OPENSSL=ON&amp;#34;|&amp;#39;&lt;/span> bootstrap
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">./bootstrap
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">make
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">sudo make install
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>OpenSSL&lt;/li>
+&lt;/ul>
+&lt;p>I&amp;rsquo;m have made a successful build using openssl-1.1.0c, &lt;a href="https://www.openssl.org/source/openssl-1.1.0c.tar.gz" target="_blank" rel="noopener noreferrer">download from here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> and extract.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">wget https://www.openssl.org/source/openssl-1.1.0c.tar.gz &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> tar xzf openssl-1.1.0c.tar.gz
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>open openssl-1.1.0c folder and install it&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">./config shared --prefix&lt;span class="o">=&lt;/span>/usr/local/ssl --openssldir&lt;span class="o">=&lt;/span>/usr/local/ssl
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">make
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">sudo make install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s1">&amp;#39;PATH=${PATH}:/usr/local/ssl&amp;#39;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>gtest&lt;/li>
+&lt;/ul>
+&lt;p>Install on Ubuntu / Debian:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install libgtest-dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>On Fedora:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo dnf install gtest-devel
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>On Archlinux:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo pacman -S gtest
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>yaml-cpp&lt;/li>
+&lt;/ul>
+&lt;p>Install on Ubuntu / Debian using&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install libyaml-cpp-dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>On Fedora&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo dnf install yaml-cpp-devel
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>On Archlinux:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo pacman -S yaml-cpp
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Other General packages that must be installed: [Skip this if you have android build environment]
+Ubuntu / Debian:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install ccache libboost-dev libssl-dev openssl python-minimal build-essential libfontconfig1 findutils git make libprocps-dev unzip zip gcc-multilib g++-multilib lib32ncurses5-dev transifex-client gnupg mesa-common-dev libglu1-mesa-dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fedora:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo dnf install ccache findutils gcc-c++ git make procps-ng unzip zip gnupg ncurses-compat-libs transifex-client openssl-devel
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Archlinux:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo pacman -S ccache boost openssl lib32-openssl findutils git make procps-ng unzip zip gnupg gcc-multilib ncurses
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo pacaur -S transifex-client ncurses5-compat-libs lib32-ncurseslib32-ncurses5-compat-libs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- For building the android app you need:&lt;/p>
+&lt;ul>
+&lt;li>Android SDK&lt;/li>
+&lt;/ul>
+&lt;p>You need to install SDK using android studio (build-tools 25.0.3, platforms android-25, platform-tools and tools)
+or install from terminal:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">mkdir -p android-sdk &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">cd&lt;/span> android-sdk
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">wget -q https://dl.google.com/android/repository/platform-tools_r25.0.3-linux.zip &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> unzip -qq platform-tools_r25.0.3-linux.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">wget -q https://dl.google.com/android/repository/build-tools_r25.0.3-linux.zip &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> unzip -qq build-tools_r25.0.3-linux.zip
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">wget -q https://dl.google.com/android/repository/tools_r25.2.3-linux.zip &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> unzip -qq tools_r25.2.3-linux.zip
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then Export it:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;export ANDROID_HOME=&lt;/span>&lt;span class="k">$(&lt;/span>&lt;span class="nb">pwd&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;export PATH=&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">PATH&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">:&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">ANDROID_HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/tools&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>JDK 1.8&lt;/li>
+&lt;/ul>
+&lt;p>Ubuntu / Debian:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install openjdk-8-jdk openjdk-8-jdk-headless
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fedora:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo dnf install java-1.8.0-openjdk-devel java-1.8.0-openjdk-headless
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Archlinux:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo pacman -S jdk8-openjdk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Other packages:
+Ubuntu / Debian:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install lib32stdc++-6-dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fedora:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo dnf install glibc.i686 libstdc++.i686
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Archlinux:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo pacman -S glibc libstdc++5 lib32-libstdc++5
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And for linux version you need:&lt;/p>
+&lt;ul>
+&lt;li>qt5&lt;/li>
+&lt;/ul>
+&lt;p>it must be 5.3 or higher
+Ubuntu / Debian:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install qttools5-dev-tools libqt5core5a
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fedora:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo dnf install qt5-qtbase-devel
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Archlinux:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo pacman -S qt5-base
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Other packages:
+Ubuntu / Debian:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install libarchive-dev liblz4-tool liblzma-dev lz4-dev zlib1g-dev lib32z-dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Fedora:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo dnf install libarchive-devel lz4-devel xz-devel
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Archlinux:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo pacman -S libarchive lz4 xz lib32-xz lzip
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Some final touches:
+Enable cache:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;export USE_CCACHE=1&amp;#34;&lt;/span> &amp;gt;&amp;gt; ~/.bashrc
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Reload bash environment:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.bashrc
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Cloning the source:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git clone --recursive https://github.com/chenxiaolong/DualBootPatcher.git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="b-building-android-app" data-numberify>B) Building Android App&lt;a class="anchor ms-1 d-none" href="#b-building-android-app">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>Open DualBootPatcher folder and make new folder &amp;ldquo;build&amp;rdquo; and open it.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">mkdir build &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">cd&lt;/span> build/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Now Build the app:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">cmake .. -DMBP_BUILD_TARGET&lt;span class="o">=&lt;/span>android -DMBP_BUILD_TYPE&lt;span class="o">=&lt;/span>debug
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">make
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">cpack -G TXZ
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">make apk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>And you&amp;rsquo;ll find built apk in &lt;code>DualBootPatcher/Android_GUI/build/outputs/apk/Android_GUI-debug.apk&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h3 id="c-building-utilities-zip" data-numberify>C) Building Utilities Zip&lt;a class="anchor ms-1 d-none" href="#c-building-utilities-zip">#&lt;/a>&lt;/h3>
+&lt;p>Utilities Zip is AROMA based zip which enable you to switch ROMs form TWRP or wipe ROM when something went wrong.
+- In build folder run these commands:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">make android-system_armeabi-v7a
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">make -C data/devices
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">./utilities/create.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You&amp;rsquo;ll find built utilities.zip in DualBootPatcher/build/utilities/DualBootUtilities-9.2.0.zip&lt;/p>
+&lt;h3 id="d-building-linux-app" data-numberify>**D) Building Linux **App&lt;a class="anchor ms-1 d-none" href="#d-building-linux-app">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>In build folder run these commands:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">cmake .. -DMBP_BUILD_TARGET&lt;span class="o">=&lt;/span>desktop -DMBP_PORTABLE&lt;span class="o">=&lt;/span>ON
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">make
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">cpack -G TXZ
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>or to pack it to zip file:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">cpack -G ZIP
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="how-to-build-dualbootpatcher-using-docker-images" data-numberify>How to build DualBootPatcher using docker images?&lt;a class="anchor ms-1 d-none" href="#how-to-build-dualbootpatcher-using-docker-images">#&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>What is &lt;a href="https://www.docker.com/what-docker" target="_blank" rel="noopener noreferrer">docker&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>?&lt;/strong> [in case you don&amp;rsquo;t know it [😕]&lt;/p>
+&lt;blockquote>
+&lt;p>Docker is the world’s leading software container platform. Developers use Docker to eliminate “works on my machine” problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux, Windows Server, and Linux-on-mainframe apps.&lt;/p>
+&lt;/blockquote>
+&lt;p>Firstly, make sure you have docker installed, if not &lt;a href="https://docs.docker.com/engine/installation/" target="_blank" rel="noopener noreferrer">install it&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+From here you should choose a method you&amp;rsquo;ll follow, Building docker images manually or use pre-built docker images.&lt;/p>
+&lt;h3 id="a-building-docker-images-manually" data-numberify>A) Building docker images manually:&lt;a class="anchor ms-1 d-none" href="#a-building-docker-images-manually">#&lt;/a>&lt;/h3>
+&lt;p>&lt;a href="https://forum.xda-developers.com/m/4277844/" target="_blank" rel="noopener noreferrer">@chenxiaolong&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> has made docker image configuration files &lt;a href="https://github.com/chenxiaolong/DualBootPatcher/tree/master/docker" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+all you need to do after sync the repo like part 1 is entering the following commands in DualBootPatcher directory:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">./docker/generate.sh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">./docker/build.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Note that building the docker images will take a long time and consume a lot of bandwidth&amp;ndash;multiple gigabytes at the very least. It will download all the dependencies for building DualBootPatcher for all supported targets.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="b-using-ready-made-docker-images" data-numberify>B) Using ready-made docker images:&lt;a class="anchor ms-1 d-none" href="#b-using-ready-made-docker-images">#&lt;/a>&lt;/h3>
+&lt;p>I have made docker images and uploaded them to &lt;a href="https://hub.docker.com/r/yshalsager/dualbootpatcher/" target="_blank" rel="noopener noreferrer">docker hub&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+to download &amp;ldquo;pull&amp;rdquo; it enter these commands:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">docker pull yshalsager/dualbootpatcher:9.3.0-4-base
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">docker pull yshalsager/dualbootpatcher:9.3.0-4-android
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">docker pull yshalsager/dualbootpatcher:9.3.0-4-linux
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="c-building-dualbootpatcher-using-docker" data-numberify>C) Building DualBootPatcher using docker:&lt;a class="anchor ms-1 d-none" href="#c-building-dualbootpatcher-using-docker">#&lt;/a>&lt;/h3>
+&lt;p>- To enter docker container and build DualBootPatcher make folder &amp;ldquo;builder&amp;rdquo; in DualBootPatcher directory.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">cd&lt;/span> DualBootPatcher &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> mkdir -p builder
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Then run this to enter android build container&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">docker run --rm -it -e &lt;span class="nv">USER_ID&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="k">$(&lt;/span>id -u&lt;span class="k">)&lt;/span> -e &lt;span class="nv">GROUP_ID&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="k">$(&lt;/span>id -g&lt;span class="k">)&lt;/span> -v &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>&lt;span class="nb">pwd&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="s2">:/builder/DualBootPatcher:rw,z&amp;#34;&lt;/span> -v &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/.android:/builder/.android:rw,z&amp;#34;&lt;/span> -v &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/.ccache:/builder/.ccache:rw,z&amp;#34;&lt;/span> -v &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/.gradle:/builder/.gradle:rw,z&amp;#34;&lt;/span> yshalsager/dualbootpatcher:9.3.0-4-android bash
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- After this you&amp;rsquo;ll continue like normal building:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">cd&lt;/span> DualBootPatcher/builder &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> cmake .. -DMBP_BUILD_TARGET&lt;span class="o">=&lt;/span>android -DMBP_BUILD_TYPE&lt;span class="o">=&lt;/span>debug &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> make -j16 &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> rm -rf assets &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> cpack &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> make apk -j16
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">make android-system_armeabi-v7a -j16 &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> make -C data/devices -j16
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Now exit from container and enter linux build one:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">docker run --rm -it -e &lt;span class="nv">USER_ID&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="k">$(&lt;/span>id -u&lt;span class="k">)&lt;/span> -e &lt;span class="nv">GROUP_ID&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="k">$(&lt;/span>id -g&lt;span class="k">)&lt;/span> -v &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>&lt;span class="nb">pwd&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="s2">:/builder/DualBootPatcher:rw,z&amp;#34;&lt;/span> -v &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/.android:/builder/.android:rw,z&amp;#34;&lt;/span> -v &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/.ccache:/builder/.ccache:rw,z&amp;#34;&lt;/span> -v &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">HOME&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">/.gradle:/builder/.gradle:rw,z&amp;#34;&lt;/span> yshalsager/dualbootpatcher:9.3.0-4-linux bash
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Build utilities ZIP:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">cd&lt;/span> DualBootPatcher/builder &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> ./utilities/create.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- And build linux app&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">cmake .. -DMBP_BUILD_TARGET&lt;span class="o">=&lt;/span>desktop -DMBP_PORTABLE&lt;span class="o">=&lt;/span>ON &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> make -j16 &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> cpack
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- You&amp;rsquo;ll find output files in your local &amp;ldquo;builder&amp;rdquo; folder like normal build.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-build-dualbootpatcher-using-travisci" data-numberify>How to build DualBootPatcher using TravisCI?&lt;a class="anchor ms-1 d-none" href="#how-to-build-dualbootpatcher-using-travisci">#&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="http://travis-ci.org/" target="_blank" rel="noopener noreferrer">Travis CI&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> is free open-source continues integration service, which simply take your project from GitHub and test / build it for you !
+it&amp;rsquo;s amazing solution if you don&amp;rsquo;t have time/free space/mind lol :cyclops: to test your code.
+- you&amp;rsquo;ll need to signup Travis account, go &lt;a href="https://travis-ci.org/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> and press signup, enter your GitHub account details then approve Travis needed permissions and done. &lt;picture>&lt;img class="img-fluid " alt=":D" src="#ZgotmplZ" loading="lazy" />
+&lt;/picture>
+- Now Fork &lt;a href="https://github.com/chenxiaolong/DualBootPatcher" target="_blank" rel="noopener noreferrer">DualBootPatcher repository&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> to your account and create .travis.yml file in project root.
+- Copy &lt;a href="https://github.com/yshalsager/DualBootPatcher/blob/travis-docker/.travis.yml" target="_blank" rel="noopener noreferrer">my Travis configuration&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> to your .travis.yml&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="ln"> 1&lt;/span>&lt;span class="cl">&lt;span class="nt">sudo&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">required&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 2&lt;/span>&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 3&lt;/span>&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">services&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 4&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">docker&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 5&lt;/span>&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 6&lt;/span>&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">before_install&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 7&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># Clone DualBootPatcher Repository&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 8&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">git clone --recursive https://github.com/yshalsager/DualBootPatcher -b master DualBootPatcher/&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 9&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># Pull docker images&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">10&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">docker pull yshalsager/dualbootpatcher:9.3.0-4-base&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">11&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">docker pull yshalsager/dualbootpatcher:9.3.0-4-android&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">12&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">docker pull yshalsager/dualbootpatcher:9.3.0-4-linux&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">13&lt;/span>&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">14&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># Make work directories &lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">15&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">mkdir $HOME/.android&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">16&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">mkdir -p ${TRAVIS_BUILD_DIR}/DualBootPatcher/builder/ &amp;amp;&amp;amp; cd ${TRAVIS_BUILD_DIR}/DualBootPatcher/&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">17&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># Build APK&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">18&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="p">|&lt;/span>&lt;span class="sd">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">19&lt;/span>&lt;span class="cl">&lt;span class="sd"> docker run --rm -i -e USER_ID=$(id -u) -e GROUP_ID=$(id -g) -v &amp;#34;$(pwd):/builder/DualBootPatcher:rw,z&amp;#34; -v &amp;#34;${HOME}/.android:/builder/.android:rw,z&amp;#34; yshalsager/dualbootpatcher:9.3.0-4-android bash &amp;lt;&amp;lt; EOF
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">20&lt;/span>&lt;span class="cl">&lt;span class="sd"> cd DualBootPatcher/builder &amp;amp;&amp;amp; cmake .. -DMBP_BUILD_TARGET=android -DMBP_BUILD_TYPE=debug &amp;amp;&amp;amp; make -j16 &amp;amp;&amp;amp; rm -rf assets &amp;amp;&amp;amp; cpack &amp;amp;&amp;amp; make apk -j16
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">21&lt;/span>&lt;span class="cl">&lt;span class="sd"> make android-system_armeabi-v7a -j16 &amp;amp;&amp;amp; make -C data/devices -j16
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">22&lt;/span>&lt;span class="cl">&lt;span class="sd"> exit
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">23&lt;/span>&lt;span class="cl">&lt;span class="sd"> EOF&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">24&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="p">|&lt;/span>&lt;span class="sd">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">25&lt;/span>&lt;span class="cl">&lt;span class="sd"> docker run --rm -i -e USER_ID=$(id -u) -e GROUP_ID=$(id -g) -v &amp;#34;$(pwd):/builder/DualBootPatcher:rw,z&amp;#34; -v &amp;#34;${HOME}/.android:/builder/.android:rw,z&amp;#34; yshalsager/dualbootpatcher:9.3.0-4-linux bash &amp;lt;&amp;lt; EOF
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">26&lt;/span>&lt;span class="cl">&lt;span class="sd"> # Build Utilities Zip
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">27&lt;/span>&lt;span class="cl">&lt;span class="sd"> cd ~/DualBootPatcher/builder &amp;amp;&amp;amp; ./utilities/create.sh
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">28&lt;/span>&lt;span class="cl">&lt;span class="sd"> # Build Linux
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">29&lt;/span>&lt;span class="cl">&lt;span class="sd"> cmake .. -DMBP_BUILD_TARGET=desktop -DMBP_PORTABLE=ON &amp;amp;&amp;amp; make -j16 &amp;amp;&amp;amp; cpack
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">30&lt;/span>&lt;span class="cl">&lt;span class="sd"> exit
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">31&lt;/span>&lt;span class="cl">&lt;span class="sd"> EOF&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">32&lt;/span>&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">after_success&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">33&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">export TRAVIS_CURRENT_DATE=$(date +&amp;#34;%d%m%y-%Hh%Mm&amp;#34;)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">34&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># Check output &amp;amp; md5sum&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">35&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">ls -l ${TRAVIS_BUILD_DIR}/DualBootPatcher/Android_GUI/build/outputs/apk/debug/Android_GUI-debug.apk&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">36&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">md5sum ${TRAVIS_BUILD_DIR}/DualBootPatcher/Android_GUI/build/outputs/apk/debug/Android_GUI-debug.apk&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">37&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">ls -l ${TRAVIS_BUILD_DIR}/DualBootPatcher/builder/utilities/DualBootUtilities-9.3.0.zip&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">38&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">md5sum ${TRAVIS_BUILD_DIR}/DualBootPatcher/builder/utilities/DualBootUtilities-9.3.0.zip&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">39&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">ls -l ${TRAVIS_BUILD_DIR}/DualBootPatcher/builder/DualBootPatcher-9.3.0-Linux.zip&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">40&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">md5sum ${TRAVIS_BUILD_DIR}/DualBootPatcher/builder/DualBootPatcher-9.3.0-Linux.zip&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">41&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># Upload to transfer.sh&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">42&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">cd ${TRAVIS_BUILD_DIR}/DualBootPatcher/Android_GUI/build/outputs/apk/debug/ &amp;amp;&amp;amp; curl --upload-file ./Android_GUI-debug.apk https://transfer.sh/Android_GUI-debug-${TRAVIS_CURRENT_DATE}.apk&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">43&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">cd ${TRAVIS_BUILD_DIR}//DualBootPatcher/builder/utilities/ &amp;amp;&amp;amp; curl --upload-file ./DualBootUtilities-9.3.0.zip https://transfer.sh/DualBootUtilities-9.3.0-${TRAVIS_CURRENT_DATE}.zip&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">44&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">cd ${TRAVIS_BUILD_DIR}/DualBootPatcher/builder/ &amp;amp;&amp;amp; curl --upload-file ./DualBootPatcher-9.3.0-Linux.zip https://transfer.sh/DualBootPatcher-9.3.0-${TRAVIS_CURRENT_DATE}-Linux.zip&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Edit &lt;a href="https://github.com/yshalsager/DualBootPatcher/blob/travis-docker/.travis.yml#L8" target="_blank" rel="noopener noreferrer">line 8&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> with your Repository and branch you want to build.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">git clone --recursive https://github.com/yshalsager/DualBootPatcher -b master DualBootPatcher/&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- This simple TravisCI configuration builds both of apk and utilities.zip and deploy them to transfer.sh.
+- Now open Travis and add your DualBootPatcher fork to projects and start building.
+- You&amp;rsquo;ll find built apk md5 and links from line at the end Travis log
+- Build takes about 25 mins.
+- When you add new commits to repository Travis will always build new apk for you!
+- If you want to change something in configuration, always check its syntax to make sure it&amp;rsquo;s valid YAML using &lt;a href="http://yamllint.com/" target="_blank" rel="noopener noreferrer">this site&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-add-new-devices-to-dualbootpatcher" data-numberify>How to add new Devices to DualBootPatcher?&lt;a class="anchor ms-1 d-none" href="#how-to-add-new-devices-to-dualbootpatcher">#&lt;/a>&lt;/h2>
+&lt;p>To add your/new device to DualBootPatcher you need to get some information first then add it to DualBootPatcher devices:
+- Flash &lt;a href="https://dbp.noobdev.io/misc/getlogs/GetLogs-20161128-1.zip" target="_blank" rel="noopener noreferrer">GetLogs-20161128-1.zip&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> using recovery [TWRP highly recommended]
+- Copy /sdcard/logs/[Date&amp;amp;Time].tar to PC, extract it and let&amp;rsquo;s start.
+- This is new device template:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="ln"> 1&lt;/span>&lt;span class="cl">- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">(Device Name)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 2&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">id&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">(device id)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 3&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">codenames&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 4&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(device codename1)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 5&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(device codename2)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 6&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(device codename3)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 7&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">architecture&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">(device architecture)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 8&lt;/span>&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 9&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">block_devs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">10&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">base_dirs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">11&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(/dev/block/bootdevice/by-name)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">12&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">system&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">13&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(/dev/block/bootdevice/by-name/system)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">14&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">cache&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">15&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(/dev/block/bootdevice/by-name/cache)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">16&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">data&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">17&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(/dev/block/bootdevice/by-name/userdata)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">18&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">boot&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">19&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(/dev/block/bootdevice/by-name/boot)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">20&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">recovery&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">21&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(/dev/block/bootdevice/recovery)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">22&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">extra&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">23&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(/dev/block/bootdevice/modem)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">24&lt;/span>&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">25&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">boot_ui&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">26&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">supported&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">27&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">flags&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">28&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">(TW_HAS_DOWNLOAD_MODE)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">29&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">graphics_backends&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">30&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">fbdev&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">31&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">brightness_path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">(/sys/class/leds/lcd-backlight/brightness)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">32&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">max_brightness&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">(255)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">33&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">default_brightness&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">(162)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">34&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">pixel_format&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">(RGBX_8888)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">35&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">theme&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">portrait_hdpi&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- You&amp;rsquo;ll edit all values between brackets.
+- open logs/system/build.prop, you&amp;rsquo;ll find:
+&lt;strong>ro.product.model=&lt;/strong> is your (Device Name)
+&lt;strong>ro.product.name=&lt;/strong> and &lt;strong>ro.product.device=&lt;/strong> is your (device id) and (device codename1), if you know more names for your device add it in (device codename2) / (device codename3)
+&lt;strong>ro.product.cpu.abi=&lt;/strong> is your (device architecture)
+- open logs/recovery/recovery.fstab, you&amp;rsquo;ll find main device mount points, copy each mount point to it name
+- open logs/recovery/recovery.log, you&amp;rsquo;ll find &lt;strong>TW_BRIGHTNESS_PATH :=&lt;/strong> /sys/class/leds/lcd-backlight/brightness this is your (brightness_path)
+I:Got &lt;strong>max brightness&lt;/strong> 255 is (max_brightness)
+setting GGL_&lt;strong>PIXEL_FORMAT&lt;/strong>_RGBA_8888 is (pixel_format)
+- Note: you can get these info from BoradConfig.mk in your device twrp tree.
+- Now read &amp;ldquo;Partition Logs:&amp;rdquo; in recovery.log
+it&amp;rsquo;ll tell us second mount point, as example /system | &lt;strong>/dev/block/mmcblk0p41&lt;/strong>
+so you should add it like&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">system&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/bootdevice/by-name/system&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/mmcblk0p41&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>and so on with other partitions.
+- Checking more mounts: (not necessary but i recommend it)
+open &lt;code>logs/listings/dev_full&lt;/code> and scroll down to &lt;code>/dev/block/platform/soc.0&lt;/code> you&amp;rsquo;ll find another main mount point which contain by-name and by-num folders like &lt;code>/dev/block/platform/soc.0/f9824900.sdhci&lt;/code>
+from &lt;code>/dev/block/platform/soc.0/f9824900.sdhci/by-name&lt;/code> list copy each partition mount point to your device
+- Now we&amp;rsquo;re done, you should have something like&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="ln"> 1&lt;/span>&lt;span class="cl">- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Xiaomi Mi4S&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 2&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">id&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">aqua&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 3&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">codenames&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 4&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">aqua&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 5&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">architecture&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">arm64-v8a&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 6&lt;/span>&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 7&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">block_devs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 8&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">base_dirs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln"> 9&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/bootdevice/by-name&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">10&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/platform/soc.0/f9824900.sdhci/by-name&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">11&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">system&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">12&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/bootdevice/by-name/system&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">13&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/platform/soc.0/f9824900.sdhci/by-name/system&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">14&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/mmcblk0p41&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">15&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">cache&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">16&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/bootdevice/by-name/cache&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">17&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/platform/soc.0/f9824900.sdhci/by-name/cache&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">18&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/mmcblk0p42&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">19&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">data&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">20&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/bootdevice/by-name/userdata&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">21&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/platform/soc.0/f9824900.sdhci/by-name/userdata&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">22&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/mmcblk0p44&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">23&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">boot&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">24&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/bootdevice/by-name/boot&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">25&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/platform/soc.0/f9824900.sdhci/by-name/boot&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">26&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/mmcblk0p37&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">27&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">recovery&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">28&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/bootdevice/by-name/recovery&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">29&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/platform/soc.0/f9824900.sdhci/by-name/recovery&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">30&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">/dev/block/mmcblk0p38&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">31&lt;/span>&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">32&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">boot_ui&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">33&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">supported&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">34&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">graphics_backends&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">35&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">fbdev&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">36&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">flags&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">37&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">TW_QCOM_RTC_FIX&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">38&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">pixel_format&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">RGBX_8888&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">39&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">brightness_path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">/sys/class/leds/lcd-backlight/brightness&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">40&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">max_brightness&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">255&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">41&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">default_brightness&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">162&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">42&lt;/span>&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">theme&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">portrait_hdpi&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Open DualBootPatcher/data/devices/(your device manufacturer).yml and add your device codes. then Check your code syntax &lt;a href="http://yamllint.com/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> if everything is right, make commit to add your device to your repository.
+- Build apk using any method explained above to test it.&lt;/p>
+&lt;hr>
+&lt;h2 id="how-to-submit-new-devices-to-official-dualbootpatcher-support" data-numberify>How to submit new Devices to official DualBootPatcher support?&lt;a class="anchor ms-1 d-none" href="#how-to-submit-new-devices-to-official-dualbootpatcher-support">#&lt;/a>&lt;/h2>
+&lt;p>Once you checked everything is working, it&amp;rsquo;s time to contribute to DualBootPatcher and add your device to official devices:
+- First, Check you made all needed changes to add your device without problems, again check for YAML syntax because if it&amp;rsquo;s wrong build won&amp;rsquo;t work.
+- Open &lt;a href="https://github.com/chenxiaolong/DualBootPatcher" target="_blank" rel="noopener noreferrer">DualBootPatcher Repository&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>, press New pull request button.
+- Press compare across forks and change the head fork to your username/DualBootPatcher
+- Give a name and a description to your pull request, some thing like: &amp;ldquo;Add (Device Name) support&amp;rdquo; or &amp;ldquo;data: Add (device name)
+- Now click the &amp;ldquo;Create pull request&amp;rdquo; green button
+- Wait for your changes to be verified and merged to the project, the developer received your code and he will review, try and add it to the source code. You will be notified when your code merged.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Note:&lt;/strong> This article was posted originally on XDA Developers forums, you can find it &lt;a href="https://forum.xda-developers.com/t/guide-dualbootpatcher-use-build-from-source-using-docker-travis-and-add-new-devices.3663076/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p></description></item><item><title>How to use more than keyboard layout and switch between them in Android x86?</title><link>https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/</link><pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/</guid><description>&lt;p>Android x86 supports multiple keyboard layouts but it doesn&amp;rsquo;t support switching between them easily using a shortcut like alt+shift. Here&amp;rsquo;s how you can do this!&lt;/p>
+&lt;p>1- Install &lt;a href="https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&amp;amp;hl=ar" target="_blank" rel="noopener noreferrer">External Keyboard Helper Pro App&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>2- Open Setting - Language &amp;amp; input, then active External Keyboard.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="img" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/01.png" loading="lazy" width="520" height="526" />
+&lt;/picture>
+&lt;/p>
+&lt;p>3- Open External Keyboard Helper Settings, Choose your first keyboard layout then open Advanced settings.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="img" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/02.png" loading="lazy" width="396" height="532" />
+&lt;/picture>
+&lt;/p>
+&lt;p>4- Choose Language switching.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="img" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/03.png" loading="lazy" width="396" height="532" />
+&lt;/picture>
+&lt;/p>
+&lt;p>5- Open Language-switch key.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="img" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/04.png" loading="lazy" width="396" height="532" />
+&lt;/picture>
+&lt;/p>
+&lt;p>6- Check Alt button, Press change then press ALT button from keyboard, after that press Save.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="img" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/05.png" loading="lazy" width="396" height="532" />
+&lt;/picture>
+&lt;/p>
+&lt;p>7- Choose your second keyboard layout.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="img" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/06.png" loading="lazy" width="396" height="532" />
+&lt;/picture>
+&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Note:&lt;/strong> This article was posted originally on XDA Developers forums, you can find it &lt;a href="https://forum.xda-developers.com/t/guide-remix-phoenix-how-to-use-more-than-keyboard-layout-switch-using-alt-shift.3400806/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p></description></item></channel></rss>

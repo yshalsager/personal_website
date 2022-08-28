@@ -1,0 +1,1691 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>حواسب المستقبل on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/series/%D8%AD%D9%88%D8%A7%D8%B3%D8%A8-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84/</link><description>آخر التدوينات من in حواسب المستقبل يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/series/%D8%AD%D9%88%D8%A7%D8%B3%D8%A8-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84/rss.xml" rel="self" type="application/rss+xml"/><item><title>حواسب المستقبل 4: Raspberry Pi.. نقطة تحول في تاريخ أجهزة الكمبيوتر</title><link>https://yshalsager.com/ar/posts/single-board-computers-4/</link><pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/single-board-computers-4/</guid><description>&lt;p>دعونا نرجع بالزمن إلى عام 2006 وتحديدا إلى إنجلترا، جامعة كامبرديج قسم علوم الحاسب، في هذا الوقت أجتمع فريق من أساتذة علوم الحاسب ليناقشوا مشكلة تدني المستوي التعليمي للطلبة الجدد، فهم يفتقرون للخبرة في التعامل مع المكونات الإلكترونية وأجزاء الكمبيوتر بخلاف الطلبة السابقين حيث كان أغلب طلبة القسم من المهووسين بالإلكترونيات، فخرج هؤلاء العلماء بالحل المذهل ال Raspberry Pi.&lt;/p>
+&lt;h2 id="نقطة-الصفر" data-numberify>نقطة الصفر&lt;a class="anchor ms-1 d-none" href="#نقطة-الصفر">#&lt;/a>&lt;/h2>
+&lt;p>فكر البروفيسور Eben Upton إيبين ابتون في طريقة تساعد الطلبة الجدد على التعمق في علوم الحاسب وفهم المكونات الإلكترونية وعلم البرمجة في نفس الوقت، إضافة إلى تمكين الطلبة من صناعة وتعديل أجهزة خاصة بهم وربطها بالكمبيوتر. ومن أول المشاكل التي واجهتهم كانت كيفية توفير أجهزة كمبيوتر يمكن للطلبة التلاعب بها وتفكيكها وإضافة أجزاء جديدة دون تخريبها، فبالطبع الآباء لن يكونوا سعداء عند قيام أبناءهم بتخريب جهاز كمبيوتر غالي الثمن عند أجراء التجارب عليه !
+وكان الحل إيجاد جهاز كمبيوتر صغير الحجم منخفض التكلفة يتوفر للجميع حتي يسهل عملية التعليم لجميع الطلبة.
+بدأ البروفيسور إيبين بتجميع فريقه المكون من Alan Mycroft ألان مايكروفت – Jack Lang جاك لانج – Rob Mullins روب مولينز والشروع في العمل، فقام الفريق بتطوير 3 نماذج أولية خلال 5 سنوات حتي تم الاتفاق على نشر النموذج الثالث الذي خرج للعالم في أواخر 2011 بصورته النهائية، فأصبح نواة لثورة تعليمية وفكرية مذهلة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/p_three_stages.jpg" loading="lazy" width="400" height="300" />
+&lt;/picture>
+&lt;/p>
+&lt;p>خرج النموذج الأول في مايو 2011 بحجم مذهل وسعر رخيص لكن الحجم كان أصغر من أن يصلح للتعامل معه، فقد كان ضعف حجم العملة المعدنية تقريبا، واحتوي على منفذ USB واحد ومخرج HDMI.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/Rpi-usbproto.jpg" loading="lazy" width="648" height="486" />
+&lt;/picture>
+&lt;/p>
+&lt;p>فيديو &lt;a href="http://www.bbc.co.uk/news/technology-13292450" target="_blank" rel="noopener noreferrer">http://www.bbc.co.uk/news/technology-13292450&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>ثم تلاه نموذج آخر في أغسطس بحجم أكبر وتم إضافة منافذ GPIO التي تمكنك من توصيل المكونات الإلكترونية مع اللوحة، وإضافة منفذ Ethernet أيضا.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/RPi-alpha.jpg" loading="lazy" width="300" height="225" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وفي ديسمبر 2011 وصل حجم اللوحة إلى نفس حجم بطاقة ائتمان، وذلك في المرحلة التجريبية للإنتاج، وتم الاتفاق على أن يتم التصنيع في انجلترا وليس الصين.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/Rpi-Beta.jpg" loading="lazy" width="480" height="360" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وأخيرا في 29 فبراير 2012 أصبحت اللوحة متاحة للجمهور، Model A بذاكرة 512MB وبسعر 25 دولا، عن طريق مؤسسة Raspberry Pi الخيرية التي تتولي عملية الإنتاج والتطوير. ثم الإصدارModel B بذاكرة 512MB وسعر 35 دولار في 15 أكتوبر من نفس العام.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/Rpi-1.jpg" loading="lazy" width="1500" height="1000" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/Rpi-ModelB.jpg" loading="lazy" width="1500" height="1000" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="مسيرة-النجاح" data-numberify>مسيرة النجاح&lt;a class="anchor ms-1 d-none" href="#مسيرة-النجاح">#&lt;/a>&lt;/h2>
+&lt;p>من ضمن نقاط قوة أجهزة Raspberry Pi هي سهولة التعامل مع أنظمة التشغيل، فمنذ البداية تم إصدار نسختين من نظام التشغيل على موقع المؤسسة، فكان على المستخدم تحميل النسخة ووضعها على بطاقة الذاكرة والتشغيل فقط !
+ولاحقا في نفس العام تم إصدار نظام Raspbian المبني على توزيعة Debian Linux والمعد خصيصا لأجهزة Raspberry Pi.&lt;/p>
+&lt;p>كما تم تقديم برنامج جديد هو NOOBS لتبسيط عملية تثبيت أنظمة التشغيل المختلفة في 2013، فبعد تحميل ملفات البرنامج ووضعها على بطاقة الذاكرة تقوم بتوصيل كابل الإنترنت وتحديد أنظمة التشغيل التي ترغب في تثبيتها ثم انتظر حتي انتهاء التحميل والتثبيت.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/NOOBS-2013.png" loading="lazy" width="1600" height="1196" />
+&lt;/picture>
+&lt;/p>
+&lt;p>واستمرت سلسلة النجاحات المتواصلة لRaspberry Pi، ففي 2014 تم إعلان أن عدد الوحدات التي تم بيعها تجاوز 4.5 مليون جهاز، ثم تلاه إصدار النسختين المحسنتان A+ و B+ اللذان أتيا بمزيد من منافذ GPIO وطاقة لازمه أقل للعمل.&lt;/p>
+&lt;p>بعد ذلك في فبراير 2015 تم الإعلان عن Raspberry Pi 2 بمعالج Broadcom BCM2836 ARMv7 Cortex-A7 رباعي النواة بتردد 900MHz وذاكرة 1 جيجا، و4 منافذ USB 2.0 ومنفذ Ethernet و HDMI و40 GPIO pin.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/RaspberryPi2.jpg" loading="lazy" width="4224" height="2394" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وفي نوفمبر 2015 أصدرت المؤسسة جهاز Raspberry Pi Zero أصغر وأرخص جهاز ذو لوحة واحدة في العالم، بسعر 5 دولار فقط.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/RaspberryPiZero.jpg" loading="lazy" width="1755" height="1080" />
+&lt;/picture>
+&lt;/p>
+&lt;p>بعد ذلك العام الذهبي ل Raspberry Pi 2016، حيث تم إطلاق Raspberry Pi 3 نقله أخري في تاريخ الأجهزة ذات اللوحة الواحدة من حيث المواصفات، مع الحفاظ على مبدأ السعر المنخفض فكان سعر الجهاز مثل سابقيه 35 دولار أيضا.
+ومنذ فبراير 2016 إلى نوفمبر ارتفعت كميات الأجهزة المباعة من 8 مليون إلى 11 مليون وحدة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/RaspberryPi3.jpg" loading="lazy" width="4681" height="3131" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ثم أخر محطة في إصدارات Raspberry Pi، جهاز ال10دولار Raspberry Pi Zero W الذي يعد تطويرا لأخيه الصغير Raspberry Pi Zero.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/RaspberryPiZeroW.jpg" loading="lazy" width="2607" height="1738" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="rasbperry-pi-هي-الخيار-الأفضل" data-numberify>Rasbperry Pi هي الخيار الأفضل&lt;a class="anchor ms-1 d-none" href="#rasbperry-pi-هي-الخيار-الأفضل">#&lt;/a>&lt;/h2>
+&lt;p>هناك العديد من الأسباب التي تجعلك تفضل Raspberry Pi عن غيرها من أجهزة اللوحة الواحدة، لعل أبرزها هو&lt;/p>
+&lt;h3 id="1--دعم-عدد-كبير-من-أنظمة-التشغيل" data-numberify>1- دعم عدد كبير من أنظمة التشغيل&lt;a class="anchor ms-1 d-none" href="#1--دعم-عدد-كبير-من-أنظمة-التشغيل">#&lt;/a>&lt;/h3>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/OSes.png" loading="lazy" width="937" height="561" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>Raspbain: توزيعة لينكس مصممة خصيصا لأجهزة Pi مبنية على Debian، تمكنك من استخدام الجهاز مثل أي كمبيوتر كما يمكنك استخدامه في البرمجة والعديد من الأشياء الأخري.
+ويوجد العديد من توزيعات لينكس الأخري مثل Pidora – Archlinux – OpenSuse – Kali Linux – Gentoo - Ubuntu MATE – Slackware&lt;/li>
+&lt;li>Android: بتثبيتك لأندرويد على جهاز Raspberry Pi تستطيع تحويل أي شاشة أو جهاز تلفاز قديم إلى Smart TV وأكثر من ذلك، فنحن نعرف مقدار إمكانيات نظام أندرويد. ويمكنك أيضا تثبيت أنظمة أندرويد المخصصة مثل LineageOS.&lt;/li>
+&lt;li>OpenELEC وهو نظام تشغيل مخصص لاستخدامات الميديا والترفية المنزلي، مبني على Kodi Media Center الشهير، فمن خلاله تستطيع الوصول لمحتوي كبير من صوتيات وفيديو وحتي الصور، لتتمتع بتجربة فريدة.
+كما يوجد أيضا أنظمة تشغيل Xbian – OSMC اللذان يقومان بنفس الأمر.&lt;/li>
+&lt;li>Windows 10 IoT Core: يدعم نظام ويندوز 10 نسخة إنترنت الأشياء جهاز Raspberry Pi ومن خلاله يمكنك دمج اللوحة في المشاريع المختلفة والتحكم بها وبمكوناتها.&lt;/li>
+&lt;li>العديد من أنظمة التشغيل الأخري: مثل RISC OS – NetBSD – Pinet – FreeBSD – Kano - RetroPie&lt;/li>
+&lt;/ul>
+&lt;h3 id="2--يمكنك-فعل-العديد-من-الأشياء-باستخدامها" data-numberify>2- يمكنك فعل العديد من الأشياء باستخدامها&lt;a class="anchor ms-1 d-none" href="#2--يمكنك-فعل-العديد-من-الأشياء-باستخدامها">#&lt;/a>&lt;/h3>
+&lt;p>بعيدا عن أنظمة التشغيل التي توفر هي بذاتها العديد من الاستخدامات مثل:&lt;/p>
+&lt;ul>
+&lt;li>حاسوب محمول أو مكتبي منخفض التكلفة&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/pidesktop.jpg" loading="lazy" width="432" height="466" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>سيرفر استضافك موقع&lt;/li>
+&lt;li>سيرفر تخزين سحابي&lt;/li>
+&lt;li>تلفاز الذكي Smart TV&lt;/li>
+&lt;li>أداة ترفيهية عن طريق توزيعات مثل RetroPie التي تمكنك من تشغيل ألعاب أغلب المنصات القديمة من جهاز NES و Sega وحتي أجهزة PSP و Wii.&lt;/li>
+&lt;li>أداة تعليمية لتعلم البرمجة والتعامل مع الإلكترونيات&lt;/li>
+&lt;/ul>
+&lt;p>فيمكنك عمل العديد من المشاريع بواسطة Raspberry Pi التي يمكنك إيجاد المئات بل الآلاف منها عن طريق بحث بسيط على جوجل &amp;ldquo;Raspberry Pi Projects” وأذكر لك من هذه المشاريع:&lt;/p>
+&lt;ul>
+&lt;li>تصميم نظم التحكم الخاصة بالمنازل الذكية&lt;/li>
+&lt;li>وحدة إدارة نظام الإضاءة المنزلية&lt;/li>
+&lt;li>وحدة إدارة حماية المنزلية&lt;/li>
+&lt;li>صناعة الروبوتات والغواصات وكذلك الطائرات بدون طيار&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/robotics.jpg" loading="lazy" width="620" height="410" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>تطبيقات المراقبة مثل عمل كاميرات لبث الفيديو والصور عن بعد&lt;/li>
+&lt;li>المراقبة البيئية مثل عمل نظام لمراقبة درجات الحرارة والرطوبة عن بعد&lt;/li>
+&lt;/ul>
+&lt;p>والعديد من الأشياء الأخري التي لا يتسع المقام لذكرها بالتفصيل، والتي سيتم تغطيتها بالتفصيل في العديد من الموضوعات القادمة.&lt;/p>
+&lt;h2 id="المستقبل" data-numberify>المستقبل&lt;a class="anchor ms-1 d-none" href="#المستقبل">#&lt;/a>&lt;/h2>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-4/images/rasberry_pi_4_rumours.jpg" loading="lazy" width="760" height="428" />
+&lt;/picture>
+&lt;/p>
+&lt;p>أفادت بعض التقارير في الآونة الأخيرة عن شراكة جوجل مع مؤسسة راسبيري باي، مما سيجعل الإصدار الجديد من الجهاز أفضل بكثير، لكن في نفس الوقت صرح المؤسس Eben Upton بأنه لا إصدارات جديدة من Pi قبل 2019 على أقل تقدير، فقد استمرت Pi 1 لثلاث سنوات ثم Pi 2 لسنة واحدة وPi 3 سوف تستمر ثلاث سنوات أيضا.&lt;/p>
+&lt;p>إذا لا مشكلة، فمستوي Raspberry Pi الحالي يؤهلها للاستمرار حتي 2019، وحينها دعونا نري ما سيتم تقديمه هذه المرة، فربما يكون نقطة ثورية جديدة في تاريخ أجهزة الكمبيوتر.&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع لم ينشر مجلة لغة العصر العدد 207 شهر 03-2018 نظرًا لضيق عدد الصفحات.&lt;/p></description></item><item><title>حواسب المستقبل 3: دليلك الشامل لشراء جهاز كمبيوتر أحادي اللوحة</title><link>https://yshalsager.com/ar/posts/single-board-computers-3/</link><pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/single-board-computers-3/</guid><description>&lt;p>عزيزي القارئ، هل نالت هذه الأجهزة اهتمامك؟ ولم لا، وهي قد نالت اهتمام الملايين من الهواة والمحترفين حول العالم، في السطور التالية سنتعرف على العديد من الأنواع ومواصفاتها وأسعارها المختلفة لتحديد أي هذه الأجهزة هو المناسب لك حتي تكتمل لديك الصورة قبل اتخاذ قرار الشراء.&lt;/p>
+&lt;p>لعل ما يميز أجهزة الSBC عن غيرها هو الثمن فبعض الأنواع يبدأ سعرها من 5$ وتتفاوت الأسعار بعد ذلك وصولا إلى حاجز ال 400$ تقريبا، كما يميزها أيضا التنوع فستجد جميع العديد من المواصفات المتاحة مع تشكيلة كبيرة من المعالجات المختلفة وتنوع في حجم الذاكرة العشوائية وعدد المنافذ، والعديد من المواصفات الأخري.&lt;/p>
+&lt;p>للأسف الشديد لا يتوفر العديد من أنواع هذه الأجهزة في مصر، لكنك ستجد أغلب الأنواع الشهيرة مثل Raspberry Pi وArduino وOrangePi، وهذا يتيح الفرصة لمن يرغب في شراء أي من هذه الأجهزة، رغم ارتفاع سعرها نسبيا هنا مقارنة بالأسعار العالمية، لكن العديد من الناس لا يحبذ فكرة الشراء من الخارج.&lt;/p>
+&lt;p>ومن ناحية أخري، أعتقد شخصيا أن القرار الأفضل هو شراء احدي هذه الأجهزة من الخارج، فستجد العديد من الأسعار لنفس المنتج عليك اختيار الأفضل منها لكن يجب عليك دائما الانتباه إلى تقييم التاجر وعدد المبيعات، كما ستجد أغلب الأنواع متاحة للشراء إن لم يكن جميعها، فكل ما تحتاج إليه هو فيزا إنترنت من أي بنك ثم إيداع المبلغ بالجنيه المصري ثم الشراء.&lt;/p>
+&lt;p>وإليك عدد من المواقع التي يمكنك الشراء منها:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.aliexpress.com" target="_blank" rel="noopener noreferrer">www.aliexpress.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">www.amazon.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.ebay.com" target="_blank" rel="noopener noreferrer">www.ebay.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.gearbest.com" target="_blank" rel="noopener noreferrer">www.gearbest.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.geekbuying.com" target="_blank" rel="noopener noreferrer">www.geekbuying.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.lightinthebox.com" target="_blank" rel="noopener noreferrer">www.lightinthebox.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tinydeal.com" target="_blank" rel="noopener noreferrer">www.tinydeal.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.tomtop.com" target="_blank" rel="noopener noreferrer">www.tomtop.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>والآن دعونا نتعرف على أفضل الأجهزة المتاحة للشراء:&lt;/p>
+&lt;h2 id="banana-pi-m3-ومعالج-ثماني-النواة" data-numberify>Banana Pi M3 ومعالج ثماني النواة&lt;a class="anchor ms-1 d-none" href="#banana-pi-m3-ومعالج-ثماني-النواة">#&lt;/a>&lt;/h2>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/BananaPiM3-1.jpg" loading="lazy" width="900" height="642" />
+&lt;/picture>
+&lt;/p>
+&lt;p>Banana Pi هي سلسلة من الأجهزة أحادية اللوحة في حجم بطاقة ائتمان أو كارت شخصي، مبنية بغرض خفض التكلفة للبرامج الداخلية وتطوير الأجهزة وتعليم البرمجيات في المدارس.&lt;/p>
+&lt;p>تصميمها مستوحي من جهاز Raspberry Pi، ويتم تصنيعها بواسطة شركة Shenzhen SINOVOIP Co.,Ltd الصينية.&lt;/p>
+&lt;p>تتميز أجهزة Banana Pi بالتوافق التام مع برمجيات Raspberry Pi وبالتالي فهي تستطيع تشغيل عدد كبير من أنظمة التشغيل مثل Ubuntu – Raspbian – Debian – Arch Linux – Android – NetBSD ويرجع ذلك إلى توافق المعالج مع معمارية بناء أنظمة لينكس “armhf”.&lt;/p>
+&lt;p>وتستخدم أجهزة Banana Pi معالجات Allwinner بمعمارية ARM، وهي أجهزة مفتوحة المصدر بالكامل.&lt;/p>
+&lt;p>ومن بين أنواع Banana Pi المختلفة لا يمكننا أن نغفل عن Banana Pi M3 التي تأتي بميزتين يتفوقا على العديد من أقرانها من الأجهزة، الأولي هي وجود معالج ثماني النواة ARM Cortex-A7 Octa-core بسرعة 2 GHz، والثانية هي وجود منفذ SATA لتوصيل الهارد ديسك مباشرة بالجهاز.&lt;/p>
+&lt;p>أما المواصفات الأخري فهي ذاكرة 2GB من نوع LPDDR3 SDRAM ومساحة تخزين داخلية 8 جيجا بايت، مع 40 منفذ GPIO لدعم توصيل المكونات الإلكترونية، منفذ HDMI 1.4 لتوصيل الجهاز بالشاشة مع دعم حتي دقة شاشة 1920x1080 ومنفذ لبطاقة الذاكرة Micro SD-Card وكارت شبكة وWi-Fi بمعيار802.11 b/g/n وبلوتوث 4.0، كما يوجد أيضا 2 منفذ USB ومستشعرIR Receiver.&lt;/p>
+&lt;p>وتتوافر العديد من الإمكانيات الأخري مثل دعم توصيل كاميرا مباشرة، ووجود ميكروفون مدمج بالجهاز مع مخرج صوت 3.5 مم، وتوجد ثلاث أزرار للتحكم في الطاقة، ويمكن تشغيل الجهاز إما عن طريق منفذ الطاقة أو منفذ ال Micro USB.&lt;/p>
+&lt;p>أبعاد الجهاز هي 92mm x 60mm وحجمه 45 جرام.&lt;/p>
+&lt;p>الموقع الرسمي: &lt;a href="http://www.banana-pi.org/m3.html" target="_blank" rel="noopener noreferrer">http://www.banana-pi.org/m3.html&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو: &lt;a href="https://www.youtube.com/watch?v=foxnnQT58FE" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=foxnnQT58FE&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/BananaPiM3-2.jpg" loading="lazy" width="600" height="636" />
+&lt;/picture>
+&lt;/p>
+&lt;p>المواصفات الفنية:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>A83T ARM Cortex-A7 ثماني النواة&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>2GB من نوع LPDDR3 مشتركة مع ال GPU&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>PowerVR SGX544MP1 يدعم كلا من OpenGL ES 2.0, OpenCL 1.x, DX 9_3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>مساحة داخلية 8 جيجا بايت ودعم لكروت الذاكرة حتي 64 جيجا بايت، ووجود منفذ SATA 2.0 يدعم حتي 2 تيرا بايت&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>منفذين من نوع USB 2.0 ومنفذ واحدMicro USB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>منفذ Ethernet 10/100/1000Mbps (Realtek RTL8211E/D) دعم WiFi 802.11 b/g/n دعم بلوتوث 4.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>يوجد40 Pin GPIO, UART, I2C bus, I2S bus, SPI bus, PWN, +3.3v, +5v, ground&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>المعالج ثماني النواة يقدم للمستخدم أداء جيد جدا، ووجود منفذ SATA يتيح توصيل أي هارد ديسك بسهولة، مع توفر مساحة داخلية 8 جيجا لاستخدام الجهاز كما تريد&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>المعالج من نوع ARMv7-A والذي يعتبر قديما نوعا ما هذه الأيام&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>74 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="hikey-960" data-numberify>HiKey 960&lt;a class="anchor ms-1 d-none" href="#hikey-960">#&lt;/a>&lt;/h2>
+&lt;p>3 جيجا ذاكرة عشوائية و 2 منفذ USB 3.0&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/HiKey960-1.png" loading="lazy" width="920" height="613" />
+&lt;/picture>
+&lt;/p>
+&lt;p>HiKey 960 هي لوحة تطوير مبنية على معالج Huawei Kirin 960 ثماني النواة بمعمارية ARM، ويتكون المعالج من 4 أنوية كبيرة ARM Cortex-A73 بسرعة 2.3 GHz و4 أنوية صغيرةCortex-A53 بسرعة تصل إلى 1.8 GHz. مع توفر 3 جيجا من الذاكرة من نوع LPDDR4 SDRAM ومساحة داخلية 32 جيجا بايت من نوع UFS 2.0 ومعالج رسوميات Mali G71 MP8 تصل سرعته إلى 900 ميجا هرتز.&lt;/p>
+&lt;p>كما تحتوي اللوحة على 2 منفذ USB 3.0 type A ومنفذ USB 2.0 type C OTG، ومنفذ MicroSD card يدعم كروت الذاكرة حتي 265GB وبالطبع منفذ HDMI 1.4 لتوصيلها بالشاشة، إضافة إلى دعم Wi-Fi بترددات 2.4 GHz و 5 GHz، وبلوتوث إصدار 4.1، كما يوجد كذلك زر للتحكم في الطاقة.&lt;/p>
+&lt;p>تستهدف هذه اللوحة مطوري نظام أندرويد، فهي تأتي مثبتا عليها النسخة الخام من نظام أندرويد AOSP مع نواة لينكس إصدار 4.4، وهي تدعم بالطبع تشغيل العديد من توزيعات لينكس.&lt;/p>
+&lt;p>أبعاد الجهاز هي 85mm x 55mm x 9mm ووزنه 60 جرام.&lt;/p>
+&lt;p>الموقع الرسمي: &lt;a href="https://www.96boards.org/product/hikey960/" target="_blank" rel="noopener noreferrer">https://www.96boards.org/product/hikey960/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو: &lt;a href="https://www.youtube.com/watch?v=sOR8PbEu27g" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=sOR8PbEu27g&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/HiKey960-2.jpg" loading="lazy" width="767" height="867" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>Kirin 960 ثماني النواة&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>3GB من نوع LPDDR4 SDRAM&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>Mali G71 MP8 بسرعة تصل إلى 900 ميجا هرتز&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>32GB من نوع2.0 UFS ومنفذ MicroSD card 3.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>منفذين من نوع USB 3.0 ومنفذ واحدMicro USB 2.0 Type C&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>دعم WiFi 802.11 b/g/n دعم بلوتوث 4.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>يوجد 40 pin للتوسعة بسرعة منخفضة +1.8V, +5V, DC power, GND, 2UART, 2I2C, SPI, I2S, 12xGPIO و60 pin للتوسعة بسرعة عالية 4L-MIPI DSI, I2C x2, SPI (48M), USB 2.0, 2L+4LMIPI CSI&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>مع معالج ثماني النواة وذاكرة 32 جيجا بايت ستحصل على جهاز كمبيوتر أصغر من راحة اليد بمواصفات جبارة، مما يمكنك من تشغيل مقاطع الفيديو بدقة 4K بدون أي مشاكل، إلى جانب أي استخدام آخر للجهاز&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>لا يوجد منفذ Ethernet – لا يوجد ميكروفون – لا يوجد مخرج صوت خارجي كما أن سعر الجهاز مرتفع مقارنة بالأجهزة الأخري&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>239 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="intel-compute-stick" data-numberify>Intel Compute Stick&lt;a class="anchor ms-1 d-none" href="#intel-compute-stick">#&lt;/a>&lt;/h2>
+&lt;p>كمبيوتر كامل في حجم مفتاح USB&lt;/p>
+&lt;p>قدمت إنتل أول جهاز StickPC في مارس 2015، ومنذ ذلك الوقت تواصل الشركة إصدار العديد من الأنواع المختلفة لهذه الأجهزة، أحد هذه الأجهزة المميزة هو Intel Compute Stick CS125&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/IntelComputeStickCS125-1.jpg" loading="lazy" width="1000" height="1000" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وهو جهاز كمبيوتر كامل من شركة إنتل، ورغم أنه في حجم مفتاح ال USB إلا أنه يقدم للمستخدم إمكانيات مدهشة، فهو يأتي بمعالج Intel Atom x5-Z8300 رباعي النواة بسرعة 1.44 GHz وتصل إلى 1.84 GHz، ويحتوي على معالج رسوميات Intel HD Graphics وذاكرة بحجم 2 جيجا من نوع DDR3L-1600 ومساحة تخزين 32 جيجا بايت، مع دعم بطاقات الذاكرة حتي 64 جيجا بايت.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/IntelComputeStickCS125-2.jpg" loading="lazy" width="1500" height="1500" />
+&lt;/picture>
+&lt;/p>
+&lt;p>يأتي هذا الجهاز بالعديد من المنافذ رغم صغر حجمه، حيث يحتوي على منفذ HDMI 1.4b لتوصيل الجهاز بالشاشة و2 منفذ USB أحداهما الإصدار 2.0 والآخر 3.0، ومنفذ لإضافة بطاقة الذاكرة، إضافة إلى دعم الجهاز للWi-Fi عن طريق Intel Wireless-AC 7265 وبلوتوث 4.0.&lt;/p>
+&lt;p>هذا ويأتي هذا الجهاز الصغير ببعض تقنيات إنتل مثل Intel Virtualization Technology (VT-x) وIntel Platform Trust Technology (Intel PTT)
+ويعد هذا الجهاز أحد أفضل الخيارات المتاحة للمستخدم الذي يبحث عن جهاز ذو لوحة واحدة يدعم ويندوز 10 وفى نفس الوقت صغير الحجم جدا وسهل حمله إلى أي مكان.&lt;/p>
+&lt;p>الموقع الرسمي:
+&lt;a href="https://ark.intel.com/products/91065/Intel-Compute-Stick-STK1AW32SC" target="_blank" rel="noopener noreferrer">https://ark.intel.com/products/91065/Intel-Compute-Stick-STK1AW32SC&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو: &lt;a href="https://www.intel.com/content/www/us/en/compute-stick/intel-computestick-introduction-video.html" target="_blank" rel="noopener noreferrer">https://www.intel.com/content/www/us/en/compute-stick/intel-computestick-introduction-video.html&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+&lt;a href="https://www.youtube.com/watch?v=rKt5oqWVJsM" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=rKt5oqWVJsM&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/IntelComputeStickCS125-3.jpg" loading="lazy" width="1000" height="1000" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>Intel Atom x5-Z8300 رباعي النواة بسرعة 1.44 GHz&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>2 جيجا من نوع DDR3L-1600&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>Intel HD Graphics&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>32 جيجا بايت مساحة داخلية، مع دعم بطاقات الذاكرة حتي 64 جيجا بايت&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>منفذ USB 2.0 ومنفذ USB 3.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>لا يوجد منفذ Ethernet دعم WiFi 802.11 b/g/n دعم بلوتوث 4.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>لا يوجد&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>حجم صغير للغاية يمكن حمله لأي مكان تعمل بنظام ويندوز 10 مما يجعلها مناسبة للمستخدم العادي&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>أداء ضعيف في بعض الأحيان عند تشغيل العديد من البرامج لا توجد منافذ كافية&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>150 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="lattepanda" data-numberify>LattePanda&lt;a class="anchor ms-1 d-none" href="#lattepanda">#&lt;/a>&lt;/h2>
+&lt;p>جهاز كمبيوتر ويندوز 10 بمواصفات مدهشة&lt;/p>
+&lt;p>الشركة المبتدئة LattePanda قد صنعت جهاز كمبيوتر ذو لوحة واحدة مدهش المواصفات يعمل بويندوز 10 النسخة الكاملة مثله مثل أي جهاز كمبيوتر تقليدي، متوافق مع كل المكونات المعروفة التي تعمل على جهاز الكمبيوتر المكتبي أو المحمول مثل الطابعات والكاميرات وحتي عصا التحكم. ومما يميز هذا الجهاز عن غيره هو استهلاك الطاقة المنخفض باعتباره جهاز كمبيوتر يعمل بويندوز، فهو يحتاج فقط شاحن USB تقليدي ليعمل بكفاءة عالية، في حين أن أجهزة الكمبيوتر العادية تحتاج من 2-3 أمبير لتعمل.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/LattePanda-1.jpg" loading="lazy" width="900" height="600" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ومع وجود ويندوز كنظام رئيسي لهذا الجهاز فهو يُمكن المطورين من التعامل مع أغلب اللغات البرمجية وأدواتها المختلفة، وليس هذا فقط فجهازLattePanda يوجد به معالج مساعد متوافق مع Arduino وبالتالي تستطيع استخدامه كأي لوحة Arduino تماما للتحكم في المكونات الإلكترونية المختلفة.&lt;/p>
+&lt;p>يأتي الجهاز بمعالج Intel Z8350 رباعي النواة بسرعة 1.8GHz ومعالج رسوميات Intel HD Graphics بسرعة تصل إلى 500MHz وذاكرة 4 جيجا من نوع DDR3L.&lt;/p>
+&lt;p>أما مساحة التحزين الداخلية فهي 64 جيجا بايت مع وجود منفذ لبطاقة الذاكرة، كما يوجد منفذ USB 3.0 و2 منفذ USB 2.0. وبالنسبة للشبكات، فيوجد بالجهاز منفذ Ethernet وWi-Fi 802.11n 2.4G وبلوتوث 4.0.&lt;/p>
+&lt;p>ولا ننسي أيضا وجود المعالج المساعد Atmega32u4 الذي يوفر إمكانية تشغيل الجهاز كلوحة Arduino.&lt;/p>
+&lt;p>أبعاد الجهاز هي 88x70 mm أو 3.46x2.76 بوصة، ووزنه 100 جرام&lt;/p>
+&lt;p>الموقع الرسمي:
+&lt;a href="http://www.lattepanda.com/" target="_blank" rel="noopener noreferrer">http://www.lattepanda.com/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو: &lt;a href="https://www.youtube.com/watch?v=Ov5cO4IJjX4" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=Ov5cO4IJjX4&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/LattePanda-2.jpg" loading="lazy" width="900" height="600" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>Intel Cherry Trail Z8350 رباعي النواة بسرعة تصل إلى 1.8GHz&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>4GB من نوع DDR3L&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>Intel HD Graphics&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>64GB مع وجود منفذ لإضافة بطاقة ذاكرة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>منفذين من نوع USB 2.0 ومنفذ واحد USB 3.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>منفذ Ethernet 10/100/1000Mbps دعم WiFi 802.11n 2.4G دعم بلوتوث 4.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>6 pin من معالج Intel 20 pin من معالج ATmega&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>تأتي بنظام ويندوز 10 مثبت مسبقا وبذلك توفر على المستخدم عناء تحميل وتثبيت النظام وتكون جاهزة للعمل مباشرة المعالج المساعد ATmega32u4 يوفر إمكانية عمل الجهاز كلوحة Arduino تتعامل مع الإلكترونيات&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>نظام التشغيل المدعوم رسميا هو فقط ويندوز 10 لا يوجد دعم ل HDMI-CEC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>150 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="odroid-xu4-ونظام-تبريد-مدمج" data-numberify>ODroid Xu4 ونظام تبريد مدمج&lt;a class="anchor ms-1 d-none" href="#odroid-xu4-ونظام-تبريد-مدمج">#&lt;/a>&lt;/h2>
+&lt;p>إذا كنت من المهتمين بأجهزة الكمبيوتر أحادية اللوحة نظرا لإمكانية عملها كبديل غير مكلف لأجهزة الكمبيوتر المكتبية العادية، إذا عليك التطلع إلى لوحة ODROID-XU4، فعلى الرغم من سعرها المنخفض فهي تأتي بالمعالج القوي Samsung Exynos 5422 ثماني النواة بسرعة 2GHz ومعالج رسوميات Mali-T628 MP6 يدعم كلا من OpenGL ES 3.1 وOpenCL 1.2، وذاكرة عشوائية 2GB من نوع LPDDR3.&lt;/p>
+&lt;p>وإضافة إلى 2 منفذ USB 3.0 ومنفذ USB 2.0، ومنفذ لإضافة بطاقة الذاكرة حتي 128 جيجا فلوحة ODROID-XU4 تدعم أيضا توصيل وحدة تخزين eMMC5.0 حتي 64 جيجا.&lt;/p>
+&lt;p>أما بالنسبة لدعم الشبكات، فمنفذ Ethernet الموجود هنا مميز، فهو يدعم نقل البيانات بسرعة تصل إلى 1 جيجا، لكن للأسف لا يوجد Wi-Fi مدمج باللوحة وتحتاج لشراء لاقط منفصل.&lt;/p>
+&lt;p>وما يجعل لوحة ODROID-XU4 مميزة أكثر هو وجود نظام تبريد مرفق مع الجهاز وهذا شيء لن تجده في كل الأجهزة، إضافة إلى دعم العديد من توزيعات لينكس وإصدارات أندرويد بشكل رسمي.&lt;/p>
+&lt;p>أبعاد الجهاز هي83x58x20mm ووزنه حوالي 60 جرام.&lt;/p>
+&lt;p>الموقع الرسمي:&lt;/p>
+&lt;p>&lt;a href="http://www.hardkernel.com/main/products/prdt_info.php" target="_blank" rel="noopener noreferrer">http://www.hardkernel.com/main/products/prdt_info.php&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو:&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=wtqfC9v0xB0" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=wtqfC9v0xB0&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+&lt;a href="https://www.youtube.com/watch?v=xxl4ORk4SJo" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=xxl4ORk4SJo&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/ODROID-XU4-1.jpg" loading="lazy" width="498" height="375" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>Samsung Exynos-5422 ثماني النواة بسرعة 2GHz مكون من أنوية ARM Cortex-A15 / ARM Cortex-A7&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>2GB من نوع LPDDR3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>Mali-T628 MP6 يدعم OpenGL ES 3.1 / 3.0 / 2.0 / 1.1 و OpenCL 1.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>دعم بطاقات الذاكرة حتي 128 جيجا دعم وحدة تخزين eMMC 5.0 حتي 64 جيجا&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>2 منفذ USB 3.0 و1 منفذ USB 2.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>منفذ Gigabit Ethernet 10/100/1000Mbps&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>30 pin تشمل كل من ADC – SPI – I2C - UART&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>أداء قوي بفضل معالج سامسونج، مع توفر العديد من أنظمة التشغيل للاختيار بينها، كما يأتي مع الجهاز نظام تبريد للحفاظ على الجهاز من السخونة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>لا يوجد مساحة تخزين داخلية لا يوجد ميكروفون أو مخرج صوت لا يوجد دعم للWi-Fi أو البلوتوث لا يمكن تشغيلها عن طريق منفذ USB OTG وتحتاج لشراء كابل طاقة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>60 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="pine-a64" data-numberify>PINE A64&lt;a class="anchor ms-1 d-none" href="#pine-a64">#&lt;/a>&lt;/h2>
+&lt;p>بديل قوي منخفض التكلفة&lt;/p>
+&lt;p>Pine A64 هي جهاز كمبيوتر ذو لوحة واحدة صغير الحجم وقوي المواصفات ورخيص الثمن يمكنك استخدامه لأي شيء تستخدم فيه أجهزة SBC حاليا.&lt;/p>
+&lt;p>في الأساس تستهدف لوحة Pine A64 المشاريع الكبيرة حيث يمكن دمجها بسهولة فيها، لكنها تعمل كلوحة تطوير أيضا بكل كفاءة. تأتي اللوحة بمعالج AllWinner A64 (64-bit) رباعي النواة بسرعة 1.2GHz ومعالج رسوميات Mali-400 MP2، أما الذاكرة العشوائية فهي تختلف حسب الموديل من 512MB إلى 2GB، وحيث أن اللوحة لا تحتوي على مساحة داخلية للتخزين فإنها تستخدم بطاقات الذاكرة وتدعم حتي 256GB، إضافة إلى توفر 2 منفذ USB 2.0. يوجد باللوحة منفذ Ethernet 10/100/1000Mbps، أما لإضافة دعم الWi-Fi والبلوتوث فتحتاج لوحدة خارجية أو USB Dongle، كما يوجد أيضا مستشعر IR ومخرج صوت 3.5mm ومنفذ HDMI يدعم تشغيل حتي جودة 4K.&lt;/p>
+&lt;p>أنظمة التشغيل المدعومة هي Linux – Android - Windows IoT&lt;/p>
+&lt;p>أبعاد الجهاز هي 127mm x 79mm x 21mm ووزنه 46 جرام.&lt;/p>
+&lt;p>يتوفر من الجهاز ثلاثة موديلات الأول ب512MB ذاكرة عشوائية وسعره 15$، والثاني ب1GB ذاكرة عشوائية وسعره 19$ والأخير ب2GB ذاكرة وسعره 29$&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/PINEA64-1.jpg" loading="lazy" width="600" height="600" />
+&lt;/picture>
+&lt;/p>
+&lt;p>الموقع الرسمي: &lt;a href="https://www.pine64.org/?page_id=1194" target="_blank" rel="noopener noreferrer">https://www.pine64.org/?page_id=1194&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو:https://www.youtube.com/watch?v=FxGeloh80RQ
+&lt;a href="https://www.youtube.com/watch?v=Z06_-Y-Y69Q" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=Z06_-Y-Y69Q&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/PINEA64-2.jpg" loading="lazy" width="1000" height="552" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>AllWinner A64 ARM Cortex-A53 (64-bit) رباعي النواة بسرعة 1.2GHz&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>512 ميجا/1 جيجا/2جيجا&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>Mali-400 MP2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>منفذ لإضافة بطاقة ذاكرة، ولا توجد مساحة تخزين داخلية&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>2 منافذ USB 2.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>منفذ Ethernet 10/100Mbps&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>40 pin تشمل كل من PWM – SPI – I2C - UART&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>مواصفات رائعة بالنسبة لسعرها المنخفض وخاصة أن المعالج 64bit تدعم تشغيل مقاطع الفيديو حتي جودة 4K&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>لا توجد مساحة تخزين داخلية لا يوجد Wi-Fi أو بلوتوث حجم الجهاز كبير جدا مقارنة بباقي الأجهزة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>15-29 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="raspberry-pi-3" data-numberify>Raspberry Pi 3&lt;a class="anchor ms-1 d-none" href="#raspberry-pi-3">#&lt;/a>&lt;/h2>
+&lt;p>لوحة ال35$ الأكثر مبيعا&lt;/p>
+&lt;p>قامت مؤسسة Raspberry Pi في انجلترا بتصنيع وإصدار أجهزة Raspberry Pi منذ 2012، فهي تعتبر أحد أحجار الأساس لعودة أجهزة اللوحة الواحدة إلى الأضواء، وقد واصلت المؤسسة نجاحها المبهر، فطبقا لأحدث التقارير في يوليو 2017 تم بيع 15 مليون وحدة تقريبا من لوحات Raspberry Pi.&lt;/p>
+&lt;p>واستكمالا لمسيرة النجاح تم إصدار لوحة Raspberry Pi 3 Model B منخفضة الثمن، والتي تأتي بمعالج رباعي النواة BCM2837 (Cortex-A53) بسرعة 1.2GHz من تصنيع Broadcom يدعم أنظمة تشغيل 64Bit، وتتضمن هذه الشريحة معالج رسوميات قوي Videocore IV بسرعة 400MHz. أما الذاكرة العشوائية فهي 1 جيجا، ولا تتوفر مساحة تخزين داخلية بالجهاز لكن يوجد منفذ لإضافة بطاقات الذاكرة حتي 32 جيجا، و 4 منافذ USB 2.0 ومنفذ USB OTG.&lt;/p>
+&lt;p>كما يوجد بالجهاز منفذ Ethernet، وWi-Fi وبلوتوث عن طريق شريحة BCM43438، وبالطبع يوجد منفذ HDMI لتوصيل الجهاز بالشاشة، إضافة إلى منفذ 3.5mm للصوت، ولا يوجد ميكروفون باللوحة.&lt;/p>
+&lt;p>تدعم اللوحة العديد من أنظمة التشغيل Linux – Android - Windows IoT
+أبعاد الجهاز هي 85mm x 56mm x 20mm ووزنه 45 جرام.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/raspberrypi-1.jpg" loading="lazy" width="1571" height="1080" />
+&lt;/picture>
+&lt;/p>
+&lt;p>الموقع الرسمي: &lt;a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/" target="_blank" rel="noopener noreferrer">https://www.raspberrypi.org/products/raspberry-pi-3-model-b/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو: &lt;a href="https://www.youtube.com/watch?v=uXUjwk2-qx4" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=uXUjwk2-qx4&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+&lt;a href="https://www.youtube.com/watch?v=T_WlF9I5EGw" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=T_WlF9I5EGw&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/raspberrypi-2.jpg" loading="lazy" width="1500" height="1462" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>Broadcom BCM2837 ARM Cortex-A53 (64-bit) رباعي النواة بسرعة 1.2GHz&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>1 جيجا&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>VideoCore IV بسرعة 400MHz&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>منفذ لإضافة بطاقة ذاكرة، ولا توجد مساحة تخزين داخلية&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>4 منافذ USB 2.0 ومنفذ USB OTG&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>منفذ Ethernet 10/100Mbps دعم WiFi 802.11b/g/n دعم بلوتوث 4.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>40 pin تشمل كل من PWM – SPI – I2C - UART&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>عن طريق برنامج NOOBS من مؤسسة Raspberry Pi تستطيع تثبيت أنظمة التشغيل بكل سهولة توافر دعم كبير جدا من المجتمع على الإنترنت بسبب الانتشار الواسع للجهاز في كل أنحاء العالم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>لا توجد مساحة تخزين داخلية لا يوجد ميكروفون&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>35 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="raspberry-pi-zero-w" data-numberify>Raspberry Pi Zero W&lt;a class="anchor ms-1 d-none" href="#raspberry-pi-zero-w">#&lt;/a>&lt;/h2>
+&lt;p>أرخص كمبيوتر أحادي اللوحة&lt;/p>
+&lt;p>مرة أخري مع أحد إبداعات مؤسسة Raspberry Pi، الشقيق الأصغر ل Raspberry Pi. فبعد إطلاق النسخة الأولى من هذا الجهاز في 2015 والتي حملت اسم Raspberry Pi Zero بسعر 5$ وحصولها على اهتمام كبير تم إطلاق هذه النسخة الجديدة في بداية 2017.&lt;/p>
+&lt;p>تأتي هذه اللوحة بنفس مواصفات الإصدار السابق وهي معالج Broadcom BCM2835 بسرعة 1GHz ومعالج رسوميات VideoCore IV يدعم تشغيل ملفات الفيديو بدقة Full HD (60 FPS) بدون مشاكل، وذاكرة عشوائية 512MB من نوع LPDDR2 SDRAM ومنفذ إضافة بطاقة الذاكرة حتي 128GB ومنفذ واحد USB 2.0 و2 منفذ USB OTG ومنفذ HDMI ومنفذ للصوت.&lt;/p>
+&lt;p>أما الجديد في هذا الإصدار هو إضافة دعم الWi-Fi والبلوتوث الذي كان ينقص الإصدار السابق ويشكل مشكلة في التعامل مع الجهاز. لكن هذا قد رفع سعر الجهاز إلى 10$ بدلا من 5$ للإصدار Zero.&lt;/p>
+&lt;p>وبالتأكيد هذه اللوحة مناسبة للمشاريع والتعامل مع الإلكترونيات أكثر من استخدامها كجهاز كمبيوتر محمول، فهي رخيصة السعر بشكل كبير وتستهلك كميات قليلة من الطاقة مما يجعلها مؤهلة للبقاء مشغله لفترات طويلة دون مشاكل.
+أبعاد الجهاز هي 65mm x 30mm x 5mm.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/RaspberryZeroW-1.jpg" loading="lazy" width="1620" height="1080" />
+&lt;/picture>
+&lt;/p>
+&lt;p>الموقع الرسمي:
+&lt;a href="https://www.raspberrypi.org/products/raspberry-pi-zero-w/" target="_blank" rel="noopener noreferrer">https://www.raspberrypi.org/products/raspberry-pi-zero-w/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو:
+&lt;a href="https://www.youtube.com/watch?v=jFoA4u4x2uk" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=jFoA4u4x2uk&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+&lt;a href="https://www.youtube.com/watch?v=gNyvmnGoSKY" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=gNyvmnGoSKY&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/RaspberryZeroW-2.jpg" loading="lazy" width="1620" height="1080" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>Broadcom BCM2835 أحادي النواة بسرعة 1GHz&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>1 جيجا&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>VideoCore IV يدعم تشغيل ملفات الفيديو بدقة Full HD (60 FPS)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>منفذ لإضافة بطاقة ذاكرة حتي 128 جيجا، ولا توجد مساحة تخزين داخلية&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>منفذ واحد USB 2.0 و2 منفذ USB OTG&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>دعم WiFi 802.11b/g/n دعم بلوتوث 4.1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>40 pin تشمل كل من PWM – SPI – I2C - UART&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>سعر رخيص، مناسب جدا للطلبة ولمن يبحث عن لوحة منخفضة التكلفة لعمل المشاريع بواسطتها لا تستهلك طاقة كبيرة، فهي يمكن تشغيلها حتي بواسطة PoweBank محمول دعم Wi-Fi وبلوتوث، متفوقة على الإصدار السابق في هذه النقطة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>لا توجد مساحة تخزين داخلية لا يوجد منفذ Ethernet&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>10 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="tinker-board" data-numberify>Tinker Board&lt;a class="anchor ms-1 d-none" href="#tinker-board">#&lt;/a>&lt;/h2>
+&lt;p>ودعم ملفات الفيديو بدقة 4K&lt;/p>
+&lt;p>مثل أغلب الخيارات المتاحة للمستخدم والتي تعمل كجهاز كمبيوتر شخصي، أصدرت شركة Asus جهازTinker Board في أبريل 2017، وهو لوحة تطوير شبيهة ب Rasbperry Pi في الحجم، تأتي بمعالج Rockchip RK3288 (ARM Cortex-A17) رباعي النواة بتردد 1.8GHz ومعالج رسوميات Mali-T764 بسرعة 600MHz يدعم تشغيل ملفات الفيديو بدقة 1080 و 4K وكل من OpenGL ES 1.1/2.0/3.0, OpenCL 1.1، وذاكرة عشوائية 2GB من نوع LPDDR3.&lt;/p>
+&lt;p>كما تحتوي على أغلب المميزات الأخري مثل منفذ HDMI 2.0 الذي يدعم حتي دقة عرض 3840x2160، و4 منافذ USB 2.0 ومنفذ لإضافة بطاقات الذاكرة، ومخرج صوت 3.5mm، ومنفذ Ethernet من Gigabit وWi-Fi بمعيار 802.11 b/g/n وبلوتوث 4.0.&lt;/p>
+&lt;p>وتأتي اللوحة بنظام TinkerOS المبني على ديبيان لينكس، كما يمكنك تثبيت أندرويد أيضا.&lt;/p>
+&lt;p>أبعاد الجهاز هي 86mm x 54mm x 18mm ووزنه 55 جرام&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/TinkerBoard-1.png" loading="lazy" width="500" height="500" />
+&lt;/picture>
+&lt;/p>
+&lt;p>الموقع الرسمي:
+&lt;a href="https://www.asus.com/uk/Single-Board-Computer/Tinker-Board/" target="_blank" rel="noopener noreferrer">https://www.asus.com/uk/Single-Board-Computer/Tinker-Board/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو:
+&lt;a href="https://www.youtube.com/watch?v=8zXFyQTxM7U" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=8zXFyQTxM7U&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+&lt;a href="https://www.youtube.com/watch?v=CS66_BbalG8" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=CS66_BbalG8&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/TinkerBoard-2.png" loading="lazy" width="500" height="500" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>Rockchip 3288 (ARM Cortex-A17) رباعي النواة بسرعة 1.8GHz&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>2GB من نوع LPDDR3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>Mali-T764 يدعم تشغيل ملفات الفيديو بدقة 4K (30 FPS)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>منفذ لإضافة بطاقة ذاكرة حتي 128 جيجا، ولا توجد مساحة تخزين داخلية&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>4 منافذ USB 2.0 ومنفذ USB OTG&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>منفذ Ethernet 10/100Mbps تدعم WiFi 802.11b/g/n دعم بلوتوث 4.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>40 pin تشمل كل من PWM – SPI – I2C - UART&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>سعر مناسب مقارنة بالمواصفات القوية للجهاز دعم جيد لأنظمة التشغيل حجم مقارب لجهاز Raspberry Pi مما يجعلها تلائم نفس الأغطية Cases&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>لا يوجد مساحة تخزين داخلية لا يوجد دعم ل HDMI-CEC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>60 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="udoo-x86-ultra" data-numberify>UDOO x86 Ultra&lt;a class="anchor ms-1 d-none" href="#udoo-x86-ultra">#&lt;/a>&lt;/h2>
+&lt;p>إمكانيات خارقة وحجم صغير&lt;/p>
+&lt;p>صنع فريق UDOO ضجة كبيرة على مستوي العالم عندما أعلن لأول مرة عن جهاز UDOO X86 بإصداراته المختلفة، حيث أنه -طبقا للتجارب- أقوي من Raspberry Pi 3 ب10 مرات ! وهو قادر على تشغيل ثلاث شاشات بدقة 4K في نفس الوقت، إضافة إلى أنه يتوافق مع Arduino 101 عن طريق متحكم دقيق microcontroller مدمج باللوحة.&lt;/p>
+&lt;p>ما يجعل هذا الجهاز له الأفضلية على كثير من الأجهزة الموجودة في المنافسة هو المواصفات المدهشة التي يأتي بها، فهو يعتمد على معالج Intel Pentium N3710 رباعي النواة بمعمارية X86 وسرعة تصل إلى 2.56GHz، ومعالج رسوميات Intel HD Graphics 405 بسرعة 700MHz وذاكرة عشوائية 8GB من نوع DDR3L Dual Channel.&lt;/p>
+&lt;p>إضافة إلى ذلك فهو يأتي بمساحة تخزين داخلية 32 جيجا بايت مع وجود منفذ لبطاقة الذاكرة ومنفذ SATA و 3 منافذ USB 3.0 type-A، ومدخل للصوت 3.5mm ومدخل للميكروفون، وبالتأكيد منفذ HDMI.&lt;/p>
+&lt;p>أما الشبكات فالجهاز يدعم كل شيء، منفذ Ethernet من Gigabit وWi-Fi بمعيار 802.11ac وبلوتوث LE.&lt;/p>
+&lt;p>من ضمن مميزات الجهاز أيضا أنه يحتوي على مستشعر IR ومستشعر التسارع accelerometer والgyroscope.&lt;/p>
+&lt;p>وهذا ما يجعل جهاز UDOO X86 من اٌقوي أجهزة الكمبيوتر أحادية اللوحة الموجودة في الأسواق.&lt;/p>
+&lt;p>أبعاد الجهاز هي 120mm x 85mm x 25mm&lt;/p>
+&lt;p>الموقع الرسمي:
+&lt;a href="https://www.udoo.org/udoo-x86/" target="_blank" rel="noopener noreferrer">https://www.udoo.org/udoo-x86/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فيديو:
+&lt;a href="https://www.youtube.com/watch?v=p-K7Kb51Fqw" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=p-K7Kb51Fqw&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+&lt;a href="https://www.youtube.com/watch?v=tpT4WGsMcvk" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=tpT4WGsMcvk&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/udoox86ultra-1.jpg" loading="lazy" width="2328" height="1832" />
+&lt;/picture>
+&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>المعالج&lt;/strong>&lt;/th>
+&lt;th>Intel Celeron N3710 رباعي النواة بسرعة 2.56GHz&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة&lt;/strong>&lt;/td>
+&lt;td>8GB من نوع DDR3L Dual Channel&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>Intel HD Graphics 405 بسرعة 700MHz&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التخزين&lt;/strong>&lt;/td>
+&lt;td>32 جيجا بايت مساحة تخزين داخلية مع وجود منفذ لبطاقة الذاكرة ومنفذ SATA&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ&lt;/strong> &lt;strong>USB&lt;/strong>&lt;/td>
+&lt;td>3 منافذ USB 3.0 type-A&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم الشبكة&lt;/strong>&lt;/td>
+&lt;td>منفذ Ethernet 10/100Mbps تدعم WiFi 802.11ac تدعم بلوتوث LE&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>دعم&lt;/strong> &lt;strong>GPIO&lt;/strong>&lt;/td>
+&lt;td>14 pin إضافة إلى 6 ADC – 14 PWM – 1 SPI – 2 I2C – 2 UART&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المميزات&lt;/strong>&lt;/td>
+&lt;td>إمكانيات جبارة تجعل من هذا الجهاز بديل فعال للكمبيوتر الشخصي، كما أنه يدعم أنظمة التشغيل ويندوز ولينكس وأندرويد بسبب المعالج من إنتل دعم Arduino 101 مما يمكن الجهاز من التعامل مع المكونات الإلكترونية المختلفة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>العيوب&lt;/strong>&lt;/td>
+&lt;td>سعر مرتفع بالنسبة لجهاز كمبيوتر ذو لوحة واحدة مجتمع دعم صغير على الإنترنت مقارنة بالأجهزة الأخري&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>267 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>وفيما يلي مقارنة بين هذه الأجهزة:&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>Banana Pi M3&lt;/th>
+&lt;th>HiKey 960&lt;/th>
+&lt;th>Intel Compute Stick&lt;/th>
+&lt;th>LattePanda&lt;/th>
+&lt;th>ODroid Xu4&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>SoC&lt;/strong>&lt;/td>
+&lt;td>AllWinner A83T&lt;/td>
+&lt;td>Huawei HiSilicon Kirin 960&lt;/td>
+&lt;td>Intel Atom Z3735F “Bay Trail”&lt;/td>
+&lt;td>Intel Atom x5-Z8300 “Cherry Trail”&lt;/td>
+&lt;td>Samsung Exynos-5422&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المعالج&lt;/strong>&lt;/td>
+&lt;td>ARM Cortex-A7 (32-bit) ثماني النواة&lt;/td>
+&lt;td>ARM Cortex-A53 + ARM Cortex-A73 (64-bit) ثماني النواة&lt;/td>
+&lt;td>Intel Atom (32-bit) رباعي النواة&lt;/td>
+&lt;td>Intel Atom (64-bit) رباعي النواة&lt;/td>
+&lt;td>ARM Cortex-A15 + ARM Cortex-A7 (32-bit) ثماني النواة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>تردد المعالج&lt;/strong>&lt;/td>
+&lt;td>2GHz&lt;/td>
+&lt;td>2.3GHz&lt;/td>
+&lt;td>1.33GHz&lt;/td>
+&lt;td>1.8GHz&lt;/td>
+&lt;td>2GHz&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>PowerVR SGX544MP1&lt;/td>
+&lt;td>Mali G71 MP8&lt;/td>
+&lt;td>Intel HD Graphics&lt;/td>
+&lt;td>Intel HD Graphics&lt;/td>
+&lt;td>Mali T628 MP6&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة العشوائية&lt;/strong>&lt;/td>
+&lt;td>2GB&lt;/td>
+&lt;td>3GB&lt;/td>
+&lt;td>2GB&lt;/td>
+&lt;td>4GB&lt;/td>
+&lt;td>2GB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>نوعها&lt;/strong>&lt;/td>
+&lt;td>&lt;strong>LPDDR3&lt;/strong>&lt;/td>
+&lt;td>LPDDR4 SDRAM&lt;/td>
+&lt;td>DDR3L-1600&lt;/td>
+&lt;td>DDR3L&lt;/td>
+&lt;td>LPDDR3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مساحة التخزين الداخلية&lt;/strong>&lt;/td>
+&lt;td>8GB&lt;/td>
+&lt;td>32GB&lt;/td>
+&lt;td>32GB&lt;/td>
+&lt;td>64GB&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ بطاقة الذاكرة&lt;/strong>&lt;/td>
+&lt;td>يدعم حتي 64GB&lt;/td>
+&lt;td>يدعم حتي 64GB&lt;/td>
+&lt;td>يدعم حتي 64GB&lt;/td>
+&lt;td>يدعم حتي 64GB&lt;/td>
+&lt;td>يدعم حتي 128GB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ USB&lt;/strong>&lt;/td>
+&lt;td>2xUSB 2.0&lt;/td>
+&lt;td>2xUSB 2.0&lt;/td>
+&lt;td>1xUSB 3.0 1xUSB 2.0&lt;/td>
+&lt;td>1xUSB 3.0 2xUSB 2.0&lt;/td>
+&lt;td>2xUSB 3.0 1xUSB 2.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ USB OTG&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ Ethernet&lt;/strong>&lt;/td>
+&lt;td>Gigabit&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>10/100/1000Mbps&lt;/td>
+&lt;td>Gigabit&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ HDMI&lt;/strong>&lt;/td>
+&lt;td>1.4&lt;/td>
+&lt;td>1.4&lt;/td>
+&lt;td>1.4b&lt;/td>
+&lt;td>1.x&lt;/td>
+&lt;td>1.x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مخرج الصوت عبر HDMI&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>واجهات العرض&lt;/strong>&lt;/td>
+&lt;td>MIPI DSI&lt;/td>
+&lt;td>MIPI DSI&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>MIPI DSI&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ الكاميرا CSI&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مخرج الصوت&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>موصل الصوت&lt;/strong>&lt;/td>
+&lt;td>3.5mm jack&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مدخل الميكروفون&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الميكروفون&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ SATA&lt;/strong>&lt;/td>
+&lt;td>SATA 2.0&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مستشعر IR&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Wi-Fi&lt;/strong>&lt;/td>
+&lt;td>802.11b/g/n (AP6212)&lt;/td>
+&lt;td>802.11ac (2.4- &amp;amp; 5-GHz dual band)&lt;/td>
+&lt;td>802.11b/g/n&lt;/td>
+&lt;td>802.11n 2.4G&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>بلوتوث&lt;/strong>&lt;/td>
+&lt;td>Bluetooth 4.0&lt;/td>
+&lt;td>Bluetooth 4.1&lt;/td>
+&lt;td>Bluetooth 4.0&lt;/td>
+&lt;td>Bluetooth 4.0&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>GPIO pins&lt;/strong>&lt;/td>
+&lt;td>40&lt;/td>
+&lt;td>12&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>6 + 20&lt;/td>
+&lt;td>30&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>PWM pins&lt;/strong>&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>6&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>ADC pins&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>I2C&lt;/strong>&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>4&lt;/td>
+&lt;td>1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>SPI&lt;/strong>&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>UART&lt;/strong>&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التوافق مع Arduino&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الجهد الكهربى&lt;/strong>&lt;/td>
+&lt;td>5 فولت&lt;/td>
+&lt;td>8-18 فولت&lt;/td>
+&lt;td>5 فولت&lt;/td>
+&lt;td>5 فولت&lt;/td>
+&lt;td>4.8-5.1 فولت&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>استهلاك الطاقة&lt;/strong>&lt;/td>
+&lt;td>1-2 أمبير&lt;/td>
+&lt;td>2 أمبير&lt;/td>
+&lt;td>800 مللى أمبير-2 أمبير&lt;/td>
+&lt;td>2 أمبير&lt;/td>
+&lt;td>1-4 أمبير&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مصدر الطاقة&lt;/strong>&lt;/td>
+&lt;td>micro USB&lt;/td>
+&lt;td>DC jack&lt;/td>
+&lt;td>micro USB&lt;/td>
+&lt;td>DC jack&lt;/td>
+&lt;td>DC jack&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الحجم mm&lt;/strong>&lt;/td>
+&lt;td>92x60x17&lt;/td>
+&lt;td>85x55x9&lt;/td>
+&lt;td>123x38x12&lt;/td>
+&lt;td>88x70x18&lt;/td>
+&lt;td>83x58x20&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الوزن&lt;/strong>&lt;/td>
+&lt;td>45 جرام&lt;/td>
+&lt;td>60 جرام&lt;/td>
+&lt;td>60 جرام&lt;/td>
+&lt;td>100 جرام&lt;/td>
+&lt;td>60 جرام&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>ويندوز&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>لينكس&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>أندرويد&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>74 دولار أمريكي&lt;/td>
+&lt;td>239 دولار أمريكي&lt;/td>
+&lt;td>150 دولار أمريكي&lt;/td>
+&lt;td>150 دولار أمريكي&lt;/td>
+&lt;td>60 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>PINE A64&lt;/th>
+&lt;th>Raspberry Pi 3&lt;/th>
+&lt;th>Raspberry Pi Zero W&lt;/th>
+&lt;th>Tinker Board&lt;/th>
+&lt;th>UDOO x86 Ultra&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>SoC&lt;/strong>&lt;/td>
+&lt;td>AllWinner A64&lt;/td>
+&lt;td>Broadcom BCM2837&lt;/td>
+&lt;td>Broadcom BCM2835&lt;/td>
+&lt;td>Rockchip 3288&lt;/td>
+&lt;td>Intel Celeron N3710&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>المعالج&lt;/strong>&lt;/td>
+&lt;td>ARM Cortex-A53 (64-bit) رباعي النواة&lt;/td>
+&lt;td>ARM Cortex-A53 (64-bit) رباعي النواة&lt;/td>
+&lt;td>ARM11 (32-bit) أحادي النواة&lt;/td>
+&lt;td>ARM Cortex-A17 (32-bit) رباعي النواة&lt;/td>
+&lt;td>Braswell (64-bit) رباعي النواة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>تردد المعالج&lt;/strong>&lt;/td>
+&lt;td>1.2GHz&lt;/td>
+&lt;td>1.2GHz&lt;/td>
+&lt;td>1000MHz&lt;/td>
+&lt;td>1.8GHz&lt;/td>
+&lt;td>2.56GHz&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>معالج الرسوميات&lt;/strong>&lt;/td>
+&lt;td>Mali-400 MP2&lt;/td>
+&lt;td>VideoCore IV&lt;/td>
+&lt;td>VideoCore IV&lt;/td>
+&lt;td>Mali T764&lt;/td>
+&lt;td>Intel HD Graphics 405&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الذاكرة العشوائية&lt;/strong>&lt;/td>
+&lt;td>512MB/1GB/2GB&lt;/td>
+&lt;td>1GB&lt;/td>
+&lt;td>512MB&lt;/td>
+&lt;td>2GB&lt;/td>
+&lt;td>8GB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>نوعها&lt;/strong>&lt;/td>
+&lt;td>LPDDR3&lt;/td>
+&lt;td>LPDDR2&lt;/td>
+&lt;td>LPDDR2&lt;/td>
+&lt;td>LPDDR3&lt;/td>
+&lt;td>DDR3L Dual Channel&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مساحة التخزين الداخلية&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>32GB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ بطاقة الذاكرة&lt;/strong>&lt;/td>
+&lt;td>يدعم حتي 256GB&lt;/td>
+&lt;td>يدعم حتي 128GB&lt;/td>
+&lt;td>يدعم حتي 128GB&lt;/td>
+&lt;td>يدعم حتي 128GB&lt;/td>
+&lt;td>يدعم حتي 32GB&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منافذ USB&lt;/strong>&lt;/td>
+&lt;td>2xUSB 2.0&lt;/td>
+&lt;td>4xUSB 2.0&lt;/td>
+&lt;td>1xUSB 2.0&lt;/td>
+&lt;td>4xUSB 2.0&lt;/td>
+&lt;td>3xUSB 3.0&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ USB OTG&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ Ethernet&lt;/strong>&lt;/td>
+&lt;td>Gigabit­&lt;/td>
+&lt;td>10/100Mbps&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>10/100Mbps&lt;/td>
+&lt;td>Gigabit&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ HDMI&lt;/strong>&lt;/td>
+&lt;td>1.x&lt;/td>
+&lt;td>1.x&lt;/td>
+&lt;td>1.x&lt;/td>
+&lt;td>2.0&lt;/td>
+&lt;td>1.x&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مخرج الصوت عبر HDMI&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>واجهات العرض&lt;/strong>&lt;/td>
+&lt;td>MIPI DSI&lt;/td>
+&lt;td>MIPI DSI&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>15-pin MIPI DSI&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ الكاميرا CSI&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مخرج الصوت&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>موصل الصوت&lt;/strong>&lt;/td>
+&lt;td>3.5mm jack&lt;/td>
+&lt;td>3.5mm jack&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>3.5mm jack&lt;/td>
+&lt;td>3.5mm jack&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مدخل الميكروفون&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الميكروفون&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>منفذ SATA&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مستشعر IR&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Wi-Fi&lt;/strong>&lt;/td>
+&lt;td>اختياري 802.11b/g/n&lt;/td>
+&lt;td>802.11b/g/n&lt;/td>
+&lt;td>802.11b/g/n&lt;/td>
+&lt;td>802.11b/g/n&lt;/td>
+&lt;td>Wi-Fi 802.11ac&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>بلوتوث&lt;/strong>&lt;/td>
+&lt;td>Bluetooth 4.0&lt;/td>
+&lt;td>Bluetooth 4.1&lt;/td>
+&lt;td>Bluetooth 4.0&lt;/td>
+&lt;td>Bluetooth 4.0+EDR&lt;/td>
+&lt;td>Bluetooth BLE&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>GPIO pins&lt;/strong>&lt;/td>
+&lt;td>40&lt;/td>
+&lt;td>40&lt;/td>
+&lt;td>40&lt;/td>
+&lt;td>40&lt;/td>
+&lt;td>14&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>PWM pins&lt;/strong>&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>14&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>ADC pins&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>I2C&lt;/strong>&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>SPI&lt;/strong>&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>2&lt;/td>
+&lt;td>1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>UART&lt;/strong>&lt;/td>
+&lt;td>3&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>1&lt;/td>
+&lt;td>4&lt;/td>
+&lt;td>2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>التوافق مع Arduino&lt;/strong>&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الجهد الكهربي&lt;/strong>&lt;/td>
+&lt;td>5 فولت&lt;/td>
+&lt;td>4.8-5.2 فولت&lt;/td>
+&lt;td>4.75-5.25 فولت&lt;/td>
+&lt;td>5 فولت&lt;/td>
+&lt;td>3.3 فولت&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>استهلاك الطاقة&lt;/strong>&lt;/td>
+&lt;td>800 مللى أمبير-2 أمبير&lt;/td>
+&lt;td>600 مللى أمبير-1.6 أمبير&lt;/td>
+&lt;td>500 مللى أمبير-1 أمبير&lt;/td>
+&lt;td>1-2 أمبير&lt;/td>
+&lt;td>1-3 أمبير&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مصدر الطاقة&lt;/strong>&lt;/td>
+&lt;td>Micro USB رأسGPIO&lt;/td>
+&lt;td>Micro USB رأسGPIO&lt;/td>
+&lt;td>Micro USB رأسGPIO&lt;/td>
+&lt;td>micro USB&lt;/td>
+&lt;td>DC jack رأسGPIO&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الحجم mm&lt;/strong>&lt;/td>
+&lt;td>127x79x21&lt;/td>
+&lt;td>85x56x20&lt;/td>
+&lt;td>65x30x5&lt;/td>
+&lt;td>86x54x18&lt;/td>
+&lt;td>120x85x25&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>الوزن&lt;/strong>&lt;/td>
+&lt;td>46 جرام&lt;/td>
+&lt;td>45 جرام&lt;/td>
+&lt;td>9 جرام&lt;/td>
+&lt;td>55 جرام&lt;/td>
+&lt;td>116 جرام&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>ويندوز&lt;/strong>&lt;/td>
+&lt;td>IoT فقط&lt;/td>
+&lt;td>IoT فقط&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>لينكس&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>أندرويد&lt;/strong>&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;td>غير مدعوم&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>السعر&lt;/strong>&lt;/td>
+&lt;td>15/19/29 دولار أمريكي&lt;/td>
+&lt;td>35 دولار أمريكي&lt;/td>
+&lt;td>10 دولار أمريكي&lt;/td>
+&lt;td>60 دولار أمريكي&lt;/td>
+&lt;td>267 دولار أمريكي&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 207 شهر 03-2018 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1L2Z49tW6T_h5l6elhcMINPlf6jweLYAg/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/207-09.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/207-10.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/207-11.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/207-12.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/207-13.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-3/images/207-14.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item><item><title>حواسب المستقبل 2: أنواع أجهزة الكمبيوتر أحادية اللوحة واستخداماتها</title><link>https://yshalsager.com/ar/posts/single-board-computers-2/</link><pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/single-board-computers-2/</guid><description>&lt;p>من بين العديد من الأجهزة المتاحة، لا يمكن إغفال الدور الهام الذي قامت به لوحتي أردوينو وراسبيري باي بموديلاتهما المختلفة، فهاتان اللوحتان تعتبران من بين أفضل الأدوات التي تبسط مجال الإلكترونيات لغير المتخصصين، بالإضافة إلى أنهما يمكنا المتخصصين من الوصول لبناء مشاريع عالية المستوى بتكاليف بسيطة وفي مدة أسرع، أما راسبيري باي فسوف نتناولها بالتفصيل في موضوع آخر، والآن نحن على موعد مع أردوينو التي أنعشت أجهزة الكمبيوتر ذات اللوحة الواحدة بعد أن ضُربت في مقتل من الأجهزة الشخصية.&lt;/p>
+&lt;p>Arduino هو كمبيوتر صغير الحجم بإمكانه التفاعل و التحكم في الوسط المحيط به بشكل أفضل من الكومبيوتر المكتبي Desktop. تقنيا هو منصة Platform برمجية مفتوحة المصدر تتكون من متحكم إلكتروني Micro-Controller و بيئة تطويرية تكاملية لكتابة البرمجيات IDE.
+قوة الأردوينو تظهر في قدرته الكبيرة على التواصل مع القطع الإلكترونية الأخرى كالمحولات والمستشعرات، والاستفادة منها في الحصول على مختلف البيانات كدرجة الحرارة أو شدة الإضاءة و كذلك فاعليته الكبيرة في التحكم في المحركات ومصابيح LED و كثير من القطع الإلكترونية الأخرى.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/ArduinoUno_R3.jpg" loading="lazy" width="450" height="315" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ويمكن تشغيل مشاريع الأردوينو عن طريق وصله بالكمبيوتر وجعله يتعامل مع أحد البرامج الموجودة على الجهاز أو بالإمكان تشغيله باستقلالية تامة بعد برمجته، لكن لا يمكن تثبيت نظام تشغيل عليه كما هو الحال مع باقي الأجهزة التي سنذكرها، ذلك لأنه مختص في الأساس بعمل المشاريع بواسطة القطع الإلكترونية وبرمجتها بسهولة.
+وبفضل ذلك تتميز الأردوينو بانخفاض سعرها مقارنة بالعديد من الأنواع الأخري، لكن ستحتاج في كثير من إلى شراء مكونات أخري وتركيبها في حالة عملك لمشاريع أكثر تعقيدا.&lt;/p>
+&lt;p>الموقع الرسمي لأردوينو: &lt;a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer">https://www.arduino.cc/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>أما باقي الأنواع المتاحة للشراء حاليا يمكن تقسيمها بأكثر من طريقة:&lt;/p>
+&lt;h2 id="أولا-من-حيث-الأنواع" data-numberify>أولا: من حيث الأنواع&lt;a class="anchor ms-1 d-none" href="#أولا-من-حيث-الأنواع">#&lt;/a>&lt;/h2>
+&lt;p>هناك أربعة أنواع رئيسية لأجهزة الكمبيوتر ذات اللوحة الواحدة هي:&lt;/p>
+&lt;h3 id="1--لوحات-التطوير-development-board" data-numberify>1- لوحات التطوير Development Board&lt;a class="anchor ms-1 d-none" href="#1--لوحات-التطوير-development-board">#&lt;/a>&lt;/h3>
+&lt;p>هو النوع الأكثر شهرة، بسبب شغف العديد من هواة ومحترفي الإلكترونيات به وانتشاره في كل أنحاء العالم، فهو يستخدم في العديد من المشروعات كما أوضحت في السطور السابقة، فهذا النوع من الأجهزة يتميز بانخفاض تكلفته وأغلبه مفتوح المصدر مما يوفر بيئة خصبة للتطوير وعمل المشروعات المتقدمة.
+ومن أشهر أجهزة هذا النوع: Arduino - Raspberry Pi - BeagleBone Black - Intel Galileo&lt;/p>
+&lt;h3 id="2--أجهزة-som-النظام-على-وحدة" data-numberify>2- أجهزة SOM (النظام على وحدة)&lt;a class="anchor ms-1 d-none" href="#2--أجهزة-som-النظام-على-وحدة">#&lt;/a>&lt;/h3>
+&lt;p>System-on-module (SOM) أو أجهزة &amp;ldquo;النظام على وحدة&amp;rdquo; هي لوحات إلكترونيه تدمج وظيفة من وظائف الناظم في وحدة Module واحدة، بطريقة تشابه تقسيم العلميات في جسم الإنسان، فكل نظام له مهمة خاصة به لا يقوم بها غيره. وتعد هذه الأجهزة تطبيق نموذجي في مجال الأنظمة المدمجة Embedded systems، فهي تؤدي وظيفة خاصة بسبب كونها وحدة متكاملة من المكونات مدمجة معا بمستوي عالى من الدقة.
+وهذه الأجهزة ليست &amp;ldquo;أنظمة مدمجة&amp;rdquo; كاملة فهي تحتاج إلى قاعدة أخري لتكمل دورها كجهاز كمبيوتر كامل الوظائف، وبالتالي فهي تستخدم في مجالات متقدمة مثل إنترنت الأشياء، وأجهزة الشبكة، والأجهزة الطبية.&lt;/p>
+&lt;p>ومن أمثلة هذه الأجهزة: المتحكمات الدقيقة Microcontrollers – المعالجات الدقيقة Microprocessors – بعض أنواع الذاكرة مثل Flash memory&lt;/p>
+&lt;h3 id="3--أجهزة-stick-pc" data-numberify>3- أجهزة Stick PC:&lt;a class="anchor ms-1 d-none" href="#3--أجهزة-stick-pc">#&lt;/a>&lt;/h3>
+&lt;p>هي جهاز الكمبيوتر كاملا في مفتاح صغير في حجم ال USB أو أكبر قليلا، يحتوي على منفذ HDMI لتوصيله مباشرة بالشاشة مع وجود عدد من منافذ ال USB لتوصيل الماوس ولوحة المفاتيح بالجهاز، وبمجرد توصيله يمكنك استخدامه كأي جهاز كمبيوتر مكتبي يعمل بظام ويندوز.
+من هذه الأجهزة: Intel Compute Stick - Azulle Quantum Access LAN PC Stick - Lenovo Ideacentre Stick 300&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/intel-compute-stick.jpg" loading="lazy" width="720" height="480" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="4--الأنظمة-المدمجة-embedded-computer" data-numberify>4- الأنظمة المدمجة Embedded Computer&lt;a class="anchor ms-1 d-none" href="#4--الأنظمة-المدمجة-embedded-computer">#&lt;/a>&lt;/h3>
+&lt;p>هو أي نظام كمبيوتر متخصص يتم تنفيذه كجزء من جهاز أكبر أو نظام ذكي، ويؤدي فقط وظائف خارجية (مثل التوجيه أو الأمن) ولكن لا يؤدي وظيفة معالجة البيانات.
+ويظهر دورها بوضوح في مجال إنترنت الأشياء، بما يتيح الاتصالات بين الآلات والأشخاص والأماكن والأشياء والسحابة.&lt;/p>
+&lt;h2 id="ثانيا-من-حيث-المميزات" data-numberify>ثانيا: من حيث المميزات&lt;a class="anchor ms-1 d-none" href="#ثانيا-من-حيث-المميزات">#&lt;/a>&lt;/h2>
+&lt;h3 id="توافر-الكود-المصدري" data-numberify>توافر الكود المصدري&lt;a class="anchor ms-1 d-none" href="#توافر-الكود-المصدري">#&lt;/a>&lt;/h3>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/BySource.jpg" loading="lazy" width="744" height="400" />
+&lt;/picture>
+&lt;/p>
+&lt;h4 id="1--مفتوحة-المصدر" data-numberify>1- مفتوحة المصدر&lt;a class="anchor ms-1 d-none" href="#1--مفتوحة-المصدر">#&lt;/a>&lt;/h4>
+&lt;p>في هذا النوع يملك مستخدم الكمبيوتر أحادي اللوحة الوصول إلى كل من تصميم الهاردوير وتخطيطه، الوصول إلى الكود المصدري المستخدم في اللوحة، وكذلك البرامج الثابتة Firmware الخاصة بالجهاز. وهذا هو المثالي لكل من يرغب في تعلم التعامل مع الإلكترونيات وعلوم الحاسب والبرمجة، لأنه مع توافر كل ما سبق ذكره يمكنك بسهولة أن تفهم كيف تعمل البرمجيات والأجهزة، وكيف يمكن تعديلها لتلائم متطلبات التصميم، أو ببساطة معرف كيف تعمل قطعة معينة من الجهاز.
+مثل: Raspberry Pi - Orange Pi - BeagleBone Black&lt;/p>
+&lt;h4 id="2--مغلقة-المصدر" data-numberify>2- مغلقة المصدر&lt;a class="anchor ms-1 d-none" href="#2--مغلقة-المصدر">#&lt;/a>&lt;/h4>
+&lt;p>ومن ناحية أخري، الأنواع مغلقة المصدر قد تم تصميمها كمنتج نهائي أو كمرجع يتم تقييمه، فغالبا ما يتم استخدامها كمنتج تجاري وليس في أغراض تعليمية.
+مثل: Asus Chromebit - Lenovo Ideacentre Stick&lt;/p>
+&lt;h3 id="معمارية-المعالج" data-numberify>معمارية المعالج&lt;a class="anchor ms-1 d-none" href="#معمارية-المعالج">#&lt;/a>&lt;/h3>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/x86-vs-arm.jpg" loading="lazy" width="800" height="400" />
+&lt;/picture>
+&lt;/p>
+&lt;p>أجهزة الكمبيوتر ذات اللوحة الواحدة المتاحة حاليا تأتي بتشكيلة متنوعة من المعالجات، أغلبها يكون معالج الرسوميات مدمجا مع اللوحة الرئيسية.&lt;/p>
+&lt;h4 id="1--معالجات-arm" data-numberify>1- معالجات ARM&lt;a class="anchor ms-1 d-none" href="#1--معالجات-arm">#&lt;/a>&lt;/h4>
+&lt;p>وهي الأكثر استخداما وشهرة، لرخص ثمنها، وتوفيرها للطاقة مع الحصول على أداء مقبول، وستجدها تقريبا في 90% من أجهزة الكمبيوتر ذات اللوحة الواحدة، وتدعم أنظمة لينكس وأندرويد ومايكروسوفت ويندوز 10 نسخة إنترنت الأشياء فقط، مما يعني أنه لا تستطيع استخدام نسخة ويندوز التقليدية عليها، لكن ستستطيع تشغيل عدد كبير من توزيعات لينكس عليها مثل Ubuntu, Fedora, Android, Debian وArch Linux وأيضا FreeBSD.
+وهنا سنجد العديد من الشركات المزودة للمعالجات مثل Rockchip - (Samsung Exynos) - Allwinner - HiSilicon (Kirin) - Qualcomm (Snapdragon) - Broadcom - Freescale
+ومن أمثلة هذا النوع من الأجهزة Raspberry Pi - PINE A64 - Banana Pi&lt;/p>
+&lt;h4 id="2--معالجات-x86" data-numberify>2- معالجات X86&lt;a class="anchor ms-1 d-none" href="#2--معالجات-x86">#&lt;/a>&lt;/h4>
+&lt;p>وهى نفس معالجات 32 بت الموجودة في أجهزة الكمبيوتر الشخصي، مما يعني أنه يمكنك تشغيل ويندوز والبرامج المعروفة كما تريد، إلى جانب توزيعات لينكس المختلفة وأندرويد أيضا، حيث أنها تضمن لك مزيدا من الأداء في مقابل ارتفاع الثمن والطاقة المستهلكة.
+وبالطبع ستكون هذه المعالجات من إنتاج أحد العملاقين Intel أو AMD.
+مثل: UDOO X86 - Intel Galileo Gen 2 - Asus Chromebit&lt;/p>
+&lt;h3 id="الغرض-منها" data-numberify>الغرض منها&lt;a class="anchor ms-1 d-none" href="#الغرض-منها">#&lt;/a>&lt;/h3>
+&lt;h4 id="1--الأغراض-التعليمية" data-numberify>1- الأغراض التعليمية&lt;a class="anchor ms-1 d-none" href="#1--الأغراض-التعليمية">#&lt;/a>&lt;/h4>
+&lt;p>هناك العديد من أجهزة الكمبيوتر ذات اللوحة الواحدة التي وجدت في الأساس لتبسيط علوم الكمبيوتر والبرمجة للطلبة، مثل BeagleBone Black - Raspberry Pi
+وهذه الأجهزة يمكنك الإطلاع على كل ما يخصها من ملفات ومستندات التوثيق والشرح إلى جانب الكود المصدري وتوافر دعم كبير جدا من المجتمع، وعدد كبير من المشروعات التي تم إنجازها بواسطة هذه الأجهزة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/Beagleboard.jpg" loading="lazy" width="1500" height="1065" />
+&lt;/picture>
+&lt;/p>
+&lt;h4 id="2--الأغراض-التجارية" data-numberify>2- الأغراض التجارية&lt;a class="anchor ms-1 d-none" href="#2--الأغراض-التجارية">#&lt;/a>&lt;/h4>
+&lt;p>وهناك أيضا عدد غير قليل من الأجهزة التي تستهدف المستخدم العادي كمنتج تجاري، ولعل أبزر الأجهزة في هذا النوع هي أجهزة Stick PC التي سبق وذكرتها بالأعلى.&lt;/p>
+&lt;p>استخدامات أجهزة الكمبيوتر ذات اللوحة الواحدة:
+بعد انفجار فقاعة الRaspberry Pi بالأخص شهد العالم موجة كبيرة من التفاعل تراوحت بين الإعجاب بالفكرة إلى المساهمة في دعمها وحتي استخدامها في العديد المشاريع التي تفاجأ حتى مصنعي الجهاز منها، فمدي تنوع الابتكارات والإبداعات كان مفاجئا للجميع.
+وحاليا يتم استخدام هذه الأجهزة في العديد من الأمور، أذكر لك منها:&lt;/p>
+&lt;ul>
+&lt;li>جهاز كمبيوتر محمول يمكنك أخذه في جيبك لأي مكان، فهي تعمل كأي جهاز كمبيوتر تقليدي تستطيع من خلاله تصفح الإنترنت وإرسال البريد الإلكتروني وحتى تحرير الملفات.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/RASPBIAN.png" loading="lazy" width="1200" height="675" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>تحويل أي تلفاز عندك إلى نظام ترفيه منزلي أو Smart TV متصل بالإنترنت حتي لو كان قديما.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/openelec.jpg" loading="lazy" width="580" height="435" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>استخدامها في عمل مشروعات بواسطة القطع الإلكترونية كبديل متطور عن المتحكمات الدقيقة، مثل نظم التحكم الخاصة بالمنازل الذكية والروبوتات والغواصات وكذلك الطائرات بدون طيار، وعمل تطبيقات المراقبة مثل عمل كاميرات لبث الفيديو والصور عن بعد.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/rpi-camerabot.jpg" loading="lazy" width="1280" height="720" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>تعلم البرمجة من خلالها وخاصة لغات مثل Python, Java وC++ بدون الحاجة لكمبيوتر مكلف.&lt;/li>
+&lt;li>استخدامها كخادم Server يعمل بنظام لينكس.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/web-server.jpg" loading="lazy" width="1382" height="921" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>حماية وتشفير اتصالك بالإنترنت في كامل شبكتك عبر تور أو حجب جميع الإعلانات عن الأجهزة المتصل بشبكتك.&lt;/li>
+&lt;li>المراقبة الأبوية والتحكم في الوصول لمواقع الإنترنت وعرض سجل الزيارات.&lt;/li>
+&lt;li>والعديد من المشروعات والاستخدامات الكثيرة التي لا يتسع المجال لذكرها.&lt;/li>
+&lt;/ul>
+&lt;p>والآن قد اتضحت لك الصورة عزيزي القارئ، هناك العديد من الأنواع المختلفة التي تستهدف فئة معينة من الناس، أغلبها منخفض التكلفة وقابل للتعديل والاستخدام في العديد من الأمور، فمع جهاز في حجم كف اليد يستطيع الطلاب تعلم الإلكترونيات والبرمجة بدون الحاجة لاستخدام كمبيوتر شخصي، كما يستطيعون عمل أكثر من ذلك من روبوتات ومشاريع عملاقة. وبالتأكيد مثل هذه الأجهزة ستساهم في زيادة المعرفة التكنولوجية لدي الطلاب وتجعلهم دائما مستعدين ومتطلعين لمزيد من التقدم التقني.&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 207 شهر 03-2018 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1L2Z49tW6T_h5l6elhcMINPlf6jweLYAg/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/207-06.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/207-07.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-2/images/207-08.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item><item><title>حواسب المستقبل 1: الأجهزة أحادية اللوحة تعود من جديد</title><link>https://yshalsager.com/ar/posts/single-board-computers-1/</link><pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/single-board-computers-1/</guid><description>&lt;p>(SBC) Single board Computer أو الحاسب ذو اللوحة الواحدة هو جهاز كمبيوتر كامل مبني على لوحة إلكترونية واحدة، تحتوي على معالج دقيق microprocessor وذاكرة الإدخال والإخراج، وأغلب الإمكانيات الأخرى المطلوبة في أي جهاز كمبيوتر فعال. ويتم استخدام هذه الأجهزة بكثرة كأنظمة تطوير أو كأنظمة تعليمية، أو كـ &amp;ldquo;أنظمة مدمجة&amp;rdquo; Embedded systems. كما تستخدم أيضا كأجهزة كمبيوتر محمولة، فنظرا لصغر حجمها تستطيع أخذها في جيبك إلى أي مكان.&lt;/p>
+&lt;h2 id="تقسيم-أجهزة-الكمبيوتر-من-حيث-الحجم" data-numberify>تقسيم أجهزة الكمبيوتر من حيث الحجم&lt;a class="anchor ms-1 d-none" href="#تقسيم-أجهزة-الكمبيوتر-من-حيث-الحجم">#&lt;/a>&lt;/h2>
+&lt;p>كما هو معلوم للجميع، تنقسم أجهزة الكمبيوتر من حيث الحجم إلى:&lt;/p>
+&lt;ul>
+&lt;li>Super Computers:
+هي أجهزة الكمبيوتر الأسرع والأكبر والأكثر تكلفة، وتقوم بعدد ضخم جدا من العمليات في الثانية الواحدة، ويتم استخدامها في المهام المعقدة وخاصة المجالات العلمية والعسكرية، مثل أبحاث الطقس والمفاعلات النووية.&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/Supercomputer.jpg" loading="lazy" width="810" height="540" />
+&lt;/picture>
+&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&amp;ldquo;الصورة لجهاز Sunway TaihuLight أقوي كمبيوتر في العالم”&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>Mainframe Computers:
+أجهزة الكمبيوتر الضخمة أو متوسطة الحجم، أقل تكلفة من ال Super Computers، والتي غالبا ما تكون متصلة مع بعضها، وتستخدم في المؤسسات الكبيرة، وفى مهام مثل التخزين السحابي وتبادل البيانات الضخمة.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/Mainframe.jpg" loading="lazy" width="520" height="797" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&amp;ldquo;الصورة لجهاز IBM System z9&amp;rdquo;&lt;/p>
+&lt;ul>
+&lt;li>Minicomputers:
+هي أجهزة للأغراض العامة، تكلفتها أقل كثيرا من الأنواع السابقة، وتكون قدرات المعالجة بها أقل من أجهزة الـ Mainframe وأكبر من أجهزة الكمبيوتر الشخصية.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/Minicomputers.jpg" loading="lazy" width="520" height="677" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&amp;ldquo;الصورة لجهاز Prototyp عام 1990”&lt;/p>
+&lt;ul>
+&lt;li>Microcomputers:
+كل أجهزة الكمبيوتر التي نستخدمها نحن الآن، من أجهزة كمبيوتر شخصية أو محمولة تندرج تحت هذا النوع من الكمبيوتر، وتتميز بصغر حجمها وانخفاض تكلفتها، وحاليا تتوافر أجهزة بمواصفات مذهلة مقارنة ببدايات هذا النوع من الكمبيوتر في التسعينيات.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/Microcomputers.jpg" loading="lazy" width="520" height="304" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ومع توفر مزيد من التقنيات، تطلع العالم إلى أجهزة كمبيوتر أكثر قوة وأصغر حجما، وكان نتاج هذا الأمر أجهزة الكمبيوتر الواعدة &amp;ldquo;ذات اللوحة الواحدة&amp;rdquo;، والتي تندرج تحت قسم ال Microcomputers أيضا، فهي عبارة عن أجهزة تتكون من لوحة إلكترونية واحدة مثبت عليها جميع المكونات، وتكون صغيرة الحجم جدا، في حجم راحة اليد تقريبا أو بطاقة ائتمان أو أصغر!
+لكن بخلاف أجهزة الكمبيوتر الشخصية، لا تعتمد أجهزة الكمبيوتر ذات اللوحة الواحدة على منافذ للتوسعة غالبا، فجميع مكوناتها مثل المعالج، والذاكرة العشوائية ومعالج الرسوميات، مدمجه في اللوحة الرئيسية وغير قابلة للترقية كما نفعل في الأجهزة الأخري.
+وقد تم بناء هذه الأجهزة اعتمادا على مجموعة واسعة من المعالجات الدقيقة، بتصميمات بسطية، وذاكرة عشوائية &amp;ldquo;RAM” ثابتة، مما يجعلها منخفضة التكلفة رغم جودتها العالية وأداءها القوي.&lt;/p>
+&lt;h2 id="الفرق-بين-أجهزة-الكمبيوتر-العادية-وذات-اللوحة-الواحدة" data-numberify>الفرق بين أجهزة الكمبيوتر العادية وذات اللوحة الواحدة&lt;a class="anchor ms-1 d-none" href="#الفرق-بين-أجهزة-الكمبيوتر-العادية-وذات-اللوحة-الواحدة">#&lt;/a>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;strong>أجهزة الكمبيوتر العادية&lt;/strong>&lt;/th>
+&lt;th style="text-align:center">&lt;strong>أجهزة الكمبيوتر ذات اللوحة الواحدة&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">تتكون من وحدات&lt;/td>
+&lt;td style="text-align:center">تتكون من جزء واحد&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">مكوناتها قابله للاستبدال والترقية&lt;/td>
+&lt;td style="text-align:center">مكوناتها لا يمكن استبدالها أو ترقيتها&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">المعالج غير مدمج مع اللوحة دائما&lt;/td>
+&lt;td style="text-align:center">تعمل بفكرة &amp;ldquo;النظام على رقاقة&amp;rdquo; (المعالج مدمج مع اللوحة الإلكترونية)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">غالبا ما تكون غير محمولة&lt;/td>
+&lt;td style="text-align:center">يمكنك حملها لأي مكان، أو وضعها في جيبك&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">تستهلك طاقة مرتفعة&lt;/td>
+&lt;td style="text-align:center">تستهلك أقل كمية من الطاقة&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">سعرها مرتفع&lt;/td>
+&lt;td style="text-align:center">سعرها منخفض جدا&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="بداية-الطريق" data-numberify>بداية الطريق&lt;a class="anchor ms-1 d-none" href="#بداية-الطريق">#&lt;/a>&lt;/h2>
+&lt;p>في شهر مايو من عام 1976 تم ابتكار أول جهاز كمبيوتر ذو لوحة واحدة، &amp;ldquo;dyna-micro” والذي كان مبنيا على معالج إنتل C8080A، كما استخدم أيضا أول &amp;ldquo;ذاكرة للقراءة فقط قابلة للبرمجة والمسح EPROM” من إنتل C1702A، ثم أُعيد إنتاجه على يد شركة E&amp;amp;L Instruments تحت اسم MMD-1، فذاعت شهرته كمثال على أجهزة الMicrocomputers، وقد اشتمل جهاز MMD-1 على جميع المكونات مثبته على لوحة إلكترونيه واحدة، بما في ذلك الذاكرة، جهاز الإدخال وحتي الشاشة، فلم يكن هناك أي شيء باستثناء وصلة الكهرباء التي كانت ضرورية بالطبع لتشغيل الجهاز.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/1976_MMD1.jpg" loading="lazy" width="1792" height="1200" />
+&lt;/picture>
+&lt;/p>
+&lt;p>تم بيع العديد من نسخ الجهاز وشحنها إلى أماكن مختلفة، لكن مع بداية انتشار أجهزة الكمبيوتر الشخصية تضاءلت شعبية MMD1 حتي اختفت تماما، فمن الذي قد يرغب بشراء جهاز MMD1 بينما يوجد أمامه العديد من الأجهزة الشخصية التي ستوفر له كل ما يحتاج.&lt;/p>
+&lt;p>وعلى الرغم من ذلك، ظهر العديد من الأنواع الأخري للأجهزة ذات اللوحة الواحدة خلال الأعوام التالية منها:&lt;/p>
+&lt;ul>
+&lt;li>BBC Micro الذي اعتمد على المعالج MOS Technology 6502A بسرعة 2 ميجا هرتز.&lt;/li>
+&lt;li>Ferguson Big Board II المبني على المعالج Zilog Z80 بسرعة 4 ميجا هرتز.&lt;/li>
+&lt;li>Nascom المبني على نفس المعالج السابق أيضا.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/Nascom_1981.jpg" loading="lazy" width="1024" height="651" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&amp;ldquo;في الصورة جهاز Nascom 2 الذي تم إنتاجه في 1981”&lt;/p>
+&lt;p>ومع اكتساح أجهزة الكمبيوتر الشخصية للأسواق، قُدر لأجهزة اللوحة الواحدة الاختفاء تماما، فكانت الأجهزة الشخصية تنقسم مكوناتها إلى اللوحة الأم Motherboard، والمكونات الفرعية مثل المنافذ وموصلات الأقراص الصلبة ومعالج الرسوميات.&lt;/p>
+&lt;h2 id="العودة-مرة-أخرى" data-numberify>العودة مرة أخرى&lt;a class="anchor ms-1 d-none" href="#العودة-مرة-أخرى">#&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>ولكي يتضح لنا الفصل الحالي من قصة أجهزة الكمبيوتر ذات اللوحة الواحدة لابد لنا من الرجوع إلى عام 2005 وبالتحديد مدينة إفريا بإيطاليا، حيث كان هناك فريق من المطورين يطمحون لإنشاء &amp;ldquo;منصة تطوير&amp;rdquo; منخفضة التكلفة، سهلة التحكم، ومبنية على المعالجات الدقيقة، وكان الهدف الأساسي للمشروع هو عمل بيئة تطوير للمتحكمات الدقيقة بصورة مفتوحة المصدر مئة في المئة وتضمن هذا المشروع عمل بيئة تطوير برمجيه للمتحكمات الدقيقة لتمكين الناس من جميع المستويات من الاستفادة منها في مشاريعهم، هذه كانت بداية منصة أردوينو Arduino التي يعرفها الآن كل طلبة ومختصي مجال الإلكترونيات.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/ArduinoRS232.jpg" loading="lazy" width="1293" height="900" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&amp;ldquo;في الصورة لوحة Arduino RS232 التي صدرت في 2005”&lt;/p>
+&lt;p>ومع القبول السريع والانتشار الواسع لهذه المنصة النموذجية تم تمهيد الطريق لجيل جديد من المطورين والمصممين المستعدين للدخول في سوق الإلكترونيات، فتم استخدام أردوينو من قبل الطلبة والهواة والمختصين في العديد من الأشياء، والتي كان من أبرزها مشاريع التخرج. وهكذا ظل الإقبال على الأردوينو متزايدا، وانخفضت تكلفة المعالجات الدقيقة و أجهزة الكمبيوتر ذات اللوحة الواحدة حتى أصبحت في متناول اليد.&lt;/p>
+&lt;h2 id="الانطلاقة-الحقيقية" data-numberify>الانطلاقة الحقيقية&lt;a class="anchor ms-1 d-none" href="#الانطلاقة-الحقيقية">#&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>واحدة من محطات التطور الرئيسية التالية هي شهر يوليو 2008، والذي شهد ميلاد مؤسسة غير ربحية تحت اسم BeagleBoard.org التي وُجدت لجلب تقنيات المتحكمات الدقيقة الأحدث إلى أيدي المطورين في صورة جهاز كمبيوتر ذو لوحة واحدة هو BeagleBoard، والذي تميز بكونه مفتوح المصدر تماما ومنخفض التكلفة إلى أقصي درجة فالجهاز كان يستهدف الطلبة وهواة الإلكترونيات في المقام الأول.&lt;/li>
+&lt;li>وكان هذا الجهاز بمثابة الانطلاقة الحقيقة لأجهزة الكمبيوتر ذات اللوحة الواحدة، فاشتمل على معالج ARM Cortex A8 بسرعة 600 ميجا هرتز، وكارت جرافيك يدعم تقنية OpenGL ES 2.0 والرسوم ثلاثية الأبعاد، مما مكن الجهاز من تشغيل الفيديو بدقة HD بدون مشاكل، وليس هذا فحسب فكان هذا الجهاز فعليا أفضل بكثير من أجهزة اللاب توب القديمة، فمع هاردوير مفتوح المصدر ونظام لينكس كانت الوصفة المثالية للنجاح.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/Beagle_Board.jpg" loading="lazy" width="2415" height="2477" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ثم تلى هذا الجهاز العديد من الإصدارات التي جاءت دائما بمزيد من التطوير:&lt;/p>
+&lt;ul>
+&lt;li>BeagleBoard rev.C في مايو 2009.&lt;/li>
+&lt;li>BeagleBoard-xM في سبتمبر 2010.&lt;/li>
+&lt;li>BeagleBone في أكتوبر 2011.&lt;/li>
+&lt;li>BeagleBone Black في أبريل 2013.&lt;/li>
+&lt;/ul>
+&lt;p>وفى 2006، مجموعة من مختبر الكمبيوتر في جامعة كامبريدج قرروا النظر في موضوع الحاجة إلى منصة كمبيوتر منخفضة التكلفة، حيث تهدف إلى السماح للطلاب بتعلم كيفية البرمجة دول الحاجة إلى كمبيوتر منزلي أو شخصي ودون القلق من إمكانية تخريب الجهاز نتيجة التعلم.&lt;/p>
+&lt;p>فكانت النتيجة جهاز كمبيوتر ذو لوحة واحدة تكلفته 35$ هو Raspberry Pi راسبيري باي، وفى حين أنه قد صمم في البداية للمساعدة في تدريس علوم الحاسب بحيث يدمج ما بين أنظمة لينكس وعلم البرمجة والإلكترونيات وأنظمة التحكم الذكية في ذات الوقت إلا أنه قد نال اهتمام الصناع والمطورين والمصممين والطلاب وحتي المهندسين المحترفين وساعد على إثارة الطفرة الحالية في الاهتمام بأجهزة الكمبيوتر ذات اللوحة الواحدة، مما جعل هذا الحاسوب الصغير يحقق نجاح مذهل في كلا المجالين التعليمي والتطبيقي.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/RaspberryPi.jpg" loading="lazy" width="4097" height="2818" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="الحاضر-والمستقبل" data-numberify>الحاضر والمستقبل&lt;a class="anchor ms-1 d-none" href="#الحاضر-والمستقبل">#&lt;/a>&lt;/h2>
+&lt;p>واليوم، تنهال الطلبات على شراء أجهزة الكمبيوتر ذات اللوحة الواحدة، والتي يبدأ سعرها من 5$، وتتميز بتعدد الأنواع الموجودة وتفاوت إمكانياتها التي تلبي كافة الاحتياجات، من لوحة صغيرة لتعلم البرمجة وحتي جهاز كمبيوتر محمول في حجم كف اليد.
+ونظرا للتقدم العظيم للتقنيات، أصبح العديد من أنواع هذه الأجهزة في قوة الكمبيوتر الشخصي أو ربما أفضل ! فمن المنتظر تحقيق مزيد من الإنجازات في هذا الاتجاه من صناعات الكمبيوتر، ذلك لأن الفكرة قد أثبتت جدارتها، فمن كان يتوقع أن فكرة قد بدأت في عام 1976 ستعود مرة أخري بعد 2008 لتحقق قصة نجاح تكتب في التاريخ.&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 207 شهر 03-2018 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1L2Z49tW6T_h5l6elhcMINPlf6jweLYAg/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/207-03.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/207-04.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers-1/images/207-05.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item><item><title>أجهزة الكمبيوتر أحادية اللوحة تتألق في سماء تقنيات 2018</title><link>https://yshalsager.com/ar/posts/single-board-computers/</link><pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/single-board-computers/</guid><description>&lt;p>لعلنا نتذكر جميعا كيف كان حجم أجهزة الكمبيوتر في أربعينيات القرن الماضي، ضخمة كغرفة كبيرة، ومع مرور الزمن وتقدم التقنيات وصلنا إلى ما تراه أعيننا هذه الأيام من أجهزة في حجم اليد وربما أصغر،، ولا يزال الطموح مستمرا في جعل حجم الكمبيوتر أصغر مع الحفاظ على المواصفات العالية، مما أتاح الفرصة لظهور أجهزة الكمبيوتر ذات اللوحة الواحدة أو Single-board Computer والتي تختزل جهاز الكمبيوتر كاملًا في لوحة صغيرة بحجم بطاقة ائتمانية أو أصغر!&lt;/p>
+&lt;p>لذلك تقدم &amp;ldquo;مجلة لغة العصر&amp;rdquo; في هذا العدد ملفا متكاملا عن هذه الأجهزة، بدايتها وتطورها، واستخداماتها الحالية، كما يتناول أيضا الأنواع المتاحة للشراء ومقارنة بينها، ثم ننتقل إلى جهاز Raspberry Pi، أصغر وأرخص كمبيوتر في العالم، نستعرض قدراته واستخداماته والمشاريع التي يمكن عملها بواسطته.&lt;/p>
+&lt;p>نظرًا لضخامة محتوى هذا الملف فقد نشرته مقسمًا إلى أجزاء ويمكنك قراءته عبر الروابط التالية:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;h2 id="الأجهزة-أحادية-اللوحة-تعود-من-جديدarpostssingle-board-computers-1" data-numberify>الأجهزة أحادية اللوحة تعود من جديد&lt;a class="anchor ms-1 d-none" href="#الأجهزة-أحادية-اللوحة-تعود-من-جديدarpostssingle-board-computers-1">#&lt;/a>&lt;/h2>
+&lt;/li>
+&lt;li>
+&lt;h2 id="أنواع-أجهزة-الكمبيوتر-أحادية-اللوحة-واستخداماتهاarpostssingle-board-computers-2" data-numberify>أنواع أجهزة الكمبيوتر أحادية اللوحة واستخداماتها&lt;a class="anchor ms-1 d-none" href="#أنواع-أجهزة-الكمبيوتر-أحادية-اللوحة-واستخداماتهاarpostssingle-board-computers-2">#&lt;/a>&lt;/h2>
+&lt;/li>
+&lt;li>
+&lt;h2 id="دليلك-الشامل-لشراء-جهاز-كمبيوتر-أحادي-اللوحةarpostssingle-board-computers-3" data-numberify>دليلك الشامل لشراء جهاز كمبيوتر أحادي اللوحة&lt;a class="anchor ms-1 d-none" href="#دليلك-الشامل-لشراء-جهاز-كمبيوتر-أحادي-اللوحةarpostssingle-board-computers-3">#&lt;/a>&lt;/h2>
+&lt;/li>
+&lt;li>
+&lt;h2 id="raspberry-pi-نقطة-تحول-في-تاريخ-أجهزة-الكمبيوترarpostssingle-board-computers-4" data-numberify>Raspberry Pi.. نقطة تحول في تاريخ أجهزة الكمبيوتر&lt;a class="anchor ms-1 d-none" href="#raspberry-pi-نقطة-تحول-في-تاريخ-أجهزة-الكمبيوترarpostssingle-board-computers-4">#&lt;/a>&lt;/h2>
+&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 207 شهر 03-2018 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1L2Z49tW6T_h5l6elhcMINPlf6jweLYAg/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers/images/207-01.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/single-board-computers/images/207-02.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item></channel></rss>

@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>الخصوصية on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/categories/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9/</link><description>آخر التدوينات من in الخصوصية يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/categories/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9/rss.xml" rel="self" type="application/rss+xml"/><item><title>متصفحات تحترم خصوصيتك على اﻹنترنت</title><link>https://yshalsager.com/ar/posts/browsers-that-respect-privacy/</link><pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/browsers-that-respect-privacy/</guid><description>&lt;p>يستخدم أغلبنا متصفحات إنترنت معينة وفقًا لما تعود عليه، فإذا كنت تستخدم متصفح مايكروسوفت إيدج فقد يكون سبب ذلك أنك تستخدم نظام ويندوز، وإذا كنت تستخدم متصفح سفاري فالأغلب أنك مستخدم لأجهزة أبل، وإذا كنت تستخدم جوجل كروم فهذا لأنك تستخدم هاتف يعمل بنظام أندرويد يأتي مع متصفح كروم بنسبة كبيرة. وبمعنى آخر، يستخدم جميعا عددًا من المتصفحات المتاحة والتي تتسم بالسهولة والسرعة، وعلى الرغم من كون غالب المتصفحات متشابهة وتؤدي جميعها نفس الغرض فهناك عنصر قد يغيب عن البعض وهو الخصوصية. ليست كل المتصفحات مثل بعضها باعتبار الخصوصية، فمثلا متصفحات جوجل كروم وسفاري هي برمجيات احتكارية مغلقة المصدر تمتلكها شركات معروفة بتجميع أكبر قدر ممكن من البيانات، مما يجعلنا نضع هذان المتصفحان في أسفل القائمة. كما أن هناك متصفحات أخرى أغلبها مفتوح المصدر متوفرة لكل أنظمة التشغيل تجعل خصوصية المستخدم أعلى أولوياتها سنتعرف عليها في السطور القادمة.&lt;/p>
+&lt;p>تتعد أشكال انتهاكات الخصوصية التي تقوم بها بعض المتصفحات، مثل جمع البيانات دون موافقة، أو جمع البيانات بشكل افتراضي وإتاحة إلغاء الاشتراك، أو إدماج برامج طرف ثالث تقوم بجمع البيانات حول المستخدم. وعلى النقيض من ذلك، توفر المتصفحات التي تحترم الخصوصية عددًا من الأمور مثل تقليل البيانات التي يتم جمعها حولك عن طريق منع التقنيات المستخدمة للتتبع، إلى جانب عدم جمع بيانات عنك من البداية.&lt;/p>
+&lt;h2 id="firefox" data-numberify>Firefox&lt;a class="anchor ms-1 d-none" href="#firefox">#&lt;/a>&lt;/h2>
+&lt;p>متصفح فايرفوكس الشهير هو أحد أقدم متصفحات الإنترنت المتوفرة، حيث تم إطلاق الإصدار الأول منه في 2002. يعمل على تطوير فايرفوكس مؤسسة موزيلا والعديد من المتطوعين حول العالم. ويتميز فايرفوكس بالسرعة والأداء المرتفع ودعم عدد ضخم من الإضافات، ومزامنة سجل التصفح والمفضلات عبر مختلف الأجهزة والحماية من التتبع بشكل تلقائي.&lt;/p>
+&lt;p>فايرفوكس هو الخيار الأفضل لكل شخص يبحث عن متصفح انترنت يحترم الخصوصية. ولتحقيق أقصى درجة من الخصوصية يمكنك تثبيت إضافات مثل uBlock Origin – HTTPS Everywhere – Decentraleyes – ClearURLs، وأيضا تغيير مجموعة من الإعدادات الافتراضية من خلال صفحة تهيئة المتصفح about:config:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;strong>الإعداد&lt;/strong>&lt;/th>
+&lt;th style="text-align:center">&lt;strong>القيمة&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">privacy.firstparty.isolate&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">privacy.resistFingerprinting&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">privacy.trackingprotection.fingerprinting.enabled&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">privacy.trackingprotection.cryptomining.enabled&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">privacy.trackingprotection.enabled&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">browser.send_pings&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">browser.urlbar.speculativeConnect.enabled&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">dom.event.clipboardevents.enabled&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">media.eme.enabled&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">media.gmp-widevinecdm.enabled&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">media.navigator.enabled&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.cookie.cookieBehavior&lt;/td>
+&lt;td style="text-align:center">1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.http.referer.XOriginPolicy&lt;/td>
+&lt;td style="text-align:center">2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.http.referer.XOriginTrimmingPolicy&lt;/td>
+&lt;td style="text-align:center">2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">webgl.disabled&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">browser.sessionstore.privacy_level&lt;/td>
+&lt;td style="text-align:center">2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">beacon.enabled&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">browser.safebrowsing.downloads.remote.enabled&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.dns.disablePrefetch&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.dns.disablePrefetchFromHTTPS&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.predictor.enabled&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.predictor.enable-prefetch&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.prefetch-next&lt;/td>
+&lt;td style="text-align:center">false&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">network.IDN_show_punycode&lt;/td>
+&lt;td style="text-align:center">true&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>المتصفح متوفر على: ويندوز – لينكس – ماك – أندرويد – iOS.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/browsers-that-respect-privacy/images/firefox_browser.webp" loading="lazy" width="128" height="128" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;a href="https://firefox.com" target="_blank" rel="noopener noreferrer">https://firefox.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;h2 id="متصفح-tor" data-numberify>متصفح Tor&lt;a class="anchor ms-1 d-none" href="#متصفح-tor">#&lt;/a>&lt;/h2>
+&lt;p>تور هي خدمة يديرها متطوعون توفر الخصوصية لمستخدمي الإنترنت عبر إخفاء الهوية والمكان الذي يتم الاتصال منه بالإنترنت. ويقدم متصفح تور طريقة سهلة وسريعة للاتصال بشبكة تور للأشخاص الذين قد يحتاجون أحياناً للخصوصية وإخفاء الهوية عند فتح مواقع الإنترنت.&lt;/p>
+&lt;p>يعزل متصفح Tor كل مواقع الويب التي تزورها حتى لا يتم تتبعك. ويتم مسح أي ملفات تعريف ارتباط تلقائيا عند الانتهاء من التصفح. كما يتم نقل حركة مرور بياناتك وتشفيرها ثلاث مرات أثناء مرورها عبر شبكة Tor.
+المتصفح متوفر على: ويندوز – لينكس – ماك – أندرويد.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/browsers-that-respect-privacy/images/tor_browser.webp" loading="lazy" width="128" height="128" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;a href="https://www.torproject.org" target="_blank" rel="noopener noreferrer">https://www.torproject.org&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;h2 id="brave" data-numberify>Brave&lt;a class="anchor ms-1 d-none" href="#brave">#&lt;/a>&lt;/h2>
+&lt;p>متصفح Brave هو متصفح ويب مبني على متصفح كروميوم مفتوح المصدر مثل جوجل كروم، ويأتي مدمجًا به تقنيات خاصة به لمكافحة التتبع، إلى جانب كل الميزات التي يمكن توقعها من متصفح تقليدي مثل الإشارات المرجعية والإضافات ووضع التخفي.
+يتعامل Brave بشدة وحزم مع المتتبعات، فيقوم بشكل افتراضي بحجب كل الإعلانات والمتتبعات وإيقاف استخدام javascript، ويمكن التحكم بكل هذه الخيارات بشكل منفصل لكل موقع.&lt;/p>
+&lt;p>المتصفح متوفر على: ويندوز – لينكس – ماك – أندرويد – iOS.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/browsers-that-respect-privacy/images/brave-logo.webp" loading="lazy" width="462" height="143" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;a href="https://brave.com" target="_blank" rel="noopener noreferrer">https://brave.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;h2 id="bromite" data-numberify>Bromite&lt;a class="anchor ms-1 d-none" href="#bromite">#&lt;/a>&lt;/h2>
+&lt;p>متصفح مبني على كروميوم أيضًا، ويهدف بشكل رئيسي إلى توفير تجربة تصفح منظمة مع ميزات حماية الخصوصية ومنع الإعلانات بشكل افتراضي. ويتوفر متصفح Bromite لأجهزة أندرويد التي تعمل بإصدار أندرويد 5.0 أو أعلى.&lt;/p>
+&lt;p>المتصفح متوفر على: أندرويد.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/browsers-that-respect-privacy/images/bromite.webp" loading="lazy" width="128" height="128" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;a href="https://www.bromite.org" target="_blank" rel="noopener noreferrer">https://www.bromite.org&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;h2 id="duckduckgo" data-numberify>DuckDuckGo&lt;a class="anchor ms-1 d-none" href="#duckduckgo">#&lt;/a>&lt;/h2>
+&lt;p>DuckDuckGo معروف أكثر على أنه محرك بحث بديل لجوجل، لكنه يوفر أيضًا متصفح آمن لهواتف أندرويد وiOS تبقيك محميًا بشكل أفضل عبر الإنترنت، وتعطيك الكثير من المعلومات حول ما يتم حجبه. يقوم متصفح DuckDuckGo بفرض استخدام اتصالات HTTPS المشفرة عند الاتصال بمواقع الويب، والحماية من التعقب عن طريق ملفات تعريف الارتباط، وفحص سياسات خصوصية المواقع وإعطاءك تقارير مفصلة. كما يمكنك في نهاية كل جلسة تصفح اختيار غلق التبويبات وحذف بيانات التصفح تلقائيا، أو التحكم في هذه الأمور يدويًا بنقرة واحدة.&lt;/p>
+&lt;p>المتصفح متوفر على: أندرويد – iOS.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/browsers-that-respect-privacy/images/duckduckgo.webp" loading="lazy" width="80" height="80" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;a href="https://duckduckgo.com/app" target="_blank" rel="noopener noreferrer">https://duckduckgo.com/app&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 248 شهر 08-2021 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1AG4qLL_v4pSmkmJfCoh5ZSyP9zYyN96s/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/browsers-that-respect-privacy/images/248-2.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item><item><title>حاويات فايرفوكس.. طريقة بسيطة وفعالة لحماية الخصوصية على الإنترنت</title><link>https://yshalsager.com/ar/posts/firefox-containers/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/firefox-containers/</guid><description>&lt;p>إحدى طرق الحد من التتبع وتحسين خصوصيتك عبر الإنترنت هي تخزين أقل عدد ممكن من ملفات تعريف الارتباط على جهازك وذلك لأن هذه الملفات يمكن استخدامها لتتبع نشاط المستخدم عبر المواقع المختلفة، وهو ما تقوم به شركات مثل فيس بوك وجوجل لتجميع مزيد من المعلومات حول الأشخاص واستخدام هذه المعلومات في الاستهداف الإعلاني. ومع ذلك فليست كل ملفات تعريف الارتباط ضارة، فعند استخدامك مواقع مثل البريد الإلكتروني أو تطبيق ويب لتدوين الملاحظات سيكون من العملي جدًا أن يتم تخزين ملفات تعريف الارتباط على الجهاز بحيث لا تضطر إلى تسجيل الدخول في كل مرة تزور مثل هذه المواقع. ولذلك تعد إضافة حاويات فايرفوكس Firefox Containers حلاً ممتازة لمشاكل استغلال ملفات تعريف الارتباط في انتهاك الخصوصية وذلك عن طريق عزل المواقع عن بعضها البعض في حاويات منفصلة كما لو أنك تستخدم متصفحًا منفصلًا لكل موقع أو مجموعة من المواقع على حدى.&lt;/p>
+&lt;h2 id="كيف-يتم-تتبع-أنشطة-المستخدم-على-الإنترنت" data-numberify>كيف يتم تتبع أنشطة المستخدم على الإنترنت؟&lt;a class="anchor ms-1 d-none" href="#كيف-يتم-تتبع-أنشطة-المستخدم-على-الإنترنت">#&lt;/a>&lt;/h2>
+&lt;p>دعنا نفترض أنك تستخدم فيسبوك بشكل مستمر، وذات يوم قمت بالبحث عن &amp;ldquo;سيارات مستعملة&amp;rdquo; باستخدام إحدى محركات البحث وبالطبع تصفحت بعض هذه النتائج، وأخيرًا قمت بزيارة فيسبوك مرة أخرى. لن يمر وقت قليل حتى تبدأ برؤية إعلانات ذات صلة بالسيارات المستعملة على فيسبوك على الرغم من أنك لم تقم أبدًا بالبحث عن هذا الأمر داخل فيسبوك. إذًا ما الذي حدث؟&lt;/p>
+&lt;p>غالبا ما تستخدم المواقع مكونات مرتبطة بمواقع أخرى لتقديم خدماتها، فعلى سبيل المثال عند تصفحك لنتائج البحث قد تجد عناصر بالمواقع التي تتصفحها متعلقة بفيسبوك مثل أزرار الإعجاب والمشاركة والتعليقات. كما قد تتواجد مكونات أخرى غير مرئية بالنسبة للمستخدم مثل مكون Facebook Pixel الذي يستخدم لتتبع نشاط مستخدمي فيسبوك على المواقع الأخرى، والعديد من المكونات الأخرى التي عادة ما تكون مصاحبة للإعلانات على المواقع ومنها ملفات تعريف الارتباط التي تتبع جهات خارجية والتي قد تستخدم لربط نشاط معين أو تحديد وتمييز متصفح الإنترنت وجهاز الكمبيوتر وتظل فعالة حتى تاريخ محدد لانتهاء صلاحيتها أو حتى حذفها من على الجهاز.&lt;/p>
+&lt;p>كل هذه الأمور تعد جزءًا من البصمة الرقمية الخاص بك والتي قد تتضمن تفاصيل شخصية مثل عنوان IP، ومعلومات المتصفح، والموقع الجغرافي، ونظام التشغيل. ويتم مشاركة هذه البيانات من قبل الموقع الذي قمت بزيارته (من خلال العناصر المضمنة في صفحات الموقع) مع الشبكات الاجتماعية وغيرها من المواقع، وبذلك ذلك عندما تسجل الدخول إلى الفيسبوك، سيستخدم ملفات تعريف الارتباط للتعرف عليه بأنك الشخص الذي زار موقع السيارات المستعملة.&lt;/p>
+&lt;h2 id="حاويات-فايرفوكس" data-numberify>حاويات فايرفوكس&lt;a class="anchor ms-1 d-none" href="#حاويات-فايرفوكس">#&lt;/a>&lt;/h2>
+&lt;p>يقوم متصفح فايرفوكس بحظر ملفات تعريف الارتباط التابعة لجهات خارجية بشكل افتراضي حيث إنها يمكن أن تكون أكثر تدخلا واستخدامًا المعلومات من ملفات تعريف الارتباط الأخرى، لكن هذه الأمر ليس كافيًا للحد من التتبع بما أن جميع ملفات تعريف الارتباط مخزنة في مكان واحد داخل المتصفح.&lt;/p>
+&lt;p>ولذلك فإن عزل هذه الملفات عن بعضها هي واحدة من الطرق الفعالة لمنع التتبع الذي يعتمد على ملفات تعريف الارتباط، تمامًا كما تقوم بعزل الأغذية داخل الثلاجة في حاويات مختلفة. ويقدم متصفح فايرفوكس إضافة مفتوحة المصدر تم تطويرها من قبل شركة موزيلا المالكة للمتصفح تمكن المستخدمين من التحكم في الحاويات بشكل سهل وفعّال.&lt;/p>
+&lt;p>فيمكنك استخدام حاوية منفصلة لجوجل وخدماتها، وأخرى لتويتر، وثالثة لأمازون، وواحدة للبنك، وأخرى للفيس بوك، وما إلى ذلك. كل واحدة من تلك الحاويات من هذه بمثابة حاوية رقمية تحتوي على ملفات تعريف الارتباط من الموقع المدرج بها فقط. وبهذه الطريقة سيقتصر كل ملف تعريف ارتباط على حاويته، وبذلك لا يمكن لأي من مواقع الويب الوصول إلى ملفات تعريف ارتباط أو سجلات المواقع الأخرى مما يعزز خصوصيتك بشكل كبير.&lt;/p>
+&lt;p>أيضًا من المزايا الأخرى التي تتيحها حاويات فايرفوكس هو استخدام حسابات متعددة في حال كان لديك أكثر من حساب واحد على نفس الخدمة. فمثلا يمكنك فتح أكثر من حساب فيس بوك أو جوجل في نفس الوقت.&lt;/p>
+&lt;h2 id="كيفية-استخدام-حاويات-فايرفوكس" data-numberify>كيفية استخدام حاويات فايرفوكس&lt;a class="anchor ms-1 d-none" href="#كيفية-استخدام-حاويات-فايرفوكس">#&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>أولًا تحتاج إلى تثبيت الإضافة من خلال متجر إضافات فايرفوكس. سيطلب منك المتصفح تأكيد تثبيت الإضافة اضغط Add أو إضافة.
+&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers" target="_blank" rel="noopener noreferrer">https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>بعدها ستظهر لك الأيقونة الخاصة بالإضافة على يمين شريط العنوان بجانب الإضافات الأخرى. عند الضغط على هذه الأيقونة ستظهر واجهتها كما بالصورة. تتسم الواجهة بالبساطة الشديدة حيث تحتوي على قائمة الحاويات بالجزء العلوي والتي عند الضغط على إحداها سيتم فتح تبويب جديد ضمن هذه الحاوية، وبالأسفل وزر كبير لتعديل الحاويات الحالية.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/firefox-containers/images/1.jpg" loading="lazy" width="1266" height="726" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>لإنشاء حاوية جديدة قم بالضغط على Manage containers ثم اختيار New container. بعدها أدخل اسم الحاوية واختر اللون والأيقونة الخاصين بها.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>بعد إنشاء مجموعة من الحاويات الجديدة للمواقع التي ترغب في عزلها بإمكانك البدء في إضافة المواقع إلى هذه الحاويات عن طريق فتح الموقع أولًا ثم الضغط على أيقونة الإضافة يمين شريط العنوان ثم الضغط على Always Open This Site in&amp;hellip; وتحديد حاوية من الاختيارات الموجودة أمامك.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/firefox-containers/images/2.png" loading="lazy" width="700" height="920" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>وعند استخدامك لإحدى الحاويات والضغط على رابط موقع يفتح في حاوية أخرى لأول مرة ستظهر لك رسالة تأكيد بأنك ترغب في فتح هذا الرابط في الحاوية الخاصة به. يمكنك تحديد الاختيار Remember my decision for this site لحفظ الإجراء الذي سيتم تنفيذه وعدم سؤالك مجددًا، بعد ذلك يمكنك الضغط على أحد الأزرار الموجودة بالأسفل لفتح الرابط في الحاوية الخاص به أو الحاوية الحالية.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/firefox-containers/images/3.png" loading="lazy" width="700" height="319" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>الأمر الأخير الذي تحتاج لمعرفته هو كيفية التحكم في الحاويات الحالية. ويتم ذلك عن طريق زر Manage containers في الواجهة الرئيسية للإضافة. بالضغط على هذا الزر ستظهر قائمة الحاويات، اضغط على أي منها لفتح الخيارات الخاصة بها. من هذه الخيارات Limit to Designated Sites الذي يتيح لك جعل هذه الحاوية محصورة على المواقع المضافة بها فقط، واختيار Manage Site List الذي يمكنك من خلاله حذف أي من المواقع الموجودة بالحاوية في حالة رغبت في القيام بتعديلات أو أضفت أحد المواقع بالخطأ.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>ملاحظة&lt;/strong>: يمكنك مزامنة الحاويات والمواقع المدرجة بكل حاوية مع حسابك الشخصي على فايرفوكس حتى لا تحتاج إلى إعادة تهيئة الإضافة كل مرة تعيد تثبيت المتصفح فيها عن طريقة الدخول إلى إعدادات الإضافة ثم التبويب Preferences وتفعيل الاختيار Enable Sync.&lt;/p>
+&lt;h2 id="هل-تضمن-حاويات-فايرفوكس-خصوصيتك-على-الإنترنت" data-numberify>هل تضمن حاويات فايرفوكس خصوصيتك على الإنترنت؟&lt;a class="anchor ms-1 d-none" href="#هل-تضمن-حاويات-فايرفوكس-خصوصيتك-على-الإنترنت">#&lt;/a>&lt;/h2>
+&lt;p>باختصار، لا. لا شيء يمكنه أن يضمن خصوصيتك بنسبة 100% لكن يمكن لحاويات فايرفوكس تقليل خطر التعقب عبر الإنترنت. فنحن نعيش في عالم رقمي حاليًا، ولا يمكننا إلا أن نفعل ما بوسعنا للحفاظ على خصوصياتنا وذلك لأن معظم الخدمات تجد طرقًا جديدة باستمرار لتتبع المستخدمين لأغراض التسويق والإعلان وبعضهم لديه موارد ضخمة مخصصة لهذا الأمر فقط. ولذلك عليك ألا تستخدم الخدمات السحابية لتخزين البيانات الشخصية وكلمات المرور، ومسح ملفات تعريف الارتباط بانتظام، وتجنب زيارة المواقع المشبوهة، كما يمكن أن تساعد الشبكات الخاصة VPN وTor أيضًا في زيادة خصوصيتك على الإنترنت.&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 243 شهر 03-2021 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1TgLMN-xxxN60ASG7Vqyr8ZZltasb_oM_/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> أو &lt;a href="https://gate.ahram.org.eg/News/2696323.aspx" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/firefox-containers/images/243-3.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item><item><title>تخصيص خدمة NextDNS والتحكم في حجب الإعلانات والمواقع</title><link>https://yshalsager.com/ar/posts/nextdns-customization/</link><pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/nextdns-customization/</guid><description>&lt;p>في هذا المقال نستكمل استعراض خدمة NextDNS لحجب الإعلانات والمواقع وتحسين الخصوصية، وتقديم إحصاءات مفصلة باستخدام الإنترنت وحماية اﻷطفال من المحتوى المخل الموجود على الإنترنت. سيركز هذا الجزء على تخصيص خدمة NextDNS والتحكم في حجب الإعلانات والمواقع والعديد من اﻷمور اﻷخرى.&lt;/p>
+&lt;p>هذا المقال هو الجزء الثاني من هذه السلسلة، يمكنك قراءة الجزء الأول &lt;a href="https://yshalsager.com/ar/posts/nextdns">هنا&lt;/a>.&lt;/p>
+&lt;h2 id="الجزء-الثاني-تخصيص-خدمة-nextdns-والتحكم-في-حجب-الإعلانات-والمواقع" data-numberify>الجزء الثاني: تخصيص خدمة NextDNS والتحكم في حجب الإعلانات والمواقع&lt;a class="anchor ms-1 d-none" href="#الجزء-الثاني-تخصيص-خدمة-nextdns-والتحكم-في-حجب-الإعلانات-والمواقع">#&lt;/a>&lt;/h2>
+&lt;p>تتميز خدمة NextDNS بأن الواجهة سهلة للغاية ويمكن لأي شخص أيًا كانت خبرته في التعامل مع التقنية. فكما رأينا في الجزء السابق، تحتوي الشاشة الرئيسية على مجموعة من التبويبات باﻷعلى والمقسمة إلى اﻷمور التي يمكنك التحكم بها في الخدمة.&lt;/p>
+&lt;p>التبويب اﻷول Setup هو المختص بكل ما له علاقة بعملية التثبيت التي تناولتها بالشرح في المقال السابق.&lt;/p>
+&lt;p>أما التبويب Security فيحتوى على مجموعة من الخيارات المتعلقة بالحماية أثناء التصفح من اﻹنترنت. بينما تبويب Privacy فستجد به مختلف الخيارات المتعلقة بالخصوصية مثل حجب المتتبعات من طرف ثالث وإضافة قوائم منع التتبع.&lt;/p>
+&lt;p>بينما يمكنك حجب التصنيفات الحساسة والغير أخلاقية عن طريق تبويب الحماية اﻷبوية، ويمكنك أيضًا من هناك حجب مجموعة من التطبيقات والخدمات المعروفة.&lt;/p>
+&lt;p>بعد ذلك لدينا التبويبات Denylist وAllowlist وهما قائمتا الحجب والسماح. ويمكنك من خلالهما إضافة مواقع للحجب أو السماح بشكل يدوي.&lt;/p>
+&lt;p>ثم ستجد تبويب Analytics الخاص بعرض إحصائيات حجب اﻹعلانات والمواقع، وتبويب Logs لعرض سجلات المواقع التي تم الوصول إليها، وأخيرًا تبويب Settings للتحكم في إعدادات الخدمة.&lt;/p>
+&lt;p>ونظرًا ﻷن اﻷمر سيطول للغاية لو قمت بشرحه هنا كتابةً فقد قمت بشرح كيفية تخصيص خدمة NextDNS والتحكم في خياراتها المختلفة، وكذلك كيفية ربط الخدمة بجهاز الراوتر عن طريق موقع no-ip في هذا الفيديو:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/EoDiowqXm-s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>ما هي خدمة NextDNS ولماذا يجب عليك استخدامها؟</title><link>https://yshalsager.com/ar/posts/nextdns/</link><pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/nextdns/</guid><description>&lt;p>NextDNS هي أحد الخدمات التي تعرفت عليها منذ فترة ليست بالبعيدة وقمت باستخدامها على كل أجهزتي لما تقدمه من عدد كبير من الميزات، مثل: حجب الإعلانات والمواقع وتحسين الخصوصية عن طريق منع المتتبعات (trackers) والمواقع الضارة، وتقديم إحصاءات مفصلة باستخدام الإنترنت وحماية اﻷطفال من المحتوى المخل الموجود على الإنترنت.&lt;/p>
+&lt;p>سأقوم باستعراض هذه الخدمة في سلسلة من التدوينات بشيء من التفصيل حتى تكون الاستفادة منها بأكبر قدر ممكن وحتى لا يكون الشرح طويلًا ومملًا.&lt;/p>
+&lt;h2 id="الجزء-الأول-خدمة-nextdns-لحجب-الإعلانات-والمواقع-وحماية-الخصوصية" data-numberify>الجزء الأول: خدمة NextDNS لحجب الإعلانات والمواقع وحماية الخصوصية&lt;a class="anchor ms-1 d-none" href="#الجزء-الأول-خدمة-nextdns-لحجب-الإعلانات-والمواقع-وحماية-الخصوصية">#&lt;/a>&lt;/h2>
+&lt;h3 id="ما-الذي-تقدمه-لك-nextdns" data-numberify>ما الذي تقدمه لك NextDNS؟&lt;a class="anchor ms-1 d-none" href="#ما-الذي-تقدمه-لك-nextdns">#&lt;/a>&lt;/h3>
+&lt;p>كما أسلفت في المقدمة، توفر NextDNS العديد من المميزات التي تجعل استخدام الإنترنت أفضل، مثل:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>حماية من الإعلانات والمتتبعات والبرامج الخبيثة وبرمجيات التعدين ومحاولات التصيد.&lt;/p>
+&lt;p>توفر NextDNS أكثر من مائة قائمة حظر لتختار من بيتها ما تريد حجبه بشكل سهل. كما توفر أيضًا إمكانية حجب المواقع باستخدام عناوين النطاقات بشكل لا محدود. والجدير بالذكر أن كل هذه الأمور تتم دون التأثير على أداء جهازك لأنها تتم على مستوى نظام أسماء النطاقات (DNS).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>معرفة الاتصالات التي تتم عن طريق أجهزتك مع إحصائيات مفصلة ونظام سجلات متقدم.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>عن طريق الإحصائيات يمكنك معرفة مدى كفاءة الاستراتيجية المستخدمة لمنع الإعلانات، وما هي المتتبعات التي تحاول إرسال بياناتك والعديد من الأمور الأخرى.&lt;/p>
+&lt;ul>
+&lt;li>تطبيقات وإضافات لكل أنظمة التشغيل والمتصفحات.&lt;/li>
+&lt;/ul>
+&lt;p>عن طريق استخدام تطبيقات NextDNS ستضمن استخدام DNS مشفر وآمن على كل أجهزتك، كما ستتمتع بإنترنت خالي من الإعلانات والمتتبعات دون التقيد بشبكة إنترنت محددة أو متصفحات بعينها.&lt;/p>
+&lt;ul>
+&lt;li>حماية الأطفال والتحكم فيما يمكنك الوصول إليه على الإنترنت.&lt;/li>
+&lt;/ul>
+&lt;p>يمكنك بخطوات بسيطة منع المواقع المخلة وتفعيل البحث الآمن بشكل إجباري وأيضا حجب المواقع والخدمات المختلفة.&lt;/p>
+&lt;h3 id="التسجيل-في-nextdns" data-numberify>التسجيل في NextDNS&lt;a class="anchor ms-1 d-none" href="#التسجيل-في-nextdns">#&lt;/a>&lt;/h3>
+&lt;p>بداية، خدمة NextDNS متاحة بشكل مجاني ولا تتطلب إنشاء حساب لتجربتها لمدة 7 أيام، لكن حتى تحفظ إعدادات الخدمة تحتاج إلى إنشاء حساب عن طريق الموقع &lt;a href="https://my.nextdns.io" target="_blank" rel="noopener noreferrer">https://my.nextdns.io&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>
+&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="Resize" src="https://yshalsager.com/ar/posts/nextdns/images/Sign-Up-NextDNS_hu795bb1c7275babbec0a7157615fb4af7_26315_500x0_resize_box_3.png" loading="lazy" width="500" height="551" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="تثبيت-nextdns-على-أجهزتك" data-numberify>تثبيت NextDNS على أجهزتك&lt;a class="anchor ms-1 d-none" href="#تثبيت-nextdns-على-أجهزتك">#&lt;/a>&lt;/h3>
+&lt;p>بعد إنشاء حساب جديد يمكنك البدء في تثبيت NextDNS على مختلف أجهزتك سواء كانت تعمل بنظام لينكس أو ويندوز أو ماك أو أندرويد. كما يمكنك تثبيت NextDNS على متصفحات فايرفوكس وجوجل كروم مباشرة. أو تثبيتها على جهاز الراوتر الخاص بك إذا كان يدعم ذلك، أو ربطها بالراوتر عن طريق إعدادات الDNS.&lt;/p>
+&lt;p>تختلف خطوات التثبيت من نظام لأخر، لكن جميع الخطوات موضحة بشكل بسيط على الموقع.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="Resize" src="https://yshalsager.com/ar/posts/nextdns/images/Setup-NextDNS.png" loading="lazy" width="1662" height="622" />
+&lt;/picture>
+&lt;/p>
+&lt;p>فعلى سبيل المثال، يمكنك تثبيت NextDNS على هواتف أندرويد عن طريق التطبيق الرسمي الذي يستخدم تقنية VPN في تمرير الاتصالات إلى NextDNS لفترة الإعلانات والمواقع، أو عن طريق استخدام ميزة نظام أسماء النطاقات الخاص (Private DNS) المتوفرة منذ أندرويد 9.&lt;/p>
+&lt;p>وشخصيًا، أُفضل طريقة ربط NextDNS بجهاز الراوتر بشكل مباشر، حتى لا تحتاج إلى إعداد الأجهزة المختلفة بشكل منفصل.&lt;/p>
+&lt;p>في الجزء القادم بمشيئة الله سأتناول مختلف ميزات الخدمة بالتفصيل، لأوضح كيف يمكنك منع الإعلانات وحماية خصوصيتك عبر الإنترنت، وكذلك كيف يمكنك التحكم في المواقع المحجوبة والعديد من الأمور الأخرى.&lt;/p>
+&lt;hr>
+*تحديث 06/10/2020: تم نشر الجزء الثاني ويمكنك قراءته من [هنا](/ar/posts/nextdns-customization).*</description></item><item><title>البرمجيات مفتوحة المصدر.. الخيار الأمثل لتوفير الأمان والخصوصية</title><link>https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/</guid><description>&lt;p>لطالما اشتهرت البرمجيات مفتوحة المصدر بأنها أكثر أمانًا من نظيراتها من البرمجيات مغلقة المصدر. وفي ظل التهديدات الأمنية الإلكترونية المتزايدة خلال الفترة السابقة منذ بداية تفشي فيروس كورونا، أصبح الاعتماد على البرمجيات مفتوحة المصدر خيارًا ممتازًا لزيادة الأمان الرقمي وتقليل تكاليف البرمجيات المغلقة. ولكن ما الذي يجعل البرمجيات مفتوحة المصدر أكثر أمانًا؟ وما هي التعقيدات التي تواجه المستخدمون الجدد وتجعل من عملية الانتقال إلى البرمجيات مفتوحة المصدر أمرًا صعبًا؟&lt;/p>
+&lt;h2 id="لماذا-البرمجيات-مفتوحة-المصدر-أكثر-أمانا" data-numberify>لماذا البرمجيات مفتوحة المصدر أكثر أمانًا؟&lt;a class="anchor ms-1 d-none" href="#لماذا-البرمجيات-مفتوحة-المصدر-أكثر-أمانا">#&lt;/a>&lt;/h2>
+&lt;h3 id="المصدر-المفتوح" data-numberify>المصدر المفتوح&lt;a class="anchor ms-1 d-none" href="#المصدر-المفتوح">#&lt;/a>&lt;/h3>
+&lt;p>أحد أسباب كون البرمجيات مفتوحة المصدر آمنة أكثر من مغلقة المصدر هو كون الشفرة المصدرية لهذه البرمجيات متاحة بشكل عام على الإنترنت، وذلك يعني الشفافية التامة حيث يمكن لأي مطور الاطلاع على الكود ومعرفة كيفية عمل البرنامج، كما يؤدي ذلك أيضا إلى قيام المزيد من الأشخاص بالبحث عن المشاكل وحلها بجانب المطورين الرئيسيين.&lt;/p>
+&lt;p>وعلى الرغم من أن هذا السبب قد يعتبره بعض معارضو البرمجيات مفتوحة المصدر حجة عليها حيث إن إتاحة الشفرة المصدرية بشكل عام تجعل من السهل على المخترقين العثور على نقاط الضعف الأمنية وغيرها من نقاط الضعف الموجودة بالبرنامج وإساءة استخدامها، إلا أنه من نفس المنطلق فمن المرجح أن يتم اكتشاف هذه المشكلات بشكل أسرع من قبل المساهمين أو المستخدمين، فهناك العديد من المشاريع مفتوحة المصدر التي لديها المئات والآلاف من المساهمين.&lt;/p>
+&lt;p>وحتى لو كان معظم مستخدمي البرمجيات مفتوحة المصدر لا يقومون بمراجعة الكود قبل استخدام البرنامج في البداية، إلا أنهم قد يفعلون ذلك إذا واجهوا أخطاء أو أرادوا تعديل الكود حسب احتياجاتهم. ووفقًا لآراء الخبراء، فالمطورين المتمرسين لا يحتاجون إلى إلقاء نظرة على الشفرة المصدرية للبرنامج أو البحث في آلاف الأسطر من التعليمات البرمجية للعثور على جزء ذو حماية ضعيفة عند قيامهم بتحليل أو تعديل البرامج.&lt;/p>
+&lt;p>فحقيقة أن أي شخص يمكنه قراءة الكود هو أمر يزيد من فرصة العثور على الأخطاء وإصلاحها. وذلك يرجع أيضًا إلى وجود مجتمعات نابضة بالحياة تدعم البرمجيات مفتوحة المصدر باستمرار وتقوم بالتحقق من وجود العيوب والثغرات بشكل مستمر، بينما مع البرمجيات المغلقة المصدر، عليك ببساطة أن تثق في أن المطور يعرف ما يفعله على مستوي الأمان والخصوصية فأنت لا تعرف ماذا يحدث خلف الكواليس، ولهذا فالمصدر المفتوح هو في الواقع نقطة قوة وليس نقطة ضعف.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/images/open-source-repo.webp" loading="lazy" width="1050" height="700" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="إصلاح-نقاط-الضعف-وإصدار-النسخ-الجديدة-بشكل-أسرع" data-numberify>إصلاح نقاط الضعف وإصدار النسخ الجديدة بشكل أسرع&lt;a class="anchor ms-1 d-none" href="#إصلاح-نقاط-الضعف-وإصدار-النسخ-الجديدة-بشكل-أسرع">#&lt;/a>&lt;/h3>
+&lt;p>عندما يتم الإبلاغ عن ثغرة أمنية في مشروع مفتوح المصدر، غالبًا ما يتم إصدار الإصلاح في غضون يوم أو يومين وخاصة إذا كانت ثغرة شديدة الخطورة.&lt;/p>
+&lt;p>وذلك على النقيض من البرمجيات مغلقة المصدر التي لديها دورات تحديث أطول لأسباب ذلك كثيرة منها قلة عدد الأشخاص الذين يعملون على البرنامج، وإعطاء الأولوية لتحديثات البرامج بناءً على الاعتبارات التجارية والمالية، واعتماد الكثير من البرامج على دورات إصدار تتراوح بين 6 إلى 12 شهرًا مما يجعل إصلاح ثغرة أمنية يستغرق وقتًا طويلاً ليصل إلى الإصدار المستقر من البرنامج.&lt;/p>
+&lt;p>فغالبًا ما يشتكي الباحثون الأمنيون من طول مدة معالجة الثغرة الأمنية التي اكتشفوها وقاموا بإبلاغ الشركة المطورة لبرنامج ما بها، والتي قد تستغرق شهورًا وحتى سنوات لإصلاح المشكلة وإطلاق إصدار جديد من البرنامج مما يعرض العملاء للخطر.&lt;/p>
+&lt;p>ووفقًا لتقارير منصة WhiteSource، فخلال عامي 2015 و2016 لم يتجاوز عدد المشاكل الأمنية الموجودة بالبرمجيات مفتوحة المصدر التي شملها التقرير 1500 مشكلة في السنة، بينما ارتفع الرقم إلى أكثر من 4000 في السنة خلال عامي 2017 و2018 وإلى أكثر من 6000 مشكلة خلال عام 2019. كما يوضح تقرير WhiteSource أن 85٪ من الثغرات الأمنية الموجودة بالبرمجيات مفتوحة المصدر التي تم الكشف عنها تم توفير إصلاح لها بالفعل.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/images/whitesourceopensourcebugs.jpg" loading="lazy" width="1530" height="981" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="كيف-تنتقل-إلى-استخدام-البرمجيات-مفتوحة-المصدر" data-numberify>كيف تنتقل إلى استخدام البرمجيات مفتوحة المصدر؟&lt;a class="anchor ms-1 d-none" href="#كيف-تنتقل-إلى-استخدام-البرمجيات-مفتوحة-المصدر">#&lt;/a>&lt;/h2>
+&lt;p>في الواقع، لا توجد إجابة محددة على هذا السؤال لأن الإجابة تتوقف على المستخدم ومدي استعداده للانتقال إلى البدائل مفتوحة المصدر، ولأن الانتقال عملية واسعة ستشمل التخلي عن برامج قد اعتدت استخدامها وليس مجرد خطوات معدودة تقوم بها. فقد يجد مستخدم أنه من السهل التحول إلى استخدام برامج معروفة مفتوحة المصدر مثل متصفح فايرفوكس ومشغل الوسائط VLC، بينما قد يجد آخر أن خطوة الانتقال إلى استخدام نظام لينكس هي أمرٌ صعبٌ للغاية.&lt;/p>
+&lt;p>ويوفر موقع gofoss دليلًا رائعا للمستخدمين الجدد، حيث يقسم عملية الانتقال إلى البرمجيات مفتوحة المصدر إلى مجموعة من المراحل، بداخل كل مرحلة عدد من الخطوات للقيام بها.&lt;/p>
+&lt;p>&lt;a href="https://gofoss.today/" target="_blank" rel="noopener noreferrer">https://gofoss.today&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>فعلى سبيل المثال، تحتوي مرحلة الأساسيات والتي لا تتطلب أي خبرة مسبقة على أمور مثل: استخدام متصفح إنترنت مفتوح المصدر، ومنع التعقب وملفات تعريف الارتباط والإعلانات، واستخدام محرك بحث يحترم الخصوصية مثل searx أو duckduckgo، والانتقال إلى خدمة بريد إلكتروني مشفرة، مثل Protonmail أو Disroot أو Tutanota، وكيفية إنشاء كلمات مرور قوية وتخزينها بطريقة آمنة وكيفية النسخ الاحتياطي للبيانات بطريقة آمنة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/images/goFOSS.png" loading="lazy" width="1213" height="980" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وبالطبع لا تحتاج إلى القيام بكافة الخطوات أو المراحل، كما لا تحتاج إلى القيام بها بالترتيب، ويمكنك البدء بالأمور البسيطة التي لا تحتاج إلى معرفة مسبقة مثل استبدال البرامج والخدمات بنظيرتها مفتوحة المصدر سواء على جهاز الكمبيوتر الخاص بك أو هاتفك.&lt;/p>
+&lt;p>ومن المواقع التي ستساعدك كثيرا في هذه الأمر موقع alternativeto الشهير، حيث يمكنك من فلترة البرامج وتحديد البرامج مفتوحة المصدر فقط عند البحث عن بديل لأي برنامج. ويمكنك الاطلاع على قائمة البرامج مفتوحة المصدر المتاحة لنظام ويندوز هنا&lt;/p>
+&lt;p>&lt;a href="https://alternativeto.net/platform/windows/?license=opensource" target="_blank" rel="noopener noreferrer">https://alternativeto.net/platform/windows/?license=opensource&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>ونظرا لتعدد البدائل وحتى نجعل من انتقالك إلى البرمجيات مفتوحة المصدر أمرًا سهلا، يمكنك الاستعانة بهذا القائمة المختصرة لترشيحات البرامج:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>الفئة&lt;/th>
+&lt;th>البرنامج&lt;/th>
+&lt;th>الفئة&lt;/th>
+&lt;th>البرنامج&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>متصفحات&lt;/strong>&lt;/td>
+&lt;td>Firefox&lt;/td>
+&lt;td>&lt;strong>مدير تحميل&lt;/strong>&lt;/td>
+&lt;td>Xtreme Download Manager&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Chromium&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Jdownloader&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>قارئ بريد&lt;/strong>&lt;/td>
+&lt;td>Thunderbird&lt;/td>
+&lt;td>&lt;strong>محادثة فورية&lt;/strong>&lt;/td>
+&lt;td>Signal&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Zimbra&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Wire&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>اجتماعات عبر الإنترنت&lt;/strong>&lt;/td>
+&lt;td>Jitsi&lt;/td>
+&lt;td>&lt;strong>مشغل وسائط&lt;/strong>&lt;/td>
+&lt;td>VLC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>BigBlueButton&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Kodi&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>محرر صوتيات‬&lt;/td>
+&lt;td>Audacity&lt;/td>
+&lt;td>&lt;strong>محرر مرئيات‬&lt;/strong>&lt;/td>
+&lt;td>Kdenlive&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>تصميم ثنائي الأبعاد&lt;/strong>&lt;/td>
+&lt;td>GIMP&lt;/td>
+&lt;td>&lt;strong>تصميم ثلاثي الأبعاد&lt;/strong>&lt;/td>
+&lt;td>Blender‬‬‬‬&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Inkscape‬‬‬‬&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>FreeCAD&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Krita&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>LibreCAD&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>حزم مكتبية&lt;/strong>&lt;/td>
+&lt;td>LibreOffice&lt;/td>
+&lt;td>&lt;strong>قارئ PDF&lt;/strong>&lt;/td>
+&lt;td>Sumatra‬‬ PDF‬‬‬‬‬‬&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>مدير كتب رقمية&lt;/strong>&lt;/td>
+&lt;td>Calibre&lt;/td>
+&lt;td>&lt;strong>قاموس&lt;/strong>&lt;/td>
+&lt;td>GoldenDict&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>محرر أكواد&lt;/strong>&lt;/td>
+&lt;td>Notepad‬‬ ++‬‬‬‬‬‬&lt;/td>
+&lt;td>&lt;strong>تنظيف النظام&lt;/strong>&lt;/td>
+&lt;td>BleachBit&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Atom&lt;/td>
+&lt;td>&lt;strong>التحكم في الجهاز عن بعد&lt;/strong>&lt;/td>
+&lt;td>UltraVNC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>إدارة كلمات المرور&lt;/strong>&lt;/td>
+&lt;td>BitWarden&lt;/td>
+&lt;td>&lt;strong>استعادة المحذوفات&lt;/strong>&lt;/td>
+&lt;td>TestDisk&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>KeePass&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>PhotoRec&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>البحث عن الملفات&lt;/strong>&lt;/td>
+&lt;td>Search Everything&lt;/td>
+&lt;td>&lt;strong>الرسومات التخطيطية&lt;/strong>&lt;/td>
+&lt;td>Dia&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>قارئ RSS&lt;/strong>&lt;/td>
+&lt;td>RSSOwl&lt;/td>
+&lt;td>&lt;strong>مدير FTP&lt;/strong>&lt;/td>
+&lt;td>Filezilla&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>إدارة الماليات&lt;/strong>&lt;/td>
+&lt;td>GnuCash&lt;/td>
+&lt;td>&lt;strong>أخذ الملاحظات&lt;/strong>&lt;/td>
+&lt;td>Joplin&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>وبالرغم من كون استخدام البرمجيات مفتوحة المصدر المعروفة يجعلك أكثر أمانا في العالم الرقمي، إلا أن هذا الأمر في حد ذاته لا يضمن الخصوصية أو الأمان بشكل مطلق. أيضا من الأمور التي يحتاج المستخدم الجديد للبرمجيات مفتوحة المصدر إلى معرفتها أن هناك دائما مفاضلة بين الخصوصية وإخفاء الهوية والأمان من ناحية والراحة من ناحية أخرى، ولذلك تكون عملية الانتقال والتغيير صعبة لبعض المستخدمين على الرغم من بساطة الإرشادات ووضوح البدائل. كما قد تواجهك في بعض الأحيان أمور لا تستطيع إنجازها بواسطة البرامج مفتوحة المصدر أو برامج مغلقة لا يتوفر لها بدائل قوية، لا تدع هذه الأمور تمنعك من الاستمتاع بتجربة البرامج مفتوحة المصدر وحاول دومًا التوصل إلى حلول وسيطة.&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 237 شهر 09-2020 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/10tpjJH9UwTpuxQ8nMAAQL2JYKltr0RIh/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/images/237-08.png" loading="lazy" width="1385" height="1876" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/images/237-09.png" loading="lazy" width="1385" height="1876" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/images/237-10.png" loading="lazy" width="1385" height="1876" />
+&lt;/picture>
+&lt;/p></description></item><item><title>أفضل خدمات البريد الإلكتروني التي تحترم الخصوصية</title><link>https://yshalsager.com/ar/posts/email-services-for-privacy/</link><pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/email-services-for-privacy/</guid><description>&lt;p>يستخدم أغلبنا خدمات البريد الإلكتروني المشهورة مثل Gmail وOutlook التي توفر العديد من الميزات المختلفة، لكن على الرغم من كون هذه الخدمات آمنة فإنها لا توفر الخصوصية للمستخدم بنسبة 100% فإذا كنت تريد مشاركة بعض الملفات السرية بشكل آمن، أو كنت تريد ضمانا أن مزود خدمة البريد الإلكتروني لا يتطفل على رسائلك بهدف استهدافك بالإعلانات، يجب عليك تجربة خدمات البريد الإلكتروني التي نقترحها عليك اليوم.&lt;/p>
+&lt;h2 id="1--protonmail" data-numberify>1- ProtonMail&lt;a class="anchor ms-1 d-none" href="#1--protonmail">#&lt;/a>&lt;/h2>
+&lt;p>ProtonMail هي خدمة بريد إلكتروني سويسرية شهيرة، تستخدم التشفير التام بين الطرفين وتقدم خدماتها بشكل خالي من الإعلانات لحماية خصوصية المستخدم. كما تتيح لك تحديد وقت صلاحية انتهاء البريد الإلكتروني لتدميره ذاتيا. وبالإضافة إلى جميع ميزات الأمان الموجودة بها مثل دعم المصادقة الثنائية، فإن الخدمة مفتوحة المصدر، فيمكن للمطورين مراجعة مكتبات التشفير مفتوحة المصدر أو البرمجيات أخرى للتأكد من خلوها من أي نوع من التلاعب.&lt;/p>
+&lt;p>توفر الخطة المجانية عنوان بريد واحد ومساحة تخزينية 500 ميجا بايت وحد أقصي للرسائل 150 رسالة يوميا.&lt;/p>
+&lt;p>&lt;a href="https://protonmail.com/" target="_blank" rel="noopener noreferrer">https://protonmail.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/email-services-for-privacy/images/protonmail.jpg" loading="lazy" width="800" height="424" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="2--tutanota" data-numberify>2- Tutanota&lt;a class="anchor ms-1 d-none" href="#2--tutanota">#&lt;/a>&lt;/h2>
+&lt;p>خدمة بريد إلكتروني أخري مفتوحة المصدر تناسب كلا من الاستخدام الشخصي والتجاري. توفر الخطة المجانية للخدمة 1 جيجا بايت مساحة تخزينية بعكس ProtonMail التي توفر النصف. تدعم الخدمة التشفير التام بين الطرفين والنطاقات المخصصة (في الخطة المدفوعة)، وتوفر تطبيقات أندرويد وiOS للمستخدمين.&lt;/p>
+&lt;p>&lt;a href="https://tutanota.com/" target="_blank" rel="noopener noreferrer">https://tutanota.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;h2 id="3--librem-mail" data-numberify>3- Librem Mail&lt;a class="anchor ms-1 d-none" href="#3--librem-mail">#&lt;/a>&lt;/h2>
+&lt;p>اختيار آخر لمحبي الخصوصية يختلف عن سابقيه بأنه مدفوع، وهي جزء من مجموعة خدمات Librem One المقدمة من شركة Purism التي توفر للمستخدم بيئة كاملة من التطبيقات والخدمات المختلفة التي تحترم الخصوصية، مثل البريد وشبكة تواصل اجتماعي وخدمة VPN وخدمة تخزين سحابي. وتتميز خدمة Librem Mail بأنها لا مركزية وتستخدم التشفير التام بين الطرفين افتراضيا.&lt;/p>
+&lt;p>&lt;a href="https://librem.one/" target="_blank" rel="noopener noreferrer">https://librem.one&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/email-services-for-privacy/images/librem-mail.jpg" loading="lazy" width="768" height="451" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="4--criptext" data-numberify>4- Criptext&lt;a class="anchor ms-1 d-none" href="#4--criptext">#&lt;/a>&lt;/h2>
+&lt;p>خدمة بريد مفتوحة المصدر تستخدم بروتوكول Signal للتشفير (نفس التشفير المستخدم في تطبيق المراسلات الأمنة Signal)، تتميز بكونها مجانية تماما، وتدعم التشفير التام بين الطرفين والنطاقات المخصصة. تحتوي الخدمة على ميزات عديدة مثل إلغاء الإرسال وتتبع البريد في الوقت الفعلي.&lt;/p>
+&lt;p>كما توفر الخدمة للمستخدمين تطبيقات سطح المكتب لأنظمة ويندوز ولينكس وماك.&lt;/p>
+&lt;p>&lt;a href="https://criptext.com/" target="_blank" rel="noopener noreferrer">https://criptext.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/email-services-for-privacy/images/criptext.jpg" loading="lazy" width="768" height="458" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="5--mailfence" data-numberify>5- Mailfence&lt;a class="anchor ms-1 d-none" href="#5--mailfence">#&lt;/a>&lt;/h2>
+&lt;p>تتميز خدمة Mailfence عن الخدمات الأخرى بأنها تفرض استخدام تشفير OpenPGP والتشفير التام بين الطرفين معا. مما يجعلها أحد أقوي خيارات خدمات البريد التي تحترم الخصوصية. تتوفر خطط استخدام مجانية ومدفوعة، تتيح المجانية صندوق بريد بحجم 500 ميجا بايت، وحتى 1000 حدث مسجل في التقويم، إضافة إلى ميزة التحقق بخطوتين. أما المدفوعة فتوفر مساحة 5 جيجا بايت وحتى 10000 حدث مقابل اشتراك شهري.&lt;/p>
+&lt;p>يعيب هذه الخدمة عدم توفر تطبيقات هاتف، فللدخول إلى بريدك الإلكتروني تحتاج إلى استخدام المتصفح.&lt;/p>
+&lt;p>&lt;a href="https://mailfence.com/" target="_blank" rel="noopener noreferrer">https://mailfence.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/email-services-for-privacy/images/mailfence.png" loading="lazy" width="768" height="283" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="6--disroot" data-numberify>6- Disroot&lt;a class="anchor ms-1 d-none" href="#6--disroot">#&lt;/a>&lt;/h2>
+&lt;p>مقارنة بسابقاتها فإن Disroot خدمة حديثة نسبيا، لكنها مع ذلك قد استطاعت خلال الأعوام الماضية إثبات نفسها كأحد أبرز خدمات البريد الإلكتروني المستقلة والمشفرة.&lt;/p>
+&lt;p>تقدم Disroot بريد خالي من الإعلانات وغير قابل للتتبع ولا يطلب معلوماتك الشخصية. وتوفر للمستخدم برنامج خادم مبنى على المتصفح (Rainloop) يسهل تثبيته واستخدامه، كما أنه يدعم تشفير GPG مفتوح المصدر.&lt;/p>
+&lt;p>&lt;a href="https://disroot.org/en" target="_blank" rel="noopener noreferrer">https://disroot.org/en&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/email-services-for-privacy/images/disroot.png" loading="lazy" width="1251" height="539" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="7--hushmail" data-numberify>7- Hushmail&lt;a class="anchor ms-1 d-none" href="#7--hushmail">#&lt;/a>&lt;/h2>
+&lt;p>تستهدف خدمة Hushmail الشركات ورجال الأعمال، حيث توفر خططا مدفوعة تبدأ من 50 دولار سنويا للفرد ضمن الخطة الفردية، أو 6 دولار سنويا للفرد ضمن خطة الشركات.&lt;/p>
+&lt;p>توفر Hushmail بريد إلكتروني آمن ونظيف وخالي من الإعلانات بسعة تخزين 10 جيجا بايت، يمكنك الوصول إليه عبر المتصفح أو الهاتف المحمول أو برنامج سطح المكتب. وبسبب اعتماد التشفير التام بين الطرفين، ليس لدى Hushmail نفسها إمكانية الوصول إلى محتويات بريدك الإلكتروني.&lt;/p>
+&lt;p>تستطيع عن طريق بريد Hushmail إرسال الرسائل المشفرة إلى الخدمات البريدية الأخرى مثل Gmail وOutlook، كما تستطيع استخدام تشفير OpenPGP أيضا.&lt;/p>
+&lt;p>لسوء الحظ، لم تعد النسخة المجانية من الخدمة متاحة منذ فترة قريبة، لكن لا يزال بإمكانك تجربة الخدمة لمدة 14 يوم مجانا.&lt;/p>
+&lt;p>&lt;a href="https://www.hushmail.com/" target="_blank" rel="noopener noreferrer">https://www.hushmail.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/email-services-for-privacy/images/hushmail.png" loading="lazy" width="1144" height="511" />
+&lt;/picture>
+&lt;/p>
+&lt;p>قد تضطر إلى مواجهة بعض المنغصات عند استخدامك أحد خدمات البريد الإلكتروني التي تركز على الخصوصية، مثل ضعف واجهة المستخدم أو نقص خيارات التخصيص. ومع ذلك، فهذه هي الضريبة التي يجب عليك تحملها إذا كنت ترغب في إعطاء الأولوية لخصوصيتك على أي شيء آخر، حيث أن أغلب هذه الخدمات تدار بواسطة فرق صغيرة أو شركات ناشئة، بخلاف الخدمات الشهيرة التي لديها مئات من المطورين للعمل على واجهة المستخدم والتحسينات وإضافة الميزات الجديدة.&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 226 شهر 10-2019 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1NAvPlQ1pTZFGSqS05qfD9mrYHnRamRHd/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/email-services-for-privacy/images/226-6.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/email-services-for-privacy/images/226-7.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item><item><title>أفضل إضافات المتصفح لحماية الخصوصية</title><link>https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/</guid><description>&lt;p>تحتوي أغلب المتصفحات الحالية على إمكانية إضافة مزيد من المميزات عن طريق &amp;ldquo;الإضافات&amp;rdquo;، فإذا ألقيت نظرة سريعة على أحد متاجر الإضافات، ستجد العديد منها يساعد في تحسين تجربة المستخدم على الإنترنت. وإذا كنت من الأشخاص الذين يقلقون بشأن الخصوصية الرقمية (ويجب أن تكون)، يمكنك استخدام إضافات المتصفح لتعزيز حمايتك، وزيادة سرعة المتصفح من خلال منع المواقع من التتبع. دعونا نستعرض مجموعة من أهم الإضافات التي يجب أن تكون موجودة في متصفح الإنترنت الخاص بك لحماية خصوصيتك.&lt;/p>
+&lt;p>تحتوي أغلب المتصفحات الحالية على إمكانية إضافة مزيد من المميزات عن طريق &amp;ldquo;الإضافات&amp;rdquo;، فإذا ألقيت نظرة سريعة على أحد متاجر الإضافات، ستجد العديد منها يساعد في تحسين تجربة المستخدم على الإنترنت. وإذا كنت من الأشخاص الذين يقلقون بشأن الخصوصية الرقمية (ويجب أن تكون)، يمكنك استخدام إضافات المتصفح لتعزيز حمايتك، وزيادة سرعة المتصفح من خلال منع المواقع من التتبع. دعونا نستعرض مجموعة من أهم الإضافات التي يجب أن تكون موجودة في متصفح الإنترنت الخاص بك لحماية خصوصيتك.&lt;/p>
+&lt;h2 id="1--https-everywhere" data-numberify>1- HTTPS Everywhere&lt;a class="anchor ms-1 d-none" href="#1--https-everywhere">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: جوجل كروم - فايرفوكس - أوبيرا
+لا يمكن أن نتحدث عن حماية الخصوصية أثناء التصفح ولا نذكر إضافة HTTPS Everywhere، فهي من أفضل وأقدم الإضافات التي تفرض على المواقع استعمال البروتوكول HTTPS خلال التصفح بدلا من HTTP كلما أمكن ذلك، وبهذا تضمن أن تكون البيانات المتبادلة بين جهازك وخوادم مواقع الإنترنت أثناء التصفح مشفرة، ولا يمكن الاطلاع عليها من قبل الأشخاص الموجودين على نفس الشبكة المحلية.
+لكن للأسف لا تعمل الإضافة على كل المواقع، فعندما تقوم بتصفح أحد المواقع الصغيرة التي لا تحتوي على شهادات SSL سيظهر لك رسالة خطأ في الخصوصية، ويمكنك حينها تعطيل الإضافة لهذا الموقع للدخول عليه.
+رابط الإضافة: &lt;a href="https://www.eff.org/ar/https-everywhere" target="_blank" rel="noopener noreferrer">https://www.eff.org/ar/https-everywhere&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/https-everywhere.png" loading="lazy" width="1200" height="600" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="2--ublock-origin" data-numberify>2- uBlock Origin&lt;a class="anchor ms-1 d-none" href="#2--ublock-origin">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: جوجل كروم - فايرفوكس - أوبيرا - مايكروسوفت إيدج - أبل سفاري
+من الخطوات الأساسية لحماية خصوصيتك استخدام مانع إعلانات، وإضافة uBlock Origin هي الأفضل لهذه المهمة، فهي إضافة مفتوحة المصدر، تعمل على مختلف المتصفحات، وتوفر منع تلقائي لجميع الإعلانات عن طريق القوائم المدمجة بها، مع إمكانية إضافة قوائم مخصصة للمنع والسماح، فالإضافة مرنة بشكل كبير. كما تتيح أيضا للمستخدم منع عناصر معينة من المواقع يقوم المستخدم باختيارها يدويا، حيث يمكن من خلال هذه الميزة منع أي بنر إعلاني داخل المواقع التي تقوم بتأجير أماكن إعلانات.
+لدي إضافة uBlock Origin مبدأ متميز وهو من الإعلانات بكفاءة وفاعليةـ فطبقا للمقارنات بينها وبين إضافات منع الإعلانات الأخرى، تحتل هي المركز الأول من حيث التأثير على سرعة المتصفح أثناء منع الإعلانات.
+رابط الإضافة: &lt;a href="https://github.com/gorhill/uBlock#installation" target="_blank" rel="noopener noreferrer">https://github.com/gorhill/uBlock#installation&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/uBlock.webp" loading="lazy" width="256" height="256" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="3--tampermonkey" data-numberify>3- Tampermonkey&lt;a class="anchor ms-1 d-none" href="#3--tampermonkey">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: جوجل كروم - فايرفوكس - أوبيرا - مايكروسوفت إيدج - أبل سفاري
+Tampermonkey هي إضافة لتثبيت وإدارة سكريبتات جافا سكريبت التي تقوم بتعديل المواقع بطرق مختلفة، وبالتالي هي لن تقوم بعمل أي تأثير في المتصفح بمجرد تثبيتها، لكن يجب أن تقوم بتثبيت بعض الاسكريبتات أولا.
+من أفضل الاسكربيتات التي يمكنك تجربتها:&lt;/p>
+&lt;ul>
+&lt;li>AdsBypasser: يقوم بتخطي الإعلانات الموجودة في مواقع اختصار الروابط تلقائيا.
+التثبيت: &lt;a href="https://adsbypasser.github.io/" target="_blank" rel="noopener noreferrer">https://adsbypasser.github.io/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>Google: Direct Links for Pages and Images: يقوم بمنع جوجل من عمل روابط إحالة تقوم بتتبعك أثناء استخدامك للبحث.
+التثبيت: &lt;a href="https://greasyfork.org/en/scripts/19210-google-direct-links-for-pages-and-images" target="_blank" rel="noopener noreferrer">https://greasyfork.org/en/scripts/19210-google-direct-links-for-pages-and-images&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>AntiAdware: كما هو واضح من اسمه، يعمل هذا الاسكريبت على منع كل البرمجيات الخبيثة التي تظهر في شكل إعلانات أثناء التصفح.
+التثبيت: &lt;a href="https://greasyfork.org/en/scripts/4294-antiadware" target="_blank" rel="noopener noreferrer">https://greasyfork.org/en/scripts/4294-antiadware&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+رابط الإضافة: &lt;a href="https://tampermonkey.net/" target="_blank" rel="noopener noreferrer">https://tampermonkey.net/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/Tampermonkey.png" loading="lazy" width="180" height="180" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="4--ghostery" data-numberify>4- Ghostery&lt;a class="anchor ms-1 d-none" href="#4--ghostery">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: جوجل كروم - فايرفوكس - أوبيرا - مايكروسوفت إيدج - أبل سفاري
+إضافة أخري مفتوحة المصدر، هدفها توفير تجربة تصفح أمنة، وأكثر سرعة وذكاء. حيث تكتشف إضافة Ghostery خدمات التتبع على المواقع التي تزورها، ثم تقوم بحظرها لتسريع وقت تحميل الصفحة.
+ومؤخرا قامت Ghostery ببدء استخدام ذكاء اصطناعي، والذي من شأنه أن يحسن بشكل كبير منع التعقب. والجدير بالذكر أن هذه الإضافة هي اختيار إدوارد سنودن المفضل لمنع التتبع.
+رابط الإضافة: &lt;a href="https://www.ghostery.com/" target="_blank" rel="noopener noreferrer">https://www.ghostery.com/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/ghostery.webp" loading="lazy" width="315" height="93" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="5--disconnect" data-numberify>5- Disconnect&lt;a class="anchor ms-1 d-none" href="#5--disconnect">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: جوجل كروم - فايرفوكس - أوبيرا - أبل سفاري
+هي الإضافة الأفضل لحماية الخصوصية التي تم اختيارها من موقع نيويورك تايمز لثلاثة سنوات على التوالي. ويتم استخدامها بواسطة أكثر من مليون مستخدم.
+تقوم إضافة Disconnect بشكل مماثل لسابقتها بمنع الجهات الخارجية من تتبع صفحات الإنترنت التي تزورها. لكنها تركز على حماية الخصوصية بشكل أكبر من منع المتتبعات. ولديها قائمة كبيرة من مواقع وخدمات التتبع التي يتم حظرها، يمكنك الاطلاع عليها من &lt;a href="https://github.com/disconnectme/disconnect-tracking-protection" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.
+رابط الإضافة: &lt;a href="https://disconnect.me/disconnect" target="_blank" rel="noopener noreferrer">https://disconnect.me/disconnect&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;h2 id="6--privacy-badger" data-numberify>6- Privacy Badger&lt;a class="anchor ms-1 d-none" href="#6--privacy-badger">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: جوجل كروم - فايرفوكس - أوبيرا
+بخلاف الإضافات السابقة التي تعتمد على القوائم المعدة مسبقا لمنع التتبع، فإن Privacy Badger تتعلم تلقائيا منع المتتبعات الغير مرئية. وذلك عن طريق مشاهدة النطاقات التي تتبعك أثناء التصفح على الرغم من تمكين ميزة عدم التعقب (Do Not Track).
+وبدلاً من حظر كل المحتوى، فإنها تمنع فقط سكريبتات التتبع التي تتبعك من موقع إلى آخر. فعندما يتم اكتشاف مصدر يتتبعك عبر المواقع المختلفة، تقوم الإضافة بإخبار المتصفح أن يتوقف عن تحميل المحتوى من هذا المصدر. ومما يجعل هذه الإضافة من أفضل الخيارات المتاحة لمنع التتبع، هي أنه إذا كان المحتوى الذي يقوم بالتتبع ضروريًا لوظائف الصفحة، فإن الإضافة تسمح بتحميله مع حظر إمكانات التتبع.
+&lt;a href="https://www.eff.org/ar/node/99095" target="_blank" rel="noopener noreferrer">https://www.eff.org/ar/node/99095&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/PrivacyBadger.png" loading="lazy" width="1159" height="843" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="7--webutation" data-numberify>7- Webutation&lt;a class="anchor ms-1 d-none" href="#7--webutation">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: جوجل كروم - فايرفوكس
+اشتهرت إضافة Web of Trust (WOT) لتصنيف المواقع كثيرا، وكانت لتكون ضمن هذه القائمة لولا الفضيحة التي حدثت لها أواخر 2017، حيث تم اكتشاف أن الشركة تقوم بجمع وبيع بيانات مستخدمي الإضافة. لكن لحسن الحظ ظهرت إضافة Webutation كبديل واعد لها.
+حيث تجمع الإضافة تعليقات المستخدمين وتجربة العملاء حول مواقع الإنترنت، وتختبر خلو المواقع من برامج التجسس، كما تعتمد على العديد من المصادر في تحديد درجة موثوقية المواقع مثل بيانات إضافة Web of Trust، وGoogle Safebrowsing ومضاد الفيروسات الشهير نورتون، بالإضافة إلى العديد من الموارد الأخرى. وبذلك توفر على المستخدم عناء البحث عن مدي سلامة موقع ما قبل الاستخدام.
+رابط الإضافة: &lt;a href="http://www.webutation.net/go/about" target="_blank" rel="noopener noreferrer">http://www.webutation.net/go/about&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/webutation.png" loading="lazy" width="256" height="78" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="8--firefox-multi-account-containers" data-numberify>8- Firefox Multi-Account Containers&lt;a class="anchor ms-1 d-none" href="#8--firefox-multi-account-containers">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: فايرفوكس
+واحدة من الإضافات الجديدة على الساحة، والتي كسبت شعبية كبيرة بين مستخدمي فايرفوكس في وقت قصير. تعمل هذه الإضافة على إنشاء &amp;ldquo;حاويات&amp;rdquo; لعزل المواقع التي تريدها، مما يجعل هذه المواقع غير قابلة للتفاعل مع ملفات تعريف الارتباط لجلسة المتصفح الأساسية.
+وفي الواقع يمكنك استخدام هذه الإضافة بعدة طرق، مثل عزل المواقع التي تقوم بالتتبع مثل جوجل وفيسبوك، أو استخدام حاوية للمنزل وحاوية للعمل، أو حتى فتح أكثر من حساب على موقع في نفس الوقت عن طريق استخدام مزيد من الحاويات.&lt;/p>
+&lt;p>تعمل الإضافة كما هو واضح من اسمها على متصفح فايرفوكس فقط، لكن يوجد بديل مشابهة لها على كروم وأوبيرا هو إضافة SessionBox.
+رابط الإضافة: &lt;a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/" target="_blank" rel="noopener noreferrer">https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/containers.png" loading="lazy" width="220" height="300" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="9--noscript-وscriptsafe" data-numberify>9- NoScript وScriptSafe&lt;a class="anchor ms-1 d-none" href="#9--noscript-وscriptsafe">#&lt;/a>&lt;/h2>
+&lt;p>متوفرة على: جوجل كروم - فايرفوكس
+NoScript هي إضافة لمتصفح فايرفوكس ضمن ترشيحات إدوارد سنودن، تقوم بحظر البرمجيات الضارة التي يمكن استخدامها لأغراض التتبع وكذلك المكونات الإضافية وغيرها من الأكواد البرمجية التي يمكنها مهاجمة نظامك. كما تسمح لك بتحديد المواقع الموثوقة ليتم تشغيل مكونات مثل JavaScript -Java - Flash عليها.
+أما ScriptSafe فهي إضافة ذات شعبية كبيرة، مفتوحة المصدر، ولديها العديد من التعليقات إيجابية من مستخدميها عبر الإنترنت. فهي تتيح للمستخدمين التبديل بين أوضاع الحظر بسهولة، فهي تستخدم نهج &amp;ldquo;امنع أولاً، اسأل لاحقًا&amp;rdquo; لضمان حماية المستخدم. لذلك قد يتم افتراضيًا حظر بعض المواقع التي تزورها بشكل منتظم.
+رابط الإضافة:
+&lt;a href="https://noscript.net/" target="_blank" rel="noopener noreferrer">https://noscript.net/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+&lt;a href="https://github.com/andryou/scriptsafe" target="_blank" rel="noopener noreferrer">https://github.com/andryou/scriptsafe&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/NoScript.png" loading="lazy" width="128" height="128" />
+&lt;/picture>
+&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 217 شهر 01-2019 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/16gCFQqQx40lHCnO2EPdlYhdkvYSWv_xh/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/217-1.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/217-2.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/217-3.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/best-browsers-extenstions-for-privacy/images/217-4.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item><item><title>كيف تخفي هويتك الرقمية لمنع استغلال بياناتك؟</title><link>https://yshalsager.com/ar/posts/hiding-online-identity/</link><pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/hiding-online-identity/</guid><description>&lt;p>من منا لم يسمع عن تسريبات vault 7 الأخيرة التي كشفت عن العديد من أدوات التجسس التي تستخدمها الاستخبارات الأمريكية لاختراق الأنظمة، وليس هذا فحسب بل إن هناك العديد من التطبيقات التي تزايدت حولها الشكوك في الآونة الأخيرة عن استغلالها لبيانات المستخدمين و تخزينها ومن ثم بيعها لاستخدامها في الأنشطة الإعلانية، لذلك نقدم لك عزيزي القارئ دليل تفصيلي عن كيفيه إخفاء هويتك على الإنترنت وإبقاء بياناتك آمنة.&lt;/p>
+&lt;p>PRISM هو برنامج وكالة الأمن القومي العالمي لمراقبة البيانات والذي يهدف إلى جلب أي معلومات تحتاج إليها المخابرات الأمريكية عن أي مستخدم لأحد أكبر الشركات الأمريكية التي تورطت في أخطر وسائل التجسس الإلكتروني وعلى رأس قائمة هذه الشركات Yahoo,Google,Skype,Microsoft,Apple,FaceBook والعديد من شركات الكبيرة التي تملك أعداد ضخمة من مستخدمين والأعضاء، والذي تم تسريب معلومات عنه في مارس الماضي، وقد تضمن هذا البرنامج المثير للجدل العديد من الأدوات والثغرات التي يمكن استغلالها في العديد من أنظمة التشغيل للتجسس على بيانات المستخدمين والأنشطة التي يقومون بها على الإنترنت.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/PRISM.jpg" loading="lazy" width="800" height="450" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وليس هذا فحسب بل إن هناك العديد من الخدمات الموجودة على الإنترنت التي تستغل بيانات المستخدمين بدون علمهم مثل موقع unroll.me، و بالمثل هناك برامج سطح المكتب أيضا تقوم بمثل هذا الأمر مثل برنامج AVG الشهير، والأمر نفسه بالنسبة لإضافات المتصفح مثل Web Of Trust التي تبين أنها تبيع بيانات المستخدمين، لذلك يجب عليك أن تنتبه إلى مثل هذا الفخ الخطير الذي يقع فيه اغلب مستخدمي الإنترنت.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/privacy.jpg" loading="lazy" width="1536" height="1020" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;strong>إذن ما الحل للبقاء آمنا؟&lt;/strong>&lt;/p>
+&lt;p>قد يبدو أن الأمر لا مفر منه لكن صدقني عزيزي القارئ، إن الموضوع يحتاج فقط إلى القرارات الجريئة في التخلي عن بعض الخدمات والانتقال إلى استخدام خدمات أخري لا تقوم بسرقه بيانات المستخدمين واستغلالها، وإذا كنت قد تابعت الموضوع الذي تناولناه في العدد 200 الذي تحدثنا فيه عن &lt;a href="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/">البرمجيات الحرة والبدائل للبرامج المغلقة&lt;/a> فستعرف أن هناك مجموعة كبيره من البرمجيات الحرة القادرة على تلبيه متطلبات المستخدم وفي نفس الوقت تضمن له الأمان و الخصوصية دون خوف من التجسس أو سرقة البيانات واستغلالها. ويمكنك الرجوع إلى قائمة البرمجيات الحرة &lt;a href="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/">هنا&lt;/a>.&lt;/p>
+&lt;h2 id="9-خطوات-لإبقاء-هويتك-الرقمية-مجهولة" data-numberify>9 خطوات لإبقاء هويتك الرقمية مجهولة&lt;a class="anchor ms-1 d-none" href="#9-خطوات-لإبقاء-هويتك-الرقمية-مجهولة">#&lt;/a>&lt;/h2>
+&lt;h3 id="1--انتقل-إلى-البرمجيات-الحرة" data-numberify>1- انتقل إلى البرمجيات الحرة&lt;a class="anchor ms-1 d-none" href="#1--انتقل-إلى-البرمجيات-الحرة">#&lt;/a>&lt;/h3>
+&lt;p>وقد أوضحنا أسباب فعل ذلك في العدد 200 &lt;a href="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/">هنا&lt;/a>.
+أيضا أنصحك بزيارة هذا الموقع &lt;a href="https://prism-break.org/ar" target="_blank" rel="noopener noreferrer">https://prism-break.org/ar&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> الذي يوضح لك البرمجيات الحرة الآمنة من التجسس والبرمجيات الاحتكارية الخاضعة لبرنامج PRISM التجسسي.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/open-source.png" loading="lazy" width="2000" height="1000" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="2--استخدم-لينكس" data-numberify>2- استخدم لينكس&lt;a class="anchor ms-1 d-none" href="#2--استخدم-لينكس">#&lt;/a>&lt;/h3>
+&lt;p>وبذلك تتخلص من مراقبة مايكروسوفت وتضمن عدم استغلال نظام التشغيل لبياناتك، فمن المعروف أن ويندوز 10 يقوم بتجميع العديد من البيانات عنك بما في ذلك كل ما تقوم بكتابته باستخدام لوحه المفاتيح.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/linux.png" loading="lazy" width="1979" height="1979" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="3--توقف-عن-استخدام-حساب-جوجل-وخدماته-على-هاتفك-الأندرويد" data-numberify>3- توقف عن استخدام حساب جوجل وخدماته على هاتفك الأندرويد&lt;a class="anchor ms-1 d-none" href="#3--توقف-عن-استخدام-حساب-جوجل-وخدماته-على-هاتفك-الأندرويد">#&lt;/a>&lt;/h3>
+&lt;p>قد تختلف معي عزيزي القارئ في هذه النقطة، لكن هل تعرف أن جوجل قد قد ذكرت صراحة في سياسة الخصوصية أنها تقوم بتسجيل رقم الهاتف و أرقام المتصلين وقت وتاريخ المكالمات و مده المكالمات وحتى عناوين الآي بي الخاص بك عند تسجيل الدخول بحساب جوجل على هاتفك الأندرويد، وحتى تتحقق بنفسك من مقدار ما تقوم جوجل بجمعه من بيانات عنك قم بتصفح الروابط التالية بعد تسجيل الدخول بحسابك:&lt;/p>
+&lt;ul>
+&lt;li>إعدادات الإعلانات &lt;a href="https://www.google.com/ads/preferences/" target="_blank" rel="noopener noreferrer">https://www.google.com/ads/preferences/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>سجل عمليات البحث &lt;a href="https://history.google.com/" target="_blank" rel="noopener noreferrer">https://history.google.com/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>سجل الموقع الجغرافي &lt;a href="https://maps.google.com/locationhistory" target="_blank" rel="noopener noreferrer">https://maps.google.com/locationhistory&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>سجل مشاهدات اليوتيوب &lt;a href="https://www.youtube.com/feed/history" target="_blank" rel="noopener noreferrer">https://www.youtube.com/feed/history&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>سجل البحث على اليوتيوب &lt;a href="https://www.youtube.com/feed/history/search_history" target="_blank" rel="noopener noreferrer">https://www.youtube.com/feed/history/search_history&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>الأجهزة المرتبطة بحسابك &lt;a href="https://security.google.com/settings/security/activity" target="_blank" rel="noopener noreferrer">https://security.google.com/settings/security/activity&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>التطبيقات المرتبطة بحسابك &lt;a href="https://security.google.com/settings/security/permissions" target="_blank" rel="noopener noreferrer">https://security.google.com/settings/security/permissions&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>لوحة بيانات جوجل &lt;a href="https://www.google.com/settings/dashboard" target="_blank" rel="noopener noreferrer">https://www.google.com/settings/dashboard&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>تنزيل نسخة عن بياناتك &lt;a href="https://www.google.com/takeout" target="_blank" rel="noopener noreferrer">https://www.google.com/takeout&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/google.jpg" loading="lazy" width="600" height="220" />
+&lt;/picture>
+&lt;/p>
+&lt;p>أيضا قم بتعطيل تطبيقات جوجل التي لا تقوم باستخدامها، وحاول استخدام البدائل الحرة المتوفرة لكل تطبيقات جوجل والتي يمكنك الإطلاع عليها هنا &lt;a href="https://prism-break.org/ar/categories/android/" target="_blank" rel="noopener noreferrer">https://prism-break.org/ar/categories/android/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;h3 id="4--قم-بإعداد-متصفح-الإنترنت-جيدا" data-numberify>4- قم بإعداد متصفح الإنترنت جيدا&lt;a class="anchor ms-1 d-none" href="#4--قم-بإعداد-متصفح-الإنترنت-جيدا">#&lt;/a>&lt;/h3>
+&lt;p>يوجد العديد من محتوي الإنترنت الذي يمكنه تسريب معلومات عنك، مثل الإعلانات، الجافا سكريبت، والفلاش، لذلك أنصحك بتثبيت الإضافات التالية لتصفح الإنترنت بأمان.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>مانع الإعلانات، يمكنك الاختيار بين إضافة Adblock Plus &lt;a href="https://adblockplus.org/" target="_blank" rel="noopener noreferrer">https://adblockplus.org/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> وإضافة uBlock &lt;a href="https://www.ublock.org" target="_blank" rel="noopener noreferrer">https://www.ublock.org&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> وإن كنت أفضل الأخيرة.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>إضافة لمنع التعقب بواسطة منع الscripts داخل صفحات الويب، مثل Disconnect &lt;a href="https://disconnect.me/disconnect" target="_blank" rel="noopener noreferrer">https://disconnect.me/disconnect&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> أو NoScript &lt;a href="https://noscript.net" target="_blank" rel="noopener noreferrer">https://noscript.net&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>إضافات أخري:
+HTTPS Everywhere للبقاء دائما متصلا بالإنترنت من خلال اتصال https المشفر.
+&lt;a href="https://www.eff.org/https-everywhere" target="_blank" rel="noopener noreferrer">https://www.eff.org/https-everywhere&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+أيضا قم بإيقاف ملفات تعريف الارتباط cookies و WebRTC وأخيرا قم بتفعيل طلبات عدم التعقب do-not-request.
+ويجب عليك أيضا استخدام محرك بحث لا يقوم بتتبعك مثل &lt;a href="https://duckduckgo.com" target="_blank" rel="noopener noreferrer">https://duckduckgo.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/browser.png" loading="lazy" width="646" height="247" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="5--لا-تقم-بحفظ-كلمات-المرور-باستخدام-المتصفح" data-numberify>5- لا تقم بحفظ كلمات المرور باستخدام المتصفح&lt;a class="anchor ms-1 d-none" href="#5--لا-تقم-بحفظ-كلمات-المرور-باستخدام-المتصفح">#&lt;/a>&lt;/h3>
+&lt;p>كثير منا يقوم بهذا الأمر، لكن بسبب هذا قد تخترق حساباتك أو يتم تسريب كلمه المرور الخاصة بك إلى جهات أخرى، وبدلا من التخزين داخل المتصفح يمكنك استخدام برنامج لإدارة كلمات المرور، مثل KeePassX &lt;a href="https://www.keepassx.org" target="_blank" rel="noopener noreferrer">https://www.keepassx.org&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> أو Password Safe &lt;a href="http://pwsafe.org" target="_blank" rel="noopener noreferrer">http://pwsafe.org&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/passwords.jpg" loading="lazy" width="810" height="456" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="6--استخدام-proxy" data-numberify>6- استخدام Proxy&lt;a class="anchor ms-1 d-none" href="#6--استخدام-proxy">#&lt;/a>&lt;/h3>
+&lt;p>البروكسي باختصار هو خدمة تقدمها العديد من المزودات على الإنترنت تعمل كوكيل بينك وبين الموقع حيث تقوم بطلب المعلومات من تلك المواقع ثم إرسالها لك، وبالتالي فأنت لا تستخدم عنوانك الحقيقي لطلب الوصول للمواقع طالما تستخدم خدمة proxy وهذا ما يعطيك طبقة إضافية من الحماية.
+ويمكنك إيجاد العديد من الخدمات المجانية والمدفوعة على الإنترنت بمجرد البحث عن proxy.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/proxy.png" loading="lazy" width="826" height="418" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="7--استخدام-vpn" data-numberify>7- استخدام VPN&lt;a class="anchor ms-1 d-none" href="#7--استخدام-vpn">#&lt;/a>&lt;/h3>
+&lt;p>الشبكات الافتراضية أو VPN تعد من أفضل أدوات تحقيق الخصوصية، حيث يتيح لك ال VPN تصفح الإنترنت بطريقة آمنة عن طريق خوادم مع تشفير كافة البيانات، إلى جانب تغيير عنوان ال IP الخاص بك، وحمايتك أثناء استخدامك للشبكات العامة. وعلي الرغم من أن استخدام ال VPN قد لا يضمن عدم الكشف عن هويتك إلا أنه ينصح به وبشدة للتصفح بشكل آمن.
+ويوجد على الإنترنت العديد من مزودي خدمة VPN، منها ما هو مجاني ومفتوح المصدر مثل VPNGate ومنها خدمات مدفوعة باشتراك شهري للحصول على خدمة ذات جودة عالية.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/VPN-Shield.jpg" loading="lazy" width="2400" height="1800" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="8--استخدام-tor" data-numberify>8- استخدام TOR&lt;a class="anchor ms-1 d-none" href="#8--استخدام-tor">#&lt;/a>&lt;/h3>
+&lt;p>TOR هي اختصار للمصطلح (The Onion Router) أو ما يعرف بالتوجيه البصلي وبدأت كشبكة من مجموعة خوادم حول العالم تم تطويرها من قبل البحرية الأمريكية لإخفاء هوية متصفحي الإنترنت، وهي الآن عبارة عن منظمة غير ربحية تعمل في مجال أبحاث وتطوير أدوات حماية الخصوصية على الإنترنت، وتقوم هذه الشبكة بإخفاء هويتك عن طريق تبادل البيانات باستخدام الخوادم الخاصة بالشبكة وليس بالخوادم المعتادة الخاصة بالإنترنت وتقوم أيضاً الشبكة بتشفير تلك البيانات حتى لا يقوم أحد بتتبعها، وبالتالي تضمن لك درجة عالية من الأمان والخصوصية.
+ويمكنك استخدام شبكة TOR بكل سهولة عن طريق المتصفح الخاص بها &lt;a href="https://www.torproject.org/download/download-easy.html.en" target="_blank" rel="noopener noreferrer">https://www.torproject.org/download/download-easy.html.en&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+أو نسخة الأندرويد تطبيق Orbot و وتطبيقOrfox (تحتاج تثبيت كلاهما معا من أي متجر تطبيقات).&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/tor.jpg" loading="lazy" width="860" height="645" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="9--استخدام-الأنظمة-المخصصة-للتصفح-الآمن" data-numberify>9- استخدام الأنظمة المخصصة للتصفح الآمن&lt;a class="anchor ms-1 d-none" href="#9--استخدام-الأنظمة-المخصصة-للتصفح-الآمن">#&lt;/a>&lt;/h3>
+&lt;p>توجد العديد من توزيعات لينكس التي تعمل كنسخة live فقط (تعمل داخل الذاكرة العشوائية ولا تستخدم القرص الصلب) والمصممة خصيصا لحماية الخصوصية وعدم الكشف عن هوية مستخدميها. حيث يسمح باستخدام الإنترنت بصفة مجهولة الهوية في أي مكان تقريبا على شبكة الإنترنت وعلى أي جهاز كمبيوتر بسهولة شديدة، من ضمن تلك التوزيعات:&lt;/p>
+&lt;ul>
+&lt;li>Tails &lt;a href="https://tails.boum.org" target="_blank" rel="noopener noreferrer">https://tails.boum.org&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>Whonix &lt;a href="https://www.whonix.org" target="_blank" rel="noopener noreferrer">https://www.whonix.org&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>Anonym.OS &lt;a href="https://sourceforge.net/projects/anonym-os" target="_blank" rel="noopener noreferrer">https://sourceforge.net/projects/anonym-os&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/hiding-online-identity/images/tails.png" loading="lazy" width="1280" height="1024" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وختاما، تذكر أن تستخدم الخدمات البديلة مفتوحة المصدر إذا أردت ضمان الخصوصية والأمان، لأن البرامج المغلقة يمكن أن تقوم بجمع بيانات عنك واستغلالها دون علمك!&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 202 شهر 10-2017 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1AFutlN-xbW3nLIunnP3WyM6E0W9Dy2bc/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p></description></item></channel></rss>

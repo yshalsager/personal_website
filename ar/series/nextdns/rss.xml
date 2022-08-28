@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NextDNS on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/series/nextdns/</link><description>آخر التدوينات من in NextDNS يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/series/nextdns/rss.xml" rel="self" type="application/rss+xml"/><item><title>تخصيص خدمة NextDNS والتحكم في حجب الإعلانات والمواقع</title><link>https://yshalsager.com/ar/posts/nextdns-customization/</link><pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/nextdns-customization/</guid><description>&lt;p>في هذا المقال نستكمل استعراض خدمة NextDNS لحجب الإعلانات والمواقع وتحسين الخصوصية، وتقديم إحصاءات مفصلة باستخدام الإنترنت وحماية اﻷطفال من المحتوى المخل الموجود على الإنترنت. سيركز هذا الجزء على تخصيص خدمة NextDNS والتحكم في حجب الإعلانات والمواقع والعديد من اﻷمور اﻷخرى.&lt;/p>
+&lt;p>هذا المقال هو الجزء الثاني من هذه السلسلة، يمكنك قراءة الجزء الأول &lt;a href="https://yshalsager.com/ar/posts/nextdns">هنا&lt;/a>.&lt;/p>
+&lt;h2 id="الجزء-الثاني-تخصيص-خدمة-nextdns-والتحكم-في-حجب-الإعلانات-والمواقع" data-numberify>الجزء الثاني: تخصيص خدمة NextDNS والتحكم في حجب الإعلانات والمواقع&lt;a class="anchor ms-1 d-none" href="#الجزء-الثاني-تخصيص-خدمة-nextdns-والتحكم-في-حجب-الإعلانات-والمواقع">#&lt;/a>&lt;/h2>
+&lt;p>تتميز خدمة NextDNS بأن الواجهة سهلة للغاية ويمكن لأي شخص أيًا كانت خبرته في التعامل مع التقنية. فكما رأينا في الجزء السابق، تحتوي الشاشة الرئيسية على مجموعة من التبويبات باﻷعلى والمقسمة إلى اﻷمور التي يمكنك التحكم بها في الخدمة.&lt;/p>
+&lt;p>التبويب اﻷول Setup هو المختص بكل ما له علاقة بعملية التثبيت التي تناولتها بالشرح في المقال السابق.&lt;/p>
+&lt;p>أما التبويب Security فيحتوى على مجموعة من الخيارات المتعلقة بالحماية أثناء التصفح من اﻹنترنت. بينما تبويب Privacy فستجد به مختلف الخيارات المتعلقة بالخصوصية مثل حجب المتتبعات من طرف ثالث وإضافة قوائم منع التتبع.&lt;/p>
+&lt;p>بينما يمكنك حجب التصنيفات الحساسة والغير أخلاقية عن طريق تبويب الحماية اﻷبوية، ويمكنك أيضًا من هناك حجب مجموعة من التطبيقات والخدمات المعروفة.&lt;/p>
+&lt;p>بعد ذلك لدينا التبويبات Denylist وAllowlist وهما قائمتا الحجب والسماح. ويمكنك من خلالهما إضافة مواقع للحجب أو السماح بشكل يدوي.&lt;/p>
+&lt;p>ثم ستجد تبويب Analytics الخاص بعرض إحصائيات حجب اﻹعلانات والمواقع، وتبويب Logs لعرض سجلات المواقع التي تم الوصول إليها، وأخيرًا تبويب Settings للتحكم في إعدادات الخدمة.&lt;/p>
+&lt;p>ونظرًا ﻷن اﻷمر سيطول للغاية لو قمت بشرحه هنا كتابةً فقد قمت بشرح كيفية تخصيص خدمة NextDNS والتحكم في خياراتها المختلفة، وكذلك كيفية ربط الخدمة بجهاز الراوتر عن طريق موقع no-ip في هذا الفيديو:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/EoDiowqXm-s" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>ما هي خدمة NextDNS ولماذا يجب عليك استخدامها؟</title><link>https://yshalsager.com/ar/posts/nextdns/</link><pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/nextdns/</guid><description>&lt;p>NextDNS هي أحد الخدمات التي تعرفت عليها منذ فترة ليست بالبعيدة وقمت باستخدامها على كل أجهزتي لما تقدمه من عدد كبير من الميزات، مثل: حجب الإعلانات والمواقع وتحسين الخصوصية عن طريق منع المتتبعات (trackers) والمواقع الضارة، وتقديم إحصاءات مفصلة باستخدام الإنترنت وحماية اﻷطفال من المحتوى المخل الموجود على الإنترنت.&lt;/p>
+&lt;p>سأقوم باستعراض هذه الخدمة في سلسلة من التدوينات بشيء من التفصيل حتى تكون الاستفادة منها بأكبر قدر ممكن وحتى لا يكون الشرح طويلًا ومملًا.&lt;/p>
+&lt;h2 id="الجزء-الأول-خدمة-nextdns-لحجب-الإعلانات-والمواقع-وحماية-الخصوصية" data-numberify>الجزء الأول: خدمة NextDNS لحجب الإعلانات والمواقع وحماية الخصوصية&lt;a class="anchor ms-1 d-none" href="#الجزء-الأول-خدمة-nextdns-لحجب-الإعلانات-والمواقع-وحماية-الخصوصية">#&lt;/a>&lt;/h2>
+&lt;h3 id="ما-الذي-تقدمه-لك-nextdns" data-numberify>ما الذي تقدمه لك NextDNS؟&lt;a class="anchor ms-1 d-none" href="#ما-الذي-تقدمه-لك-nextdns">#&lt;/a>&lt;/h3>
+&lt;p>كما أسلفت في المقدمة، توفر NextDNS العديد من المميزات التي تجعل استخدام الإنترنت أفضل، مثل:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>حماية من الإعلانات والمتتبعات والبرامج الخبيثة وبرمجيات التعدين ومحاولات التصيد.&lt;/p>
+&lt;p>توفر NextDNS أكثر من مائة قائمة حظر لتختار من بيتها ما تريد حجبه بشكل سهل. كما توفر أيضًا إمكانية حجب المواقع باستخدام عناوين النطاقات بشكل لا محدود. والجدير بالذكر أن كل هذه الأمور تتم دون التأثير على أداء جهازك لأنها تتم على مستوى نظام أسماء النطاقات (DNS).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>معرفة الاتصالات التي تتم عن طريق أجهزتك مع إحصائيات مفصلة ونظام سجلات متقدم.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>عن طريق الإحصائيات يمكنك معرفة مدى كفاءة الاستراتيجية المستخدمة لمنع الإعلانات، وما هي المتتبعات التي تحاول إرسال بياناتك والعديد من الأمور الأخرى.&lt;/p>
+&lt;ul>
+&lt;li>تطبيقات وإضافات لكل أنظمة التشغيل والمتصفحات.&lt;/li>
+&lt;/ul>
+&lt;p>عن طريق استخدام تطبيقات NextDNS ستضمن استخدام DNS مشفر وآمن على كل أجهزتك، كما ستتمتع بإنترنت خالي من الإعلانات والمتتبعات دون التقيد بشبكة إنترنت محددة أو متصفحات بعينها.&lt;/p>
+&lt;ul>
+&lt;li>حماية الأطفال والتحكم فيما يمكنك الوصول إليه على الإنترنت.&lt;/li>
+&lt;/ul>
+&lt;p>يمكنك بخطوات بسيطة منع المواقع المخلة وتفعيل البحث الآمن بشكل إجباري وأيضا حجب المواقع والخدمات المختلفة.&lt;/p>
+&lt;h3 id="التسجيل-في-nextdns" data-numberify>التسجيل في NextDNS&lt;a class="anchor ms-1 d-none" href="#التسجيل-في-nextdns">#&lt;/a>&lt;/h3>
+&lt;p>بداية، خدمة NextDNS متاحة بشكل مجاني ولا تتطلب إنشاء حساب لتجربتها لمدة 7 أيام، لكن حتى تحفظ إعدادات الخدمة تحتاج إلى إنشاء حساب عن طريق الموقع &lt;a href="https://my.nextdns.io" target="_blank" rel="noopener noreferrer">https://my.nextdns.io&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>
+&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="Resize" src="https://yshalsager.com/ar/posts/nextdns/images/Sign-Up-NextDNS_hu795bb1c7275babbec0a7157615fb4af7_26315_500x0_resize_box_3.png" loading="lazy" width="500" height="551" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="تثبيت-nextdns-على-أجهزتك" data-numberify>تثبيت NextDNS على أجهزتك&lt;a class="anchor ms-1 d-none" href="#تثبيت-nextdns-على-أجهزتك">#&lt;/a>&lt;/h3>
+&lt;p>بعد إنشاء حساب جديد يمكنك البدء في تثبيت NextDNS على مختلف أجهزتك سواء كانت تعمل بنظام لينكس أو ويندوز أو ماك أو أندرويد. كما يمكنك تثبيت NextDNS على متصفحات فايرفوكس وجوجل كروم مباشرة. أو تثبيتها على جهاز الراوتر الخاص بك إذا كان يدعم ذلك، أو ربطها بالراوتر عن طريق إعدادات الDNS.&lt;/p>
+&lt;p>تختلف خطوات التثبيت من نظام لأخر، لكن جميع الخطوات موضحة بشكل بسيط على الموقع.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid mx-auto d-block" alt="Resize" src="https://yshalsager.com/ar/posts/nextdns/images/Setup-NextDNS.png" loading="lazy" width="1662" height="622" />
+&lt;/picture>
+&lt;/p>
+&lt;p>فعلى سبيل المثال، يمكنك تثبيت NextDNS على هواتف أندرويد عن طريق التطبيق الرسمي الذي يستخدم تقنية VPN في تمرير الاتصالات إلى NextDNS لفترة الإعلانات والمواقع، أو عن طريق استخدام ميزة نظام أسماء النطاقات الخاص (Private DNS) المتوفرة منذ أندرويد 9.&lt;/p>
+&lt;p>وشخصيًا، أُفضل طريقة ربط NextDNS بجهاز الراوتر بشكل مباشر، حتى لا تحتاج إلى إعداد الأجهزة المختلفة بشكل منفصل.&lt;/p>
+&lt;p>في الجزء القادم بمشيئة الله سأتناول مختلف ميزات الخدمة بالتفصيل، لأوضح كيف يمكنك منع الإعلانات وحماية خصوصيتك عبر الإنترنت، وكذلك كيف يمكنك التحكم في المواقع المحجوبة والعديد من الأمور الأخرى.&lt;/p>
+&lt;hr>
+*تحديث 06/10/2020: تم نشر الجزء الثاني ويمكنك قراءته من [هنا](/ar/posts/nextdns-customization).*</description></item></channel></rss>

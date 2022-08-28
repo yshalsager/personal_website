@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>برمجة on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/categories/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/</link><description>آخر التدوينات من in برمجة يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/categories/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/rss.xml" rel="self" type="application/rss+xml"/><item><title>لغة Python.. مدخلك الأفضل إلى عالم البرمجة</title><link>https://yshalsager.com/ar/posts/learning-python/</link><pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/learning-python/</guid><description>&lt;p>يوما بعد يوما تصبح أهمية تعلم البرمجة واضحة ويزداد الطلب على المبرمجين على مستوي العالم. ولحسن حظنا، تتوفر كميات هائلة من مصادر تعلم البرمجة على الإنترنت ويمكن الوصول إليها ببضعة نقرات. لكن نظرا لكون البرمجة مجالا ضخما، يواجه المبتدئون صعوبة كبيرة في اتخاذ قرارتهم واختيار لغتهم البرمجية الأولي. وبالنظر إلى مواقع إحصائيات لغات البرمجة، نجد أن لغة بايثون Python تتصدر التصنيف على موقع PYPL وتحتل المركز الثالث على موقع TIOBE، ومقارنة مع اللغات المتصدرة الأخرى مثل Java أو C ستجد أن بايثون هي الأسهل في التعلم، كما يمكن استخدامها في العديد من المجالات والأغراض المختلفة.نتناول فيما يلي لغة بايثون بشكل أكثر تفصيلا، ولماذا تعد مدخل المبتدئين الأفضل إلى عالم البرمجة.&lt;/p>
+&lt;blockquote>
+&lt;p>بايثون لغة تجمع بين السهولة والقوة والمرونة&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/PYPL.png" loading="lazy" width="1222" height="558" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="لغة-بايثون-python" data-numberify>لغة بايثون Python&lt;a class="anchor ms-1 d-none" href="#لغة-بايثون-python">#&lt;/a>&lt;/h2>
+&lt;p>بايثون هي لغة برمجة متعددة الأغراض مفتوحة المصدر عالية المستوي ديناميكية الكتابة، تجمع بين القوة والبساطة الكبيرة وتدعم البرمجة كائنية التوجه. طُورت لغة بايثون بواسطة جايدو ڤان روسم Guido Van Rossum أثناء عمله في مركز العلوم والحاسب الآلي بهولندا عام 1986.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/python-logo-generic.webp" loading="lazy" width="388" height="115" />
+&lt;/picture>
+&lt;/p>
+&lt;p>أُطلقت النسخة الأولي من اللغة في 1991، لكن الإصدار الأول قد أُطلق بعد ذلك بثلاثة أعوام. وفي عام 2000 أُصدرت النسخة 2.0 والتي أضافت مجموعة جديدة من الميزات مثل List Comprehensions - Garbage Collection System ودعم Unicode. وبعد ذلك في ديسمبر 2008، حصلت بايثون على تحديث كبير للغاية هو الإصدار 3.0 والذي لم يكن متوافقا مع الإصدارات السابقة، واستمر كلا الإصدارين 3.x و2.x بالحصول على التحديثات بشكل مستمر حتى بداية العام الحالي، حيث وصلت دورة حياة بايثون 2 إلى نهايتها، بعد تأجيل تاريخ إيقاف الدعم الرسمي لها من عام 2015 إلى 2020 نظرا لقاعدة المستخدمين الكبيرة التي لم تتمكن من الترقية إلى الإصدار 3.0 قبل انتهاء تلك المدة. أما الآن فبايثون 3 هي الإصدار الذي يجب على الجميع استخدامه.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/python-timeline.png" loading="lazy" width="1650" height="438" />
+&lt;/picture>
+&lt;/p>
+&lt;p>يشيد العديد من المبرمجين المحترفين بجمالية وبساطة الكود المكتوب بلغة بايثون، ولعل ذلك راجع للمبادئ التوجيهية لكتابة كود بايثون، والمعروفة ب Zen of Python، والذي يتضمن توجيهات مثل: &amp;ldquo;الجميل أفضل من القبيح - الصريح أفضل من الضمني - البسيط أفضل من المركب - المركب أفضل من المعقد - لا يجب تمرير الأخطاء بسهولة - إذا كان من الصعب شرح كيفية التنفيذ، فهذه فكرة سيئة - إذا كان التنفيذ سهل الشرح، فقد تكون فكرة جيدة&amp;rdquo;.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/Zen_Of_Python.png" loading="lazy" width="814" height="652" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="ما-الذي-يميز-بايثون-عن-اللغات-الأخرى" data-numberify>ما الذي يميز بايثون عن اللغات الأخرى؟&lt;a class="anchor ms-1 d-none" href="#ما-الذي-يميز-بايثون-عن-اللغات-الأخرى">#&lt;/a>&lt;/h2>
+&lt;h3 id="سهولة-الكتابة-والقراءة" data-numberify>سهولة الكتابة والقراءة&lt;a class="anchor ms-1 d-none" href="#سهولة-الكتابة-والقراءة">#&lt;/a>&lt;/h3>
+&lt;p>تتميز بايثون بأنها سهلة الكتابة والقراءة والتعلم، حيث تشبه طريقة كتابها اللغة الإنجليزية بشكل كبير. وستلاحظ ذلك بنفسك إذا كانت لديك أي خلفية برمجية مسبقة مع أي لغة أخرى.&lt;/p>
+&lt;p>فمثلا لطباعة جملة على الشاشة كل ما تحتاج القيام به هو كتابة:&lt;/p>
+&lt;p>&lt;code>print('Hello، world!')&lt;/code>&lt;/p>
+&lt;p>ولعمل برنامج يحدد ما إذا كان العدد موجبًا أو سالبًا أو صفرا:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="n">num&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">float&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nb">input&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Enter a number: &amp;#34;&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="n">num&lt;/span> &lt;span class="o">&amp;gt;&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Positive number&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">&lt;span class="k">elif&lt;/span> &lt;span class="n">num&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">5&lt;/span>&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Zero&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">6&lt;/span>&lt;span class="cl">&lt;span class="k">else&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">7&lt;/span>&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Negative number&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>أما قابلية القراءة، فترجع إلى أن لغة بايثون مصممة بشكل واع من البداية على عكس الكثير من لغات البرمجة، فقابلية القراءة هي محط اهتمام رئيسي أُخذ بعين الاعتبار في تصميم بايثون، وهذه الميزة لها العديد من الفوائد الإيجابية يذكر بعضها مطور بايثون Guido van Rossum: &amp;ldquo;هذا التركيز على قابلية القراءة لم يحدث بمحض الصدفة. كلغة برمجة شيئية، تهدف بايثون إلى تشجيع إنشاء نص برمجي يمكن إعادة استخدامه، فحتى لو كتبنا توثيقا كاملا للبرامج في كل وقت، فإن النص البرمجي سيعاد استخدامه بصعوبة إذا لم يُقرأ بسهولة. إن العديد من خصائص بايثون، بالإضافة إلى طريقة استخدام الإزاحة الخاصة بها، تجعل النص البرمجي المكتوب بها قابلا للقراءة بفاعلية أكبر&amp;rdquo;. كما أن سهولة القراءة هي ميزة مشجعة على التعاون وتسهل المشاركة في مشاريع بايثون مفتوحة المصدر.&lt;/p>
+&lt;h3 id="مفتوحة-المصدر" data-numberify>مفتوحة المصدر&lt;a class="anchor ms-1 d-none" href="#مفتوحة-المصدر">#&lt;/a>&lt;/h3>
+&lt;p>بايثون لغة مفتوحة المصدر، لن تدفع أي أموال نظير استخدامها فهي مجانية وستبقى مجانية إلى الأبد. فيمكنك تحميل ونسخ وتوزيع وقراءة كود المصدر والقيام ببعض التغييرات عليها واستخدام أجزاء منها في برمجيات حرة جديدة دون قيود، وهذا أحد الأسباب التي تجعل بايثون لغة جيدة وجذابة في نفس الوقت للمبرمجين، فقد أُنشئت وطُورت ووضع أساساتها من قبل مجتمع البرمجيات مفتوحة المصدر ويتم تحسينها باستمرار بواسطة مبرمجين متطوعين يتشاركون نفس الشغف باللغة. وهذه الميزة تأخذنا إلى ميزة أخرى ملاصقة لها..&lt;/p>
+&lt;h3 id="المجتمع-والمكتبات" data-numberify>المجتمع والمكتبات&lt;a class="anchor ms-1 d-none" href="#المجتمع-والمكتبات">#&lt;/a>&lt;/h3>
+&lt;p>تتميز بايثون بمجتمع كبير للمطورين نظرا لكونها مفتوحة المصدر، ويوفر هذا المجتمع الضخم العديد من مصادر التعلم ومنصات المساعدة وحل المشاكل على الإنترنت وفي الواقع. كما يوفر العديد من المكتبات البرمجية لكل الأغراض تقريبا والتي تسهل عملية التطوير.&lt;/p>
+&lt;p>وطبقا لإحصائيات موقع Python Package Index (PyPI) المستودع الرسمي لحزم ومكتبات بايثون فقد تجاوز عدد المكتبات على الموقع 216000 مع بداية شهر فبراير 2020.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/modulecounts.png" loading="lazy" width="845" height="612" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وتشمل المكتبات المتوفرة مكتبات خاصة بالشبكات وتطوير الويب والواجهات الرسومية وقواعد البيانات ومعالجة النصوص والصور.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/Python-Libraries.png" loading="lazy" width="800" height="234" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="تعمل-في-كل-مكان-ويستخدمها-العديد-من-كبريات-الشركات" data-numberify>تعمل في كل مكان ويستخدمها العديد من كبريات الشركات&lt;a class="anchor ms-1 d-none" href="#تعمل-في-كل-مكان-ويستخدمها-العديد-من-كبريات-الشركات">#&lt;/a>&lt;/h3>
+&lt;p>بايثون لغة محمولة يمكنك استخدام وتشغيل البرامج المكتوبة بها على جميع المنصات تقريبا مثل لينكس وويندوز وMac OS وغيرها من المنصات وأنظمة التشغيل. ونظرا لأنها تجمع بين القوة والسهولة والمرونة فإن قائمة الشركات والمواقع التي تستخدم بايثون طويلة للغاية منها Google – Yahoo – Mozilla – Microsoft – Dropbox – Cisco – Spotify – Quora – Facebook – Heroku – Reddit - Amazon.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/python-everywhere.png" loading="lazy" width="1372" height="593" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="لغة-مفسرة" data-numberify>لغة مفسّرة&lt;a class="anchor ms-1 d-none" href="#لغة-مفسرة">#&lt;/a>&lt;/h3>
+&lt;p>بايثون لغة مفسّرة (interpreted) وليست مبنية (compiled)، حيث يقوم مترجم بايثون Python interpreter بقراءة سطر واحد من الكود في كل مرة، ويقوم بترجمته إلى لغة منخفضة المستوى (byte code) ثم يقوم بتشغيله. ولذلك يمكن تشغيل برامج بايثون من الكود المصدري مباشرة عن طريق وسيط يسمى bytecode مهمته ترجمة الكود إلى لغة الآلة مباشرة، مما يوفر الكثير من الوقت أثناء عملية التطوير نظرًا لعدم الحاجة إلى إجراء عملية البناء في كل مرة ترغب باختبار الكود. كما يمكن استخدام المفسِّر الخاص ببايثون بصورة تفاعلية، مما يجعل التعامل مع الخصائص التي تقدّمها اللغة أسهل، ويُمّكن المطور من كتابة برامج لغرض التدريب، أو اختبار جزء محدد أثناء عملية تطوير برنامج ما.&lt;/p>
+&lt;h3 id="تزيد-من-إنتاجية-المطورين" data-numberify>تزيد من إنتاجية المطورين&lt;a class="anchor ms-1 d-none" href="#تزيد-من-إنتاجية-المطورين">#&lt;/a>&lt;/h3>
+&lt;p>تتيح بايثون كتابة البرامج بأسلوب مختصر ومقروء، فالبرامج المكتوبة في بايثون تكون عادة أقصر بكثير من مكافئاتها في لغات مثل Cأو C++أو Java، ولعدّة أسباب:&lt;/p>
+&lt;ul>
+&lt;li>تتيح أنواع البيانات ذات المستوى العالي إمكانية استخدام تعابير معقدّة في عبارة واحدة.&lt;/li>
+&lt;li>يتم تجميع العبارات باستخدام الإزاحات، بدلًا من أقواس البداية والنهاية.&lt;/li>
+&lt;li>لا حاجة للتصريح عن نوع المتغير أو الوسيط.&lt;/li>
+&lt;/ul>
+&lt;p>تملك بايثون العديد من أنواع البيانات مثل القوائم، والجداول، والمجموعات، والقواميس، والنصوص. تحمل القوائم عناصر بيانات عشوائية يمكن أن تُصنف وتجمّع وتستخدم كـ كومات stacks، بينما المجموعات تحمل عناصر فريدة وغير مرتبة. وبالإضافة إلى ذلك، تسمح بايثون باستخدام كلا من أساليب البرمجة الشيئية والبرمجة الإجرائية وبعض من البرمجة الوظيفية.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/python-data-types.jpg" loading="lazy" width="1001" height="771" />
+&lt;/picture>
+&lt;/p>
+&lt;p>أيضا تستخدم بايثون البرمجة الوحدية (Modular)، وهو نظام شائع يرتب الوظائف والدوال داخل مساحات إسمية (namespace)، وكل ملف في بايثون يُعّرف وحدة. تَظّهر الوظائف والأصناف والمتغيرات المعرفة أو المستدعاه داخل الملف في مساحة الاسم لهذه الوحدة، ويمكن لاستيراد الوحدة أن ينشئ قاموسا محليا يحمل عناصر هذه الوحدة أو يسحب بعض من عناصر هذه الوحدة إلى المساحة الإسمية.&lt;/p>
+&lt;h3 id="متعددة-الاستخدامات" data-numberify>متعددة الاستخدامات&lt;a class="anchor ms-1 d-none" href="#متعددة-الاستخدامات">#&lt;/a>&lt;/h3>
+&lt;p>تعد بايثون لغة برمجة متعددة الاستخدامات لكونها لا تختص باستخدام محدد، فيمكن استخدامها بعدة مجالات بداية من الأمور البسيطة وحتى التطبيقات المعقدة:&lt;/p>
+&lt;ul>
+&lt;li>تطوير الويب: وذلك بالاعتماد على أطر عمل مختصة أبرزها إطار فلاسك Flask وإطار جانجو Django، ويتم الاعتماد عليها بشكل أكبر في تطوير الواجهات الخلفية Back-End.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/python-django.png" loading="lazy" width="2400" height="800" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>تطوير واجهات المستخدم الرسومية GUI: يتم استخدام مكتبات عدة مثل مكتبة Qt ومكتبة GTK+.&lt;/li>
+&lt;li>أمن المعلومات: حيث يوجد العديد من برمجيات الطرف الثالث التي يطورها مبرمجين من مختلف أنحاء العالم لتساعد العاملين بمجال أمن المعلومات على محاكاة عمليات الاختراق والقيام باختبار الاختراق Penetration Testing وصنع أدوات الاختراق المؤتمتة أو الأدوات التي تقوم بتثبيت الترقيعات الأمنية لحل المشاكل المكتشفة.&lt;/li>
+&lt;li>برمجة قواعد البيانات: تتميز بايثون بتوافقها مع معظم لغات قواعد البيانات مثل Oracle -SQL - MySQL، حيث يمكن إدارة قواعد البيانات باستخدام هذه اللغة بكل سهولة.&lt;/li>
+&lt;li>علم البيانات والذكاء الاصطناعي: تستخدم بايثون في هذه المجالات بكثرة بسبب قدرتها على التعامل مع البيانات بشكل سلس وتحليلها، ووجود العديد من المكتبات المختصة في هذا المجال مثل pandas لتحليل البيانات، وTensorFlow أو scikit-learn لتعلم الآلة، وMatplotlib لتمثيل وعرض البيانات. كما أنها تستطيع برمجة الشبكات العصبية Neural Networks واستخدامها في بناء تطبيقات قادرة على التعلم والتطوير الذاتي.&lt;/li>
+&lt;li>لغة برمجة نصية: أُدمجت بايثون كلغة برمجة نصية في العديد من التطبيقات والبرمجيات مثل GIMP وOpenOffice، وهي تستخدم بكثرة في تطبيقات التصميم ثلاثي الأبعاد مثل Cinema 4D – Maya – Blender – Autodesk Softimage. وتستخدم بشكل عام في الأتمتة وكتابة الأكواد النصية (الإسكريبتات).&lt;/li>
+&lt;/ul>
+&lt;h2 id="مشاكل-وعيوب-بايثون" data-numberify>مشاكل وعيوب بايثون&lt;a class="anchor ms-1 d-none" href="#مشاكل-وعيوب-بايثون">#&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>بايثون بطيئة مقارنةً بالعديد من اللغات البرمجية الأخرى مثل Java – C – C++ لأن كل سطر من الكود يتم تنفيذه بمفرده باستخدام المفسر Interpreter على عكس تلك اللغات.&lt;/li>
+&lt;li>لم تتمكن بايثون من دخول سباق تطبيقات الهواتف حتى الآن على الرغم من استخدامها في العديد من تطبيقات الويب وسطح المكتب.&lt;/li>
+&lt;li>قد تواجه المبرمجين الذين يستخدمون لغة بايثون بعض الصعوبات عند تعلم لغة جديدة وذلك لاعتيادهم على المكتبات التي تقدمها اللغة بالإضافة إلى طريقة كتابتها.&lt;/li>
+&lt;/ul>
+&lt;h2 id="مصادر-لتعلم-لغة-بايثون" data-numberify>مصادر لتعلم لغة بايثون&lt;a class="anchor ms-1 d-none" href="#مصادر-لتعلم-لغة-بايثون">#&lt;/a>&lt;/h2>
+&lt;p>بايثون هي أحد أسهل اللغات التي يمكنك تعلمها إن لم تكن الأسهل، وإلى جانب المجالات المختلفة التي ذكرتها فهي أيضا من أكثر اللغات المطلوبة على مواقع العمل الحر freelancing، مما يجعل فرصة العمل بعد تعلمك لها كبيرة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/python-res.png" loading="lazy" width="1980" height="1024" />
+&lt;/picture>
+&lt;/p>
+&lt;p>إذا كنت تعرف وتتقن لغات برمجة أخرى سابقا فسيستغرق الأمر شهر واحد تقريبا لتعلم لغة بايثون إذا كنت تستثمر من 3 إلى 5 ساعات يوميا، أما إذا كنت جديدًا في مجال البرمجة، فقد تحتاج إلى مزيد من الوقت لتعلم لغة بايثون ومع ذلك قد لا يستغرق الأمر أكثر من 3 أشهر لتعلم لغة بايثون على اعتبار أنك مبتدئ وليس لديك أي خلفية برمجية مسبقا.
+وتمتلئ الإنترنت بالمصادر والدورات والكتب لتعلم بايثون، وفيما يلي ترشيح لأفضل المصادر التي يمكنك بدء تعلم أولي لغاتك البرمجية من خلالها:&lt;/p>
+&lt;h3 id="أولا-المصادر-العربية" data-numberify>أولا: المصادر العربية&lt;a class="anchor ms-1 d-none" href="#أولا-المصادر-العربية">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>الكتب:
+&lt;ul>
+&lt;li>تعلم البرمجة مع بايثون 3، تأليف جِيرار سوين، وترجمة هشام رزق الله وآخرون&lt;/li>
+&lt;li>مقدمة في البرمجة عن طريق لغة بايثون، محمد الغافلي&lt;/li>
+&lt;li>فكر بايثون، تأليف الآن داوني، وترجمة طارق زيد الكيلاني&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>الدورات:
+&lt;ul>
+&lt;li>&lt;strong>دورة محمد عيسى: دورة Python 3 أساسيات ومتقدم&lt;/strong>
+تشمل الدورة العديد من الموضوعات بداية من الأساسيات والتعابير المنطقية ومعالجة الأخطاء والدوال وحتى البرمجة الكائنية والتعامل المكتبات وقواعد البيانات.
+&lt;a href="https://www.youtube.com/playlist?list=PLMYF6NkLrdN98I0nEXOuR_gK8b4w-NJcN" target="_blank" rel="noopener noreferrer">https://www.youtube.com/playlist?list=PLMYF6NkLrdN98I0nEXOuR_gK8b4w-NJcN&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>الدليل الشامل لتعلم بايثون&lt;/strong>
+دورة مجانية باللغة العربية على موقع Udemy مدتها 9 ساعات وتتكون من 47 درس، وتتسم بالشرح البسيط حيث أنها موجهة للمبتدئين.
+&lt;a href="https://www.udemy.com/course/learn-python-arabic" target="_blank" rel="noopener noreferrer">https://www.udemy.com/course/learn-python-arabic&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>مقدمة إلى برمجة الحاسب باستخدام لغة Python&lt;/strong>
+دورة مقدمة من منصة رواق باللغة العربية تستعرض المفاهيم الأساسية للبرمجة باستخدام لغة بايثون ولا تتطلب أي معرفة مسبقة.
+&lt;a href="https://www.rwaq.org/courses/introduction-to-programming" target="_blank" rel="noopener noreferrer">https://www.rwaq.org/courses/introduction-to-programming&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>مصادر أخرى:&lt;/li>
+&lt;li>توثيق بايثون باللغة العربية من أكاديمية حسوب
+&lt;a href="https://wiki.hsoub.com/Python" target="_blank" rel="noopener noreferrer">https://wiki.hsoub.com/Python&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>فهرس مصادر تعلم بايثون باللغة العربية
+&lt;a href="https://abotyim.github.io/Learn-Python-Arabic" target="_blank" rel="noopener noreferrer">https://abotyim.github.io/Learn-Python-Arabic&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="ثانيا-المصادر-الإنجليزية" data-numberify>ثانيا: المصادر الإنجليزية&lt;a class="anchor ms-1 d-none" href="#ثانيا-المصادر-الإنجليزية">#&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>الكتب:
+&lt;ul>
+&lt;li>Python Cookbook by David Beazley and Brian K. Jones&lt;/li>
+&lt;li>Head First Python: A Brain-Friendly Guide, by Paul Barry&lt;/li>
+&lt;li>Python Crash Course: A Hands-On, Project-Based Introduction to Programming, by Eric Matthes&lt;/li>
+&lt;li>Learn Python the Hard Way: 3rd Edition, by Zed A. Shaw&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>الدورات:
+&lt;ul>
+&lt;li>&lt;strong>Google&amp;rsquo;s Python Class&lt;/strong>
+لدي جوجل مجموعة ممتازة من المصادر التعليمية للمبتدئين، وهي مجانية تماما ومناسبة للأشخاص الذين لديهم القليل من الخبرة والمعرفة في مجال البرمجة. تتضمن هذه المنصة دورة مكونة من دروس مكتوبة ومقاطع فيديو للدروس المصورة، والكثير من التمارين البرمجية.
+&lt;a href="https://developers.google.com/edu/python" target="_blank" rel="noopener noreferrer">https://developers.google.com/edu/python&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Programming for Everybody (Getting Started with Python)&lt;/strong>
+أحد الدورات المتميزة من جامعة Michigan المتاحة على موقع Edx بشكل مجاني، وهي موجهة لمن ليس لديه أي خلفية مسبقة عن البرمجة. مدة هذه الدورة 7 أسابيع وتتطلب دراسة من 2-4 ساعات أسبوعيا فقط.
+&lt;a href="https://www.edx.org/course/programming-for-everybody-getting-started-with-pyt" target="_blank" rel="noopener noreferrer">https://www.edx.org/course/programming-for-everybody-getting-started-with-pyt&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>&lt;strong>Introduction to Python: Absolute Beginner&lt;/strong>
+دورة تدريبية من مايكروسوفت ستتعلم من خلالها كيفية كتابة وتحرير أكواد بايثون على Jupyter Notebooks، وهو متصفح مخصص بشكل أساسي لتحرير الأكواد وتجربتها ويغنيك تماما عن تثبيت بايثون على جهازك. مدتها هذه الدورة 5 أسابيع وتتطلب دراسة من 3-4 ساعات أسبوعيا بشكل منتظم.
+&lt;a href="https://www.edx.org/course/introduction-to-python-absolute-beginner-2" target="_blank" rel="noopener noreferrer">https://www.edx.org/course/introduction-to-python-absolute-beginner-2&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>مصادر أخرى:
+&lt;ul>
+&lt;li>توثيق بايثون &lt;a href="https://docs.python.org/3" target="_blank" rel="noopener noreferrer">https://docs.python.org/3&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>مسارات تعلم بايثون &lt;a href="https://realpython.com/learning-paths/" target="_blank" rel="noopener noreferrer">https://realpython.com/learning-paths/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;li>فهرس أدوات ومكتبات ومصادر بايثون &lt;a href="https://github.com/vinta/awesome-python" target="_blank" rel="noopener noreferrer">https://github.com/vinta/awesome-python&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 231 شهر 03-2020 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1i9EDdJLUAi-G93XQt3jU7SV1pP78UDvm/view?usp=sharing" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/231-01.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/231-02.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/231-03.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/231-04.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/231-05.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/231-06.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/learning-python/images/231-07.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item><item><title>6 أسباب تدفعك لتعلم البرمجة</title><link>https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/</link><pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/</guid><description>&lt;p>في الآونة الأخيرة ازدادت أهمية البرمجة وزاد الطلب على المبرمجين على مستوي العالم، إلى جانب ارتفاع رواتب المبرمجين وسهولة الحصول على وظيفة، تجد أنه من الجيد التفكير في تعلم البرمجة، سواء للعمل في هذا المجال، أو كهواية، أو لبدء مشروعك الخاص. فما يميز البرمجة عن العديد من المجالات هو سهولة البدء في تعلمها دون الحاجة لمؤهل معين أو متطلبات محددة، فمصادر تعلم البرمجة متاحة على الإنترنت، العديد منها مجاني وهناك دورات مدفوعة أيضا، كما ستجد المئات من المصادر باللغة العربية إذا كنت تواجه صعوبات مع اللغة الإنجليزية. إليك مجموعة من الأسباب المقنعة التي ستدفعك لتعلم البرمجة.&lt;/p>
+&lt;h2 id="1--يمكنك-عمل-أي-شيء-تريده-تقريبا" data-numberify>1- يمكنك عمل أي شيء تريده تقريبا!&lt;a class="anchor ms-1 d-none" href="#1--يمكنك-عمل-أي-شيء-تريده-تقريبا">#&lt;/a>&lt;/h2>
+&lt;p>تمكنك البرمجة من &amp;ldquo;رقمنة&amp;rdquo; أفكارك، تخيل أن تكون قادرا على تنفيذ أي فكرة تريدها وتحويلها إلى برنامج يستطيع الملايين من البشر استخدامه بمجرد نشره. ففي كثير من الأحيان، نجد أناس لديهم فكرة لبرنامج أو تطبيق ما يستطيع أن يخلق تغييرا أو يحل مشكلة معينة، لكن بسبب ارتفاع تكلفة البرمجة، وصعوبة تنفيذ الفكرة بنسبة 100% كما يريد صاحبها من قبل المبرمج، لا تري هذه الأفكار النور في نهاية الأمر.
+فهل تظن أن مارك زكربيرج مؤسس الفيس بوك كان سينتهي الوضع بفكرته بنفس النجاح الحالي إذا لم يكن قادرا على البرمجة واستعان بمطورين لتنفيذ الفكرة؟ ستكون الإجابة في أغلب الظروف &amp;ldquo;لا&amp;rdquo;، وهذا سبب جيد لتعلم البرمجة.
+ومن الأشياء المميزة في البرمجة أنه يمكنك عمل &amp;ldquo;شيء&amp;rdquo; من &amp;ldquo;لا شيء&amp;rdquo; فأنت لا تحتاج إلى مواد وآلات بناء وأماكن للتخزين لتحويل فكرتك إلى مشروع، كل ما تحتاج إليه هو جهاز كمبيوتر وبعض البرامج وكتابة الكود.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/1.jpg" loading="lazy" width="768" height="384" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="2--البرمجة-ستعلمك-الكثير" data-numberify>2- البرمجة ستعلمك الكثير&lt;a class="anchor ms-1 d-none" href="#2--البرمجة-ستعلمك-الكثير">#&lt;/a>&lt;/h2>
+&lt;p>البرمجة ليست مهمة سهلة كما يتصور البعض، فالتجربة والخطأ والتفكير في حلول للمشكلات يستهلك وقت وجهد كبيرين. لكن ستتعلم من الأخطاء التي ترتكبها، ويصبح تفكيرك أكثر عمقا، ستتعلم أن المبرمج لا يعمل على جزيرة معزولة، فيمكنك دائما طلب المساعدة من المجتمع. لا حاجة للخوف من الفشل في البرمجة، فحقيقة الأمر أن الجميع يفشل لمرات لا حصر لها، ومع كل فشل يكتسب مزيدا من الخبرة، فعن طريق البرمجة ستكتسب طريقة تحليل المشاكل والأخطاء وكيفية حلها.&lt;/p>
+&lt;h2 id="3--البرمجة-تجعلك-أكثر-إبداعا" data-numberify>3- البرمجة تجعلك أكثر إبداعا&lt;a class="anchor ms-1 d-none" href="#3--البرمجة-تجعلك-أكثر-إبداعا">#&lt;/a>&lt;/h2>
+&lt;p>يفكر المبرمجون بطريقة منظمة جدا، عوضا عن النظر إلى الصورة الكبيرة مباشرة وتجاهل التفاصيل الصغيرة. فعندما يواجه المبرمج مشكلة يجب عليها حلها، فإنه لا يبدأ في كتابة الكود مباشرة، بل يقوم بتجزئة المشكلة إلى وحدات صغيرة، ثم البدء في العمل.
+عندما تبدأ بتعلم البرمجة ستقوم بتطوير هذه العادة، فتعمل بطريقة منظمة، وتدريجا ستجد أن عقلك قد أصبح قادرا على تفكيك أي مشكلة إلى أجزاء صغيرة وفهمها بشكل أفضل، ثم ستبدأ في التفكير بطريقة منطقية مما يمكنك من إيجاد حلول أكثر إبداعا من قبل.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/2.jpg" loading="lazy" width="1024" height="592" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="4--البرمجة-تجعل-الأشياء-أسهل" data-numberify>4- البرمجة تجعل الأشياء أسهل&lt;a class="anchor ms-1 d-none" href="#4--البرمجة-تجعل-الأشياء-أسهل">#&lt;/a>&lt;/h2>
+&lt;p>قبل اختراع الكمبيوتر كانت الحياة أسهل، لكن المهام كانت تتم ببطء شديد، فمثلا في العمل ستجد مجموعة من المهام المملة التي يجب عليك عملها على الكمبيوتر بشكل دوري، عن طريق البرمجة يمكنك &amp;ldquo;أتمتة&amp;rdquo; هذه المهمات، والجيد في الأمر أنك لن تحتاج لتعلم عشرات الساعات لعمل برنامج ينفذ هذه المهام البسيطة، لكن كلما زاد التعقيد كلما زادت الحاجة للتعمق أكثر.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/3.jpg" loading="lazy" width="1024" height="599" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="5--البرمجة-تضمن-لك-فرص-عمل" data-numberify>5- البرمجة تضمن لك فرص عمل&lt;a class="anchor ms-1 d-none" href="#5--البرمجة-تضمن-لك-فرص-عمل">#&lt;/a>&lt;/h2>
+&lt;p>إذا كنت ترغب في الانتقال إلى مسار مهني آخر يجب عليك أن تضع البرمجة في الحسبان، فالطلب على المبرمجين في تزايد شديد. البرمجة ليست مجرد طريق واحد كما هو الحال في أغلب المجالات، يمكنك اختيار مسارك الخاص من عشرات المسارات المختلفة التي تتضمن برمجة الويب وتطبيقات الهاتف وبرامج سطح المكتب والمساعدات الرقمية والذكاء الاصطناعي. وبسبب تعدد المسارات تتوفر الآلاف من الوظائف في العديد من الشركات في كل مكان حول العالم، كما يمكنك العمل من المنزل كمبرمج حر عن طريق عشرات المواقع المتاحة على الإنترنت.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/4.jpg" loading="lazy" width="696" height="414" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="6--الربح-عن-طريق-البرمجة-ليس-وهما" data-numberify>6- الربح عن طريق البرمجة ليس وهما&lt;a class="anchor ms-1 d-none" href="#6--الربح-عن-طريق-البرمجة-ليس-وهما">#&lt;/a>&lt;/h2>
+&lt;p>يتمتع المبرمجون بمتوسط مرتبات مرتفع وخاصة في الشركات العالمية، حيث تصل في بعض الأحيان إلى 47 دولار في الساعة! وحتى إذا كنت تتعلم البرمجة لعمل مشروعك الخاص يمكنك تحقيق دخل مادي عن طريقه بخطوات بسيطة حسب طبيعة مشروعك، فيمكنك إضافة الإعلانات أو عمل اشتراك شهري أو نسخ مدفوعة من برنامجك. والسوق العربي به نماذج مشجعة مثل مطور تطبيق &amp;ldquo;المصمم&amp;rdquo; على أندرويد وiOS الذي استطاع تحقيق ربع مليون دولار في سنتين فقط.
+ولكن الربح لن يأتي بالسهولة التي تتخيلها، فعليك إيجاد فكرة مميزة تقوم بحل أحد المشاكل ويمكنها استقطاب عدد كبير من المستخدمين، وستبدأ حينها بتحقيق النجاح.&lt;/p>
+&lt;h2 id="ما-اللغة-البرمجية-التي-يجب-عليك-تعلمها" data-numberify>ما اللغة البرمجية التي يجب عليك تعلمها؟&lt;a class="anchor ms-1 d-none" href="#ما-اللغة-البرمجية-التي-يجب-عليك-تعلمها">#&lt;/a>&lt;/h2>
+&lt;p>هناك المئات من لغات البرمجة الحية المستخدمة في العديد من المجالات، واختيار لغة البرمجة الأولى يكون دائما قرار صعب للمبتدئين، فيما يلي قائمة بأهم لغات البرمجة الموجودة حاليا ومجالات استخدامها&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/programming.jpg" loading="lazy" width="600" height="346" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="python" data-numberify>Python&lt;a class="anchor ms-1 d-none" href="#python">#&lt;/a>&lt;/h3>
+&lt;p>بايثون هي لغة برمجة مفتوحة المصدر عالية المستوي، وسهلة التعلم حيث أن طريقة كتابتها مشابهة للإنجليزية بشكل كبير، وتدعم البرمجة كائنية التوجه. تتميز بايثون بالمجتمع الكبير للمطورين وتوفر العديد من المكتبات التي تسهل عملية التطوير.
+تعمل بايثون على أغلب المنصات مثل ويندوز ولينكس وماك والعديد من أنظمة التشغيل الأخرى. ويكثر استخدامها في برمجة تطبيقات سطح المكتب وتطوير الويب وأمن المعلومات وال Big Data.
+تحتل بايثون حاليا المركز الأول في قائمة لغات البرمجة الأكثر شعبية على موقع GitHub، والمركز الثالث في قائمة موقع TIOBE.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/Python.webp" loading="lazy" width="388" height="115" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="java" data-numberify>Java&lt;a class="anchor ms-1 d-none" href="#java">#&lt;/a>&lt;/h3>
+&lt;p>تعد جافا واحدة من أكثر لغات البرمجة استخداما حول العالم، فستجدها في كل مكان، على أنظمة التشغيل المكتبية وتطبيقات المحمول وبرمجيات الويب. فتتميز بأنها لغة محمولة داعمة للبرمجة كائنية التوجه، يمكنها العمل مع المشاريع الكبيرة بكل سهولة. وتستخدم في برمجة العديد من الأشياء بدءا من البرامج وتطبيقات Android وحتى الألعاب والشبكات.
+جافا هي اللغة المتصدرة لقائمة موقع TIOBE، بينما تتواجد في المركز الثاني في قائمة موقع GitHub.&lt;/p>
+&lt;p>
+&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/Java_hu161b570a99119a83b5526470c462fb12_90344_0x256_resize_q75_h2_box_2.webp" loading="lazy" width="140" height="256" />
+&lt;/picture>
+&lt;/p>
+&lt;h4 id="javascript" data-numberify>JavaScript&lt;a class="anchor ms-1 d-none" href="#javascript">#&lt;/a>&lt;/h4>
+&lt;p>جافا سكريبت هي لغة برمجة عالية المستوى تستخدم في متصفحات الويب لإنشاء صفحات أكثر تفاعلية، كما تعمل خارج المتصفحات عن طريق برمجيات مثل Node.js. وهي لغة مستقلة بذاتها ولا علاقة لها بلغة جافا على الرغم من تشابه الاسم.
+يمكن عن طريقها عمل أشياء أكثر تعقيدا في صفحات الويب، بدلا من مجرد عرض معلومات بسيطة ساكنة، مثل عرض تغييرات وتحديثات للصفحة، وعمل خرائط تفاعلية ورسومات ثنائية أو ثلاثية الابعاد والتفاعل معها.
+تعلم جافا سكريبت هو أمر ضروري لأي مطور ويب بعد إتقان HTML وCSS، كما أنها مطلوبة بشدة في سوق العمل، وهي ثالث أكثر لغة شعبية على موقع GitHub وتحتل المركز السادس في قائمة موقع TIOBE.&lt;/p>
+&lt;p>
+&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/JavaScript_hua0f8c39a0dd90818ecfd64737af780f5_11628_0x256_resize_q75_h2_box_2.webp" loading="lazy" width="256" height="256" />
+&lt;/picture>
+&lt;/p>
+&lt;p>إذن تعلم البرمجة يمكنه أن يفتح لك أفاقا جديدة، ويقدم العديد من الميزات التي قد لا تجدها عند تعلم أي مجال آخر. قرر أي المجالات تود أن تتعلم وستجد بنفسك الفائدة التي تعود عليك من تعلم البرمجة. وإذا كنت ترغب في معرفة المزيد عن ترتيب لغات البرمجة الأكثر استخداما لتتيقن من اختيارك يمكنك الرجوع إلى
+موقع GitHub &lt;a href="http://pypl.github.io/PYPL.html" target="_blank" rel="noopener noreferrer">http://pypl.github.io/PYPL.html&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
+قائمة موقع TIOBE &lt;a href="https://www.tiobe.com/tiobe-index/" target="_blank" rel="noopener noreferrer">https://www.tiobe.com/tiobe-index/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 219 شهر 03-2019 ويمكن الإطلاع عليه &lt;a href="https//drive.google.com/file/d/1vMolIId6r-lHf8Qi86Bdto_aRde37y8x/view?usp=sharing">هنا&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/219-1.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/219-2.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/6-reasons-to-learn-programing/images/219-3.png" loading="lazy" width="1240" height="1755" />
+&lt;/picture>
+&lt;/p></description></item></channel></rss>
