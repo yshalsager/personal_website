@@ -3,3 +3,10 @@
   identifier = "projects"
   pre = '<i class="fas fa-fw fa-code"></i>'
   url = "en/projects"
+  weight = 80
+[[main]]
+  name = "Digital Garden"
+  identifier = "digital-garden"
+  pre = '<i class="fas fa-fw fa-leaf"></i>'
+  url = "https://notes.yshalsager.com/en/"
+  weight = 90
