@@ -2,7 +2,7 @@ dateFormat = "02-01-2006"
 description = "مطور برمجيات وكاتب / مترجم تقني."
 keywords = "يوسف شعبان الصغير, yshalsager"
 rssDescription = "آخر التدوينات من "
-mainSections = ["posts", "notes"]
+mainSections = ["posts"]
 
 [archive]
   dateFormat = "01-02"
