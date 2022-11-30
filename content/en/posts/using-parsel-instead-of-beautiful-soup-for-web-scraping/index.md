@@ -1,6 +1,6 @@
 +++
 title = "Using Parsel instead of Beautiful Soup for Web Scraping"
-description = "For a long time, I have been using Beautiful Soup 4 to extract data from web pages' HTML markup, it's popular, easy, robust, and battle-tested library for navigating, searching, and modifying the DOM tree. But, recently I came across Parsel, another HTML parsing library which supports XPath selectors, which is missing in Beautiful Soup, and I was in need of using something that can extract data from HTML using XPath so I decided to get it a try. Here's my thought after using it!"
+description = "For a long time, I have been using Beautiful Soup 4 to extract data from web pages' HTML markup, it's popular, easy, robust, and battle-tested library for navigating, searching, and modifying the DOM tree. But, recently I came across Parsel, another HTML parsing library that supports XPath selectors, which is missing in Beautiful Soup, and I was in need of using something that can extract data from HTML using XPath so I decided to get it a try. Here's my thought after using it!"
 tags = ["Python",  "Development"]
 date = "2022-11-28"
 
@@ -8,7 +8,7 @@ date = "2022-11-28"
 
 [Web scraping](https://en.wikipedia.org/wiki/Web_scraping) is an automated process to extract data from web page, and since [Python](https://www.python.org/) is one the most popular programming languages it's common to see people use it for doing web scraping tasks like me :)
 
-For a long time, I have been using [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/) to extract data from web pages' HTML markup, it's popular, easy, robust, and battle-tested library for navigating, searching, and modifying the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) tree. But, recently I came across [Parsel](https://github.com/scrapy/parsel), another HTML parsing library which supports [XPath](https://developer.mozilla.org/en-US/docs/Web/XPath) selectors, which is missing in Beautiful Soup, and I was in need of using something that can extract data from HTML using XPath (rather than [Scrapy](https://scrapy.org/), funny enough, later I knew that Scrapy uses Parsel under the hood :D), so I decided to get it a try.
+For a long time, I have been using [Beautiful Soup 4](http://www.crummy.com/software/BeautifulSoup/) to extract data from web pages' HTML markup, it's popular, easy, robust, and battle-tested library for navigating, searching, and modifying the [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) tree. But, recently I came across [Parsel](https://github.com/scrapy/parsel), another HTML parsing library that supports [XPath](https://developer.mozilla.org/en-US/docs/Web/XPath) selectors, which is missing in Beautiful Soup, and I was in need of using something that can extract data from HTML using XPath (rather than [Scrapy](https://scrapy.org/), funny enough, later I knew that Scrapy uses Parsel under the hood :D), so I decided to get it a try.
 
 ## Thoughts and Tricks After Usage
 
@@ -43,7 +43,7 @@ selector = Selector(text=text)
 
 - You can convert CSS to XPath using Parsel's `css2xpath` function.
 
-- Because of lxml, sometimes you may get something rather that what browser show while parsing the HTML using Parsel, here is [more details](https://github.com/scrapy/parsel/issues/83) about this issue.
+- Because of lxml, sometimes you may get something rather that what browser show while parsing the HTML using Parsel, here are [more details](https://github.com/scrapy/parsel/issues/83) about this issue.
 
 ## Extra Resources
 
