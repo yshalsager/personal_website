@@ -51,5 +51,6 @@ tag = "tags"
 enableGitInfo = true
 
 [build]
-ignoreLogs = ["err-youtube-remote"]
 writeStats = true
+
+ignoreLogs = ["err-youtube-remote"]
