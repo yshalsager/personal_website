@@ -8,8 +8,8 @@ rssDescription = "Latest posts from "
 
 logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
 # logo = false # Disable Logo
-brand = ""
-color = "auto"
+brand = "" 
+color = "auto" 
 palette = "blue" # Default palette. Optional.
 # palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
 # palettes = [] # Disable palette switcher.
@@ -26,8 +26,8 @@ googleAdsense = ""
 
 # math = true # Enable math globally.
 # toc = false # Disable TOC globally.
-tocPosition = "content"
 breadcrumb = true # Disable breadcrumb
+tocPosition = "content" 
 # diagram = true
 # socialshare = false # disable social network sharing
 # searchBar = false # disable search-bar
@@ -43,9 +43,9 @@ poweredBy = false # Whether to show powered by.
 # categoryCount = 10 # The number of categories shown in sidebar. Turn off by setting it to false.
 # tagCount = 10 # The number of tags shown in sidebar. Turn off by setting it to false.
 # seriesCount = 10 # The number of series shown in sidebar. Turn off by setting it to false.
+countTaxonomyPosts = false # Count posts of taxonomy.
 taxonomyPaginate = 10 # Default to 10.
 taxonomyPostCount = 20 # The number of posts of taxonomy. Turn off by setting it to false.
-countTaxonomyPosts = false # Count posts of taxonomy.
 
 sidebarTaxonomies = ["categories", "tags", "series"] # The order of taxonomies on the sidebar.
 
@@ -53,10 +53,8 @@ sidebarTaxonomies = ["categories", "tags", "series"] # The order of taxonomies o
 pinnedPostCount = 3 # The number of pinned posts.
 
 # Custom CSS and JS
-customCSS = [
-]
-customJS = [
-]
+customCSS = []
+customJS = []
 
 tocWordCount = 120 # TOC is displayed only if the post's word count exceeds this value.
 
@@ -65,121 +63,132 @@ titleCase = true # Capitalized title.
 viewer = true # Image Viewer
 
 [sidebar]
-  fixed = false
+fixed = false
 
 [codeBlock]
-  # maxLines = 8
-  lineNos = true # true/false represents that show/hide the line numbers by default.
+# maxLines = 8
+lineNos = true # true/false represents that show/hide the line numbers by default.
 
 [post]
-  excerpt = "description"
-  excerptMaxLength = 300
-  featuredImage = true
-  numberifyHeadings = false # Count headings automatically.
-  # numberifyHeadingsEndLevel = 4 # The depth of headings to count. Default to 6.
-  numberifyHeadingsSeparator = "." # The separator between of number and headings.
-  # tocStyleType = "decimal" # The TOC's CSS list-style-type property.
-  imageTitleAsCaption = true
+excerpt = "description" 
+excerptMaxLength = 300 
+featuredImage = true 
+numberifyHeadings = false # Count headings automatically.
+# numberifyHeadingsEndLevel = 4 # The depth of headings to count. Default to 6.
+numberifyHeadingsSeparator = "." # The separator between of number and headings.
+# tocStyleType = "decimal" # The TOC's CSS list-style-type property.
+imageTitleAsCaption = true
 
 [archive]
-  basePath = "/archives" # The base path of archive pages.
-  # dateFormat = "01-02" # Archive date format. Default to "Jan 2".
+basePath = "/archives" # The base path of archive pages.
+# dateFormat = "01-02" # Archive date format. Default to "Jan 2".
 
 [analytics]
-  # baidu = "" # Baidu Analytics
+# baidu = "" # Baidu Analytics
 
 # Site verification
 [siteVerification]
-  google = ""
-  bing = ""
-  baidu = ""
-  baiduUnion = "" # Baidu Union
-  so = ""
-  sogou = ""
-  shenma = ""
+baidu = "" 
+baiduUnion = "" # Baidu Union
+bing = "" 
+google = "" 
+shenma = "" 
+so = "" 
+sogou = "" 
 
 [creativeCommons]
-  by = true # Credit must be given to you, the creator.
-  # nc = true # Only noncommercial use of your work is permitted.
-  # nd = true # No derivatives or adaptations of your work are permitted.
-  # sa = true # Adaptations must be shared under the same terms.
+by = true # Credit must be given to you, the creator.
+# nc = true # Only noncommercial use of your work is permitted.
+# nd = true # No derivatives or adaptations of your work are permitted.
+# sa = true # Adaptations must be shared under the same terms.
 
 [giscus]
-  repo = "yshalsager/personal_website"
-  repoId = "R_kgDOGTRR0g="
-  category = "General"
-  categoryId = "DIC_kwDOGTRR0s4B_pe_"
-  # theme = "dark" # Default to auto.
-  # mapping = "title" # Default to pathname.
-  # inputPosition = "bottom" # Default to top.
-  reactions = true # Disable reactions.
-  # metadata = true # Emit discussion metadata.
-  # lang = "" # Specify language, default to site language.
-
+category = "General"
+categoryId = "DIC_kwDOGTRR0s4B_pe_"
+repo = "yshalsager/personal_website"
+repoId = "R_kgDOGTRR0g="
+# theme = "dark" # Default to auto.
+# mapping = "title" # Default to pathname.
+# inputPosition = "bottom" # Default to top.
+reactions = true # Disable reactions.
+# metadata = true # Emit discussion metadata.
+# lang = "" # Specify language, default to site language.
 
 [search]
-  paginate = 10 # Pagination. Default to 10.
-  # resultContentWordCount = 240 # The maximum word count of result content for displaying.
-  # Fuse.js options. See https://fusejs.io/api/options.html.
-  [search.fuse]
-    # ignoreLocation = true
-    # location = 0
-    isCaseSensitive = false
-    minMatchCharLength = 3
-    #threshold = 0.6
-    # distance = 100
-    useExtendedSearch = true
+paginate = 10 # Pagination. Default to 10.
+# resultContentWordCount = 240 # The maximum word count of result content for displaying.
+# Fuse.js options. See https://fusejs.io/api/options.html.
+[search.fuse]
+# ignoreLocation = true
+# location = 0
+isCaseSensitive = false
+minMatchCharLength = 3
+#threshold = 0.6
+# distance = 100
+useExtendedSearch = true
 
 [reward]
-  paypal = "images/reward/paypal.png"
-  liberapay = "images/reward/liberapay.png"
+liberapay = "images/reward/liberapay.png"
+paypal = "images/reward/paypal.png"
 
 #[share]
-  #addThis = "" # AddThis pubid.
+#addThis = "" # AddThis pubid.
 
 [fontSize] # Comment or remove this settings to disable font size switcher.
-  # extraSmall = ".8rem"
-  # small = ".9rem"
-  # large = "1.1rem"
-  # extraLarge = "1.2rem"
+# extraSmall = ".8rem"
+# small = ".9rem"
+# large = "1.1rem"
+# extraLarge = "1.2rem"
 
 [pwa]
-  [pwa.manifest]
-    # name = "" # Default to site title.
-    short_name = "yshalsager"
-    # display = "fullscreen" # Default to standalone.
-    # description = "" # Default to site description.
-    theme_color = "#1565c0"
-    background_color = "#f6f8fa"
+[pwa.manifest]
+# name = "" # Default to site title.
+short_name = "yshalsager"
+# display = "fullscreen" # Default to standalone.
+# description = "" # Default to site description.
+background_color = "#f6f8fa"
+theme_color = "#1565c0"
 
-    # Icons
-    [[pwa.manifest.icons]]
-      sizes = "96x96"
-      src = "/images/favicons/favicon-96x96.png"
-    [[pwa.manifest.icons]]
-      sizes = "144x144"
-      src = "/images/favicons/android-icon-144x144.png"
-    [[pwa.manifest.icons]]
-      sizes = "512x512"
-      src = "/images/favicons/android-chrome-512x512.png"
+# Icons
+[[pwa.manifest.icons]]
+sizes = "96x96"
+src = "/images/favicons/favicon-96x96.png"
+[[pwa.manifest.icons]]
+sizes = "144x144"
+src = "/images/favicons/android-icon-144x144.png"
+[[pwa.manifest.icons]]
+sizes = "512x512"
+src = "/images/favicons/android-chrome-512x512.png"
 
 [repo]
-  url = "https://github.com/yshalsager/personal_website"
-  # branch = "main"
-  #subPath = "exampleSite"
-  # dateFormat = "02/01/2006, 15:04:05 PM"
+url = "https://github.com/yshalsager/personal_website"
+# branch = "main"
+#subPath = "exampleSite"
+# dateFormat = "02/01/2006, 15:04:05 PM"
 
 [fullWidthInSections]
-  post = true
-  docs = true
+docs = true
+post = true
 
 [docs]
 [docs.nav]
-  expand = true
+expand = true
 
 [actionsPanel]
-  disabled = false
+disabled = false
 
 [topAppBar]
-  [topAppBar.social]
-    github = "yshalsager/personal_website"
+[topAppBar.social]
+github = "yshalsager/personal_website"
+
+[social]
+email = "contact@yshalsager.com"
+github = "yshalsager"
+gitlab = "yshalsager"
+liberapay = "yshalsager"
+linkedin = "yshalsager"
+paypal = "yshalsager"
+telegram = "yshalsager"
+twitter = "yshalsager"
+youtube = "UCr6WUYZ1ErKbXwnCL_oxSCw"
+#patreon="XiaomiFirmwareUpdater"

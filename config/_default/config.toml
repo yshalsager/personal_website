@@ -1,10 +1,10 @@
 baseURL = "/"
-title = "yshalsager"
-theme = "hugo-theme-bootstrap"
 copyright = "Copyright © 2013-{year} yshalsager. All Rights Reserved."
+theme = "hugo-theme-bootstrap"
+title = "yshalsager"
 
 # Multilingual mode
-defaultContentLanguage = "en"
+defaultContentLanguage = "en" 
 defaultContentLanguageInSubdir = true # If you use only one language comment this option
 #disableLanguages = ["fr", "zh-cn" ,"zh-tw"] # For disable one or more language
 
@@ -29,26 +29,27 @@ pygmentsUseClasses = true
 timeout = "120s"
 
 [blackfriday]
-  hrefTargetBlank = true
+hrefTargetBlank = true
 
 [mediaTypes]
-  [mediaTypes."application/manifest+json"]
-    suffixes = ["json"]
+[mediaTypes."application/manifest+json"]
+suffixes = ["json"]
 
 [outputFormats]
-  [outputFormats.RSS]
-    mediatype = "application/rss"
-    baseName = "rss"
+[outputFormats.RSS]
+baseName = "rss"
+mediatype = "application/rss"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
+category = "categories"
+series = "series"
+tag = "tags"
 
 enableGitInfo = true
 
 [build]
-  writeStats = true
+ignoreLogs = ["err-youtube-remote"]
+writeStats = true
