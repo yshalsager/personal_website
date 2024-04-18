@@ -14,7 +14,7 @@ tags = ["افهم تكنولوجيا"]
 
 
 
-{{< youtube liWsUSuc0Ao-s >}}
+{{< youtube liWsUSuc0Ao >}}
 
 
 
