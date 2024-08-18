@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>دليل لينكس on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/series/%D8%AF%D9%84%D9%8A%D9%84-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link><description>آخر التدوينات من in دليل لينكس يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/series/%D8%AF%D9%84%D9%8A%D9%84-%D9%84%D9%8A%D9%86%D9%83%D8%B3/rss.xml" rel="self" type="application/rss+xml"/><item><title>ما هي توزيعات لينكس وكيف تختار التوزيعة المناسبة لك؟</title><link>https://yshalsager.com/ar/posts/linux-guide-12-distros/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-12-distros/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن كيفية إدارة النظام، وتعرفنا على أكثر من طريقة للحصول على معلومات تفصيلية عن الجهاز، وفى حلقة هذا الشهر نصل إلى نهاية دروس أساسيات لينكس، وسنتعرف على توزيعات لينكس المختلفة وكيفية اختيار التوزيعة التي تلائمك.&lt;/p>
 &lt;p>ذكرنا في الحلقة الأولى أن لينكس يتميز بوجود العديد من التوزيعات التي يمكنك اختيار ما يناسبك منها، وذلك لأن لينكس نظام مفتوح المصدر، فهناك أكثر من 300 توزيعة موجودة حاليا، فما هي &amp;ldquo;توزيعات لينكس&amp;rdquo;؟&lt;/p>
-&lt;h2 id="ما-هي-توزيعات-لينكس" data-numberify>ما هي توزيعات لينكس؟&lt;a class="anchor ms-1 d-none" href="#ما-هي-توزيعات-لينكس">#&lt;/a>&lt;/h2>
+&lt;h2 id="ما-هي-توزيعات-لينكس" data-numberify>ما هي توزيعات لينكس؟&lt;a class="anchor ms-1" href="#ما-هي-توزيعات-لينكس">&lt;/a>&lt;/h2>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/Distros.png" loading="lazy" width="466" height="198" />
 &lt;/picture>
 &lt;/p>
@@ -30,37 +30,37 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/Cinnamon.png" loading="lazy" width="800" height="499" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="كيف-تختار-التوزيعة-المناسبة-لك" data-numberify>كيف تختار التوزيعة المناسبة لك؟&lt;a class="anchor ms-1 d-none" href="#كيف-تختار-التوزيعة-المناسبة-لك">#&lt;/a>&lt;/h2>
+&lt;h2 id="كيف-تختار-التوزيعة-المناسبة-لك" data-numberify>كيف تختار التوزيعة المناسبة لك؟&lt;a class="anchor ms-1" href="#كيف-تختار-التوزيعة-المناسبة-لك">&lt;/a>&lt;/h2>
 &lt;p>بالطبع لاحظت عزيزي القارئ أنني قد اخترت توزيعة أوبنتو لينكس لتعلم الأساسيات
 من خلالها في الحلقات السابقة، وقد ذكرت أن توزيعة أوبنتو تعد من أفضل التوزيعات للمستخدمين الجدد، لكنك الآن قد وصلت لمرحلة الاحتراف فيجب عليك اختيار التوزيعة التي تناسبك حتى تستقر عليها، واختيار التوزيعة يعتمد على عدة أمور:&lt;/p>
-&lt;h3 id="1--الدعم-ومجتمع-مستخدمي-التوزيعة" data-numberify>1- الدعم ومجتمع مستخدمي التوزيعة&lt;a class="anchor ms-1 d-none" href="#1--الدعم-ومجتمع-مستخدمي-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="1--الدعم-ومجتمع-مستخدمي-التوزيعة" data-numberify>1- الدعم ومجتمع مستخدمي التوزيعة&lt;a class="anchor ms-1" href="#1--الدعم-ومجتمع-مستخدمي-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>ففي حالة حدوث أي مشكلة في النظام أو أردت السؤال عن بعض الاستفسارات التي تدور في ذهنك ستلجأ إما إلى موقع التوزيعة للحصول على الدعم الفني أو مجتمعات مستخدمي التوزيعة مثل المنتديات ومواقع الدعم.
 فعند اختيارك لتوزيعة ما تأكد من أنها دعم فني وانتشار كبير ووجود دعم مسبق على الإنترنت لها، ولعل أبرز التوزيعات التي تتميز بوجود دعم كبير لها توزيعة Ubuntu وتوزيعة OpenSuse.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/support-help.jpg" loading="lazy" width="425" height="282" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="2--صعوبة-أو-سهولة-تثبيت-التوزيعة" data-numberify>2- صعوبة أو سهولة تثبيت التوزيعة&lt;a class="anchor ms-1 d-none" href="#2--صعوبة-أو-سهولة-تثبيت-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--صعوبة-أو-سهولة-تثبيت-التوزيعة" data-numberify>2- صعوبة أو سهولة تثبيت التوزيعة&lt;a class="anchor ms-1" href="#2--صعوبة-أو-سهولة-تثبيت-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>هناك بعض التوزيعات التي تكون عملية تثبيتها بسيطة جدا مثل Ubuntu بينما هناك توزيعات أخري تكون عملية التثبيت بها أكثر صعوبة وتعقيدا مثل Arch Linux، لذلك لا ينصح باستخدامها في بداية رحلتك مع لينكس.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/install.jpg" loading="lazy" width="1024" height="686" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="3--سياسة-تثبيت-البرنامج-في-التوزيعة" data-numberify>3- سياسة تثبيت البرنامج في التوزيعة&lt;a class="anchor ms-1 d-none" href="#3--سياسة-تثبيت-البرنامج-في-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--سياسة-تثبيت-البرنامج-في-التوزيعة" data-numberify>3- سياسة تثبيت البرنامج في التوزيعة&lt;a class="anchor ms-1" href="#3--سياسة-تثبيت-البرنامج-في-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>تختلف سياسات البرامج من توزيعة لأخري، فنجد مثلا في توزيعة Ubuntu أنها تدعم البرامج غير مفتوحة المصدر، بينما توزيعة Fedora لا تدعم ذلك وستجد الموقع الرسمي الخاص بها يمنع الإشارة لمثل تلك البرامج عليه أو ذكر طرق تثبيتها.&lt;/p>
-&lt;h3 id="4--واجهة-النظام--بيئة-سطح-المكتب" data-numberify>4- واجهة النظام / بيئة سطح المكتب&lt;a class="anchor ms-1 d-none" href="#4--واجهة-النظام--بيئة-سطح-المكتب">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--واجهة-النظام--بيئة-سطح-المكتب" data-numberify>4- واجهة النظام / بيئة سطح المكتب&lt;a class="anchor ms-1" href="#4--واجهة-النظام--بيئة-سطح-المكتب">&lt;/a>&lt;/h3>
 &lt;p>توجد العديد من بيئات سطح المكتب في لينكس مثل Unity – Gnome – KDE – Mate – XFCE – LXDE، ولكل واجهة طريقة تعامل مختلفة ومميزات وعيوب.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/Gnome.png" loading="lazy" width="1024" height="576" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="5--البرامج-المدمجة-مع-التوزيعة" data-numberify>5- البرامج المدمجة مع التوزيعة&lt;a class="anchor ms-1 d-none" href="#5--البرامج-المدمجة-مع-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="5--البرامج-المدمجة-مع-التوزيعة" data-numberify>5- البرامج المدمجة مع التوزيعة&lt;a class="anchor ms-1" href="#5--البرامج-المدمجة-مع-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>هناك بعض التوزيعات التي تحتوي برامج جاهزة للاستخدام، بينما هناك توزيعات أخري خفيفة تترك مهمة تثبيت البرامج على المستخدم، فهذه النقطة عائدة إليك إذا كنت تفضل تثبيت البرامج تلقائيا أو يدويا.&lt;/p>
-&lt;h3 id="6--الإعدادات-الافتراضية-لنواة-التوزيعة" data-numberify>6- الإعدادات الافتراضية لنواة التوزيعة&lt;a class="anchor ms-1 d-none" href="#6--الإعدادات-الافتراضية-لنواة-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="6--الإعدادات-الافتراضية-لنواة-التوزيعة" data-numberify>6- الإعدادات الافتراضية لنواة التوزيعة&lt;a class="anchor ms-1" href="#6--الإعدادات-الافتراضية-لنواة-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>ستجد بعض التوزيعات لا تعمل بشكل سليم أو لا تدعم بعض قطع الهارد وير الخاصة بجهازك أو تعاملها مع قطع الهارد وير بشكل مبسط وليس بشكل متقدم واحترافي.&lt;/p>
-&lt;h3 id="7--توفر-البرامج-في-التوزيعة" data-numberify>7- توفر البرامج في التوزيعة&lt;a class="anchor ms-1 d-none" href="#7--توفر-البرامج-في-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="7--توفر-البرامج-في-التوزيعة" data-numberify>7- توفر البرامج في التوزيعة&lt;a class="anchor ms-1" href="#7--توفر-البرامج-في-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>كل توزيعة لها متجر خاص بها، لذلك احرص على تثبيت توزيعة يتوفر بها العديد من البرامج والتطبيقات حتى يسهل عليك الاختيار بين البرامج وإيجاد ما تريد منها بدون البحث طويلا.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/software-center.jpg" loading="lazy" width="800" height="502" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="8--إدارة-البرامج-في-التوزيعة" data-numberify>8- إدارة البرامج في التوزيعة&lt;a class="anchor ms-1 d-none" href="#8--إدارة-البرامج-في-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="8--إدارة-البرامج-في-التوزيعة" data-numberify>8- إدارة البرامج في التوزيعة&lt;a class="anchor ms-1" href="#8--إدارة-البرامج-في-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>وهي من أكبر نقاط الاختلاف في التوزيعات، فتجد في توزيعة Debian والتوزيعات المبينة عليها مثل أوبنتو أن البرامج الخاصة بها أو الحزم من نوع Deb والأمر المستخدم لإدارة الحزم هو apt-get والواجهة الرسومية الخاصة به هي Synaptic.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/apt-get.png" loading="lazy" width="695" height="408" />
 &lt;/picture>
@@ -71,54 +71,54 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/yaourt.png" loading="lazy" width="780" height="472" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="9--تحديثات-التوزيعة" data-numberify>9- تحديثات التوزيعة&lt;a class="anchor ms-1 d-none" href="#9--تحديثات-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="9--تحديثات-التوزيعة" data-numberify>9- تحديثات التوزيعة&lt;a class="anchor ms-1" href="#9--تحديثات-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>فيجب عليك الانتباه عند اختيار توزيعة ما هل يتم إصدار تحديثات لها بشكل مستمر أو لا، وبالطبع تتفوق التوزيعات الأكثر شهرة في هذه النقطة.&lt;/p>
-&lt;h3 id="10--ثبات-واستقرار-التوزيعة" data-numberify>10- ثبات واستقرار التوزيعة&lt;a class="anchor ms-1 d-none" href="#10--ثبات-واستقرار-التوزيعة">#&lt;/a>&lt;/h3>
+&lt;h3 id="10--ثبات-واستقرار-التوزيعة" data-numberify>10- ثبات واستقرار التوزيعة&lt;a class="anchor ms-1" href="#10--ثبات-واستقرار-التوزيعة">&lt;/a>&lt;/h3>
 &lt;p>فبعض التوزيعات تصدر التحديثات سريع جدا، وقد يكون ذلك على حساب الاستقرار، وأيضا التوزيعات ذات الدعم الأكبر هي التي تتفوق في هذه النقطة.&lt;/p>
 &lt;ul>
 &lt;li>يمكنك استخدام هذا الموقع &lt;a href="https://distrochooser.de/?l=2" target="_blank" rel="noopener noreferrer">https://distrochooser.de/?l=2&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> للإجابة عن بعض الأسئلة التي تحدد توزيعة لينكس المناسبة لك.&lt;/li>
 &lt;/ul>
-&lt;h2 id="أشهر-التوزيعات-التي-يمكنك-الاختيار-منها" data-numberify>أشهر التوزيعات التي يمكنك الاختيار منها&lt;a class="anchor ms-1 d-none" href="#أشهر-التوزيعات-التي-يمكنك-الاختيار-منها">#&lt;/a>&lt;/h2>
+&lt;h2 id="أشهر-التوزيعات-التي-يمكنك-الاختيار-منها" data-numberify>أشهر التوزيعات التي يمكنك الاختيار منها&lt;a class="anchor ms-1" href="#أشهر-التوزيعات-التي-يمكنك-الاختيار-منها">&lt;/a>&lt;/h2>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/Compare.png" loading="lazy" width="1024" height="683" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="1--الأفضل-للمستخدمين-الجدد-ubuntu" data-numberify>1- الأفضل للمستخدمين الجدد Ubuntu&lt;a class="anchor ms-1 d-none" href="#1--الأفضل-للمستخدمين-الجدد-ubuntu">#&lt;/a>&lt;/h3>
+&lt;h3 id="1--الأفضل-للمستخدمين-الجدد-ubuntu" data-numberify>1- الأفضل للمستخدمين الجدد Ubuntu&lt;a class="anchor ms-1" href="#1--الأفضل-للمستخدمين-الجدد-ubuntu">&lt;/a>&lt;/h3>
 &lt;p>توزيعة مبنية على Debian وتعتمد على واجهة Unity كما سبق وعرفنا، ومدير الملفات apt-get وتتميز بالدعم الواسع ووجود مجتمع كبير على الإنترنت.
 لتحميل التوزيعة &lt;a href="http://www.ubuntu.com/download/" target="_blank" rel="noopener noreferrer">http://www.ubuntu.com/download/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/ubuntu.png" loading="lazy" width="1280" height="1024" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="2--البساطة-والاستقرار-linux-mint" data-numberify>2- البساطة والاستقرار Linux Mint&lt;a class="anchor ms-1 d-none" href="#2--البساطة-والاستقرار-linux-mint">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--البساطة-والاستقرار-linux-mint" data-numberify>2- البساطة والاستقرار Linux Mint&lt;a class="anchor ms-1" href="#2--البساطة-والاستقرار-linux-mint">&lt;/a>&lt;/h3>
 &lt;p>توزيعة مبنية على Ubuntu، لها أكثر من نسخة بأكثر من سطح مكتب، يفضلها العديد من المستخدمين لقرب واجهتها من شكل الويندوز التقليدي.
 لتحميل التوزيعة &lt;a href="http://www.linuxmint.com/download.php" target="_blank" rel="noopener noreferrer">http://www.linuxmint.com/download.php&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/mint.png" loading="lazy" width="1280" height="1024" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="3--الأفضل-لمحبي-الاستقرار-debian" data-numberify>3- الأفضل لمحبي الاستقرار Debian:&lt;a class="anchor ms-1 d-none" href="#3--الأفضل-لمحبي-الاستقرار-debian">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--الأفضل-لمحبي-الاستقرار-debian" data-numberify>3- الأفضل لمحبي الاستقرار Debian:&lt;a class="anchor ms-1" href="#3--الأفضل-لمحبي-الاستقرار-debian">&lt;/a>&lt;/h3>
 &lt;p>تعبر الأب الروحي للعديد من التوزيعات كما عرفنا، لذلك تتميز بالاستقرار الكبير جدا، حيث يتم تجربة كل البرمجيات الجديدة قبل إصدار أي تحديث، وهي تلائم السيرفرات الشخصية كثيرا.
 لتحميل التوزيعة &lt;a href="http://www.debian.org/distrib/ftplist" target="_blank" rel="noopener noreferrer">http://www.debian.org/distrib/ftplist&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/debian.png" loading="lazy" width="1280" height="1024" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="4--التوزيعة-الأكثر-جمالا-elementary-os" data-numberify>4- التوزيعة الأكثر جمالا elementary OS&lt;a class="anchor ms-1 d-none" href="#4--التوزيعة-الأكثر-جمالا-elementary-os">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--التوزيعة-الأكثر-جمالا-elementary-os" data-numberify>4- التوزيعة الأكثر جمالا elementary OS&lt;a class="anchor ms-1" href="#4--التوزيعة-الأكثر-جمالا-elementary-os">&lt;/a>&lt;/h3>
 &lt;p>توزيعة مبنية على أوبنتو، تعتمد على سطح مكتب خاص بها هو Pantheon كما تحتوي على العديد من البرمجيات الخاصة بها، وشكلها يشبه نظام OS X كثيرا.
 لتحميل التوزيعة &lt;a href="http://elementary.io" target="_blank" rel="noopener noreferrer">http://elementary.io&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/elementary.png" loading="lazy" width="1280" height="1024" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="5--التوزيعة-الأكثر-مناسبة-للجهاز-المكتبي-opensuse" data-numberify>5- التوزيعة الأكثر مناسبة للجهاز المكتبي OpenSUSE:&lt;a class="anchor ms-1 d-none" href="#5--التوزيعة-الأكثر-مناسبة-للجهاز-المكتبي-opensuse">#&lt;/a>&lt;/h3>
+&lt;h3 id="5--التوزيعة-الأكثر-مناسبة-للجهاز-المكتبي-opensuse" data-numberify>5- التوزيعة الأكثر مناسبة للجهاز المكتبي OpenSUSE:&lt;a class="anchor ms-1" href="#5--التوزيعة-الأكثر-مناسبة-للجهاز-المكتبي-opensuse">&lt;/a>&lt;/h3>
 &lt;p>توزيعة تصلح للاستخدام المكتبي والمستمر، تحتوي على مجموعة كبيرة من البرامج المدمجة ولها أكثر من نسخة بواجهات مختلفة.
 لتحميل التوزيعة &lt;a href="http://software.opensuse.org/" target="_blank" rel="noopener noreferrer">http://software.opensuse.org/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/opensuse.png" loading="lazy" width="1280" height="1024" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="6--الأفضل-لمحبي-التحديثات-fedora" data-numberify>6- الأفضل لمحبي التحديثات Fedora&lt;a class="anchor ms-1 d-none" href="#6--الأفضل-لمحبي-التحديثات-fedora">#&lt;/a>&lt;/h3>
+&lt;h3 id="6--الأفضل-لمحبي-التحديثات-fedora" data-numberify>6- الأفضل لمحبي التحديثات Fedora&lt;a class="anchor ms-1" href="#6--الأفضل-لمحبي-التحديثات-fedora">&lt;/a>&lt;/h3>
 &lt;p>توزيعة رائعة تحتوي دائما على أحدث المميزات، وتحظى بدعم غير رسمي من شركة RedHat، سطح المكتب الافتراضي بها هو Gnome لكن يجب الانتباه عند استخدامها أنها لا تدعم البرامج مغلقة المصدر.
 لتحميل التوزيعة &lt;a href="https://getfedora.org/" target="_blank" rel="noopener noreferrer">https://getfedora.org/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/fedora.png" loading="lazy" width="1366" height="768" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="7--الأفضل-للأجهزة-الضعيفة-وأجهزة-اللاب-توب-lubuntu" data-numberify>7- الأفضل للأجهزة الضعيفة وأجهزة اللاب توب Lubuntu:&lt;a class="anchor ms-1 d-none" href="#7--الأفضل-للأجهزة-الضعيفة-وأجهزة-اللاب-توب-lubuntu">#&lt;/a>&lt;/h3>
+&lt;h3 id="7--الأفضل-للأجهزة-الضعيفة-وأجهزة-اللاب-توب-lubuntu" data-numberify>7- الأفضل للأجهزة الضعيفة وأجهزة اللاب توب Lubuntu:&lt;a class="anchor ms-1" href="#7--الأفضل-للأجهزة-الضعيفة-وأجهزة-اللاب-توب-lubuntu">&lt;/a>&lt;/h3>
 &lt;p>توزيعة مبنية على أوبنتو، تعتمد على سطح مكتب LXDE وواجهة Openbox، وهي أقل التوزيعات حاجة للموارد، تعمل بكفاءة كبيرة على كل الأجهزة الضعيفة، وهي الأفضل لتوفير بطارية أجهزة اللاب توب.
 لتحميل التوزيعة &lt;a href="https://help.ubuntu.com/community/Lubuntu/GetLubuntu" target="_blank" rel="noopener noreferrer">https://help.ubuntu.com/community/Lubuntu/GetLubuntu&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/lubuntu.png" loading="lazy" width="1280" height="1024" />
@@ -139,7 +139,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-12-distros/images/192-5.png" loading="lazy" width="1240" height="1755" />
 &lt;/picture>
 &lt;/p></description></item><item><title>إدارة النظام في أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-11-system-managment/</link><pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-11-system-managment/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن الإعدادات في أوبنتو، وتعرفنا على كل قسم من أقسام لوحة الإعدادات بالتفصيل، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على كيفية إدارة النظام.&lt;/p>
-&lt;h2 id="أولا-التعرف-على-معلومات-الجهاز" data-numberify>أولا: التعرف على معلومات الجهاز&lt;a class="anchor ms-1 d-none" href="#أولا-التعرف-على-معلومات-الجهاز">#&lt;/a>&lt;/h2>
+&lt;h2 id="أولا-التعرف-على-معلومات-الجهاز" data-numberify>أولا: التعرف على معلومات الجهاز&lt;a class="anchor ms-1" href="#أولا-التعرف-على-معلومات-الجهاز">&lt;/a>&lt;/h2>
 &lt;p>تذكر معي عزيزي القارئ أننا قد تعرفنا سابقا على طريقة لمعرفة معلومات الجهاز من خلال الإعدادات.&lt;/p>
 &lt;ol>
 &lt;li>من القائمة العلوية قم باختيار About This Computer.&lt;/li>
@@ -154,7 +154,7 @@
 &lt;/picture>
 &lt;/p>
 &lt;p>في بعض الحالات قد نحتاج إلى مزيد من التفاصيل عن النظام، لذلك سنقوم باستعراض أكثر من طريقة متاحة لمعرفة مزيد من المعلومات حول الجهاز.&lt;/p>
-&lt;h3 id="1--عن-طريق-مراقب-النظام---system-monitor" data-numberify>1- عن طريق مراقب النظام - System Monitor&lt;a class="anchor ms-1 d-none" href="#1--عن-طريق-مراقب-النظام---system-monitor">#&lt;/a>&lt;/h3>
+&lt;h3 id="1--عن-طريق-مراقب-النظام---system-monitor" data-numberify>1- عن طريق مراقب النظام - System Monitor&lt;a class="anchor ms-1" href="#1--عن-طريق-مراقب-النظام---system-monitor">&lt;/a>&lt;/h3>
 &lt;p>قم بالبحث عن System Monitor ثم اختره كما بالصورة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/M1.jpg" loading="lazy" width="486" height="258" />
 &lt;/picture>
@@ -172,7 +172,7 @@
 &lt;/picture>
 &lt;/p>
 &lt;p>فإذا كنت مثلا تعاني من بطء جهازك فيمكنك معرفة سبب المشكلة بعد مشاهدة نسبة الموارد التي يستهلك الجهاز، حينها ستعرف هل البطء بسبب قلة الذاكرة أو ضعف المعالج، أم أن الخلل يمكن أن يكون في الإعدادات.&lt;/p>
-&lt;h3 id="2--عن-طريق-الطرفية-terminal" data-numberify>2- عن طريق الطرفية Terminal&lt;a class="anchor ms-1 d-none" href="#2--عن-طريق-الطرفية-terminal">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--عن-طريق-الطرفية-terminal" data-numberify>2- عن طريق الطرفية Terminal&lt;a class="anchor ms-1" href="#2--عن-طريق-الطرفية-terminal">&lt;/a>&lt;/h3>
 &lt;p>يوفر نظام لينكس العديد من الأوامر التي يمكن من خلالها معرفة معلومة تفصيلية عن جهازك منها:&lt;/p>
 &lt;ul>
 &lt;li>الأمر &lt;code>sudo lshw –short&lt;/code> الذي يعرض معلومات أكثر بشكل مبسط.&lt;/li>
@@ -210,7 +210,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/T6.png" loading="lazy" width="621" height="504" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="3--عن-طريق-برنامج-i-nex" data-numberify>3- عن طريق برنامج I-Nex&lt;a class="anchor ms-1 d-none" href="#3--عن-طريق-برنامج-i-nex">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--عن-طريق-برنامج-i-nex" data-numberify>3- عن طريق برنامج I-Nex&lt;a class="anchor ms-1" href="#3--عن-طريق-برنامج-i-nex">&lt;/a>&lt;/h3>
 &lt;p>وهو برنامج مفتوح المصدر يشبه كثيرا برنامج CPU-Z الشهير، يمكنك تحميله بواسطة كتابة الأوامر التالية في الطرفية Terminal&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo add-apt-repository ppa:i-nex-development-team/daily
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">sudo add-apt-repository ppa:gambas-team/gambas3
@@ -232,7 +232,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/I4.png" loading="lazy" width="476" height="560" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثانيا-إدارة-حسابات-المستخدمين" data-numberify>ثانيا: إدارة حسابات المستخدمين&lt;a class="anchor ms-1 d-none" href="#ثانيا-إدارة-حسابات-المستخدمين">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-إدارة-حسابات-المستخدمين" data-numberify>ثانيا: إدارة حسابات المستخدمين&lt;a class="anchor ms-1" href="#ثانيا-إدارة-حسابات-المستخدمين">&lt;/a>&lt;/h2>
 &lt;p>في الدرس السابق تعرفنا على كيفية إضافة حسابات من خلال الإعدادات، لكن هناك المزيد، فقد نرغب أحيانا بمنع أحد المستخدمين من فعل شيء معين مثل تشغيل ذاكرة USB، لذلك سنقوم بالتحكم في صلاحيات المستخدمين.
 قم بفتح الطرفية Terminal وكتابة هذا الأمر
 &lt;code>sudo apt-get install gnome-system-tools&lt;/code>&lt;/p>
@@ -252,7 +252,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/U4.jpg" loading="lazy" width="400" height="653" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثالثا-استخدام-النظام-بأكثر-من-واجهة-وأكثر-من-لغة" data-numberify>ثالثا: استخدام النظام بأكثر من واجهة وأكثر من لغة&lt;a class="anchor ms-1 d-none" href="#ثالثا-استخدام-النظام-بأكثر-من-واجهة-وأكثر-من-لغة">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-استخدام-النظام-بأكثر-من-واجهة-وأكثر-من-لغة" data-numberify>ثالثا: استخدام النظام بأكثر من واجهة وأكثر من لغة&lt;a class="anchor ms-1" href="#ثالثا-استخدام-النظام-بأكثر-من-واجهة-وأكثر-من-لغة">&lt;/a>&lt;/h2>
 &lt;p>يمكن لينكس المستخدمين من التبديل بين اللغات أو الواجهات بكل سهولة، وذلك عن طريق شاشة القفل، فعند إدخال كلمة السر لأي مستخدم نلاحظ في الشريط العلوي أيقونة اللغات، التي يمكننا أن نختار منها اللغة التي نريد استخدام النظام بها، وذلك شرط أن تكون هذه اللغة قد تمت إضافتها سابقا داخل النظام (كما أضفنا اللغة العربية بعد التثبيت).
 بعد الضغط على الأيقونة بكل بساطة اختر اللغة التي تريدها ثم قم بإكمال تسجيل الدخول.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/L1.png" loading="lazy" width="601" height="338" />
@@ -278,7 +278,7 @@
 &lt;/picture>
 &lt;/p></description></item><item><title>إعدادات نظام أوبنتو لينكس من الألف إلى الياء</title><link>https://yshalsager.com/ar/posts/linux-guide-10-settings/</link><pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-10-settings/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity باستخدام أداة بعض الأدوات، وتعرفنا على كيفية تغيير المؤثرات وحركة النوافذ، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على إعدادات النظام بشكل مفصل.&lt;/p>
 &lt;p>إعدادات النظام في أوبنتو لينكس (أو أي توزيعة أخرى) تحتوي على أغلب التفضيلات التي يحتاج المستخدم إلى التحكم فيها، ويتميز تطبيق الإعدادات في لينكس بسهولة الواجهة وحسن التنظيم للإعدادات المختلفة.&lt;/p>
-&lt;h2 id="كيف-تقوم-بالدخول-إلى-إعدادات-النظام" data-numberify>كيف تقوم بالدخول إلى إعدادات النظام&lt;a class="anchor ms-1 d-none" href="#كيف-تقوم-بالدخول-إلى-إعدادات-النظام">#&lt;/a>&lt;/h2>
+&lt;h2 id="كيف-تقوم-بالدخول-إلى-إعدادات-النظام" data-numberify>كيف تقوم بالدخول إلى إعدادات النظام&lt;a class="anchor ms-1" href="#كيف-تقوم-بالدخول-إلى-إعدادات-النظام">&lt;/a>&lt;/h2>
 &lt;p>1- قم بالضغط على اسم المستخدم أو رمز الطاقة الموجود بالشريط العلوي ثم اختر System Settings.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Enter_Settings_1.png" loading="lazy" width="436" height="357" />
 &lt;/picture>
@@ -302,8 +302,8 @@
 &lt;li>ثالثا: إعدادات النظام: وتشمل النسخ الاحتياطي، التفاصيل، التحديثات، الوقت والتاريخ وحسابات المستخدمين.&lt;/li>
 &lt;/ul>
 &lt;p>وسوف نقوم الآن بالتعرف على كل قسم بالتفصيل.&lt;/p>
-&lt;h2 id="أولا-الإعدادات-الشخصية" data-numberify>أولا: الإعدادات الشخصية&lt;a class="anchor ms-1 d-none" href="#أولا-الإعدادات-الشخصية">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--إعدادات-المظهر-appearance" data-numberify>1- إعدادات المظهر Appearance&lt;a class="anchor ms-1 d-none" href="#1--إعدادات-المظهر-appearance">#&lt;/a>&lt;/h3>
+&lt;h2 id="أولا-الإعدادات-الشخصية" data-numberify>أولا: الإعدادات الشخصية&lt;a class="anchor ms-1" href="#أولا-الإعدادات-الشخصية">&lt;/a>&lt;/h2>
+&lt;h3 id="1--إعدادات-المظهر-appearance" data-numberify>1- إعدادات المظهر Appearance&lt;a class="anchor ms-1" href="#1--إعدادات-المظهر-appearance">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على الإعدادات المتعلقة بتغيير شكل النظام (ولكن ليس بكفاءة الأدوات التي تعرفنا إليها في الحلقات السابقة)، فمن خلال الاختيار Background يمكنك تغيير خلفية الشاشة، حيث يمكنك اختيار اما صورة واحدة أو مجلد صور أو ألوان وتدرجات لونية.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Appearance.png" loading="lazy" width="848" height="561" />
 &lt;/picture>
@@ -313,13 +313,13 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Appearance_Behavior.png" loading="lazy" width="850" height="562" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="2--إعدادات-السطوع-وقفل-الشاشة-brightness--lock" data-numberify>2- إعدادات السطوع وقفل الشاشة Brightness &amp; Lock&lt;a class="anchor ms-1 d-none" href="#2--إعدادات-السطوع-وقفل-الشاشة-brightness--lock">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--إعدادات-السطوع-وقفل-الشاشة-brightness--lock" data-numberify>2- إعدادات السطوع وقفل الشاشة Brightness &amp; Lock&lt;a class="anchor ms-1" href="#2--إعدادات-السطوع-وقفل-الشاشة-brightness--lock">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات التحكم بسلوك إضاءة الشاشة الخاصة بحاسوبك المحمول (لا يظهر هذا الإعداد إلا في الحواسيب المحمولة وليس المكتبية)، كما يمكنك من التحكم بإغلاق الشاشة عند تركها أو عدم العمل عليها.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Brightness_&amp;amp;_Lock.png" loading="lazy" width="850" height="369" />
 &lt;/picture>
 &lt;/p>
 &lt;p>أول اختيار هو الخاص بإغلاق الشاشة بعد مدة محددة من عدم الاستخدام، ثم لدينا الاختيار Lock الذي يتحكم في القفل التلقائي للجهاز، وأخيرا الاختيار Require my password لطلب كلمة السر عند إيقاظ الجهاز.&lt;/p>
-&lt;h3 id="3--إعدادات-دعم-اللغات-language-support" data-numberify>3- إعدادات دعم اللغات Language Support&lt;a class="anchor ms-1 d-none" href="#3--إعدادات-دعم-اللغات-language-support">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--إعدادات-دعم-اللغات-language-support" data-numberify>3- إعدادات دعم اللغات Language Support&lt;a class="anchor ms-1" href="#3--إعدادات-دعم-اللغات-language-support">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات التحكم بلغة عرض النظام واختيار تنسيق الأرقام وباقي إعدادات اللغات.
 التبويب Language يمكنك من اختيار اللغة عن طريق سحب اللغة التي تريدها لأعلى القائمة، كما يمكنك إضافة لغات جديدة من الزر Install/Remove Languages.
 وقد تعرفنا مسبقا في الحلقة 2 على كيفية إضافة اللغة العربية بالتفصيل.&lt;/p>
@@ -330,12 +330,12 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Language_Support_2.png" loading="lazy" width="388" height="421" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="4--إعدادات-الحسابات-online-accounts" data-numberify>4- إعدادات الحسابات Online Accounts&lt;a class="anchor ms-1 d-none" href="#4--إعدادات-الحسابات-online-accounts">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--إعدادات-الحسابات-online-accounts" data-numberify>4- إعدادات الحسابات Online Accounts&lt;a class="anchor ms-1" href="#4--إعدادات-الحسابات-online-accounts">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على إعدادات الحسابات الأون لاين المرتبطة بالنظام، مثل جوجل وفيس بوك.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Online_Accounts.png" loading="lazy" width="850" height="548" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="5--إعدادات-الحماية-والخصوصية-security--privacy" data-numberify>5- إعدادات الحماية والخصوصية Security &amp; Privacy&lt;a class="anchor ms-1 d-none" href="#5--إعدادات-الحماية-والخصوصية-security--privacy">#&lt;/a>&lt;/h3>
+&lt;h3 id="5--إعدادات-الحماية-والخصوصية-security--privacy" data-numberify>5- إعدادات الحماية والخصوصية Security &amp; Privacy&lt;a class="anchor ms-1" href="#5--إعدادات-الحماية-والخصوصية-security--privacy">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات التحكم بالحماية مثل:
 التبويب Security ستجد به خيارات طلب كلمة السر.
 &lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Security_&amp;amp;_Privacy_1.png" loading="lazy" width="850" height="553" />
@@ -350,58 +350,58 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Security_&amp;amp;_Privacy_3.png" loading="lazy" width="850" height="553" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="6--إعدادات-إدخال-النصوص-text-entry" data-numberify>6- إعدادات إدخال النصوص Text Entry&lt;a class="anchor ms-1 d-none" href="#6--إعدادات-إدخال-النصوص-text-entry">#&lt;/a>&lt;/h3>
+&lt;h3 id="6--إعدادات-إدخال-النصوص-text-entry" data-numberify>6- إعدادات إدخال النصوص Text Entry&lt;a class="anchor ms-1" href="#6--إعدادات-إدخال-النصوص-text-entry">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات لغات الإدخال وطريقة التبديل بين اللغات، كما سبق وتعرفنا عليه.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Text_Entry.png" loading="lazy" width="850" height="479" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثانيا-إعدادات-ال-hardware" data-numberify>ثانيا: إعدادات ال Hardware&lt;a class="anchor ms-1 d-none" href="#ثانيا-إعدادات-ال-hardware">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--إعدادات-البلوتوث-bluetooth" data-numberify>1- إعدادات البلوتوث Bluetooth&lt;a class="anchor ms-1 d-none" href="#1--إعدادات-البلوتوث-bluetooth">#&lt;/a>&lt;/h3>
+&lt;h2 id="ثانيا-إعدادات-ال-hardware" data-numberify>ثانيا: إعدادات ال Hardware&lt;a class="anchor ms-1" href="#ثانيا-إعدادات-ال-hardware">&lt;/a>&lt;/h2>
+&lt;h3 id="1--إعدادات-البلوتوث-bluetooth" data-numberify>1- إعدادات البلوتوث Bluetooth&lt;a class="anchor ms-1" href="#1--إعدادات-البلوتوث-bluetooth">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على الإعدادات المتعلقة باتصال الأجهزة من خلال البلوتوث، كما يوجد اختيار للتحكم في ظهور الجهاز عبر بلوتوث.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Bluetooth.png" loading="lazy" width="850" height="445" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="2--إعدادات-الألوان-color" data-numberify>2- إعدادات الألوان Color&lt;a class="anchor ms-1 d-none" href="#2--إعدادات-الألوان-color">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--إعدادات-الألوان-color" data-numberify>2- إعدادات الألوان Color&lt;a class="anchor ms-1" href="#2--إعدادات-الألوان-color">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على إعدادات تغيير Color Profile وضع الألوان للشاشة.&lt;/p>
-&lt;h3 id="3--إعدادات-العرض-displays" data-numberify>3- إعدادات العرض Displays&lt;a class="anchor ms-1 d-none" href="#3--إعدادات-العرض-displays">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--إعدادات-العرض-displays" data-numberify>3- إعدادات العرض Displays&lt;a class="anchor ms-1" href="#3--إعدادات-العرض-displays">&lt;/a>&lt;/h3>
 &lt;p>يوجد بهذا القسم إعدادات العرض وتغيير دقة الشاشة ودورانها، وأيضا حجم القوائم وشريط العنوان.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Displays.png" loading="lazy" width="850" height="543" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="4--إعدادات-لوحة-المفاتيح-keyboard" data-numberify>4- إعدادات لوحة المفاتيح Keyboard&lt;a class="anchor ms-1 d-none" href="#4--إعدادات-لوحة-المفاتيح-keyboard">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--إعدادات-لوحة-المفاتيح-keyboard" data-numberify>4- إعدادات لوحة المفاتيح Keyboard&lt;a class="anchor ms-1" href="#4--إعدادات-لوحة-المفاتيح-keyboard">&lt;/a>&lt;/h3>
 &lt;p>هنا ستجد بعض إعدادات الكتابة الخاصة بلوحة المفاتيح إلى جانب إعدادات الاختصارات المختلفة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Keyboard.png" loading="lazy" width="850" height="479" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="5--إعدادات-الماوس-ولوحة-اللمس-mouse--touchpad" data-numberify>5- إعدادات الماوس ولوحة اللمس Mouse &amp; Touchpad&lt;a class="anchor ms-1 d-none" href="#5--إعدادات-الماوس-ولوحة-اللمس-mouse--touchpad">#&lt;/a>&lt;/h3>
+&lt;h3 id="5--إعدادات-الماوس-ولوحة-اللمس-mouse--touchpad" data-numberify>5- إعدادات الماوس ولوحة اللمس Mouse &amp; Touchpad&lt;a class="anchor ms-1" href="#5--إعدادات-الماوس-ولوحة-اللمس-mouse--touchpad">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات التحكم في الماوس (اختيار الزر الرئيسي، سرعة المؤشر وسرعة ال click) ولوحة اللمس (لن تظهر في حالة الجهاز المكتبي).&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Mouse.png" loading="lazy" width="850" height="479" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="6--إعدادات-الشبكات-network" data-numberify>6- إعدادات الشبكات Network:&lt;a class="anchor ms-1 d-none" href="#6--إعدادات-الشبكات-network">#&lt;/a>&lt;/h3>
+&lt;h3 id="6--إعدادات-الشبكات-network" data-numberify>6- إعدادات الشبكات Network:&lt;a class="anchor ms-1" href="#6--إعدادات-الشبكات-network">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على الإعدادات المتعلقة بالاتصال بالإنترنت، الشبكات والاتصال اللاسلكي، وأيضا وضع الطيران.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Network.png" loading="lazy" width="850" height="369" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="7--إعدادات-الطاقة-power" data-numberify>7- إعدادات الطاقة Power:&lt;a class="anchor ms-1 d-none" href="#7--إعدادات-الطاقة-power">#&lt;/a>&lt;/h3>
+&lt;h3 id="7--إعدادات-الطاقة-power" data-numberify>7- إعدادات الطاقة Power:&lt;a class="anchor ms-1" href="#7--إعدادات-الطاقة-power">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على إعدادات التحكم في ال Sleep وإظهار البطارية في الشريط العلوي.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Power.png" loading="lazy" width="850" height="369" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="8--إعدادات-الطابعات-printers" data-numberify>8- إعدادات الطابعات Printers:&lt;a class="anchor ms-1 d-none" href="#8--إعدادات-الطابعات-printers">#&lt;/a>&lt;/h3>
+&lt;h3 id="8--إعدادات-الطابعات-printers" data-numberify>8- إعدادات الطابعات Printers:&lt;a class="anchor ms-1" href="#8--إعدادات-الطابعات-printers">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات التحكم في الطابعات، وإضافة طابعة جديد.&lt;/p>
-&lt;h3 id="9--إعدادات-الصوت-sound" data-numberify>9- إعدادات الصوت Sound&lt;a class="anchor ms-1 d-none" href="#9--إعدادات-الصوت-sound">#&lt;/a>&lt;/h3>
+&lt;h3 id="9--إعدادات-الصوت-sound" data-numberify>9- إعدادات الصوت Sound&lt;a class="anchor ms-1" href="#9--إعدادات-الصوت-sound">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات التحكم في مستوى الصوت، تغيير وضع الصوت، والتحكم في الميكروفون.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Sound.png" loading="lazy" width="1009" height="445" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثالثا-إعدادات-النظام" data-numberify>ثالثا: إعدادات النظام&lt;a class="anchor ms-1 d-none" href="#ثالثا-إعدادات-النظام">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--إعدادات-النسخ-الاحتياطي-backups" data-numberify>1- إعدادات النسخ الاحتياطي Backups&lt;a class="anchor ms-1 d-none" href="#1--إعدادات-النسخ-الاحتياطي-backups">#&lt;/a>&lt;/h3>
+&lt;h2 id="ثالثا-إعدادات-النظام" data-numberify>ثالثا: إعدادات النظام&lt;a class="anchor ms-1" href="#ثالثا-إعدادات-النظام">&lt;/a>&lt;/h2>
+&lt;h3 id="1--إعدادات-النسخ-الاحتياطي-backups" data-numberify>1- إعدادات النسخ الاحتياطي Backups&lt;a class="anchor ms-1" href="#1--إعدادات-النسخ-الاحتياطي-backups">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات النسخ الاحتياطي ومكان الاحتفاظ بالنسخة الاحتياطية.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Backup.png" loading="lazy" width="850" height="479" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="2--إعدادات-التفاصيل-details" data-numberify>2- إعدادات التفاصيل Details&lt;a class="anchor ms-1 d-none" href="#2--إعدادات-التفاصيل-details">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--إعدادات-التفاصيل-details" data-numberify>2- إعدادات التفاصيل Details&lt;a class="anchor ms-1" href="#2--إعدادات-التفاصيل-details">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على تفاصيل عن جهازك ومواصفاته وإصدار نسخة أوبنتو الموجودة على جهازك.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Details_1.png" loading="lazy" width="850" height="439" />
 &lt;/picture>
@@ -414,7 +414,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Details_3.png" loading="lazy" width="850" height="439" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="3--إعدادات-البرمجيات-والتحديثات-software--updates" data-numberify>3- إعدادات البرمجيات والتحديثات Software &amp; Updates&lt;a class="anchor ms-1 d-none" href="#3--إعدادات-البرمجيات-والتحديثات-software--updates">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--إعدادات-البرمجيات-والتحديثات-software--updates" data-numberify>3- إعدادات البرمجيات والتحديثات Software &amp; Updates&lt;a class="anchor ms-1" href="#3--إعدادات-البرمجيات-والتحديثات-software--updates">&lt;/a>&lt;/h3>
 &lt;p>هنا ستجد مجموعة هامة من الإعدادات وهي:
 Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، وكنا قد تعرفنا سابقا على اختيار Download from لتغيير سيرفر التحديثات.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Updates_1.png" loading="lazy" width="660" height="414" />
@@ -428,7 +428,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Updates_3.png" loading="lazy" width="660" height="414" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="4--إعدادات-الوقت-والتاريخ-time--date" data-numberify>4- إعدادات الوقت والتاريخ Time &amp; Date&lt;a class="anchor ms-1 d-none" href="#4--إعدادات-الوقت-والتاريخ-time--date">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--إعدادات-الوقت-والتاريخ-time--date" data-numberify>4- إعدادات الوقت والتاريخ Time &amp; Date&lt;a class="anchor ms-1" href="#4--إعدادات-الوقت-والتاريخ-time--date">&lt;/a>&lt;/h3>
 &lt;p>بعد ذلك لدينا مجموعة إعدادات الوقت والتاريخ، التبويب الأول ستجد به إعدادات اختيار مكان لتحديد المنطقة الزمنية، واختيار تهيئة الوقت والتاريخ يدويا أو من الإنترنت.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Time_1.png" loading="lazy" width="850" height="499" />
 &lt;/picture>
@@ -437,12 +437,12 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Time_2.png" loading="lazy" width="850" height="499" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="5--إعدادات-الوصول-الموحد-universal-access" data-numberify>5- إعدادات الوصول الموحد Universal Access&lt;a class="anchor ms-1 d-none" href="#5--إعدادات-الوصول-الموحد-universal-access">#&lt;/a>&lt;/h3>
+&lt;h3 id="5--إعدادات-الوصول-الموحد-universal-access" data-numberify>5- إعدادات الوصول الموحد Universal Access&lt;a class="anchor ms-1" href="#5--إعدادات-الوصول-الموحد-universal-access">&lt;/a>&lt;/h3>
 &lt;p>يحتوي على خيارات العديد من الاختيارات للتعديل في النظام بما يناسب ذوي الاحتياجات الخاصة، مثل تكبير حجم النصوص أو تشغيل قارئ الشاشة، والعديد من الاختيارات الأخرى.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Universal.png" loading="lazy" width="850" height="458" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="6--إعدادات-حسابات-المستخدمين-user-accounts" data-numberify>6- إعدادات حسابات المستخدمين User Accounts&lt;a class="anchor ms-1 d-none" href="#6--إعدادات-حسابات-المستخدمين-user-accounts">#&lt;/a>&lt;/h3>
+&lt;h3 id="6--إعدادات-حسابات-المستخدمين-user-accounts" data-numberify>6- إعدادات حسابات المستخدمين User Accounts&lt;a class="anchor ms-1" href="#6--إعدادات-حسابات-المستخدمين-user-accounts">&lt;/a>&lt;/h3>
 &lt;p>هو آخر قسم من الإعدادات، أولا اضغط Unlock لتتمكن من التعديل على الإعدادات، ستجد به خيارات إنشاء حساب جديد، وتحديد صلاحيات الحسابات، وأيضا تفعيل تسجيل الدخول التلقائي للحساب.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/Users.png" loading="lazy" width="850" height="433" />
 &lt;/picture>
@@ -461,12 +461,12 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-10-settings/images/190-5.png" loading="lazy" width="1240" height="1755" />
 &lt;/picture>
 &lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الثالث</title><link>https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/</link><pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity باستخدام أداة Unity Tweak، وتعرفنا على كيفية تغيير ثيمات النظام والخطوط والأيقونات، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على آخر مجموعة حيل لتخصيص واجهة Unity باستخدام بعض الأدوات.&lt;/p>
-&lt;h2 id="أولا-أداة-docky" data-numberify>أولا: أداة Docky&lt;a class="anchor ms-1 d-none" href="#أولا-أداة-docky">#&lt;/a>&lt;/h2>
+&lt;h2 id="أولا-أداة-docky" data-numberify>أولا: أداة Docky&lt;a class="anchor ms-1" href="#أولا-أداة-docky">&lt;/a>&lt;/h2>
 &lt;p>أداة Docky هي أداة لإضافة شريط البرامج Dock أسفل سطح المكتب مثل الموجود في نظام ماك من آبل، وظيفة الأداة هي التنقل بين البرامج المفتوحة بطريقة جميلة، مقدمة بذلك بديلا لشريط المهام الكلاسيكي (المشغل) في أوبنتو.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Docky_On_Linux.png" loading="lazy" width="510" height="370" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="--تثبيت-الأداة" data-numberify>- تثبيت الأداة&lt;a class="anchor ms-1 d-none" href="#--تثبيت-الأداة">#&lt;/a>&lt;/h3>
+&lt;h3 id="--تثبيت-الأداة" data-numberify>- تثبيت الأداة&lt;a class="anchor ms-1" href="#--تثبيت-الأداة">&lt;/a>&lt;/h3>
 &lt;p>1- قم بفتح مركز البرمجيات Ubuntu Software.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Ubuntu_Software.png" loading="lazy" width="880" height="539" />
 &lt;/picture>
@@ -487,7 +487,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Docky_Terminal.png" loading="lazy" width="460" height="153" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="--استخدام-الأداة" data-numberify>- استخدام الأداة&lt;a class="anchor ms-1 d-none" href="#--استخدام-الأداة">#&lt;/a>&lt;/h3>
+&lt;h3 id="--استخدام-الأداة" data-numberify>- استخدام الأداة&lt;a class="anchor ms-1" href="#--استخدام-الأداة">&lt;/a>&lt;/h3>
 &lt;p>نحتاج أولا إلى تغيير إعدادات المشغل، بحيث يتم إخفاءه تلقائيا عند عدم استخدامه، ولفعل ذلك قم بفتح أداة Unity Tweak التي سبق شرحها في العدد الماضي.&lt;/p>
 &lt;p>قم بفتح الأداة ثم اختر Launcher من القسم Unity قم بتفعيل خاصية Auto-hide وتأكد من اختيار مكان المشغل يسار الشاشة Left.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Hide_Launcher.png" loading="lazy" width="405" height="417" />
@@ -501,7 +501,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Docky_2.png" loading="lazy" width="485" height="300" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="--إعدادات-الأداة" data-numberify>- إعدادات الأداة&lt;a class="anchor ms-1 d-none" href="#--إعدادات-الأداة">#&lt;/a>&lt;/h3>
+&lt;h3 id="--إعدادات-الأداة" data-numberify>- إعدادات الأداة&lt;a class="anchor ms-1" href="#--إعدادات-الأداة">&lt;/a>&lt;/h3>
 &lt;p>لفتح الإعدادات اضغط على أيقونة Dock بزر الماوس الأيمن ثم اختر Settings.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Docky_S1.png" loading="lazy" width="440" height="254" />
 &lt;/picture>
@@ -519,18 +519,18 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Docky_Weather.png" loading="lazy" width="746" height="214" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثانيا-أداة-conky" data-numberify>ثانيا: أداة Conky&lt;a class="anchor ms-1 d-none" href="#ثانيا-أداة-conky">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-أداة-conky" data-numberify>ثانيا: أداة Conky&lt;a class="anchor ms-1" href="#ثانيا-أداة-conky">&lt;/a>&lt;/h2>
 &lt;p>أداة كونكي – Conky هي أداة رائعة تقوم بإظهار إحصائيات النظام كالتاريخ، نسب استهلاك المعالج والذاكرة وغيرها من المعلومات بطريقة تفاعلية. فبعد تخصيص هذه الأداة بسمات جميلة ستري أن سطح مكتبك يبدو رائعا.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Conky.png" loading="lazy" width="715" height="402" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="--تثبيت-الأداة-1" data-numberify>- تثبيت الأداة&lt;a class="anchor ms-1 d-none" href="#--تثبيت-الأداة-1">#&lt;/a>&lt;/h3>
+&lt;h3 id="--تثبيت-الأداة-1" data-numberify>- تثبيت الأداة&lt;a class="anchor ms-1" href="#--تثبيت-الأداة-1">&lt;/a>&lt;/h3>
 &lt;p>عن طريق الطرفية Terminal باستخدام الأمر&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install conky-all
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Conky_Install.png" loading="lazy" width="572" height="335" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="--استخدام-الأداة-1" data-numberify>- استخدام الأداة&lt;a class="anchor ms-1 d-none" href="#--استخدام-الأداة-1">#&lt;/a>&lt;/h3>
+&lt;h3 id="--استخدام-الأداة-1" data-numberify>- استخدام الأداة&lt;a class="anchor ms-1" href="#--استخدام-الأداة-1">&lt;/a>&lt;/h3>
 &lt;p>لفتح الأداة قم بكتابة هذا الأمر في الطرفية conky ليظهر لنا الشكل الأساسي للأداة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Conky_St.png" loading="lazy" width="367" height="381" />
 &lt;/picture>
@@ -561,7 +561,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Startup_2.png" loading="lazy" width="413" height="342" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثالثا-أداة-compiz" data-numberify>ثالثا: أداة Compiz&lt;a class="anchor ms-1 d-none" href="#ثالثا-أداة-compiz">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-أداة-compiz" data-numberify>ثالثا: أداة Compiz&lt;a class="anchor ms-1" href="#ثالثا-أداة-compiz">&lt;/a>&lt;/h2>
 &lt;p>هي أداة أكثر من رائعة تحتوي العديد من الخصائص المدهشة لتغيير كل التأثيرات في واجهة Unity، من هذه التأثيرات:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -581,12 +581,13 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/compiz-cube.png" loading="lazy" width="400" height="250" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="--تثبيت-الأداة-2" data-numberify>- تثبيت الأداة&lt;a class="anchor ms-1 d-none" href="#--تثبيت-الأداة-2">#&lt;/a>&lt;/h3>
+&lt;h3 id="--تثبيت-الأداة-2" data-numberify>- تثبيت الأداة&lt;a class="anchor ms-1" href="#--تثبيت-الأداة-2">&lt;/a>&lt;/h3>
 &lt;p>قم بالبحث عن CompizConfig Settings manager في مركز البرمجيات Ubuntu Software&lt;/p>
 &lt;p>أو عن طريق الطرفية Terminal باستخدام الأوامر التالية:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">sudo apt-get install compizconfig-settings-manager
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">sudo apt-get install compiz-plugins*
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="--استخدام-الأداة-2" data-numberify>- استخدام الأداة&lt;a class="anchor ms-1 d-none" href="#--استخدام-الأداة-2">#&lt;/a>&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="--استخدام-الأداة-2" data-numberify>- استخدام الأداة&lt;a class="anchor ms-1" href="#--استخدام-الأداة-2">&lt;/a>&lt;/h3>
 &lt;p>بعد التثبيت قم بفتح الأداة CompizConfig Settings Manager.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Compiz_Launch.png" loading="lazy" width="479" height="258" />
 &lt;/picture>
@@ -626,7 +627,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/Compiz_Shift.png" loading="lazy" width="987" height="602" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="إلغاء-تغييرات-compiz-وإعادتها-إلى-الوضع-الافتراضي" data-numberify>إلغاء تغييرات Compiz وإعادتها إلى الوضع الافتراضي&lt;a class="anchor ms-1 d-none" href="#إلغاء-تغييرات-compiz-وإعادتها-إلى-الوضع-الافتراضي">#&lt;/a>&lt;/h3>
+&lt;h3 id="إلغاء-تغييرات-compiz-وإعادتها-إلى-الوضع-الافتراضي" data-numberify>إلغاء تغييرات Compiz وإعادتها إلى الوضع الافتراضي&lt;a class="anchor ms-1" href="#إلغاء-تغييرات-compiz-وإعادتها-إلى-الوضع-الافتراضي">&lt;/a>&lt;/h3>
 &lt;p>قم بفتح Terminal واكتب هذا الأمر&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">dconf reset -f /org/compiz/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>بعد ذلك قم بتسجيل الخروج وإعادة الدخول مرة أخرى.&lt;/p>
@@ -641,7 +642,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/images/189-4.png" loading="lazy" width="1240" height="1755" />
 &lt;/picture>
 &lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الثاني</title><link>https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/</link><pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity بدون استخدام برامج خارجية، وتعرفنا على كيفية تغيير مكان المشغل ومكان القوائم، وأيضا تغيير خلفية سطح المكتب، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على طريقة تخصيص واجهة Unity باستخدام أداة Unity Tweak.&lt;/p>
-&lt;h2 id="أولا-تثبيت-أداة-unity-tweak" data-numberify>أولا: تثبيت أداة Unity Tweak&lt;a class="anchor ms-1 d-none" href="#أولا-تثبيت-أداة-unity-tweak">#&lt;/a>&lt;/h2>
+&lt;h2 id="أولا-تثبيت-أداة-unity-tweak" data-numberify>أولا: تثبيت أداة Unity Tweak&lt;a class="anchor ms-1" href="#أولا-تثبيت-أداة-unity-tweak">&lt;/a>&lt;/h2>
 &lt;p>1- قم بفتح مركز البرمجيات Ubuntu Software.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/1.png" loading="lazy" width="880" height="539" />
 &lt;/picture>
@@ -665,7 +666,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>كما يمكنك تثبيت الأداة على أي إصدار من أوبنتو عن طريق الطرفية Terminal باستخدام الأمر
 &lt;code>sudo apt-get install unity-tweak-tool&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h2 id="ثانيا-تخصيص-واجهة-unity-باستخدام-أداة-unity-tweak" data-numberify>ثانيا: تخصيص واجهة Unity باستخدام أداة Unity Tweak&lt;a class="anchor ms-1 d-none" href="#ثانيا-تخصيص-واجهة-unity-باستخدام-أداة-unity-tweak">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-تخصيص-واجهة-unity-باستخدام-أداة-unity-tweak" data-numberify>ثانيا: تخصيص واجهة Unity باستخدام أداة Unity Tweak&lt;a class="anchor ms-1" href="#ثانيا-تخصيص-واجهة-unity-باستخدام-أداة-unity-tweak">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>بعد فتح الأداة ستجد الواجهة كما بالصورة:&lt;/p>
@@ -682,8 +683,8 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>سنقوم الآن بالتعرف على كل قسم بالتفصيل لتخصيص واجهة Unity كما نريد.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="أولا-unity" data-numberify>أولا: Unity&lt;a class="anchor ms-1 d-none" href="#أولا-unity">#&lt;/a>&lt;/h3>
-&lt;h4 id="1--التبويب-launcher" data-numberify>1- التبويب Launcher&lt;a class="anchor ms-1 d-none" href="#1--التبويب-launcher">#&lt;/a>&lt;/h4>
+&lt;h3 id="أولا-unity" data-numberify>أولا: Unity&lt;a class="anchor ms-1" href="#أولا-unity">&lt;/a>&lt;/h3>
+&lt;h4 id="1--التبويب-launcher" data-numberify>1- التبويب Launcher&lt;a class="anchor ms-1" href="#1--التبويب-launcher">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/6.png" loading="lazy" width="642" height="560" />
 &lt;/picture>
 &lt;/p>
@@ -692,7 +693,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>Appearance: للتحكم في شفافية شريط المشغل ولونه ومكانه (أسفل الشاشة أو الجانب الأيسر).&lt;/li>
 &lt;li>Icons: لتخصيص شكل أيقونات التطبيقات على الشريط وأثناء التشغيل، وأيضا لون الأيقونات على الشريط.&lt;/li>
 &lt;/ul>
-&lt;h4 id="2--التبويب-search" data-numberify>2- التبويب Search&lt;a class="anchor ms-1 d-none" href="#2--التبويب-search">#&lt;/a>&lt;/h4>
+&lt;h4 id="2--التبويب-search" data-numberify>2- التبويب Search&lt;a class="anchor ms-1" href="#2--التبويب-search">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/7.png" loading="lazy" width="422" height="422" />
 &lt;/picture>
 &lt;/p>
@@ -702,7 +703,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>Files: وهو اختيار لتفعيل البحث عن الملفات.&lt;/li>
 &lt;li>Run Command: ومن خلاله يمكن مسح سجل الأوامر في البحث.&lt;/li>
 &lt;/ul>
-&lt;h4 id="3--التبويب-panel" data-numberify>3- التبويب Panel&lt;a class="anchor ms-1 d-none" href="#3--التبويب-panel">#&lt;/a>&lt;/h4>
+&lt;h4 id="3--التبويب-panel" data-numberify>3- التبويب Panel&lt;a class="anchor ms-1" href="#3--التبويب-panel">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/8.png" loading="lazy" width="550" height="490" />
 &lt;/picture>
 &lt;/p>
@@ -710,7 +711,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>General: للتحكم في مدة ظهور القوائم، ومستوى شفافية الشريط العلوي.&lt;/li>
 &lt;li>Indicators: للتحكم في أزرار المؤشرات، مثل الطاقة والوقت والتاريخ والصوت.&lt;/li>
 &lt;/ul>
-&lt;h4 id="4--التبويب-switcher" data-numberify>4- التبويب Switcher&lt;a class="anchor ms-1 d-none" href="#4--التبويب-switcher">#&lt;/a>&lt;/h4>
+&lt;h4 id="4--التبويب-switcher" data-numberify>4- التبويب Switcher&lt;a class="anchor ms-1" href="#4--التبويب-switcher">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/9.png" loading="lazy" width="642" height="637" />
 &lt;/picture>
 &lt;/p>
@@ -718,13 +719,13 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>General: يحتوي على اختيارات متعددة للتعديل على مبدل التطبيقات (Alt+ Tab) مثل تفعيل أيقونة عرض سطح المكتب، التبديل بين جميع النوافذ على مساحات العمل، والتبديل بين النوافذ المصغرة.&lt;/li>
 &lt;li>Windows switching shortcuts: للتحكم في اختصارات التبديل بين النوافذ، لتغيير أي اختصار اضغط على الاختصار الموجود على اليمين ثم اكتب الاختصار الذي تريده.&lt;/li>
 &lt;/ul>
-&lt;h4 id="5--التبويب-additional" data-numberify>5- التبويب Additional&lt;a class="anchor ms-1 d-none" href="#5--التبويب-additional">#&lt;/a>&lt;/h4>
+&lt;h4 id="5--التبويب-additional" data-numberify>5- التبويب Additional&lt;a class="anchor ms-1" href="#5--التبويب-additional">&lt;/a>&lt;/h4>
 &lt;p>يحتوي على اختيارات للتعديل على HUD واختصاراتها&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/Additional.png" loading="lazy" width="642" height="350" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="ثانيا-window-manager" data-numberify>ثانيا: Window Manager&lt;a class="anchor ms-1 d-none" href="#ثانيا-window-manager">#&lt;/a>&lt;/h3>
-&lt;h4 id="1--التبويب-general" data-numberify>1- التبويب General&lt;a class="anchor ms-1 d-none" href="#1--التبويب-general">#&lt;/a>&lt;/h4>
+&lt;h3 id="ثانيا-window-manager" data-numberify>ثانيا: Window Manager&lt;a class="anchor ms-1" href="#ثانيا-window-manager">&lt;/a>&lt;/h3>
+&lt;h4 id="1--التبويب-general" data-numberify>1- التبويب General&lt;a class="anchor ms-1" href="#1--التبويب-general">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/10.png" loading="lazy" width="642" height="637" />
 &lt;/picture>
 &lt;/p>
@@ -732,7 +733,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>Zoom: يحتوي على إعدادات تكبير / تصغير سطح المكتب واختصاراتها.&lt;/li>
 &lt;li>Animation: للتحكم في مؤثرات النوافذ، أيضا يمكن من خلال Keyboard Shortcuts تغيير اختصارات إغلاق وتحريك النوافذ، وإظهار سطح المكتب.&lt;/li>
 &lt;/ul>
-&lt;h4 id="2--التبويب-workspace-settings" data-numberify>2- التبويب Workspace Settings&lt;a class="anchor ms-1 d-none" href="#2--التبويب-workspace-settings">#&lt;/a>&lt;/h4>
+&lt;h4 id="2--التبويب-workspace-settings" data-numberify>2- التبويب Workspace Settings&lt;a class="anchor ms-1" href="#2--التبويب-workspace-settings">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/11.png" loading="lazy" width="642" height="309" />
 &lt;/picture>
 &lt;/p>
@@ -740,7 +741,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>General: لتفعيل التبديل بين مساحات العمل واختيار عددها.&lt;/li>
 &lt;li>Workspace Shortcuts: اختيار اختصار التبديل بين مساحات العمل.&lt;/li>
 &lt;/ul>
-&lt;h4 id="3--التبويب-window-spread" data-numberify>3- التبويب Window Spread&lt;a class="anchor ms-1 d-none" href="#3--التبويب-window-spread">#&lt;/a>&lt;/h4>
+&lt;h4 id="3--التبويب-window-spread" data-numberify>3- التبويب Window Spread&lt;a class="anchor ms-1" href="#3--التبويب-window-spread">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/12.png" loading="lazy" width="583" height="290" />
 &lt;/picture>
 &lt;/p>
@@ -748,7 +749,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>General: لتفعيل ميزة إظهار جميع النوافذ المفتوحة (Task Switch في الويندوز).&lt;/li>
 &lt;li>Window Spread Shortcuts: اختيار اختصار ميزة Window Spread.&lt;/li>
 &lt;/ul>
-&lt;h4 id="4--التبويب-window-snapping" data-numberify>4- التبويب Window Snapping&lt;a class="anchor ms-1 d-none" href="#4--التبويب-window-snapping">#&lt;/a>&lt;/h4>
+&lt;h4 id="4--التبويب-window-snapping" data-numberify>4- التبويب Window Snapping&lt;a class="anchor ms-1" href="#4--التبويب-window-snapping">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/13.png" loading="lazy" width="642" height="570" />
 &lt;/picture>
 &lt;/p>
@@ -756,7 +757,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>General: تفعيل خاصية Window Snapping (سحب النافذة إلى أحد جوانب الشاشة لتغيير حجمها).&lt;/li>
 &lt;li>Behavior: التحكم في سلوك كل جانب من الشاشة عند سحب النافذة اليه.&lt;/li>
 &lt;/ul>
-&lt;h4 id="5--التبويب-hotcorners" data-numberify>5- التبويب Hotcorners&lt;a class="anchor ms-1 d-none" href="#5--التبويب-hotcorners">#&lt;/a>&lt;/h4>
+&lt;h4 id="5--التبويب-hotcorners" data-numberify>5- التبويب Hotcorners&lt;a class="anchor ms-1" href="#5--التبويب-hotcorners">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/14.png" loading="lazy" width="640" height="510" />
 &lt;/picture>
 &lt;/p>
@@ -764,44 +765,44 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;li>General: تفعيل ميزة Hotcorners (تنفيذ أمر معين عند تحريك مؤشر الماوس إلى زاوية معينة من الشاشة).&lt;/li>
 &lt;li>Behavior: التحكم في سلوك زوايا الشاشة، فعلى سبيل المثال يمكن ضبط الزاوية العليا من اليمين على اظهار مساحات العمل عند تحريك الماوس إليها.&lt;/li>
 &lt;/ul>
-&lt;h4 id="6--التبويب-workspace-additional" data-numberify>6- التبويب Workspace Additional&lt;a class="anchor ms-1 d-none" href="#6--التبويب-workspace-additional">#&lt;/a>&lt;/h4>
+&lt;h4 id="6--التبويب-workspace-additional" data-numberify>6- التبويب Workspace Additional&lt;a class="anchor ms-1" href="#6--التبويب-workspace-additional">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/15.png" loading="lazy" width="500" height="500" />
 &lt;/picture>
 &lt;/p>
 &lt;p>أهم الاختيارات الموجودة هنا هي Titlebar Actions وتسمح لك بالتحكم في تأثير الضغط بالماوس على النوافذ المختلفة.&lt;/p>
-&lt;h3 id="ثالثا-appearance" data-numberify>ثالثا: Appearance&lt;a class="anchor ms-1 d-none" href="#ثالثا-appearance">#&lt;/a>&lt;/h3>
-&lt;h4 id="1--التبويب-theme" data-numberify>1- التبويب Theme&lt;a class="anchor ms-1 d-none" href="#1--التبويب-theme">#&lt;/a>&lt;/h4>
+&lt;h3 id="ثالثا-appearance" data-numberify>ثالثا: Appearance&lt;a class="anchor ms-1" href="#ثالثا-appearance">&lt;/a>&lt;/h3>
+&lt;h4 id="1--التبويب-theme" data-numberify>1- التبويب Theme&lt;a class="anchor ms-1" href="#1--التبويب-theme">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/16.png" loading="lazy" width="460" height="240" />
 &lt;/picture>
 &lt;/p>
 &lt;p>لتغيير السمة الخاص بالنظام، بمجرد الضغط على الثيم يتم تغييره، كما يمكنك إضافة ثيمات أخرى من الإنترنت واختيارها من هنا.&lt;/p>
-&lt;h4 id="2--التبويب-icons" data-numberify>2- التبويب Icons&lt;a class="anchor ms-1 d-none" href="#2--التبويب-icons">#&lt;/a>&lt;/h4>
+&lt;h4 id="2--التبويب-icons" data-numberify>2- التبويب Icons&lt;a class="anchor ms-1" href="#2--التبويب-icons">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/17.png" loading="lazy" width="370" height="419" />
 &lt;/picture>
 &lt;/p>
 &lt;p>لتغيير أيقونات النظام بأكمله، بما في ذلك التطبيقات والشريط العلوي، أيضا يمكنك تحميل الأيقونات من الإنترنت واختيارها.&lt;/p>
-&lt;h4 id="3--التبويب-cursor" data-numberify>3- التبويب Cursor&lt;a class="anchor ms-1 d-none" href="#3--التبويب-cursor">#&lt;/a>&lt;/h4>
+&lt;h4 id="3--التبويب-cursor" data-numberify>3- التبويب Cursor&lt;a class="anchor ms-1" href="#3--التبويب-cursor">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/18.png" loading="lazy" width="441" height="342" />
 &lt;/picture>
 &lt;/p>
 &lt;p>لتغيير شكل مؤشر الماوس والتحكم في حجم المؤشر.&lt;/p>
-&lt;h4 id="4--التبويب-fonts" data-numberify>4- التبويب Fonts&lt;a class="anchor ms-1 d-none" href="#4--التبويب-fonts">#&lt;/a>&lt;/h4>
+&lt;h4 id="4--التبويب-fonts" data-numberify>4- التبويب Fonts&lt;a class="anchor ms-1" href="#4--التبويب-fonts">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/19.png" loading="lazy" width="570" height="320" />
 &lt;/picture>
 &lt;/p>
 &lt;p>من خلاله يمكنك تغيير كل خطوط النظام، النوافذ، والمستندات، أيضا يمكن التحكم في مظهر الخطوط من خيارات Appearance.&lt;/p>
-&lt;h3 id="رابعا-system" data-numberify>رابعا: System&lt;a class="anchor ms-1 d-none" href="#رابعا-system">#&lt;/a>&lt;/h3>
-&lt;h4 id="1--التبويب-desktop-icons" data-numberify>1- التبويب Desktop Icons:&lt;a class="anchor ms-1 d-none" href="#1--التبويب-desktop-icons">#&lt;/a>&lt;/h4>
+&lt;h3 id="رابعا-system" data-numberify>رابعا: System&lt;a class="anchor ms-1" href="#رابعا-system">&lt;/a>&lt;/h3>
+&lt;h4 id="1--التبويب-desktop-icons" data-numberify>1- التبويب Desktop Icons:&lt;a class="anchor ms-1" href="#1--التبويب-desktop-icons">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/20.png" loading="lazy" width="400" height="260" />
 &lt;/picture>
 &lt;/p>
 &lt;p>لاختيار الأيقونات التي ستظهر على سطح المكتب.&lt;/p>
-&lt;h4 id="2--التبويب-security" data-numberify>2- التبويب Security&lt;a class="anchor ms-1 d-none" href="#2--التبويب-security">#&lt;/a>&lt;/h4>
+&lt;h4 id="2--التبويب-security" data-numberify>2- التبويب Security&lt;a class="anchor ms-1" href="#2--التبويب-security">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/21.png" loading="lazy" width="265" height="265" />
 &lt;/picture>
 &lt;/p>
 &lt;p>يحتوي على بعض الإعدادات المتعلقة بالحماية مثل إغلاق سطح المكتب، والتبديل بين المستخدمين.&lt;/p>
-&lt;h4 id="3--التبويب-scrolling" data-numberify>3- التبويب Scrolling:&lt;a class="anchor ms-1 d-none" href="#3--التبويب-scrolling">#&lt;/a>&lt;/h4>
+&lt;h4 id="3--التبويب-scrolling" data-numberify>3- التبويب Scrolling:&lt;a class="anchor ms-1" href="#3--التبويب-scrolling">&lt;/a>&lt;/h4>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/22.png" loading="lazy" width="330" height="330" />
 &lt;/picture>
 &lt;/p>
@@ -820,21 +821,21 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/188-09.png" loading="lazy" width="1240" height="1755" />
 &lt;/picture>
 &lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الأول</title><link>https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/</link><pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن واجهة Unity، وتعرفنا على مكوناتها وطريقة التعامل مها، واليوم نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على طريقة تخصيص واجهة Unity بدون استخدام برامج خارجية.&lt;/p>
-&lt;h2 id="1--تغيير-مكان-شريط-المشغل-launcher" data-numberify>1- تغيير مكان شريط المشغل Launcher&lt;a class="anchor ms-1 d-none" href="#1--تغيير-مكان-شريط-المشغل-launcher">#&lt;/a>&lt;/h2>
+&lt;h2 id="1--تغيير-مكان-شريط-المشغل-launcher" data-numberify>1- تغيير مكان شريط المشغل Launcher&lt;a class="anchor ms-1" href="#1--تغيير-مكان-شريط-المشغل-launcher">&lt;/a>&lt;/h2>
 &lt;p>كما أوضحنا في عدد سابق، توفر نسخة أوبنتو 16.04 إمكانية تغيير مكان المشغل ونقله إلى الجزء الأسفل من الشاشة (مثل شريط المهام) بدلا من الجزء الأيسر، وللقيام بذلك كل ما عليك هو فتح الطرفية Terminal ثم كتابة هذا الأمر:
 &lt;code>gsettings set com.canonical.Unity.Launcher launcher-position Bottom&lt;/code>
 &lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/1.jpg" loading="lazy" width="800" height="303" />
 &lt;/picture>
 ولإعادة الشريط إلى مكانه الأصلي استخدم هذا الأمر:
 &lt;code>gsettings set com.canonical.Unity.Launcher launcher-position Left&lt;/code>&lt;/p>
-&lt;h2 id="2--إزالة-وضع-جلسة-الضيف-guest-session" data-numberify>2- إزالة وضع &amp;ldquo;جلسة الضيف Guest Session&amp;rdquo;&lt;a class="anchor ms-1 d-none" href="#2--إزالة-وضع-جلسة-الضيف-guest-session">#&lt;/a>&lt;/h2>
+&lt;h2 id="2--إزالة-وضع-جلسة-الضيف-guest-session" data-numberify>2- إزالة وضع &amp;ldquo;جلسة الضيف Guest Session&amp;rdquo;&lt;a class="anchor ms-1" href="#2--إزالة-وضع-جلسة-الضيف-guest-session">&lt;/a>&lt;/h2>
 &lt;p>حيث أنه بوجود هذا الاختيار يستطيع أي شخص الدخول إلى النظام بدون معرفة كلمة السر، بصلاحيات محدودة، فيضل إزالة هذا الوضع إذا كنت لا تستخدمه لضمان المزيد من الأمان.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/2.jpg" loading="lazy" width="600" height="450" />
 &lt;/picture>
 &lt;/p>
 &lt;p>قم بفتح فتح الطرفية Terminal ثم اكتب الأمر التالي:
 &lt;code>sudo sh -c &amp;quot;echo 'allow-guest=false' &amp;gt;&amp;gt; /usr/share/lightdm/lightdm.conf.d/50-ubuntu.conf&amp;quot;&lt;/code>&lt;/p>
-&lt;h2 id="3--إظهار-اسم-المستخدم-على-شريط-unity" data-numberify>3- إظهار اسم المستخدم على شريط Unity&lt;a class="anchor ms-1 d-none" href="#3--إظهار-اسم-المستخدم-على-شريط-unity">#&lt;/a>&lt;/h2>
+&lt;h2 id="3--إظهار-اسم-المستخدم-على-شريط-unity" data-numberify>3- إظهار اسم المستخدم على شريط Unity&lt;a class="anchor ms-1" href="#3--إظهار-اسم-المستخدم-على-شريط-unity">&lt;/a>&lt;/h2>
 &lt;p>قم بالدخول إلى إعدادات النظام System Settings ثم حسابات المستخدمين User Accounts بعد ذلك قم بوضع علامة على الاختيار Show my login name on the menu bar.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/3.jpg" loading="lazy" width="846" height="436" />
 &lt;/picture>
@@ -843,13 +844,13 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/4.jpg" loading="lazy" width="689" height="271" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="4--تفعيل-خاصية-التصغير-بنقرة-واحدة-one-click-minimize" data-numberify>4- تفعيل خاصية التصغير بنقرة واحدة one-click minimize&lt;a class="anchor ms-1 d-none" href="#4--تفعيل-خاصية-التصغير-بنقرة-واحدة-one-click-minimize">#&lt;/a>&lt;/h2>
+&lt;h2 id="4--تفعيل-خاصية-التصغير-بنقرة-واحدة-one-click-minimize" data-numberify>4- تفعيل خاصية التصغير بنقرة واحدة one-click minimize&lt;a class="anchor ms-1" href="#4--تفعيل-خاصية-التصغير-بنقرة-واحدة-one-click-minimize">&lt;/a>&lt;/h2>
 &lt;p>هي الخاصية التي تمكنك من تصغير التطبيق المفتوح بنقرة واحدة بمجرد الضغط على الأيقونة الخاصة به من على المشغل، قم بكتابة هذا الأمر في الطرفية Terminal:
 &lt;code>gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true&lt;/code>
 &lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/5.jpg" loading="lazy" width="350" height="223" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="5--اختيار-المكان-الذي-تظهر-به-القوائم" data-numberify>5- اختيار المكان الذي تظهر به القوائم&lt;a class="anchor ms-1 d-none" href="#5--اختيار-المكان-الذي-تظهر-به-القوائم">#&lt;/a>&lt;/h2>
+&lt;h2 id="5--اختيار-المكان-الذي-تظهر-به-القوائم" data-numberify>5- اختيار المكان الذي تظهر به القوائم&lt;a class="anchor ms-1" href="#5--اختيار-المكان-الذي-تظهر-به-القوائم">&lt;/a>&lt;/h2>
 &lt;p>افتراضيا يظهر شريط القوائم في الشريط العلوي للواجهة، لكنه يختفي بعد عدة ثواني.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/6.jpg" loading="lazy" width="800" height="311" />
 &lt;/picture>
@@ -867,23 +868,23 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;/picture>
 &lt;/p>
 &lt;p>قم باختيار الإعداد الذي تفضله ثم أسفل Menus visibility ستجد اختيارين للتحكم في ظهور القوائم هما Always displayed لجعلها تظهر دائما، أو Displayed on mouse hovering لجعلها تظهر عند مرور الماوس عليها فقط، أيضا اختر ما يناسبك منهما.&lt;/p>
-&lt;h2 id="6--التحكم-في-حجم-شريط-العنوان-والقوائم" data-numberify>6- التحكم في حجم شريط العنوان والقوائم&lt;a class="anchor ms-1 d-none" href="#6--التحكم-في-حجم-شريط-العنوان-والقوائم">#&lt;/a>&lt;/h2>
+&lt;h2 id="6--التحكم-في-حجم-شريط-العنوان-والقوائم" data-numberify>6- التحكم في حجم شريط العنوان والقوائم&lt;a class="anchor ms-1" href="#6--التحكم-في-حجم-شريط-العنوان-والقوائم">&lt;/a>&lt;/h2>
 &lt;p>قم بالدخول إلى إعدادات النظام System Settings ثم Displays، أسفل Scale for menu and title bars ستجد شريط يمكنك من تغيير الحجم كما تريد.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/9.jpg" loading="lazy" width="600" height="450" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="7--تفعيل-البحث-عبر-الانترنت-في-ال-dash" data-numberify>7- تفعيل البحث عبر الانترنت في ال Dash&lt;a class="anchor ms-1 d-none" href="#7--تفعيل-البحث-عبر-الانترنت-في-ال-dash">#&lt;/a>&lt;/h2>
+&lt;h2 id="7--تفعيل-البحث-عبر-الانترنت-في-ال-dash" data-numberify>7- تفعيل البحث عبر الانترنت في ال Dash&lt;a class="anchor ms-1" href="#7--تفعيل-البحث-عبر-الانترنت-في-ال-dash">&lt;/a>&lt;/h2>
 &lt;p>أوضحنا في العدد السابق أنه تم تعطيل ميزة البحث عبر الانترنت من خلال ال Dash افتراضيا في أوبنتو 16.04، ولإعادة تفعيلها مرة أخري قم بالدخول إلى القسم Privacy &amp;amp; Security بداخل الاعدادات ثم انتقل إلى التبويب Search ستجد الاختيار Include online search result مغلقا، قم بتفعيله.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/10.jpg" loading="lazy" width="514" height="277" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="8--تفعيل-ميزة-البحث-المتقدم-في-مدير-الملفات-nautilus" data-numberify>8- تفعيل ميزة البحث المتقدم في مدير الملفات Nautilus&lt;a class="anchor ms-1 d-none" href="#8--تفعيل-ميزة-البحث-المتقدم-في-مدير-الملفات-nautilus">#&lt;/a>&lt;/h2>
+&lt;h2 id="8--تفعيل-ميزة-البحث-المتقدم-في-مدير-الملفات-nautilus" data-numberify>8- تفعيل ميزة البحث المتقدم في مدير الملفات Nautilus&lt;a class="anchor ms-1" href="#8--تفعيل-ميزة-البحث-المتقدم-في-مدير-الملفات-nautilus">&lt;/a>&lt;/h2>
 &lt;p>إذا قمت بالبحث عن كلمة top بداخل مجلد home لن يظهر لك أي نتائج، حيث أن ميزة البحث المتقدم غير مفعله، ولكن بعد تفعيلها سيظهر لك كل الملفات والمجلدات التي تحتوي على المقطع top ومن ضمنها Desktop، ولتفعيل ميزة البحث المتقدم افتح لطرفية Terminal ثم اكتب الأمر:
 &lt;code>gsettings set org.gnome.nautilus.preferences enable-interactive-search false&lt;/code>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/11.jpg" loading="lazy" width="683" height="412" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="9--تغيير-خلفية-سطح-المكتب" data-numberify>9- تغيير خلفية سطح المكتب&lt;a class="anchor ms-1 d-none" href="#9--تغيير-خلفية-سطح-المكتب">#&lt;/a>&lt;/h2>
+&lt;h2 id="9--تغيير-خلفية-سطح-المكتب" data-numberify>9- تغيير خلفية سطح المكتب&lt;a class="anchor ms-1" href="#9--تغيير-خلفية-سطح-المكتب">&lt;/a>&lt;/h2>
 &lt;p>عن طريق الدخول إلى إعدادات النظام System Settings ثم المظهر Appearance.
 يمكنك الاختيار من الخلفيات المتاحة أمامك أو الضغط على الزر + لاختيار الخلفية التي تريدها من على جهازك.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/12.jpg" loading="lazy" width="849" height="562" />
@@ -897,7 +898,7 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/187-9.png" loading="lazy" width="1240" height="1755" />
 &lt;/picture>
 &lt;/p></description></item><item><title>واجهة Unity.. من البداية وحتى الاحتراف</title><link>https://yshalsager.com/ar/posts/linux-guide-06-using-unity/</link><pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-06-using-unity/</guid><description>&lt;p>في العدد السابق (الحلقة 5) تكلمنا عن أهم برامج أوبنتو التي يجب عليك تجربتها، واليوم نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على واجهة Unity الخاصة بتوزيعه أوبنتو ونكتشف خفاياها وأسرارها.&lt;/p>
-&lt;h2 id="أولا-ما-هي-واجهة-unity" data-numberify>أولا: ما هي واجهة Unity&lt;a class="anchor ms-1 d-none" href="#أولا-ما-هي-واجهة-unity">#&lt;/a>&lt;/h2>
+&lt;h2 id="أولا-ما-هي-واجهة-unity" data-numberify>أولا: ما هي واجهة Unity&lt;a class="anchor ms-1" href="#أولا-ما-هي-واجهة-unity">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>في أي نظام تشغيل معتمد على واجهة المستخدم الرسومية توجد بيئة سطح مكتب (واجهة) مميزة له، وكل واجهة لديها عدد من الخصائص تميزها عن الأخرى مثل (مظهر النظام، طريقة تنظيم سطح المكتب، كيفية التنقل في سطح المكتب).&lt;/li>
 &lt;li>من مميزات نظام لينكس التي سبق وذكرناها هي تعدد واجهات سطح المكتب ومن أمثلتها (Gnome, Unity, XFCE, MATE, KDE)، كما أن المستخدم يستطيع التنقل بحرية بين واجهات سطح المكتب المختلفة، وكما رأيت عزيزي القارئ تعتبر واجهة Unity بيئة سطح المكتب الافتراضية لتوزيعه أوبنتو.&lt;/li>
@@ -908,8 +909,8 @@ Ubuntu Software: خيارات التحكم في برمجيات أوبنتو، و
 &lt;ul>
 &lt;li>تم ابتكار واجهة Unity في 2010، وتم دمجها لأول مرة مع توزيعة أوبنتو في الإصدار Ubuntu 10.10، وحصلت خلال 5 أعوام على العديد من التطويرات الهائلة التي جعلت منها واحدة من أفضل واجهات سطح المكتب في لينكس (إصدار الواجهة في أوبنتو 16.04 هو 7.4).&lt;/li>
 &lt;/ul>
-&lt;h2 id="ثانيا-مكونات-واجهة-unity-وكيفية-التعامل-معها" data-numberify>ثانيا: مكونات واجهة Unity وكيفية التعامل معها&lt;a class="anchor ms-1 d-none" href="#ثانيا-مكونات-واجهة-unity-وكيفية-التعامل-معها">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--المشغل-مطلق-التطبيقات--launcher" data-numberify>1- المشغل (مُطلق التطبيقات) – Launcher&lt;a class="anchor ms-1 d-none" href="#1--المشغل-مطلق-التطبيقات--launcher">#&lt;/a>&lt;/h3>
+&lt;h2 id="ثانيا-مكونات-واجهة-unity-وكيفية-التعامل-معها" data-numberify>ثانيا: مكونات واجهة Unity وكيفية التعامل معها&lt;a class="anchor ms-1" href="#ثانيا-مكونات-واجهة-unity-وكيفية-التعامل-معها">&lt;/a>&lt;/h2>
+&lt;h3 id="1--المشغل-مطلق-التطبيقات--launcher" data-numberify>1- المشغل (مُطلق التطبيقات) – Launcher&lt;a class="anchor ms-1" href="#1--المشغل-مطلق-التطبيقات--launcher">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>هو الشريط الجانبي الموجود أيسر الشاشة (تم إضافة إعدادات لتغيير مكانه في الإصدار 16.04 سنقوم بشرحها لاحقا)، ويحتوي على بعض البرامج والأقراص الموجودة في جهازك إلى جانب سلة المحذوفات والبرامج المشغلة (كما في شريط مهام الويندوز).&lt;/li>
 &lt;/ul>
@@ -935,7 +936,7 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/5.jpg" loading="lazy" width="735" height="576" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="2--الداش-اللوحة-الرئيسية--the-dash" data-numberify>2- الداش (اللوحة الرئيسية) – The Dash&lt;a class="anchor ms-1 d-none" href="#2--الداش-اللوحة-الرئيسية--the-dash">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--الداش-اللوحة-الرئيسية--the-dash" data-numberify>2- الداش (اللوحة الرئيسية) – The Dash&lt;a class="anchor ms-1" href="#2--الداش-اللوحة-الرئيسية--the-dash">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>هي الجزء الرئيسي الثاني من واجهة Unity، وهي عبارة عن لوحة رئيسية يمكنك من خلالها الوصول لكل شيء والبحث عن أي شيء على جهازك، سواء كان برنامجا، ملف صوت، صورة، فيديو، مستند، الخ، أو إعدادات النظام دون أن تحتاج لمعرفة أين يوجد، كما يعرض أيضا آخر المجلدات المفتوحة، ويمكن من خلاله البحث في الإنترنت (تم تعطيل هذه الميزة افتراضيا في الإصدار 16.04)، وهو يشبه قائمة البداية في ويندوز كثيرا.&lt;/li>
 &lt;/ul>
@@ -960,7 +961,7 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/9.png" loading="lazy" width="650" height="289" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="3--الشريط-العلوي-شريط-القوائم--indicator-menu" data-numberify>3- الشريط العلوي (شريط القوائم) – Indicator Menu&lt;a class="anchor ms-1 d-none" href="#3--الشريط-العلوي-شريط-القوائم--indicator-menu">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--الشريط-العلوي-شريط-القوائم--indicator-menu" data-numberify>3- الشريط العلوي (شريط القوائم) – Indicator Menu&lt;a class="anchor ms-1" href="#3--الشريط-العلوي-شريط-القوائم--indicator-menu">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>يتكون هذا الشريط من مجموعات أيقونات وأزرار كل واحدة منهم لها وظيفة محددة:
 فمثلا يوجد زر للتبديل بين لغات الكتابة، وزر الشبكة لذي يسمح لك بالاتصال بشبكة الانترنت، وزر الساعة الذي يعرض الوقت، وآخر زر هو زر Session indicator الذي يحتوي على إعدادات ومعلومات النظام إلى جانب خيارات التحكم في الطاقة.&lt;/li>
@@ -974,7 +975,7 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/11.png" loading="lazy" width="408" height="96" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="4--المكاتب-الوهمية-مساحات-العمل--workspaces" data-numberify>4- المكاتب الوهمية (مساحات العمل) – Workspaces&lt;a class="anchor ms-1 d-none" href="#4--المكاتب-الوهمية-مساحات-العمل--workspaces">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--المكاتب-الوهمية-مساحات-العمل--workspaces" data-numberify>4- المكاتب الوهمية (مساحات العمل) – Workspaces&lt;a class="anchor ms-1" href="#4--المكاتب-الوهمية-مساحات-العمل--workspaces">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>هي عبارة عن أسطح مكتب افتراضية Virtual Desktops، تسمح لك باستخدام عدة أسطح مكتب منفصلة عن بعضها من أجل تسهيل العمل وتنظيمه، هناك أربعة مكاتب وهمية على أوبنتو. يمكن العمل على كل واحد منها منفصلا عن الآخرين، كما يمكن أيضا نقل النوافذ والبرامج المفتوحة من مكتب لآخر بسهولة.&lt;/p>
@@ -1001,14 +1002,14 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;ul>
 &lt;li>كما يمكنك أيضا استخدام الاختصار Ctrl+Alt+ سهم للتبديل بين المكاتب الوهمية، والاختصار Ctrl+Alt+Shift+ سهم لنقل النوافذ إلى مساحة عمل أخري.&lt;/li>
 &lt;/ul>
-&lt;h3 id="5--the-hud" data-numberify>5- The HUD&lt;a class="anchor ms-1 d-none" href="#5--the-hud">#&lt;/a>&lt;/h3>
+&lt;h3 id="5--the-hud" data-numberify>5- The HUD&lt;a class="anchor ms-1" href="#5--the-hud">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>هي طريقة جديدة للوصول إلى أوامر شريط القوائم، فبدلا من الضغط على شريط القوائم واختيار أمر ما، كل ما تحتاج فعله هو الضغط على زر Alt والبدء بكتابة اسم الاختيار مباشرة، وبهذا تستطيع البحث عن الأوامر الموجودة في شريط القوائم واختيارها دون الحاجة لاستخدام الماوس.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/15.png" loading="lazy" width="800" height="602" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="6--اختصارات-لوحة-المفاتيح-في-واجهة-unity" data-numberify>6- اختصارات لوحة المفاتيح في واجهة Unity&lt;a class="anchor ms-1 d-none" href="#6--اختصارات-لوحة-المفاتيح-في-واجهة-unity">#&lt;/a>&lt;/h3>
+&lt;h3 id="6--اختصارات-لوحة-المفاتيح-في-واجهة-unity" data-numberify>6- اختصارات لوحة المفاتيح في واجهة Unity&lt;a class="anchor ms-1" href="#6--اختصارات-لوحة-المفاتيح-في-واجهة-unity">&lt;/a>&lt;/h3>
 &lt;p>وفى نهاية هذه الحلقة أتركك عزيزي القارئ مع القائمة الكاملة لاختصارات لوحة المفاتيح في واجهة Unity التي تختصر الوقت عليك في تأدية المهام، وإلى اللقاء في الحلقة القادمة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/16.png" loading="lazy" width="988" height="676" />
 &lt;/picture>
@@ -1025,7 +1026,7 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;/picture>
 &lt;/p></description></item><item><title>أهم برامج أوبنتو التي يجب عليك تجربتها</title><link>https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/</link><pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/</guid><description>&lt;p>تحدثنا في الحلقات السابقة عن كيفية التعامل مع البرامج في أوبنتو لينكس واكتشفنا معا مدى سهولة تثبيت برامج جديدة، وعن أهم الخطوات التي يجب عليك فعلها بعد تثبيت أوبنتو وتوقفنا عند تثبيت البرامج التي تحتاج، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على أهم برامج أوبنتو التي يجب عليك تجربتها.&lt;/p>
 &lt;p>في البداية يجب أن أذكرك عزيزي القارئ بأن كل البرامج التي سيتم ذكرها في هذا الموضوع ستجدها على مركز برامج أوبنتو Ubuntu Software Center وفى حالة عدم وجود البرنامج على مركز البرامج سأذكر ذلك، أيضا ستجد بكل القسم العديد من البدائل اختر منها ما تريد فبالتأكيد لا تحتاج إلى تثبيتها جميعا.&lt;/p>
-&lt;h2 id="1--متصفحات-الملفات" data-numberify>1- متصفحات الملفات&lt;a class="anchor ms-1 d-none" href="#1--متصفحات-الملفات">#&lt;/a>&lt;/h2>
+&lt;h2 id="1--متصفحات-الملفات" data-numberify>1- متصفحات الملفات&lt;a class="anchor ms-1" href="#1--متصفحات-الملفات">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>Nautilus هو متصفح الملفات الافتراضي لواجهة جنوم Gnome ويأتي مثبتا تلقائيا على أوبنتو.
 يمكنك الوصول إليه عن طريق قائمة البرامج كما بالصورة.&lt;/li>
@@ -1041,7 +1042,7 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="2--متصفحات-الإنترنت" data-numberify>2- متصفحات الإنترنت&lt;a class="anchor ms-1 d-none" href="#2--متصفحات-الإنترنت">#&lt;/a>&lt;/h2>
+&lt;h2 id="2--متصفحات-الإنترنت" data-numberify>2- متصفحات الإنترنت&lt;a class="anchor ms-1" href="#2--متصفحات-الإنترنت">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>Firefox متصفح الإنترنت الشهير لا يحتاج لوصف، يأتي مثبتا تلقائيا على أوبنتو.&lt;/p>
@@ -1069,7 +1070,7 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;ol start="3">
 &lt;li>ستجد أيضا أغلب متصفحات الانترنت المعروفة على نظام الويندوز مثل Chromium-Opera-Slimjet- Maxthone، وهناك متصفحات أخرى عديدة يمكن اكتشافها في مركز برمجيات أوبنتو تحت خانة Internet.&lt;/li>
 &lt;/ol>
-&lt;h2 id="3--برامج-الدردشة-والمحادثات" data-numberify>3- برامج الدردشة والمحادثات&lt;a class="anchor ms-1 d-none" href="#3--برامج-الدردشة-والمحادثات">#&lt;/a>&lt;/h2>
+&lt;h2 id="3--برامج-الدردشة-والمحادثات" data-numberify>3- برامج الدردشة والمحادثات&lt;a class="anchor ms-1" href="#3--برامج-الدردشة-والمحادثات">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>Skype كما هو في ويندوز ولكن ليس بنفس التطور الذي نعرفه.
 يمكنك تحميله من موقعه الرسمي أو التثبيت بواسطة الطرفية terminal عن طريق الأمر:
@@ -1096,13 +1097,13 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;/li>
 &lt;/ol>
 &lt;p>كما يتوفر العديد من البرامج مثل Pidgin وEmpathy (مثبت تلقائيا على أوبنتو)، و Kopete.&lt;/p>
-&lt;h2 id="4--برامج-إدارة-الرسائل-الإلكترونية" data-numberify>4- برامج إدارة الرسائل الإلكترونية&lt;a class="anchor ms-1 d-none" href="#4--برامج-إدارة-الرسائل-الإلكترونية">#&lt;/a>&lt;/h2>
+&lt;h2 id="4--برامج-إدارة-الرسائل-الإلكترونية" data-numberify>4- برامج إدارة الرسائل الإلكترونية&lt;a class="anchor ms-1" href="#4--برامج-إدارة-الرسائل-الإلكترونية">&lt;/a>&lt;/h2>
 &lt;p>Mozilla Thunderbird تماما كما في ويندوز مع بعض الاختلافات البسيطة وهو مدير البريد الإلكتروني الافتراضي في أوبنتو.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/images/9.png" loading="lazy" width="1198" height="659" />
 &lt;/picture>
 &lt;/p>
 &lt;p>كما يوجد أيضا Evolution-Kmail-Kontact يمكنك ايجادهم على مركز البرامج.&lt;/p>
-&lt;h2 id="5--البرامج-المكتبية---الأوفيس" data-numberify>5- البرامج المكتبية - الأوفيس&lt;a class="anchor ms-1 d-none" href="#5--البرامج-المكتبية---الأوفيس">#&lt;/a>&lt;/h2>
+&lt;h2 id="5--البرامج-المكتبية---الأوفيس" data-numberify>5- البرامج المكتبية - الأوفيس&lt;a class="anchor ms-1" href="#5--البرامج-المكتبية---الأوفيس">&lt;/a>&lt;/h2>
 &lt;p>يوجد العديد من البرامج المكتبية البديلة لمايكروسوفت أوفيس في ويندوز ولكن أفضلها هم:&lt;/p>
 &lt;ol>
 &lt;li>
@@ -1121,13 +1122,13 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;p>aBiword برنامج لتحرير النصوص، شبيه ب MS Word لكنه يضمن فقط أساسيات تحرير النصوص.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="6--برامج-قراءة-ملفات-pdf-والتعديل-عليها" data-numberify>6- برامج قراءة ملفات PDF والتعديل عليها&lt;a class="anchor ms-1 d-none" href="#6--برامج-قراءة-ملفات-pdf-والتعديل-عليها">#&lt;/a>&lt;/h2>
+&lt;h2 id="6--برامج-قراءة-ملفات-pdf-والتعديل-عليها" data-numberify>6- برامج قراءة ملفات PDF والتعديل عليها&lt;a class="anchor ms-1" href="#6--برامج-قراءة-ملفات-pdf-والتعديل-عليها">&lt;/a>&lt;/h2>
 &lt;p>Evince مدمج في أوبنتو تحت اسم Document viewer.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/images/12.png" loading="lazy" width="763" height="600" />
 &lt;/picture>
 &lt;/p>
 &lt;p>كما يوجد أيضا ePDFViewer - gscan2pdf - ViewPDF – xpdf - Xournal يمكنك ايجادهم على مركز البرامج.&lt;/p>
-&lt;h2 id="7--برامج-تشغيل-الصوتيات" data-numberify>7- برامج تشغيل الصوتيات&lt;a class="anchor ms-1 d-none" href="#7--برامج-تشغيل-الصوتيات">#&lt;/a>&lt;/h2>
+&lt;h2 id="7--برامج-تشغيل-الصوتيات" data-numberify>7- برامج تشغيل الصوتيات&lt;a class="anchor ms-1" href="#7--برامج-تشغيل-الصوتيات">&lt;/a>&lt;/h2>
 &lt;p>VLC Media Player كما هو في ويندوز – يمكنك تثبيته من مركز البرامج.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/images/13.png" loading="lazy" width="1360" height="768" />
 &lt;/picture>
@@ -1136,13 +1137,13 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/images/14.png" loading="lazy" width="500" height="263" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="8--برامج-تشغيل-ملفات-الفيديو" data-numberify>8- برامج تشغيل ملفات الفيديو&lt;a class="anchor ms-1 d-none" href="#8--برامج-تشغيل-ملفات-الفيديو">#&lt;/a>&lt;/h2>
+&lt;h2 id="8--برامج-تشغيل-ملفات-الفيديو" data-numberify>8- برامج تشغيل ملفات الفيديو&lt;a class="anchor ms-1" href="#8--برامج-تشغيل-ملفات-الفيديو">&lt;/a>&lt;/h2>
 &lt;p>VLC Media Player كما هو في ويندوز – يمكنك تثبيته من مركز البرامج.
 كما يوجد أيضا Miro - Totem - Smplayer - Umplayer - Kaffeine - Realplayer - MiniTube.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/images/15.png" loading="lazy" width="740" height="597" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="9--باقي-البرامج" data-numberify>9- باقي البرامج&lt;a class="anchor ms-1 d-none" href="#9--باقي-البرامج">#&lt;/a>&lt;/h2>
+&lt;h2 id="9--باقي-البرامج" data-numberify>9- باقي البرامج&lt;a class="anchor ms-1" href="#9--باقي-البرامج">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>Kdenlive- - OpenShot - Kino - Avidemux - MKV Files Creator لتحرير و تحويل ملفات الفيديو.&lt;/p>
@@ -1217,21 +1218,21 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/2.png" loading="lazy" width="1360" height="768" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="المميزات-الجديدة-في-ubuntu-1604" data-numberify>المميزات الجديدة في Ubuntu 16.04&lt;a class="anchor ms-1 d-none" href="#المميزات-الجديدة-في-ubuntu-1604">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--تحديث-النواة-إلى-الإصدار-44" data-numberify>1- تحديث النواة إلى الإصدار 4.4&lt;a class="anchor ms-1 d-none" href="#1--تحديث-النواة-إلى-الإصدار-44">#&lt;/a>&lt;/h3>
+&lt;h2 id="المميزات-الجديدة-في-ubuntu-1604" data-numberify>المميزات الجديدة في Ubuntu 16.04&lt;a class="anchor ms-1" href="#المميزات-الجديدة-في-ubuntu-1604">&lt;/a>&lt;/h2>
+&lt;h3 id="1--تحديث-النواة-إلى-الإصدار-44" data-numberify>1- تحديث النواة إلى الإصدار 4.4&lt;a class="anchor ms-1" href="#1--تحديث-النواة-إلى-الإصدار-44">&lt;/a>&lt;/h3>
 &lt;p>والذي يقدم دعما أفضل للأجهزة العاملة بشرائح Intel Skylake، وأيضا دعم أفضل ل 3D و Journaled RAID 5، إلى جانب تحديث التعريفات الخاصة ب Corsair Vengeance K90 و Logitech G29 racing wheel وبعض أجهزة اللاب توب الجديدة من توشيبا.&lt;/p>
-&lt;h3 id="2--تقديم-الدعم-لمزيد-من-الأنظمة" data-numberify>2- تقديم الدعم لمزيد من الأنظمة&lt;a class="anchor ms-1 d-none" href="#2--تقديم-الدعم-لمزيد-من-الأنظمة">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--تقديم-الدعم-لمزيد-من-الأنظمة" data-numberify>2- تقديم الدعم لمزيد من الأنظمة&lt;a class="anchor ms-1" href="#2--تقديم-الدعم-لمزيد-من-الأنظمة">&lt;/a>&lt;/h3>
 &lt;p>مثل تقنية ZFS لأنظمة الملفات وهي تقنية متطورة جدا لإدارة الملفات واسترجاعها، أيضا تم إضافة دعم أنظمة IBM Z و LinuxONE.&lt;/p>
-&lt;h3 id="3---صيغة-جديدة-للبرامج" data-numberify>3- صيغة جديدة للبرامج&lt;a class="anchor ms-1 d-none" href="#3---صيغة-جديدة-للبرامج">#&lt;/a>&lt;/h3>
+&lt;h3 id="3---صيغة-جديدة-للبرامج" data-numberify>3- صيغة جديدة للبرامج&lt;a class="anchor ms-1" href="#3---صيغة-جديدة-للبرامج">&lt;/a>&lt;/h3>
 &lt;p>هي صيغة Snappy الجديدة، والتي تتميز بالأمان والموثوقية، كما تجعل عملية تثبيت البرامج من المصادر الخارجية أسهل بكثير، فهي تتضمن جميع الملفات والمكتبات الخاصة بالتطبيقات، وتستطيع تثبيت نفسها دون التأثير أو الاعتماد على غيرها من الملفات في نظام التشغيل.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/3.jpg" loading="lazy" width="650" height="366" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="4--تحديث-إصدار-python-الافتراضي-إلى-الإصدار-35" data-numberify>4- تحديث إصدار Python الافتراضي إلى الإصدار 3.5:&lt;a class="anchor ms-1 d-none" href="#4--تحديث-إصدار-python-الافتراضي-إلى-الإصدار-35">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--تحديث-إصدار-python-الافتراضي-إلى-الإصدار-35" data-numberify>4- تحديث إصدار Python الافتراضي إلى الإصدار 3.5:&lt;a class="anchor ms-1" href="#4--تحديث-إصدار-python-الافتراضي-إلى-الإصدار-35">&lt;/a>&lt;/h3>
 &lt;p>مما يقدم مميزات أفضل لمطوري البرامج، بالنسبة للبرامج التي تستخدم الإصدار 2 ستعمل أيضا بدون مشاكل.&lt;/p>
-&lt;h3 id="5--اختصارات-جديدة" data-numberify>5- اختصارات جديدة&lt;a class="anchor ms-1 d-none" href="#5--اختصارات-جديدة">#&lt;/a>&lt;/h3>
+&lt;h3 id="5--اختصارات-جديدة" data-numberify>5- اختصارات جديدة&lt;a class="anchor ms-1" href="#5--اختصارات-جديدة">&lt;/a>&lt;/h3>
 &lt;p>حيث تم تغيير HUD (heads-up display) من ALT إلى ALT+SPACE.&lt;/p>
-&lt;h3 id="6--واجهة-unity-74" data-numberify>6- واجهة Unity 7.4&lt;a class="anchor ms-1 d-none" href="#6--واجهة-unity-74">#&lt;/a>&lt;/h3>
+&lt;h3 id="6--واجهة-unity-74" data-numberify>6- واجهة Unity 7.4&lt;a class="anchor ms-1" href="#6--واجهة-unity-74">&lt;/a>&lt;/h3>
 &lt;p>والتي اشتملت على العديد من التغييرات لعل أبرزها هو إمكانية تغيير مكان المشغل Launcher (شريط تشغيل التطبيقات) من الجهة اليسرى للشاشة إلى الأسفل بشكل أفقي.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/4.jpg" loading="lazy" width="650" height="365" />
 &lt;/picture>
@@ -1244,12 +1245,12 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/6.jpg" loading="lazy" width="750" height="323" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="7--إزالة-مركز-برمجيات-أوبنتو" data-numberify>7- إزالة مركز برمجيات أوبنتو&lt;a class="anchor ms-1 d-none" href="#7--إزالة-مركز-برمجيات-أوبنتو">#&lt;/a>&lt;/h3>
+&lt;h3 id="7--إزالة-مركز-برمجيات-أوبنتو" data-numberify>7- إزالة مركز برمجيات أوبنتو&lt;a class="anchor ms-1" href="#7--إزالة-مركز-برمجيات-أوبنتو">&lt;/a>&lt;/h3>
 &lt;p>وهو التغيير الأكبر في هذا الإصدار، حيث تم استبدال مركز برمجيات أوبنتو بتطبيق GNOME Software المُعتمد سابقًا ضمن توزيعة فيدورا Fedora.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/7.jpg" loading="lazy" width="750" height="471" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="8--تغييرات-في-البرامج-المدمجة" data-numberify>8- تغييرات في البرامج المدمجة&lt;a class="anchor ms-1 d-none" href="#8--تغييرات-في-البرامج-المدمجة">#&lt;/a>&lt;/h3>
+&lt;h3 id="8--تغييرات-في-البرامج-المدمجة" data-numberify>8- تغييرات في البرامج المدمجة&lt;a class="anchor ms-1" href="#8--تغييرات-في-البرامج-المدمجة">&lt;/a>&lt;/h3>
 &lt;p>حيث تم إزالة تطبيق Brasero لنسخ الأقراص وتطبيق لمحادثات الفورية Empathy، بينما تم إضافة بعض التطبيقات الجديدة مثل تقويم GNOME Calendar وتطبيق كاميرا الويب Cheese.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/8.png" loading="lazy" width="750" height="465" />
 &lt;/picture>
@@ -1268,12 +1269,12 @@ Lock to Launcher: لتثبيت التطبيق على المشغل، أوUnlock f
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/9.png" loading="lazy" width="580" height="435" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="كيفية-تحميل-ubuntu-1604" data-numberify>كيفية تحميل Ubuntu 16.04&lt;a class="anchor ms-1 d-none" href="#كيفية-تحميل-ubuntu-1604">#&lt;/a>&lt;/h2>
+&lt;h2 id="كيفية-تحميل-ubuntu-1604" data-numberify>كيفية تحميل Ubuntu 16.04&lt;a class="anchor ms-1" href="#كيفية-تحميل-ubuntu-1604">&lt;/a>&lt;/h2>
 &lt;p>كل ما عليك فعله هو الدخول إلى صفحة التحميل &lt;a href="http://releases.ubuntu.com/16.04/" target="_blank" rel="noopener noreferrer">http://releases.ubuntu.com/16.04/&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> واختيار النسخة التي تود تحميلها سواء 32 أو 64، Desktop أو Server، ستجد روابط مباشرة للتحميل وأيضا روابط torrent.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/10.jpg" loading="lazy" width="573" height="365" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="كيفية-الترقية-إلى-الإصدار-ubuntu-1604" data-numberify>كيفية الترقية إلى الإصدار Ubuntu 16.04&lt;a class="anchor ms-1 d-none" href="#كيفية-الترقية-إلى-الإصدار-ubuntu-1604">#&lt;/a>&lt;/h2>
+&lt;h2 id="كيفية-الترقية-إلى-الإصدار-ubuntu-1604" data-numberify>كيفية الترقية إلى الإصدار Ubuntu 16.04&lt;a class="anchor ms-1" href="#كيفية-الترقية-إلى-الإصدار-ubuntu-1604">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>للترقية من الإصدار 14.04 إلى 16.04:&lt;/li>
 &lt;/ul>
@@ -1412,12 +1413,12 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/184-3.png" loading="lazy" width="1240" height="1755" />
 &lt;/picture>
 &lt;/p></description></item><item><title>كيفية التعامل مع البرامج في أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/</guid><description>&lt;p>تحدثنا في الجزء السابق عن اللغة العربية ونظام لينكس، وكيفية إضافة الدعم الكامل لها، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على طريقة التعامل مع البرامج، تثبيت البرامج من مركز البرمجيات ومن خارجه، التعامل مع الحزم، إدارة البرامج بواسطة الطرفية Terminal.&lt;/p>
-&lt;h2 id="التعامل-مع-البرامج-من-خلال-مركز-برمجيات-أوبنتو" data-numberify>التعامل مع البرامج من خلال مركز برمجيات أوبنتو&lt;a class="anchor ms-1 d-none" href="#التعامل-مع-البرامج-من-خلال-مركز-برمجيات-أوبنتو">#&lt;/a>&lt;/h2>
+&lt;h2 id="التعامل-مع-البرامج-من-خلال-مركز-برمجيات-أوبنتو" data-numberify>التعامل مع البرامج من خلال مركز برمجيات أوبنتو&lt;a class="anchor ms-1" href="#التعامل-مع-البرامج-من-خلال-مركز-برمجيات-أوبنتو">&lt;/a>&lt;/h2>
 &lt;p>مركز برمجيات أوبنتو هو المكان الذي يحتوي على أغلب برامج وألعاب نظام أوبنتو بمختلف أنواعها، ويتميز بواجهته البسيطة وسهولة الوصول إلى البرمجيات بداخله.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/1.png" loading="lazy" width="383" height="447" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="أولا-تثبيت-البرامج-من-خلال-مركز-برمجيات-أوبنتو" data-numberify>أولا: تثبيت البرامج من خلال مركز برمجيات أوبنتو&lt;a class="anchor ms-1 d-none" href="#أولا-تثبيت-البرامج-من-خلال-مركز-برمجيات-أوبنتو">#&lt;/a>&lt;/h3>
+&lt;h3 id="أولا-تثبيت-البرامج-من-خلال-مركز-برمجيات-أوبنتو" data-numberify>أولا: تثبيت البرامج من خلال مركز برمجيات أوبنتو&lt;a class="anchor ms-1" href="#أولا-تثبيت-البرامج-من-خلال-مركز-برمجيات-أوبنتو">&lt;/a>&lt;/h3>
 &lt;ol>
 &lt;li>قم بفتح مركز البرمجيات عن طريق الضغط على من الشاشة الرئيسية&lt;/li>
 &lt;/ol>
@@ -1465,12 +1466,12 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/9.png" loading="lazy" width="446" height="227" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="ثانيا-إزالة-البرامج-من-خلال-مركز-برمجيات-أوبنتو" data-numberify>ثانيا: إزالة البرامج من خلال مركز برمجيات أوبنتو&lt;a class="anchor ms-1 d-none" href="#ثانيا-إزالة-البرامج-من-خلال-مركز-برمجيات-أوبنتو">#&lt;/a>&lt;/h3>
+&lt;h3 id="ثانيا-إزالة-البرامج-من-خلال-مركز-برمجيات-أوبنتو" data-numberify>ثانيا: إزالة البرامج من خلال مركز برمجيات أوبنتو&lt;a class="anchor ms-1" href="#ثانيا-إزالة-البرامج-من-خلال-مركز-برمجيات-أوبنتو">&lt;/a>&lt;/h3>
 &lt;p>قم بالبحث عن البرنامج الذي تريد إلغاء تثبيته ثم قم بالدخول إلى صفحته واضغط زر أزِل Uninstall.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/10.png" loading="lazy" width="479" height="291" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="التعامل-مع-البرمجيات-من-خلال-مدير-الحزم-synaptic" data-numberify>التعامل مع البرمجيات من خلال مدير الحزم Synaptic&lt;a class="anchor ms-1 d-none" href="#التعامل-مع-البرمجيات-من-خلال-مدير-الحزم-synaptic">#&lt;/a>&lt;/h2>
+&lt;h2 id="التعامل-مع-البرمجيات-من-خلال-مدير-الحزم-synaptic" data-numberify>التعامل مع البرمجيات من خلال مدير الحزم Synaptic&lt;a class="anchor ms-1" href="#التعامل-مع-البرمجيات-من-خلال-مدير-الحزم-synaptic">&lt;/a>&lt;/h2>
 &lt;p>Synaptic هي الواجهة الرسومية لـ apt مدير الحزم في توزيعة أوبنتو، و الغرض من Synaptic هي تسهيل عملية التثبيت و التحديث و إزالة البرمجيات، كذلك الترقية و البحث عن البرمجيات ببساطة، بالإضافة إلى إدارة المخازن.&lt;/p>
 &lt;ul>
 &lt;li>
@@ -1484,7 +1485,7 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/11.png" loading="lazy" width="735" height="576" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="أولا-تثبيت-البرامج-من-خلال-مركز-مدير-الحزم-synaptic" data-numberify>أولا: تثبيت البرامج من خلال مركز مدير الحزم Synaptic&lt;a class="anchor ms-1 d-none" href="#أولا-تثبيت-البرامج-من-خلال-مركز-مدير-الحزم-synaptic">#&lt;/a>&lt;/h3>
+&lt;h3 id="أولا-تثبيت-البرامج-من-خلال-مركز-مدير-الحزم-synaptic" data-numberify>أولا: تثبيت البرامج من خلال مركز مدير الحزم Synaptic&lt;a class="anchor ms-1" href="#أولا-تثبيت-البرامج-من-خلال-مركز-مدير-الحزم-synaptic">&lt;/a>&lt;/h3>
 &lt;ol>
 &lt;li>بعد اكتمال التثبيت ستجد مدير الحزم أسفل أيقونة الإعدادات بالشاشة الرئيسية.&lt;/li>
 &lt;/ol>
@@ -1534,13 +1535,13 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/19.png" loading="lazy" width="414" height="231" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="ثانيا-إزالة-البرامج-من-خلال-مركز-مدير-الحزم-synaptic" data-numberify>ثانيا: إزالة البرامج من خلال مركز مدير الحزم Synaptic&lt;a class="anchor ms-1 d-none" href="#ثانيا-إزالة-البرامج-من-خلال-مركز-مدير-الحزم-synaptic">#&lt;/a>&lt;/h3>
+&lt;h3 id="ثانيا-إزالة-البرامج-من-خلال-مركز-مدير-الحزم-synaptic" data-numberify>ثانيا: إزالة البرامج من خلال مركز مدير الحزم Synaptic&lt;a class="anchor ms-1" href="#ثانيا-إزالة-البرامج-من-خلال-مركز-مدير-الحزم-synaptic">&lt;/a>&lt;/h3>
 &lt;p>قم بالضغط على المربع بجانب البرنامج ثم من القائمة اختر &amp;ldquo;علم للإزالة&amp;rdquo;.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/20.png" loading="lazy" width="289" height="304" />
 &lt;/picture>
 &lt;/p>
 &lt;p>بعد ذلك اضغط على زر تطبيق لتطبيق التغييرات.&lt;/p>
-&lt;h2 id="التعامل-مع-البرمجيات-من-خلال-الطرفية-terminal" data-numberify>التعامل مع البرمجيات من خلال الطرفية Terminal&lt;a class="anchor ms-1 d-none" href="#التعامل-مع-البرمجيات-من-خلال-الطرفية-terminal">#&lt;/a>&lt;/h2>
+&lt;h2 id="التعامل-مع-البرمجيات-من-خلال-الطرفية-terminal" data-numberify>التعامل مع البرمجيات من خلال الطرفية Terminal&lt;a class="anchor ms-1" href="#التعامل-مع-البرمجيات-من-خلال-الطرفية-terminal">&lt;/a>&lt;/h2>
 &lt;p>الكثير من الناس وخصوصا المبتدئين في التعامل مع لينكس يظنون أن الطرفية Terminal معقدة، ولكن بعد الاحتكاك بها وتعلم بعض أوامرها ستجد أنها أسهل وأسرع من التعامل مع الواجهة الرسومية في كثير من الأحيان، كما أنه ستحتاجها كثيرا لتثبيت البرامج خصوصا عندما تجد برنامجا ما على الإنترنت، ستجد أمر تثبيته من ال Terminal.&lt;/p>
 &lt;ul>
 &lt;li>قم بفتح Terminal عن طريق البحث عنها، أو عن طريق الضغط على Ctrl+Alt+T.&lt;/li>
@@ -1548,7 +1549,7 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/21.png" loading="lazy" width="475" height="251" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="أولا-تثبيت-البرامج-من-خلال-الطرفية-terminal" data-numberify>أولا: تثبيت البرامج من خلال الطرفية Terminal&lt;a class="anchor ms-1 d-none" href="#أولا-تثبيت-البرامج-من-خلال-الطرفية-terminal">#&lt;/a>&lt;/h3>
+&lt;h3 id="أولا-تثبيت-البرامج-من-خلال-الطرفية-terminal" data-numberify>أولا: تثبيت البرامج من خلال الطرفية Terminal&lt;a class="anchor ms-1" href="#أولا-تثبيت-البرامج-من-خلال-الطرفية-terminal">&lt;/a>&lt;/h3>
 &lt;ol>
 &lt;li>للبحث عن البرامج استخدم الأمر apt-cache search application مع استبدال application باسم البرنامج الذي تريد البحث عنه، سأقوم بالبحث عن برنامج VLC (يفضل عدم البحث عن البرامج من خلال الطرفية لأنها ستعطيك نتائج بحث كثيرة).&lt;/li>
 &lt;/ol>
@@ -1584,18 +1585,18 @@ sudo update-manager –d
 &lt;p>&lt;code>sudo apt-get update&lt;/code> لعمل تحديث لقوائم الحزم&lt;/p>
 &lt;p>&lt;code>sudo apt-get install &amp;lt;application_name&amp;gt;&lt;/code> مع استبدال الأقواس وما بينها باسم البرنامج.&lt;/p>
 &lt;p>فيصبح الأمر كالتالي مثلا: &lt;code>sudo apt-get install ubuntu-tweak&lt;/code>&lt;/p>
-&lt;h3 id="ثانيا-إزالة-البرامج-من-خلال-الطرفية-terminal" data-numberify>ثانيا: إزالة البرامج من خلال الطرفية Terminal&lt;a class="anchor ms-1 d-none" href="#ثانيا-إزالة-البرامج-من-خلال-الطرفية-terminal">#&lt;/a>&lt;/h3>
+&lt;h3 id="ثانيا-إزالة-البرامج-من-خلال-الطرفية-terminal" data-numberify>ثانيا: إزالة البرامج من خلال الطرفية Terminal&lt;a class="anchor ms-1" href="#ثانيا-إزالة-البرامج-من-خلال-الطرفية-terminal">&lt;/a>&lt;/h3>
 &lt;p>باستخدام الأمر sudo apt-get remove application مع استبدال application باسم البرنامج الذي تريد إزالته.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/26.png" loading="lazy" width="514" height="182" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="تثبيت-البرامج-من-خارج-مركز-البرمجيات" data-numberify>تثبيت البرامج من خارج مركز البرمجيات&lt;a class="anchor ms-1 d-none" href="#تثبيت-البرامج-من-خارج-مركز-البرمجيات">#&lt;/a>&lt;/h2>
-&lt;h3 id="الطريقة-الأولى" data-numberify>الطريقة الأولى&lt;a class="anchor ms-1 d-none" href="#الطريقة-الأولى">#&lt;/a>&lt;/h3>
+&lt;h2 id="تثبيت-البرامج-من-خارج-مركز-البرمجيات" data-numberify>تثبيت البرامج من خارج مركز البرمجيات&lt;a class="anchor ms-1" href="#تثبيت-البرامج-من-خارج-مركز-البرمجيات">&lt;/a>&lt;/h2>
+&lt;h3 id="الطريقة-الأولى" data-numberify>الطريقة الأولى&lt;a class="anchor ms-1" href="#الطريقة-الأولى">&lt;/a>&lt;/h3>
 &lt;p>قم بفتح الحزمة باستخدام مركز برمجيات أوبنتو، اضغط على &amp;ldquo;ثبت&amp;rdquo; وانتظر حتى ينتهي التثبيت.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/27.png" loading="lazy" width="734" height="283" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="الطريقة-الثانية" data-numberify>الطريقة الثانية&lt;a class="anchor ms-1 d-none" href="#الطريقة-الثانية">#&lt;/a>&lt;/h3>
+&lt;h3 id="الطريقة-الثانية" data-numberify>الطريقة الثانية&lt;a class="anchor ms-1" href="#الطريقة-الثانية">&lt;/a>&lt;/h3>
 &lt;p>قم بفتح الطرفية في المكان الذي توجد به الحزمة (ملف .deb) (يفضل وضع الملف في المجلد home لتنجب هذه الخطوة)&lt;/p>
 &lt;p>ثم استخدم الأمر &lt;code>sudo dpkg -i application.deb&lt;/code> مع استبدال application باسم الحزمة.&lt;/p>
 &lt;hr>
@@ -1612,7 +1613,7 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/images/183-7.png" loading="lazy" width="1240" height="1755" />
 &lt;/picture>
 &lt;/p></description></item><item><title>إضافة دعم اللغة العربية إلى أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/</link><pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/</guid><description>&lt;p>تحدثنا في الجزء السابق عن نظام لينكس، ما هو، مميزاته، وتوقفنا عند اكتمال تثبيت أوبنتو، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على كيفية إضافة الدعم الكامل للغة العربية إلى أوبنتو لينكس.&lt;/p>
-&lt;h2 id="أولا-تغيير-لغة-الواجهة-إلى-اللغة-العربية" data-numberify>أولا: تغيير لغة الواجهة إلى اللغة العربية&lt;a class="anchor ms-1 d-none" href="#أولا-تغيير-لغة-الواجهة-إلى-اللغة-العربية">#&lt;/a>&lt;/h2>
+&lt;h2 id="أولا-تغيير-لغة-الواجهة-إلى-اللغة-العربية" data-numberify>أولا: تغيير لغة الواجهة إلى اللغة العربية&lt;a class="anchor ms-1" href="#أولا-تغيير-لغة-الواجهة-إلى-اللغة-العربية">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بالدخول إلى إعدادات النظام System settings عن طريق الضغط بزر الفأرة على رمز التحكم أعلى يمين الشاشة، ثم قم باختيار System settings.&lt;/li>
 &lt;/ol>
@@ -1695,7 +1696,7 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/14.png" loading="lazy" width="421" height="201" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثانيا-إضافة-اللغة-العربية-إلى-لوحة-المفاتيح" data-numberify>ثانيا: إضافة اللغة العربية إلى لوحة المفاتيح&lt;a class="anchor ms-1 d-none" href="#ثانيا-إضافة-اللغة-العربية-إلى-لوحة-المفاتيح">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-إضافة-اللغة-العربية-إلى-لوحة-المفاتيح" data-numberify>ثانيا: إضافة اللغة العربية إلى لوحة المفاتيح&lt;a class="anchor ms-1" href="#ثانيا-إضافة-اللغة-العربية-إلى-لوحة-المفاتيح">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بالدخول إلى إعدادات النظام ثم إدخال النصوص.&lt;/li>
 &lt;/ol>
@@ -1721,7 +1722,7 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/18.png" loading="lazy" width="365" height="358" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثالثا-إضافة-دعم-اللغة-العربية-إلى-الطرفية-terminal" data-numberify>ثالثا: إضافة دعم اللغة العربية إلى الطرفية Terminal&lt;a class="anchor ms-1 d-none" href="#ثالثا-إضافة-دعم-اللغة-العربية-إلى-الطرفية-terminal">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-إضافة-دعم-اللغة-العربية-إلى-الطرفية-terminal" data-numberify>ثالثا: إضافة دعم اللغة العربية إلى الطرفية Terminal&lt;a class="anchor ms-1" href="#ثالثا-إضافة-دعم-اللغة-العربية-إلى-الطرفية-terminal">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بفتح Terminal عن طريق البحث عنها، أو عن طريق الضغط على Ctrl+Alt+T.&lt;/li>
 &lt;/ol>
@@ -1794,7 +1795,7 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-01-intro/featured-1.png" loading="lazy" width="125" height="145" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="لماذا-يجب-عليك-تجربة-لينكس" data-numberify>لماذا يجب عليك تجربة لينكس؟&lt;a class="anchor ms-1 d-none" href="#لماذا-يجب-عليك-تجربة-لينكس">#&lt;/a>&lt;/h2>
+&lt;h2 id="لماذا-يجب-عليك-تجربة-لينكس" data-numberify>لماذا يجب عليك تجربة لينكس؟&lt;a class="anchor ms-1" href="#لماذا-يجب-عليك-تجربة-لينكس">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>نظام مجاني تماما ومفتوح المصدر.&lt;/p>
@@ -1815,7 +1816,7 @@ sudo update-manager –d
 &lt;p>يوجد العديد من التوزيعات يمكنك اختيار ما يناسبك منها.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="توزيعات-لينكس" data-numberify>توزيعات لينكس&lt;a class="anchor ms-1 d-none" href="#توزيعات-لينكس">#&lt;/a>&lt;/h2>
+&lt;h2 id="توزيعات-لينكس" data-numberify>توزيعات لينكس&lt;a class="anchor ms-1" href="#توزيعات-لينكس">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>هي ببساطة أقرب إلى نسخ الويندوز المتعددة، وهي إما (توزيعات مصدرية) مبنية من الصفر مثل توزيعة Arch Linux، أو مبنية على توزيعة أخري مثل توزيعة Ubuntu المبنية على توزيعة Debian.&lt;/p>
@@ -1843,7 +1844,7 @@ sudo update-manager –d
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-guide-01-intro/images/3.png" loading="lazy" width="540" height="243" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="متطلبات-تشغيل-توزيعة-ubuntu" data-numberify>متطلبات تشغيل توزيعة Ubuntu&lt;a class="anchor ms-1 d-none" href="#متطلبات-تشغيل-توزيعة-ubuntu">#&lt;/a>&lt;/h2>
+&lt;h2 id="متطلبات-تشغيل-توزيعة-ubuntu" data-numberify>متطلبات تشغيل توزيعة Ubuntu&lt;a class="anchor ms-1" href="#متطلبات-تشغيل-توزيعة-ubuntu">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>معالج CPU بسرعة 1 جيجا هيرتز (Pentium 4 على الأقل).&lt;/p>
@@ -1864,7 +1865,7 @@ sudo update-manager –d
 &lt;p>اتصال بالإنترنت (مُستحسن).&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="أولا-تحميل-ubuntu-linux" data-numberify>أولا: تحميل Ubuntu Linux&lt;a class="anchor ms-1 d-none" href="#أولا-تحميل-ubuntu-linux">#&lt;/a>&lt;/h2>
+&lt;h2 id="أولا-تحميل-ubuntu-linux" data-numberify>أولا: تحميل Ubuntu Linux&lt;a class="anchor ms-1" href="#أولا-تحميل-ubuntu-linux">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>قم بالدخول إلى موقع &lt;a href="http://www.ubuntu.com/download/desktop" target="_blank" rel="noopener noreferrer">http://www.ubuntu.com/download/desktop&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
@@ -1897,7 +1898,7 @@ sudo update-manager –d
 &lt;/p>
 &lt;p>&lt;strong>ملاحظة 2&lt;/strong>: يمكنك التحميل أيضا من خلال مجموعة روابط أخري إذا لم تعمل معك الروابط التي بالأعلى من هذه الصفحة.&lt;/p>
 &lt;p>&lt;a href="http://www.ubuntu.com/download/alternative-downloads" target="_blank" rel="noopener noreferrer">http://www.ubuntu.com/download/alternative-downloads&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h2 id="ثانيا-التحضير-لتثبيت-ubuntu-linux" data-numberify>ثانيا: التحضير لتثبيت Ubuntu Linux&lt;a class="anchor ms-1 d-none" href="#ثانيا-التحضير-لتثبيت-ubuntu-linux">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-التحضير-لتثبيت-ubuntu-linux" data-numberify>ثانيا: التحضير لتثبيت Ubuntu Linux&lt;a class="anchor ms-1" href="#ثانيا-التحضير-لتثبيت-ubuntu-linux">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>لاحظ عزيزي القارئ أنه لتثبيت لينكس بجوار الويندوز يجب عليك أن تقوم بعمل 2 Partition فارغان أحدهم على الأقل مساحته 5 جيجا (الذي سنقوم بتثبيت النظام عليه) والأخر كما تريد (يستخدم كـ Swap لأداء المزيد من العمليات) ويفضل تركهما بدون عمل Format على الحالة UnPartitioned.&lt;/li>
 &lt;/ul>
@@ -1947,7 +1948,7 @@ sudo update-manager –d
 &lt;p>بعد انتهائك من الاستعدادات قم بإعادة تشغيل جهازك والإقلاع من قرص DVD أو مفتاح USB سواء بعد تغيير إعدادات ال BIOS أو من قائمة الإقلاع مباشرة (في أغلب الأجهزة F12/F9/F11).&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="ثالثا-تثبيت-ubuntu-linux-على-جهازك" data-numberify>ثالثا: تثبيت Ubuntu Linux على جهازك&lt;a class="anchor ms-1 d-none" href="#ثالثا-تثبيت-ubuntu-linux-على-جهازك">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-تثبيت-ubuntu-linux-على-جهازك" data-numberify>ثالثا: تثبيت Ubuntu Linux على جهازك&lt;a class="anchor ms-1" href="#ثالثا-تثبيت-ubuntu-linux-على-جهازك">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>بعد الإقلاع من DVD/USB ستظهر لك هذه الشاشة، اختر اللغة الإنجليزية كلغة للوحة المفاتيح بالضغط على الزر Enter.&lt;/li>
 &lt;/ol>

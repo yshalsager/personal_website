@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on yshalsager</title><link>https://yshalsager.com/en/tags/development/</link><description>Latest posts from in Development yshalsager</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright © 2013-{year} yshalsager. All Rights Reserved.</copyright><lastBuildDate>Mon, 28 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/en/tags/development/rss.xml" rel="self" type="application/rss+xml"/><item><title>Debugging and fixing Selenium's send_keys() wrong text input</title><link>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</link><pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</guid><description>&lt;p>&lt;em>There are many kinds of bugs you may face while programming, but without a doubt, ghost bugs are the worse!&lt;/em>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development on yshalsager</title><link>https://yshalsager.com/en/tags/development/</link><description>Latest posts from in Development yshalsager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright © 2013-{year} yshalsager. All Rights Reserved.</copyright><lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/en/tags/development/rss.xml" rel="self" type="application/rss+xml"/><item><title>Using Parsel instead of Beautiful Soup for Web Scraping</title><link>https://yshalsager.com/en/posts/using-parsel-instead-of-beautiful-soup-for-web-scraping/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/using-parsel-instead-of-beautiful-soup-for-web-scraping/</guid><description>&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Web_scraping" target="_blank" rel="noopener noreferrer">Web scraping&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> is an automated process to extract data from web page, and since &lt;a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> is one the most popular programming languages it&amp;rsquo;s common to see people use it for doing web scraping tasks like me :)&lt;/p>
+&lt;p>For a long time, I have been using &lt;a href="http://www.crummy.com/software/BeautifulSoup/" target="_blank" rel="noopener noreferrer">Beautiful Soup 4&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> to extract data from web pages&amp;rsquo; HTML markup, it&amp;rsquo;s popular, easy, robust, and battle-tested library for navigating, searching, and modifying the &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank" rel="noopener noreferrer">DOM&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> tree. But, recently I came across &lt;a href="https://github.com/scrapy/parsel" target="_blank" rel="noopener noreferrer">Parsel&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>, another HTML parsing library that supports &lt;a href="https://developer.mozilla.org/en-US/docs/Web/XPath" target="_blank" rel="noopener noreferrer">XPath&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> selectors, which is missing in Beautiful Soup, and I was in need of using something that can extract data from HTML using XPath (rather than &lt;a href="https://scrapy.org/" target="_blank" rel="noopener noreferrer">Scrapy&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>, funny enough, later I knew that Scrapy uses Parsel under the hood :D), so I decided to get it a try.&lt;/p>
+&lt;h2 id="thoughts-and-tricks-after-usage" data-numberify>Thoughts and Tricks After Usage&lt;a class="anchor ms-1" href="#thoughts-and-tricks-after-usage">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Parsel is so powerful! it saved me much time than bs4 usually did, this is mainly because of the easy way it provides to access &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Node" target="_blank" rel="noopener noreferrer">DOM Node&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> HTML, text, attributes and other values easily with a handy way to get a default value if the required data didn&amp;rsquo;t exist.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Parsel uses &lt;a href="https://lxml.de/" target="_blank" rel="noopener noreferrer">lxml&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> for parsing the web page, this can result in a huge performance improvement according to &lt;a href="https://github.com/rushter/selectolax#simple-benchmark" target="_blank" rel="noopener noreferrer">selectolax&amp;rsquo;s benchmark&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> (which is an interesting library to try as well).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Parsel is easy to use, all you need to do is to import &lt;code>Selector&lt;/code> from &lt;code>parsel&lt;/code> package then use &lt;code>Selector(text=response.text)&lt;/code> to load HTML string into a selector object.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="c1"># code snippet from https://parsel.readthedocs.io/en/latest/usage.html &lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">parsel&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">Selector&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">&lt;span class="n">text&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;&amp;lt;h1&amp;gt;Hello, Parsel!&amp;lt;/h1&amp;gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">&lt;span class="n">selector&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Selector&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">text&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>
+&lt;p>&lt;code>.getall()&lt;/code> and &lt;code>.get()&lt;/code> are equivalent for &lt;code>.select()&lt;/code>and &lt;code>.select_one()&lt;/code> in bs4.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>.xpath()&lt;/code> and &lt;code>.css()&lt;/code> methods can be chained! &lt;code>selector.css('img').xpath('@src').getall()&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>Selector&lt;/code>&amp;rsquo;s non-standard &lt;code>::text&lt;/code> pseudo-element can be better than Beautiful Soup&amp;rsquo;s &lt;code>.text&lt;/code> because it won&amp;rsquo;t be &lt;code>None&lt;/code> even with empty text. Same goes for &lt;code>::attr&lt;/code> vs &lt;code>.get()&lt;/code> (without default value).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Use &lt;code>*::text&lt;/code> to selects all descendant text nodes of the current selector.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If you want to use &lt;a href="https://en.wikipedia.org/wiki/Regular_expression" target="_blank" rel="noopener noreferrer">regular expressions&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> (regex) to get data from a string of a selector, all you need to do is to use &lt;code>.re()&lt;/code> and &lt;code>.re_first()&lt;/code> methods. However, unlike using &lt;code>.xpath()&lt;/code> or &lt;code>.css()&lt;/code> methods, regex methods returns a list of strings so they can&amp;rsquo;t be chained.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The proper way to work with relative XPaths is to prefix the path with dot &lt;code>divs.xpath('.//p')&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>drop()&lt;/code> can be used to remove elements based on a Selector, this is similar to &lt;code>Tag.decompose()&lt;/code> in bs4, and can&amp;rsquo;t be undone.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>When querying by class, consider using CSS instead of XPath.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can convert CSS to XPath using Parsel&amp;rsquo;s &lt;code>css2xpath&lt;/code> function.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Because of lxml, sometimes you may get something rather that what browser show while parsing the HTML using Parsel, here are &lt;a href="https://github.com/scrapy/parsel/issues/83" target="_blank" rel="noopener noreferrer">more details&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> about this issue.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="extra-resources" data-numberify>Extra Resources&lt;a class="anchor ms-1" href="#extra-resources">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://devhints.io/css" target="_blank" rel="noopener noreferrer">CSS cheatsheet&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> that has good summary of CSS selectors.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://devhints.io/xpath" target="_blank" rel="noopener noreferrer">Xpath cheatsheet&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://scrapinghub.github.io/xpath-playground/" target="_blank" rel="noopener noreferrer">XPath Playground&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> to try out your XPath queries.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="XPath/CSS%20Equivalents">XPath/CSS Equivalents&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Debugging and fixing Selenium's send_keys() wrong text input</title><link>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</link><pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</guid><description>&lt;p>&lt;em>There are many kinds of bugs you may face while programming, but without a doubt, ghost bugs are the worse!&lt;/em>&lt;/p>
 &lt;p>I recently faced a weird problem while working on a freelance &lt;a href="https://www.selenium.dev/" target="_blank" rel="noopener noreferrer">Selenium&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> (A portable framework for testing web applications) project in Python which is: &lt;a href="https://selenium-python.readthedocs.io/api.html?highlight=execute_script#selenium.webdriver.remote.webelement.WebElement.send_keys" target="_blank" rel="noopener noreferrer">send_keys&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> method is sending random wrong input. Here are the details of the problem, how did I debug it, and how I managed to fix after hours of investigating!&lt;/p>
 &lt;p>I have been working on a freelance Selenium web automation and scraping project and we need to move the script to a better Linux server that runs Ubuntu 20.04. After migrating I found out that Selenium text input became so random (although it works perfectly on local PCs). For example, spaces are no longer sent, numbers are mixed, some characters are dropped, and so forth.&lt;/p>
 &lt;p>I started to debug with &lt;a href="https://python.org" target="_blank" rel="noopener noreferrer">Python&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&amp;rsquo;s &lt;a href="https://docs.python.org/3/library/logging.html" target="_blank" rel="noopener noreferrer">logging&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> standard module, but the log said that the correct input was being entered, which is logical since no code changes happened. Then, I tried to see if there&amp;rsquo;s something wrong with &lt;a href="https://chromedriver.chromium.org/" target="_blank" rel="noopener noreferrer">chromedriver&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> that being used to automate Google Chrome browser, but again, version on the old and new servers was the same. I have also tried on another (third) server that runs Ubuntu 18.04 and the same bug occurred. It&amp;rsquo;s Google and &lt;a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">stackoverflow&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> time! I searched our beloved websites to see if any people faced this problem besides me. I found many results from 6 years ago till 5 months ago. The most interesting one was a &lt;a href="https://chromedriver.chromium.org/" target="_blank" rel="noopener noreferrer">chromedriver&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&amp;rsquo;s &lt;a href="https://bugs.chromium.org/p/chromedriver/issues/detail?id=1771" target="_blank" rel="noopener noreferrer">bug&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> that got closed with &lt;code>WontFix&lt;/code> status. This bug aside, the suggested solutions were:&lt;/p>
@@ -41,7 +105,7 @@ So, let&amp;rsquo;s start:&lt;/p>
 &lt;li>Building using dakkar&amp;rsquo;s script&lt;/li>
 &lt;li>Building using the manual way&lt;/li>
 &lt;/ol>
-&lt;h2 id="1-installing-sdk" data-numberify>1. Installing SDK&lt;a class="anchor ms-1 d-none" href="#1-installing-sdk">#&lt;/a>&lt;/h2>
+&lt;h2 id="1-installing-sdk" data-numberify>1. Installing SDK&lt;a class="anchor ms-1" href="#1-installing-sdk">&lt;/a>&lt;/h2>
 &lt;p>If you haven’t previously installed adb and fastboot, you can &lt;a href="https://dl.google.com/android/repository/platform-tools-latest-linux.zip" target="_blank" rel="noopener noreferrer">download them from Google&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>. Extract it using:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">unzip platform-tools-latest-linux.zip -d ~
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Now we have to add adb and fastboot to our path. Open ~/.profile and add the following:&lt;/p>
@@ -51,13 +115,15 @@ So, let&amp;rsquo;s start:&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">&lt;span class="k">fi&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then, run this to update your environment.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.profile
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="2-installing-build-packages" data-numberify>2. Installing build packages&lt;a class="anchor ms-1 d-none" href="#2-installing-build-packages">#&lt;/a>&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="2-installing-build-packages" data-numberify>2. Installing build packages&lt;a class="anchor ms-1" href="#2-installing-build-packages">&lt;/a>&lt;/h2>
 &lt;p>Several packages are needed to build Android. You can install these using your distribution’s package manager.
 You’ll need:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">lib32readline-gplv2-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk3.0-dev
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev openjdk-8-jdk
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="3-installing-the-repo-command" data-numberify>3. Installing the repo command&lt;a class="anchor ms-1 d-none" href="#3-installing-the-repo-command">#&lt;/a>&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="3-installing-the-repo-command" data-numberify>3. Installing the repo command&lt;a class="anchor ms-1" href="#3-installing-the-repo-command">&lt;/a>&lt;/h2>
 &lt;p>Enter the following to download the repo binary and make it executable (runnable):&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">mkdir -p ~/bin
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">curl https://storage.googleapis.com/git-repo-downloads/repo &amp;gt; ~/bin/repo
@@ -70,18 +136,20 @@ You’ll need:&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">4&lt;/span>&lt;span class="cl">&lt;span class="k">fi&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then, use this to update your environment.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.profile
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="4-configuring-git" data-numberify>4. Configuring git&lt;a class="anchor ms-1 d-none" href="#4-configuring-git">#&lt;/a>&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="4-configuring-git" data-numberify>4. Configuring git&lt;a class="anchor ms-1" href="#4-configuring-git">&lt;/a>&lt;/h2>
 &lt;p>You’ll need to set up git identity in order to sync the source, run these commands:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git config --global user.name &lt;span class="s2">&amp;#34;your username&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">git config --global user.email yourmail@example.com
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="5-turning-on-caching-to-speed-up-build" data-numberify>5. Turning on caching to speed up build&lt;a class="anchor ms-1 d-none" href="#5-turning-on-caching-to-speed-up-build">#&lt;/a>&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="5-turning-on-caching-to-speed-up-build" data-numberify>5. Turning on caching to speed up build&lt;a class="anchor ms-1" href="#5-turning-on-caching-to-speed-up-build">&lt;/a>&lt;/h2>
 &lt;p>You can speed up subsequent builds by running:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">USE_CCACHE&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">CCACHE_COMPRESS&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And adding that line to your &lt;code>~/.bashrc&lt;/code> file. Then, specify the maximum amount of disk space you want the cache to use by typing this from the top of your Android tree:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">prebuilts/misc/linux-x86/ccache/ccache -M 50G
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where 50G corresponds to 50GB of cache. This needs to be run once. Anywhere from 25GB-100GB will result in very noticeably increased build speeds (for instance, a typical 1hr build time can be reduced to 20min). If you’re only building for one device, 25GB-50GB is fine. If you plan to build for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this into consideration. See more information about ccache on &lt;a href="https://source.android.com/source/initializing.html#setting-up-ccache" target="_blank" rel="noopener noreferrer">Google’s Android build environment initialization page&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
-&lt;h2 id="6-building-using-phhussons-script" data-numberify>6. Building using phhusson&amp;rsquo;s script&lt;a class="anchor ms-1 d-none" href="#6-building-using-phhussons-script">#&lt;/a>&lt;/h2>
+&lt;h2 id="6-building-using-phhussons-script" data-numberify>6. Building using phhusson&amp;rsquo;s script&lt;a class="anchor ms-1" href="#6-building-using-phhussons-script">&lt;/a>&lt;/h2>
 &lt;p>We can&amp;rsquo;t deny that &lt;a href="https://forum.xda-developers.com/m/1915408/" target="_blank" rel="noopener noreferrer">@phhusson&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> has made amazing works and countless contributions to Project Treble ROMs development apart from his &lt;a href="https://github.com/phhusson/treble_experimentations/" target="_blank" rel="noopener noreferrer">experimentations&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> is a build script which make build a GSI super simple job.
 By default, it supports building LineageOS - RR - Carbon.
 1- Open your terminal and run:&lt;/p>
@@ -90,7 +158,7 @@ By default, it supports building LineageOS - RR - Carbon.
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">mkdir romname&lt;span class="p">;&lt;/span> &lt;span class="nb">cd&lt;/span> romname
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">bash ../treble_experimentations/build-rom.sh android-8.1 romname
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>3- The script will automatically initialize the repository, sync the source, apply patches and start building.&lt;/p>
-&lt;h2 id="7-building-using-dakkars-script" data-numberify>7. Building using dakkar&amp;rsquo;s script&lt;a class="anchor ms-1 d-none" href="#7-building-using-dakkars-script">#&lt;/a>&lt;/h2>
+&lt;h2 id="7-building-using-dakkars-script" data-numberify>7. Building using dakkar&amp;rsquo;s script&lt;a class="anchor ms-1" href="#7-building-using-dakkars-script">&lt;/a>&lt;/h2>
 &lt;p>dakkar&amp;rsquo;s script is another treble building script, originally made by &lt;a href="https://forum.xda-developers.com/m/260854/" target="_blank" rel="noopener noreferrer">@Dakkar&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> and improved by contributors on &lt;a href="https://github.com/phhusson/treble_experimentations/" target="_blank" rel="noopener noreferrer">treble experimentations&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> repo. It&amp;rsquo;s customizable, easy to understand and can build almost all &lt;a href="https://github.com/phhusson/treble_experimentations/blob/master/build-dakkar.sh#L29" target="_blank" rel="noopener noreferrer">ROMs&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> with simple &lt;a href="https://github.com/phhusson/treble_experimentations/commit/a5e1b285cb3a3c0430a85b2ad8db16cbee3328f5" target="_blank" rel="noopener noreferrer">edits&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
 &lt;p>1- Open your terminal and run:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git clone https://github.com/phhusson/treble_experimentations
@@ -117,7 +185,7 @@ for example:&lt;/li>
 &lt;p>&lt;strong>Note:&lt;/strong> check patches when you use these auto scripts, if some patch is broken you&amp;rsquo;ll have build errors &lt;picture>&lt;img class="img-fluid " alt=":p" src="#ZgotmplZ" loading="lazy" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="8-building-using-the-manual-way" data-numberify>8. Building using the manual way&lt;a class="anchor ms-1 d-none" href="#8-building-using-the-manual-way">#&lt;/a>&lt;/h2>
+&lt;h2 id="8-building-using-the-manual-way" data-numberify>8. Building using the manual way&lt;a class="anchor ms-1" href="#8-building-using-the-manual-way">&lt;/a>&lt;/h2>
 &lt;p>In simple steps:&lt;/p>
 &lt;ol>
 &lt;li>Repo init the rom you want to build GSI for.&lt;/li>
@@ -171,13 +239,14 @@ for example:&lt;/li>
 &lt;li>&lt;a href="https://forum.xda-developers.com/m/7967832/" target="_blank" rel="noopener noreferrer">@lineageos&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> guys for their wiki&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;p>&lt;strong>Note:&lt;/strong> This article was posted originally on XDA Developers forums, you can find it &lt;a href="https://forum.xda-developers.com/t/guide-how-to-build-a-project-treble-gsi-rom-from-source-31-08.3801803/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p></description></item><item><title>DualBootPatcher Ultimate Guide: How to use, build and add new devices!</title><link>https://yshalsager.com/en/posts/dualboot-patcher-ultimate-guide/</link><pubDate>Sat, 26 Aug 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/dualboot-patcher-ultimate-guide/</guid><description>&lt;h2 id="introduction--how-to-use-dualbootpatcher" data-numberify>Introduction &amp; How to use DualBootPatcher?&lt;a class="anchor ms-1 d-none" href="#introduction--how-to-use-dualbootpatcher">#&lt;/a>&lt;/h2>
-&lt;h3 id="what-is-dualbootpatcher" data-numberify>What is DualBootPatcher?&lt;a class="anchor ms-1 d-none" href="#what-is-dualbootpatcher">#&lt;/a>&lt;/h3>
+&lt;p>&lt;strong>Note:&lt;/strong> This article was posted originally on XDA Developers forums, you can find it &lt;a href="https://forum.xda-developers.com/t/guide-how-to-build-a-project-treble-gsi-rom-from-source-31-08.3801803/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p></description></item><item><title>DualBootPatcher Ultimate Guide: How to use, build and add new devices!</title><link>https://yshalsager.com/en/posts/dualboot-patcher-ultimate-guide/</link><pubDate>Sat, 26 Aug 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/dualboot-patcher-ultimate-guide/</guid><description>
+&lt;h2 id="introduction--how-to-use-dualbootpatcher" data-numberify>Introduction &amp; How to use DualBootPatcher?&lt;a class="anchor ms-1" href="#introduction--how-to-use-dualbootpatcher">&lt;/a>&lt;/h2>
+&lt;h3 id="what-is-dualbootpatcher" data-numberify>What is DualBootPatcher?&lt;a class="anchor ms-1" href="#what-is-dualbootpatcher">&lt;/a>&lt;/h3>
 &lt;blockquote>
 &lt;p>DualBootPatcher is an open-source app that allows multiple ROMs to be installed on a single Android device. It does its best to work with existing code and does not require explicit support from ROMs. There are currently 270+ supported devices and their variations.
 It&amp;rsquo;s originally developed by the amazing developer @chenxiaolong with help of many &lt;a href="https://github.com/chenxiaolong/DualBootPatcher/graphs/contributors" target="_blank" rel="noopener noreferrer">contributors&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="what-does-this-app-do-" data-numberify>What does this app do ?&lt;a class="anchor ms-1 d-none" href="#what-does-this-app-do-">#&lt;/a>&lt;/h3>
+&lt;h3 id="what-does-this-app-do-" data-numberify>What does this app do ?&lt;a class="anchor ms-1" href="#what-does-this-app-do-">&lt;/a>&lt;/h3>
 &lt;p>&lt;strong>It patches&amp;hellip;&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Custom kernels for dual boot support&lt;/li>
@@ -185,17 +254,17 @@ It&amp;rsquo;s originally developed by the amazing developer @chenxiaolong with 
 &lt;li>Google Apps packages for AOSP-based ROMs&lt;/li>
 &lt;li>SuperSU so that it can be used in the secondary ROM&lt;/li>
 &lt;/ul>
-&lt;h3 id="where-can-i-find-it" data-numberify>Where can i find it?&lt;a class="anchor ms-1 d-none" href="#where-can-i-find-it">#&lt;/a>&lt;/h3>
+&lt;h3 id="where-can-i-find-it" data-numberify>Where can i find it?&lt;a class="anchor ms-1" href="#where-can-i-find-it">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://dbp.noobdev.io/" target="_blank" rel="noopener noreferrer">Website&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="http://forum.xda-developers.com/showthread.php?t=2447534" target="_blank" rel="noopener noreferrer">XDA Main Thread&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/chenxiaolong/DualBootPatcher" target="_blank" rel="noopener noreferrer">Github&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h3 id="whats-supported-" data-numberify>What&amp;rsquo;s supported ?&lt;a class="anchor ms-1 d-none" href="#whats-supported-">#&lt;/a>&lt;/h3>
+&lt;h3 id="whats-supported-" data-numberify>What&amp;rsquo;s supported ?&lt;a class="anchor ms-1" href="#whats-supported-">&lt;/a>&lt;/h3>
 &lt;blockquote>
 &lt;p>Except Toaster and Alarm clocks pretty much everything is supported.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="how-to-use-the-app" data-numberify>How to use the App?&lt;a class="anchor ms-1 d-none" href="#how-to-use-the-app">#&lt;/a>&lt;/h3>
+&lt;h3 id="how-to-use-the-app" data-numberify>How to use the App?&lt;a class="anchor ms-1" href="#how-to-use-the-app">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>Download, install and open the app.&lt;/li>
 &lt;li>Swipe to the right to open the menu. Click &amp;ldquo;ROMS&amp;rdquo;. Now if this is the first time you use it, it will ask you if you want to set kernel. Do so!&lt;/li>
@@ -214,11 +283,11 @@ It&amp;rsquo;s originally developed by the amazing developer @chenxiaolong with 
 &lt;strong>Note:&lt;/strong> You can find more options by clicking on the three buttons on each ROM.&lt;/li>
 &lt;li>Now reboot and wait till finishing 2nd ROM first boot. install DualBootPatcher apk so you can easily switch ROMs, there is another way to change ROMs: flash DualBootUtilities.zip and switch ROM manually.&lt;/li>
 &lt;/ul>
-&lt;h4 id="using-bootui" data-numberify>Using Bootui:&lt;a class="anchor ms-1 d-none" href="#using-bootui">#&lt;/a>&lt;/h4>
+&lt;h4 id="using-bootui" data-numberify>Using Bootui:&lt;a class="anchor ms-1" href="#using-bootui">&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>Open app then select settings and press install (update) bootui. then Swipe to the right to open the menu. Click &amp;ldquo;ROMS&amp;rdquo; again and open secondary ROM Settings) and select Update Ramdisk, Now you can change ROMs simply using boot ui (something like grub bootloader but it works like twrp).&lt;/li>
 &lt;/ul>
-&lt;h3 id="partitions-configurations" data-numberify>Partitions Configurations:&lt;a class="anchor ms-1 d-none" href="#partitions-configurations">#&lt;/a>&lt;/h3>
+&lt;h3 id="partitions-configurations" data-numberify>Partitions Configurations:&lt;a class="anchor ms-1" href="#partitions-configurations">&lt;/a>&lt;/h3>
 &lt;p>The patcher offers several locations for installing ROMs:&lt;/p>
 &lt;ul>
 &lt;li>Primary: This is normally used for installing a zip to the primary ROM. It is not required, but is strongly recommended because it has code to prevent the zip from inadvertently affecting other ROMs.&lt;/li>
@@ -227,7 +296,7 @@ It&amp;rsquo;s originally developed by the amazing developer @chenxiaolong with 
 &lt;li>Data-slots: There can be an unlimited number of data slots. These install to the data partition and eat up space on the internal storage. This is useful for devices where the system partition is nearly full and the cache partition is tiny. These slots are named &amp;ldquo;data-slot-[id]&amp;rdquo;, where &amp;ldquo;id&amp;rdquo; is something you provide in the app.&lt;/li>
 &lt;li>Extsd-slots: There can be an unlimited number of extsd slots. These install to the external SD card, which is useful as it keeps the ROMs off of the internal storage. Note that the ROM&amp;rsquo;s data files are still stored on the data partition.&lt;/li>
 &lt;/ul>
-&lt;h3 id="apps-and-data-sharing" data-numberify>Apps and Data sharing:&lt;a class="anchor ms-1 d-none" href="#apps-and-data-sharing">#&lt;/a>&lt;/h3>
+&lt;h3 id="apps-and-data-sharing" data-numberify>Apps and Data sharing:&lt;a class="anchor ms-1" href="#apps-and-data-sharing">&lt;/a>&lt;/h3>
 &lt;blockquote>
 &lt;p>DualBootPatcher very recently got support for sharing apps and their data across ROMs. Maybe sharing is somewhat of a misleading term. The feature actually makes Android load the shared apps and data from a centralized location, /data/multiboot/_appsharing. So you&amp;rsquo;re not sharing apps from one ROM to another per se. The ROMs are just loading the apps from one shared location. Let me make this clearer with an analogy.&lt;/p>
 &lt;p>Think of the people in a company office as ROMs. You want to share with your coworkers some documents (apps). Instead of telling them to come over to your desk to see those documents (sharing apps from one ROM to another), everyone goes to the conference room to look at the documents together (loading apps from a shared location). That&amp;rsquo;s how app and data sharing is implemented.&lt;/p>
@@ -244,7 +313,7 @@ It&amp;rsquo;s originally developed by the amazing developer @chenxiaolong with 
 &lt;p>When you uninstall an app that&amp;rsquo;s shared, it simply become unshared for the current ROM. That way, other ROMs are not affected. To continue the analogy above, if you quit your job, you won&amp;rsquo;t shred the documents that everybody else was looking at.&lt;/p>
 &lt;p>If you unshare an app&amp;rsquo;s data, it will go back to using the data it had before it was shared. In other words, you leave the conference room and go back to work on your own documents at your desk.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="faq" data-numberify>FAQ:&lt;a class="anchor ms-1 d-none" href="#faq">#&lt;/a>&lt;/h3>
+&lt;h3 id="faq" data-numberify>FAQ:&lt;a class="anchor ms-1" href="#faq">&lt;/a>&lt;/h3>
 &lt;p>&lt;strong>How to boot to another ROM ?&lt;/strong>&lt;/p>
 &lt;p>This is simple &amp;hellip; There is no reboot to primary, secondary or whatever. So all you have to do is:&lt;/p>
 &lt;ol>
@@ -265,11 +334,11 @@ Patch it for primary before flashing. If the zip does not wipe /cache, it is als
 &lt;strong>Flash a mod or custom kernel for a non-primary ROM?&lt;/strong>
 Just patch and flash it :)&lt;/p>
 &lt;hr>
-&lt;h2 id="how-to-build-dualbootpatcher-from-source" data-numberify>How to build DualBootPatcher from source?&lt;a class="anchor ms-1 d-none" href="#how-to-build-dualbootpatcher-from-source">#&lt;/a>&lt;/h2>
+&lt;h2 id="how-to-build-dualbootpatcher-from-source" data-numberify>How to build DualBootPatcher from source?&lt;a class="anchor ms-1" href="#how-to-build-dualbootpatcher-from-source">&lt;/a>&lt;/h2>
 &lt;p>When you deeply exploring DualBootPatcher &lt;a href="https://github.com/chenxiaolong/DualBootPatcher/blob/master/docs/" target="_blank" rel="noopener noreferrer">repository&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> you&amp;rsquo;ll find all information and guides you need but for some people instructions isn&amp;rsquo;t clear enough, so let me explain it here &lt;picture>&lt;img class="img-fluid " alt=":D" src="#ZgotmplZ" loading="lazy" />
 &lt;/picture>
 - You&amp;rsquo;ll need linux, whichever distribution you use. but i&amp;rsquo;m sure building works on [Debian-Ubuntu-Fedora-Arch] and all its derivations.&lt;/p>
-&lt;h3 id="a-prerequisites" data-numberify>A) Prerequisites&lt;a class="anchor ms-1 d-none" href="#a-prerequisites">#&lt;/a>&lt;/h3>
+&lt;h3 id="a-prerequisites" data-numberify>A) Prerequisites&lt;a class="anchor ms-1" href="#a-prerequisites">&lt;/a>&lt;/h3>
 &lt;p>- You&amp;rsquo;ll need these packages whatever version you want to build:&lt;/p>
 &lt;ul>
 &lt;li>Android NDK&lt;/li>
@@ -381,7 +450,8 @@ Enable cache:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">source&lt;/span> ~/.bashrc
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Cloning the source:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">git clone --recursive https://github.com/chenxiaolong/DualBootPatcher.git
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="b-building-android-app" data-numberify>B) Building Android App&lt;a class="anchor ms-1 d-none" href="#b-building-android-app">#&lt;/a>&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="b-building-android-app" data-numberify>B) Building Android App&lt;a class="anchor ms-1" href="#b-building-android-app">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>Open DualBootPatcher folder and make new folder &amp;ldquo;build&amp;rdquo; and open it.&lt;/li>
 &lt;/ul>
@@ -396,14 +466,14 @@ Enable cache:&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>And you&amp;rsquo;ll find built apk in &lt;code>DualBootPatcher/Android_GUI/build/outputs/apk/Android_GUI-debug.apk&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;h3 id="c-building-utilities-zip" data-numberify>C) Building Utilities Zip&lt;a class="anchor ms-1 d-none" href="#c-building-utilities-zip">#&lt;/a>&lt;/h3>
+&lt;h3 id="c-building-utilities-zip" data-numberify>C) Building Utilities Zip&lt;a class="anchor ms-1" href="#c-building-utilities-zip">&lt;/a>&lt;/h3>
 &lt;p>Utilities Zip is AROMA based zip which enable you to switch ROMs form TWRP or wipe ROM when something went wrong.
 - In build folder run these commands:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">make android-system_armeabi-v7a
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">make -C data/devices
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">./utilities/create.sh
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You&amp;rsquo;ll find built utilities.zip in DualBootPatcher/build/utilities/DualBootUtilities-9.2.0.zip&lt;/p>
-&lt;h3 id="d-building-linux-app" data-numberify>**D) Building Linux **App&lt;a class="anchor ms-1 d-none" href="#d-building-linux-app">#&lt;/a>&lt;/h3>
+&lt;h3 id="d-building-linux-app" data-numberify>**D) Building Linux **App&lt;a class="anchor ms-1" href="#d-building-linux-app">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>In build folder run these commands:&lt;/li>
 &lt;/ul>
@@ -413,14 +483,14 @@ Enable cache:&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>or to pack it to zip file:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">cpack -G ZIP
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;h2 id="how-to-build-dualbootpatcher-using-docker-images" data-numberify>How to build DualBootPatcher using docker images?&lt;a class="anchor ms-1 d-none" href="#how-to-build-dualbootpatcher-using-docker-images">#&lt;/a>&lt;/h2>
-&lt;p>&lt;strong>What is &lt;a href="https://www.docker.com/what-docker" target="_blank" rel="noopener noreferrer">docker&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>?&lt;/strong> [in case you don&amp;rsquo;t know it [😕]&lt;/p>
+&lt;h2 id="how-to-build-dualbootpatcher-using-docker-images" data-numberify>How to build DualBootPatcher using docker images?&lt;a class="anchor ms-1" href="#how-to-build-dualbootpatcher-using-docker-images">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>What is &lt;a href="https://www.docker.com/what-docker" target="_blank" rel="noopener noreferrer">docker&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>?&lt;/strong> [in case you don&amp;rsquo;t know it [&amp;#x1f615;]&lt;/p>
 &lt;blockquote>
 &lt;p>Docker is the world’s leading software container platform. Developers use Docker to eliminate “works on my machine” problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux, Windows Server, and Linux-on-mainframe apps.&lt;/p>
 &lt;/blockquote>
 &lt;p>Firstly, make sure you have docker installed, if not &lt;a href="https://docs.docker.com/engine/installation/" target="_blank" rel="noopener noreferrer">install it&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
 From here you should choose a method you&amp;rsquo;ll follow, Building docker images manually or use pre-built docker images.&lt;/p>
-&lt;h3 id="a-building-docker-images-manually" data-numberify>A) Building docker images manually:&lt;a class="anchor ms-1 d-none" href="#a-building-docker-images-manually">#&lt;/a>&lt;/h3>
+&lt;h3 id="a-building-docker-images-manually" data-numberify>A) Building docker images manually:&lt;a class="anchor ms-1" href="#a-building-docker-images-manually">&lt;/a>&lt;/h3>
 &lt;p>&lt;a href="https://forum.xda-developers.com/m/4277844/" target="_blank" rel="noopener noreferrer">@chenxiaolong&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> has made docker image configuration files &lt;a href="https://github.com/chenxiaolong/DualBootPatcher/tree/master/docker" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
 all you need to do after sync the repo like part 1 is entering the following commands in DualBootPatcher directory:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">./docker/generate.sh
@@ -428,13 +498,14 @@ all you need to do after sync the repo like part 1 is entering the following com
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>Note that building the docker images will take a long time and consume a lot of bandwidth&amp;ndash;multiple gigabytes at the very least. It will download all the dependencies for building DualBootPatcher for all supported targets.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="b-using-ready-made-docker-images" data-numberify>B) Using ready-made docker images:&lt;a class="anchor ms-1 d-none" href="#b-using-ready-made-docker-images">#&lt;/a>&lt;/h3>
+&lt;h3 id="b-using-ready-made-docker-images" data-numberify>B) Using ready-made docker images:&lt;a class="anchor ms-1" href="#b-using-ready-made-docker-images">&lt;/a>&lt;/h3>
 &lt;p>I have made docker images and uploaded them to &lt;a href="https://hub.docker.com/r/yshalsager/dualbootpatcher/" target="_blank" rel="noopener noreferrer">docker hub&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>
 to download &amp;ldquo;pull&amp;rdquo; it enter these commands:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">docker pull yshalsager/dualbootpatcher:9.3.0-4-base
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">2&lt;/span>&lt;span class="cl">docker pull yshalsager/dualbootpatcher:9.3.0-4-android
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="ln">3&lt;/span>&lt;span class="cl">docker pull yshalsager/dualbootpatcher:9.3.0-4-linux
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="c-building-dualbootpatcher-using-docker" data-numberify>C) Building DualBootPatcher using docker:&lt;a class="anchor ms-1 d-none" href="#c-building-dualbootpatcher-using-docker">#&lt;/a>&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="c-building-dualbootpatcher-using-docker" data-numberify>C) Building DualBootPatcher using docker:&lt;a class="anchor ms-1" href="#c-building-dualbootpatcher-using-docker">&lt;/a>&lt;/h3>
 &lt;p>- To enter docker container and build DualBootPatcher make folder &amp;ldquo;builder&amp;rdquo; in DualBootPatcher directory.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">&lt;span class="nb">cd&lt;/span> DualBootPatcher &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> mkdir -p builder
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Then run this to enter android build container&lt;/p>
@@ -450,7 +521,7 @@ to download &amp;ldquo;pull&amp;rdquo; it enter these commands:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="ln">1&lt;/span>&lt;span class="cl">cmake .. -DMBP_BUILD_TARGET&lt;span class="o">=&lt;/span>desktop -DMBP_PORTABLE&lt;span class="o">=&lt;/span>ON &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> make -j16 &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> cpack
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- You&amp;rsquo;ll find output files in your local &amp;ldquo;builder&amp;rdquo; folder like normal build.&lt;/p>
 &lt;hr>
-&lt;h2 id="how-to-build-dualbootpatcher-using-travisci" data-numberify>How to build DualBootPatcher using TravisCI?&lt;a class="anchor ms-1 d-none" href="#how-to-build-dualbootpatcher-using-travisci">#&lt;/a>&lt;/h2>
+&lt;h2 id="how-to-build-dualbootpatcher-using-travisci" data-numberify>How to build DualBootPatcher using TravisCI?&lt;a class="anchor ms-1" href="#how-to-build-dualbootpatcher-using-travisci">&lt;/a>&lt;/h2>
 &lt;p>&lt;a href="http://travis-ci.org/" target="_blank" rel="noopener noreferrer">Travis CI&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> is free open-source continues integration service, which simply take your project from GitHub and test / build it for you !
 it&amp;rsquo;s amazing solution if you don&amp;rsquo;t have time/free space/mind lol :cyclops: to test your code.
 - you&amp;rsquo;ll need to signup Travis account, go &lt;a href="https://travis-ci.org/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> and press signup, enter your GitHub account details then approve Travis needed permissions and done. &lt;picture>&lt;img class="img-fluid " alt=":D" src="#ZgotmplZ" loading="lazy" />
@@ -510,7 +581,7 @@ it&amp;rsquo;s amazing solution if you don&amp;rsquo;t have time/free space/mind
 - When you add new commits to repository Travis will always build new apk for you!
 - If you want to change something in configuration, always check its syntax to make sure it&amp;rsquo;s valid YAML using &lt;a href="http://yamllint.com/" target="_blank" rel="noopener noreferrer">this site&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
 &lt;hr>
-&lt;h2 id="how-to-add-new-devices-to-dualbootpatcher" data-numberify>How to add new Devices to DualBootPatcher?&lt;a class="anchor ms-1 d-none" href="#how-to-add-new-devices-to-dualbootpatcher">#&lt;/a>&lt;/h2>
+&lt;h2 id="how-to-add-new-devices-to-dualbootpatcher" data-numberify>How to add new Devices to DualBootPatcher?&lt;a class="anchor ms-1" href="#how-to-add-new-devices-to-dualbootpatcher">&lt;/a>&lt;/h2>
 &lt;p>To add your/new device to DualBootPatcher you need to get some information first then add it to DualBootPatcher devices:
 - Flash &lt;a href="https://dbp.noobdev.io/misc/getlogs/GetLogs-20161128-1.zip" target="_blank" rel="noopener noreferrer">GetLogs-20161128-1.zip&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> using recovery [TWRP highly recommended]
 - Copy /sdcard/logs/[Date&amp;amp;Time].tar to PC, extract it and let&amp;rsquo;s start.
@@ -616,7 +687,7 @@ from &lt;code>/dev/block/platform/soc.0/f9824900.sdhci/by-name&lt;/code> list co
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>- Open DualBootPatcher/data/devices/(your device manufacturer).yml and add your device codes. then Check your code syntax &lt;a href="http://yamllint.com/" target="_blank" rel="noopener noreferrer">here&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> if everything is right, make commit to add your device to your repository.
 - Build apk using any method explained above to test it.&lt;/p>
 &lt;hr>
-&lt;h2 id="how-to-submit-new-devices-to-official-dualbootpatcher-support" data-numberify>How to submit new Devices to official DualBootPatcher support?&lt;a class="anchor ms-1 d-none" href="#how-to-submit-new-devices-to-official-dualbootpatcher-support">#&lt;/a>&lt;/h2>
+&lt;h2 id="how-to-submit-new-devices-to-official-dualbootpatcher-support" data-numberify>How to submit new Devices to official DualBootPatcher support?&lt;a class="anchor ms-1" href="#how-to-submit-new-devices-to-official-dualbootpatcher-support">&lt;/a>&lt;/h2>
 &lt;p>Once you checked everything is working, it&amp;rsquo;s time to contribute to DualBootPatcher and add your device to official devices:
 - First, Check you made all needed changes to add your device without problems, again check for YAML syntax because if it&amp;rsquo;s wrong build won&amp;rsquo;t work.
 - Open &lt;a href="https://github.com/chenxiaolong/DualBootPatcher" target="_blank" rel="noopener noreferrer">DualBootPatcher Repository&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>, press New pull request button.

@@ -1,0 +1,1 @@
+(()=>{var a={fallback:"https://yshalsager.com/en/",homes:{ar:"https://yshalsager.com/ar/",en:"https://yshalsager.com/en/"}};(()=>{let o=navigator.language||navigator.userLanguage;if(o in a.homes){window.location.href=a.homes[o];return}let n=o.split("-");for(let e in a.homes)if(e.indexOf(n[0])===0){window.location.href=a.homes[e];return}window.location.href=a.fallback})();})();

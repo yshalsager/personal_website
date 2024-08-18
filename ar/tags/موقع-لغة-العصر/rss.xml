@@ -1505,6 +1505,8 @@ Slack, Facebook Messenger, WhatsApp, Telegram, Skype, WeChat, HipChat, ChatWork,
 &lt;li>استخدام اختصارات سطح المكتب الوهمي:&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ul>
+&lt;p>1- اختصار Windows + Ctrl + السهم اليمين:
+بواسطة هذا الاختصار تستطيع الانتقال إلى سطح المكتب الافتراضي التالي.&lt;/p>
 &lt;p>2- اختصار Windows + Ctrl + السهم اليسار:
 بواسطة هذا الاختصار تستطيع الانتقال إلى سطح المكتب الافتراضي السابق.&lt;/p>
 &lt;p>3- الاختصار Windows + Ctrl + D:
@@ -4288,7 +4290,7 @@ del iconcache*&lt;/p>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/22148.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/22148.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>تعرف على الاختصارات السحرية للإعدادات في ويندوز 10</title><link>https://yshalsager.com/ar/posts/windows-10-settings-shortcuts/</link><pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-settings-shortcuts/</guid><description>&lt;p>في تطبيق الإعدادات في ويندوز 10 كل شيء قد تغير، ومع هذه التغييرات الجديدة يحتاج المستخدم إلى طرق تسهل له الوصول إلى الإعداد الذي يحتاجه بسرعة، وقد تحدثنا في درس سابق عن إضافة اختصارات الإعدادات لقائمة البداية في ويندوز 10، وفى درس اليوم ستتعرف عزيزي القارئ على كل اختصارات تطبيق الإعدادات وطريقة استخدامها.&lt;/p>
-&lt;h2 id="اولا-قايمة-اختصارات-تطبيق-الاعدادات-في-ويندوز-10" data-numberify>أولا: قائمة اختصارات تطبيق الإعدادات في ويندوز 10:&lt;a class="anchor ms-1 d-none" href="#اولا-قايمة-اختصارات-تطبيق-الاعدادات-في-ويندوز-10">#&lt;/a>&lt;/h2>
+&lt;h2 id="اولا-قايمة-اختصارات-تطبيق-الاعدادات-في-ويندوز-10" data-numberify>أولا: قائمة اختصارات تطبيق الإعدادات في ويندوز 10:&lt;a class="anchor ms-1" href="#اولا-قايمة-اختصارات-تطبيق-الاعدادات-في-ويندوز-10">&lt;/a>&lt;/h2>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -4495,7 +4497,7 @@ del iconcache*&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="ثانيا-الوصول-السريع-الى-الاعدادات-عن-طريق-run" data-numberify>ثانيا: الوصول السريع إلى الإعدادات عن طريق RUN:&lt;a class="anchor ms-1 d-none" href="#ثانيا-الوصول-السريع-الى-الاعدادات-عن-طريق-run">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-الوصول-السريع-الى-الاعدادات-عن-طريق-run" data-numberify>ثانيا: الوصول السريع إلى الإعدادات عن طريق RUN:&lt;a class="anchor ms-1" href="#ثانيا-الوصول-السريع-الى-الاعدادات-عن-طريق-run">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بالضغط على Windows+R لفتح مربع RUN.&lt;/li>
 &lt;/ol>
@@ -4542,27 +4544,27 @@ del iconcache*&lt;/p>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/21928.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/21928.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>تفعيل المساعدة الصوتية Cortana على ويندوز 10 في أي مكان في العالم</title><link>https://yshalsager.com/ar/posts/windows-10-activating-cortana/</link><pubDate>Mon, 03 Aug 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-activating-cortana/</guid><description>&lt;p>بلا شك فإن خاصية المساعدة الصوتية Cortana واحدة من أفضل المميزات الجديدة التي جاء بها ويندوز 10، ولكن المشكلة الوحيدة التي تواجهنا كمستخدمين لنظام الويندوز هي عدم توافر هذه الخاصية باللغة العربية، وعدم عملها خارج الولايات المتحدة الأمريكية، في درس اليوم ستتعرف عزيزي القارئ على سر سيمكنك من تفعيل لمساعدة الصوتية Cortana على ويندوز 10 في أي مكان في العالم.&lt;/p>
-&lt;h2 id="اولا-الدول-التي-تعمل-بها-المساعدة-الصوتية-cortana-بشكل-رسمي" data-numberify>أولا: الدول التي تعمل بها المساعدة الصوتية Cortana بشكل رسمي:&lt;a class="anchor ms-1 d-none" href="#اولا-الدول-التي-تعمل-بها-المساعدة-الصوتية-cortana-بشكل-رسمي">#&lt;/a>&lt;/h2>
+&lt;h2 id="اولا-الدول-التي-تعمل-بها-المساعدة-الصوتية-cortana-بشكل-رسمي" data-numberify>أولا: الدول التي تعمل بها المساعدة الصوتية Cortana بشكل رسمي:&lt;a class="anchor ms-1" href="#اولا-الدول-التي-تعمل-بها-المساعدة-الصوتية-cortana-بشكل-رسمي">&lt;/a>&lt;/h2>
 &lt;p>تتوفر هذه الميزة لمستخدمي نظام الويندوز في هذه الدول السبعة: الولايات المتحدة الأمريكية، المملكة المتحدة، فرنسا، اسبانيا، ألمانيا، إيطاليا، والصين.&lt;/p>
 &lt;p>كما أعلنت مايكروسوفت أنه خلال الأشهر القادمة سوف تنضم اليابان، استراليا، كندا والهند إلى قائمة الدول التي تدعم خاصية المساعدة الصوتية.&lt;/p>
 &lt;p>&lt;figure class="figure">&lt;picture>&lt;img class="img-fluid figure-img" alt="" src="https://yshalsager.com/ar/posts/windows-10-activating-cortana/images/2015-635742174713031034-303.png" loading="lazy" title="1" width="650" height="293" />
 &lt;/picture>&lt;figcaption class="figure-caption">1&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;h2 id="ثانيا-ماذا-يحدث-عند-محاولة-تشغيل-المساعدة-الصوتية-cortana-في-اي-دولة-اخرى" data-numberify>ثانيا: ماذا يحدث عند محاولة تشغيل المساعدة الصوتية Cortana في أي دولة أخرى:&lt;a class="anchor ms-1 d-none" href="#ثانيا-ماذا-يحدث-عند-محاولة-تشغيل-المساعدة-الصوتية-cortana-في-اي-دولة-اخرى">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-ماذا-يحدث-عند-محاولة-تشغيل-المساعدة-الصوتية-cortana-في-اي-دولة-اخرى" data-numberify>ثانيا: ماذا يحدث عند محاولة تشغيل المساعدة الصوتية Cortana في أي دولة أخرى:&lt;a class="anchor ms-1" href="#ثانيا-ماذا-يحدث-عند-محاولة-تشغيل-المساعدة-الصوتية-cortana-في-اي-دولة-اخرى">&lt;/a>&lt;/h2>
 &lt;p>عند تشغيل المساعدة الصوتية لأول مرة عن طريق الضغط على مربع البحث في شريط المهام تظهر للمستخدم هذه الرسالة:&lt;/p>
 &lt;p>&lt;figure class="figure">&lt;picture>&lt;img class="img-fluid figure-img" alt="" src="https://yshalsager.com/ar/posts/windows-10-activating-cortana/images/2015-635742175482093534-209.jpg" loading="lazy" title="2" width="572" height="767" />
 &lt;/picture>&lt;figcaption class="figure-caption">2&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;p>ولا يمكن للمستخدم فعل أي شيء سوى الضغط على Close ومتابعة استخدام شريط البحث بالطريقة التقليدية.&lt;/p>
-&lt;h2 id="ثالثا-ما-المطلوب-لتشغيل-المساعدة-الصوتية-cortana" data-numberify>ثالثا: ما المطلوب لتشغيل المساعدة الصوتية Cortana؟&lt;a class="anchor ms-1 d-none" href="#ثالثا-ما-المطلوب-لتشغيل-المساعدة-الصوتية-cortana">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-ما-المطلوب-لتشغيل-المساعدة-الصوتية-cortana" data-numberify>ثالثا: ما المطلوب لتشغيل المساعدة الصوتية Cortana؟&lt;a class="anchor ms-1" href="#ثالثا-ما-المطلوب-لتشغيل-المساعدة-الصوتية-cortana">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>حساب مايكروسوفت تم التسجيل به داخل الويندوز.&lt;/li>
 &lt;li>اتصال بالإنترنت.&lt;/li>
 &lt;li>القيام بالخطوات القادمة.&lt;/li>
 &lt;/ol>
-&lt;h2 id="رابعا-خطوات-تفعيل-المساعدة-الصوتية-cortana-في-اي-مكان-في-العالم" data-numberify>رابعا: خطوات تفعيل المساعدة الصوتية Cortana في أي مكان في العالم:&lt;a class="anchor ms-1 d-none" href="#رابعا-خطوات-تفعيل-المساعدة-الصوتية-cortana-في-اي-مكان-في-العالم">#&lt;/a>&lt;/h2>
+&lt;h2 id="رابعا-خطوات-تفعيل-المساعدة-الصوتية-cortana-في-اي-مكان-في-العالم" data-numberify>رابعا: خطوات تفعيل المساعدة الصوتية Cortana في أي مكان في العالم:&lt;a class="anchor ms-1" href="#رابعا-خطوات-تفعيل-المساعدة-الصوتية-cortana-في-اي-مكان-في-العالم">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بالدخول إلى تطبيق الإعدادات، ثم اختر القسم “Time &amp;amp; language”.&lt;/li>
 &lt;/ol>
@@ -4725,7 +4727,7 @@ del iconcache*&lt;/p>
 &lt;/p>
 &lt;p>من المميزات الجديدة التي جاء بها ويندوز 10 وضع التابلت أو Tablet Mode وهو وضع مخصص لأجهزة اللاب توب التي لديها شاشة تعمل باللمس، في درس اليوم ستنعرف على Tablet Mode ومميزاته وطريقة تفعيله.&lt;/p>
 &lt;p>عند قيامك بتفعيل وضع Tablet Mode فإن الويندوز يقوم بالتبديل إلى شاشة البداية بدلا من قائمة البداية، كما يقوم بتشغيل جميع البرامج والتطبيقات في وضعية full Screen، أيضا يقوم بإضافة أزرار التنقل في شريط المهام، والعديد من التغييرات الأخرى.&lt;/p>
-&lt;h2 id="طريقة-تفعيل-وضع-tablet-mode" data-numberify>طريقة تفعيل وضع Tablet Mode:&lt;a class="anchor ms-1 d-none" href="#طريقة-تفعيل-وضع-tablet-mode">#&lt;/a>&lt;/h2>
+&lt;h2 id="طريقة-تفعيل-وضع-tablet-mode" data-numberify>طريقة تفعيل وضع Tablet Mode:&lt;a class="anchor ms-1" href="#طريقة-تفعيل-وضع-tablet-mode">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>اضغط على أيقونة الإشعارات الموجودة بجانب الساعة على شريط المهام، ثم اختر Tablet Mode، سيقوم الويندوز في أقل من ثانية بالتبديل إلى وضع التابلت.&lt;/p>
@@ -4738,7 +4740,7 @@ del iconcache*&lt;/p>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/20629.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/20629.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>إعدادات شاشة التوقف Screen Saver في ويندوز 10</title><link>https://yshalsager.com/ar/posts/windows-10-screen-saver/</link><pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-screen-saver/</guid><description>&lt;p>ميزة شاشة التوقف أو Screen Saver من أقدم المميزات الموجودة في نظام الويندوز، وكما تعودنا منذ ويندوز XP فإن طريقة الوصول إعدادات شاشة التوقف ظلت كما هي، ولكن في ويندوز 10 حدث تغيير في الطريقة، في درس اليوم ستتعرف عزيزي القارئ على كل ما يخص ميزة شاشة التوقف في ويندوز 10.&lt;/p>
-&lt;h2 id="اولا-طريقة-الدخول-الى-اعدادات-شاشة-التوقف-screen-saver" data-numberify>أولا: طريقة الدخول إلى إعدادات شاشة التوقف Screen Saver:&lt;a class="anchor ms-1 d-none" href="#اولا-طريقة-الدخول-الى-اعدادات-شاشة-التوقف-screen-saver">#&lt;/a>&lt;/h2>
+&lt;h2 id="اولا-طريقة-الدخول-الى-اعدادات-شاشة-التوقف-screen-saver" data-numberify>أولا: طريقة الدخول إلى إعدادات شاشة التوقف Screen Saver:&lt;a class="anchor ms-1" href="#اولا-طريقة-الدخول-الى-اعدادات-شاشة-التوقف-screen-saver">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>عن طريق كتابة &amp;quot; Screen Saver&amp;quot; في البحث داخل شريط المهام، أو في قائمة البداية.&lt;/li>
 &lt;/ol>
@@ -4753,7 +4755,7 @@ del iconcache*&lt;/p>
 &lt;/picture>&lt;figcaption class="figure-caption">2&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;h2 id="ثانيا-اعدادات-شاشة-التوقف-screen-saver" data-numberify>ثانيا: إعدادات شاشة التوقف Screen Saver:&lt;a class="anchor ms-1 d-none" href="#ثانيا-اعدادات-شاشة-التوقف-screen-saver">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-اعدادات-شاشة-التوقف-screen-saver" data-numberify>ثانيا: إعدادات شاشة التوقف Screen Saver:&lt;a class="anchor ms-1" href="#ثانيا-اعدادات-شاشة-التوقف-screen-saver">&lt;/a>&lt;/h2>
 &lt;p>ستظهر لك شاشة الإعدادات كما بالصورة:&lt;/p>
 &lt;p>يوفر ويندوز 10 لمستخدميه 6 خيارات لاستخدامها كشاشة توقف وهي 3D Text، Blank، Bubbles، Mystify، Photos وRibbons.&lt;/p>
 &lt;p>لتعيين واحدة منهم كشاشة توقف قم باختيار أي واحدة تريد من القائمة المنسدلة Screen saver، ثم اضغط Apply لتطبيق التغييرات.&lt;/p>
@@ -4762,7 +4764,7 @@ del iconcache*&lt;/p>
 &lt;/picture>&lt;figcaption class="figure-caption">4&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;h2 id="ثالثا-عمل-اختصار-لاعدادات-شاشة-التوقف-screen-saver" data-numberify>ثالثا: عمل اختصار لإعدادات شاشة التوقف Screen Saver:&lt;a class="anchor ms-1 d-none" href="#ثالثا-عمل-اختصار-لاعدادات-شاشة-التوقف-screen-saver">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-عمل-اختصار-لاعدادات-شاشة-التوقف-screen-saver" data-numberify>ثالثا: عمل اختصار لإعدادات شاشة التوقف Screen Saver:&lt;a class="anchor ms-1" href="#ثالثا-عمل-اختصار-لاعدادات-شاشة-التوقف-screen-saver">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>اضغط بزر الفأرة الأيمن على سطح المكتب ثم قم باختيار Shortcut من قائمة New.&lt;/li>
 &lt;li>قم بكتابة control desk.cpl,,@screensaver في المربع الخاص بموقع الاختصار.&lt;/li>
@@ -4978,31 +4980,31 @@ the desktop I&amp;rsquo;m using.&lt;/li>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/18134.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/18134.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>أفضل 5 تطبيقات بديله لواتساب</title><link>https://yshalsager.com/ar/posts/best-5-whatsapp-alternatives/</link><pubDate>Tue, 23 Jun 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/best-5-whatsapp-alternatives/</guid><description>&lt;p>تحدثنا في موضوع سابق عن 6 أسباب تدفعك للتخلي عن واتس اب، وكما اتضح في هذا الموضوع أن الواتس اب لا يحترم خصوصية مستخدميه وأنه غير مجاني بالكامل، نقترح عليك عزيزي القارئ أفضل 5 تطبيقات بديله للواتس اب.&lt;/p>
-&lt;h3 id="1-facebook-messenger" data-numberify>1. Facebook Messenger:&lt;a class="anchor ms-1 d-none" href="#1-facebook-messenger">#&lt;/a>&lt;/h3>
+&lt;h3 id="1-facebook-messenger" data-numberify>1. Facebook Messenger:&lt;a class="anchor ms-1" href="#1-facebook-messenger">&lt;/a>&lt;/h3>
 &lt;p>تطبيق Facebook Messenger هو أحد أفضل بدائل الواتس اب حيث أنه يرتبط بحساب الفيس بوك الخاص بك ويمكنك من التواصل مع أصدقائك بسهولة، كما أنه مجاني بالكامل ويعمل على العديد من المنصات.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="1" src="https://yshalsager.com/ar/posts/best-5-whatsapp-alternatives/images/1.jpg" loading="lazy" width="500" height="352" />
 &lt;/picture>
 &lt;/p>
 &lt;p>لتحميل التطبيق &lt;a href="https://itunes.apple.com/my/app/facebook-messenger/id454638411?mt=8" target="_blank" rel="noopener noreferrer">iOS&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="https://play.google.com/store/apps/details?id=com.facebook.orca" target="_blank" rel="noopener noreferrer">Android&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="http://appworld.blackberry.com/webstore/content/136854/" target="_blank" rel="noopener noreferrer">BlackBerry&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> |&lt;/p>
-&lt;h3 id="2-line" data-numberify>2. Line:&lt;a class="anchor ms-1 d-none" href="#2-line">#&lt;/a>&lt;/h3>
+&lt;h3 id="2-line" data-numberify>2. Line:&lt;a class="anchor ms-1" href="#2-line">&lt;/a>&lt;/h3>
 &lt;p>تطبيق Line يقوم بتسجيل رقمك في قواعد بياناته ثم يسمح لك باستخدام خدمته المجانية في ارسال الرسائل والمكالمات، من ضمن مميزات تطبيق line أنه يعمل على ال PC وال MAC، كما أنه يسمح لك بالتسجيل عن طريق البريد الإلكتروني بدلا من رقم الهاتف.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="2" src="https://yshalsager.com/ar/posts/best-5-whatsapp-alternatives/images/2.jpg" loading="lazy" width="500" height="376" />
 &lt;/picture>
 &lt;/p>
 &lt;p>لتحميل التطبيق &lt;a href="https://itunes.apple.com/en/app/line/id443904275?ls=1&amp;amp;mt=8" target="_blank" rel="noopener noreferrer">iOS&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="https://play.google.com/store/apps/details?id=jp.naver.line.android&amp;amp;hl=en" target="_blank" rel="noopener noreferrer">Android&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="http://www.windowsphone.com/en-us/store/app/line/a18daaa9.9a1c-4064.91dd-794644cd88e7" target="_blank" rel="noopener noreferrer">Windows Phone&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="http://appworld.blackberry.com/webstore/content/129864/" target="_blank" rel="noopener noreferrer">BlackBerry&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="3-google-hangouts" data-numberify>3. Google Hangouts:&lt;a class="anchor ms-1 d-none" href="#3-google-hangouts">#&lt;/a>&lt;/h3>
+&lt;h3 id="3-google-hangouts" data-numberify>3. Google Hangouts:&lt;a class="anchor ms-1" href="#3-google-hangouts">&lt;/a>&lt;/h3>
 &lt;p>تطبيق Google Hangouts من أسهل تطبيقات التراسل الفوري وأفضلها في التصميم كما أنه تابع لجوجل لذا فهو دائم التحديث واضافة المميزات الجديدة، تستطيع التواصل مع أصدقائك عن طريق البريد الإلكتروني بالصوت أو بالفيديو أو حتى عن طريق الرسائل القصيرة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="3" src="https://yshalsager.com/ar/posts/best-5-whatsapp-alternatives/images/3.jpg" loading="lazy" width="644" height="250" />
 &lt;/picture>
 &lt;/p>
 &lt;p>لتحميل التطبيق &lt;a href="https://itunes.apple.com/us/app/hangouts/id643496868?mt=8" target="_blank" rel="noopener noreferrer">iOS&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="https://play.google.com/store/apps/details?id=com.google.android.talk&amp;amp;hl=en" target="_blank" rel="noopener noreferrer">Android&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd?hl=en" target="_blank" rel="noopener noreferrer">Chrome&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="4-viber" data-numberify>4. Viber:&lt;a class="anchor ms-1 d-none" href="#4-viber">#&lt;/a>&lt;/h3>
+&lt;h3 id="4-viber" data-numberify>4. Viber:&lt;a class="anchor ms-1" href="#4-viber">&lt;/a>&lt;/h3>
 &lt;p>تطبيق Viber هو أقرب البدائل الى الواتس أي في الشكل والمميزات، فهو يستخدم رقم الهاتف للتسجيل تماما مثل Whatsapp بعد ذلك يقوم بالوصول الى جهات الاتصال الخاصة بك ليمكنك من التواصل معهم فوريا.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="4" src="https://yshalsager.com/ar/posts/best-5-whatsapp-alternatives/images/4.jpg" loading="lazy" width="500" height="246" />
 &lt;/picture>
 &lt;/p>
 &lt;p>لتحميل التطبيق &lt;a href="https://itunes.apple.com/app/viber-free-phone-calls/id382617920?mt=8" target="_blank" rel="noopener noreferrer">iOS&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="https://play.google.com/store/apps/details?id=com.viber.voip" target="_blank" rel="noopener noreferrer">Android&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="http://www.windowsphone.com/en-us/store/app/viber-messenger/f4631757.d1f6.4727.bd65.e6bc6c8e35da" target="_blank" rel="noopener noreferrer">Windows Phone&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="http://appworld.blackberry.com/webstore/content/85455/" target="_blank" rel="noopener noreferrer">BlackBerry&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="http://viber.com/products/nokia/" target="_blank" rel="noopener noreferrer">Nokia&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> | &lt;a href="http://viber.com/products/bada/" target="_blank" rel="noopener noreferrer">Bada&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="5-wechat" data-numberify>5. WeChat:&lt;a class="anchor ms-1 d-none" href="#5-wechat">#&lt;/a>&lt;/h3>
+&lt;h3 id="5-wechat" data-numberify>5. WeChat:&lt;a class="anchor ms-1" href="#5-wechat">&lt;/a>&lt;/h3>
 &lt;p>تطبيق WeChat من أكبر التطبيقات شعبية في الصين والتسجيل فيه يشبه الواتس اب الى حد كبير، كما أنه يستطيع الارتباط مع الفيسبوك أو البريد الإلكتروني لتجد أصدقائك بسهولة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="5" src="https://yshalsager.com/ar/posts/best-5-whatsapp-alternatives/images/5.jpg" loading="lazy" width="500" height="269" />
 &lt;/picture>
@@ -5236,7 +5238,7 @@ the desktop I&amp;rsquo;m using.&lt;/li>
 اليوم نقدم لك حل بسيط لهذه المشكلة عن طريق تغيير مهمة أي زر في لوحة
 المفاتيح الى زر آخر.&lt;/p>
 &lt;p>أيضا تفيد هذه الطريقة في تعيين مهام معينة مثل عمل Refresh عن طريق الضغط على الزر الى تقوم بتعيينه، كما أنه باستخدام تلك الطريقة تستطيع تعطيل عمل أي زر، وبالتأكيد تستطيع الغاء التغييرات واستعادة لوحة المفاتيح الافتراضية، وتعمل هذه الطريقة على كل إصدارات الويندوز.&lt;/p>
-&lt;h2 id="الطريقة-الاولى-باستخدام-برنامج-sharpkeys" data-numberify>الطريقة الأولى: باستخدام برنامج SharpKeys:&lt;a class="anchor ms-1 d-none" href="#الطريقة-الاولى-باستخدام-برنامج-sharpkeys">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الاولى-باستخدام-برنامج-sharpkeys" data-numberify>الطريقة الأولى: باستخدام برنامج SharpKeys:&lt;a class="anchor ms-1" href="#الطريقة-الاولى-باستخدام-برنامج-sharpkeys">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بتحميل البرنامج &lt;a href="http://www.randyrants.com/2006/07/sharpkeys_211.html" target="_blank" rel="noopener noreferrer">من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/li>
 &lt;li>بعد تثبيته قم بفتحه ستظهر لك الواجهة كما بالصورة:&lt;/li>
@@ -5258,7 +5260,7 @@ the desktop I&amp;rsquo;m using.&lt;/li>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/windows-change-button-functionality/images/4.png" loading="lazy" width="411" height="216" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="الطريقة-الثانية-باستخدام-برنامج-keytweak" data-numberify>الطريقة الثانية: باستخدام برنامج KeyTweak:&lt;a class="anchor ms-1 d-none" href="#الطريقة-الثانية-باستخدام-برنامج-keytweak">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الثانية-باستخدام-برنامج-keytweak" data-numberify>الطريقة الثانية: باستخدام برنامج KeyTweak:&lt;a class="anchor ms-1" href="#الطريقة-الثانية-باستخدام-برنامج-keytweak">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بتحميل البرنامج &lt;a href="http://www.majorgeeks.com/mg/getmirror/keytweak,3.html" target="_blank" rel="noopener noreferrer">من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/li>
 &lt;li>بعد تثبيته قم بفتحه ستظهر لك الواجهة كما بالصورة:&lt;/li>
@@ -5615,7 +5617,7 @@ C:\Program Files\VideoLAN\VLC\lua\playlist&lt;/li>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/17692.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/17692.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>للمبتدئين.. طريقة التقاط صورة للشاشة في كل إصدارات الويندوز</title><link>https://yshalsager.com/ar/posts/windows-how-to-take-screenshot/</link><pubDate>Tue, 21 Apr 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-how-to-take-screenshot/</guid><description>&lt;p>مما لا شك فيه أنك ستحتاج يوما ما الى تصوير شاشة الكمبيوتر الخاص بك سواء لطلب المساعدة على الانترنت أو لتقديم دورس أو غيرها، فهل تعلم أنه يمكنك اخذ لقطة من الشاشة بدون استخدام أي برامج؟ اليك عزيزي المبتدئ هذا الموضوع.&lt;/p>
-&lt;h2 id="الطريقة-الاولى-باستخدام-لوحة-المفاتيح" data-numberify>الطريقة الأولى: باستخدام لوحة المفاتيح:&lt;a class="anchor ms-1 d-none" href="#الطريقة-الاولى-باستخدام-لوحة-المفاتيح">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الاولى-باستخدام-لوحة-المفاتيح" data-numberify>الطريقة الأولى: باستخدام لوحة المفاتيح:&lt;a class="anchor ms-1" href="#الطريقة-الاولى-باستخدام-لوحة-المفاتيح">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>من لوحة المفاتيح قم بالضغط على زر &lt;em>Print Screen&lt;/em> من لوحة المفاتيح.
@@ -5715,7 +5717,7 @@ C:\Program Files\VideoLAN\VLC\lua\playlist&lt;/li>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/9941.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/9941.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>طريقة إضافة خيارات Copy To / Move To إلى القائمة المختصرة في الويندوز</title><link>https://yshalsager.com/ar/posts/windows-adding-copy-move-to-options/</link><pubDate>Tue, 14 Apr 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-adding-copy-move-to-options/</guid><description>&lt;p>نظام الويندوز كالمحيط العميق الذي كلما تعمقت فيه أكثر اكتشفت أسراره وخفاياه، نقدم لك عزيزي القارئ سرا جديدا من اسرار الويندوز هو كيفية إضافة ميزتي &amp;ldquo;النسخ والقص الى مجلد محدد&amp;rdquo; الى قائمة الزر الأيمن في ويندوز.&lt;/p>
 &lt;p>تعتمد هذه الحيلة على تعديل ملفات الريجيسترى الخاصة بالويندوز، كما أنها تعمل على كل إصدارات الويندوز.&lt;/p>
-&lt;h2 id="الطريقة-اليدوية" data-numberify>الطريقة اليدوية:&lt;a class="anchor ms-1 d-none" href="#الطريقة-اليدوية">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-اليدوية" data-numberify>الطريقة اليدوية:&lt;a class="anchor ms-1" href="#الطريقة-اليدوية">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بفتح محرر الريجيسترى عن طريق RUN (Windows+R) ثم انتقل الى هذا المفتاح&lt;/li>
 &lt;/ol>
@@ -5756,7 +5758,7 @@ C:\Program Files\VideoLAN\VLC\lua\playlist&lt;/li>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/windows-adding-copy-move-to-options/images/4-2.png" loading="lazy" width="348" height="388" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="الطريقة-الاوتوماتيكية" data-numberify>الطريقة الاوتوماتيكية:&lt;a class="anchor ms-1 d-none" href="#الطريقة-الاوتوماتيكية">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الاوتوماتيكية" data-numberify>الطريقة الاوتوماتيكية:&lt;a class="anchor ms-1" href="#الطريقة-الاوتوماتيكية">&lt;/a>&lt;/h2>
 &lt;p>قم بتحميل هذا الملف &lt;a href="http://cdn5.howtogeek.com/wp-content/uploads/gg/copyto_moveto.zip" target="_blank" rel="noopener noreferrer">من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>، ثم قم بفك الضغط ستجد ملفي ريجسترى، تستطيع تفعيل خيار Copy To أو Move To أو كلاهما.&lt;/p>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
@@ -5824,7 +5826,7 @@ C:\Program Files\VideoLAN\VLC\lua\playlist&lt;/li>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/8848.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/8848.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>طريقة إضافة البرنامج لتعمل مع بدء تشغيل ويندوز</title><link>https://yshalsager.com/ar/posts/windows-startup-add-programs/</link><pubDate>Tue, 31 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-startup-add-programs/</guid><description>&lt;p>كثير من البرامج في الويندوز تقوم بإضافة نفسها تلقائيا لتعمل مع بدء تشغيل الويندوز، ولكن قد تحتاج أنت أيضا الى إضافة البرامج، الملفات، أو المجلدات الخاصة بك لتعمل تلقائيا، نقدم لك عزيزي القارئ الطريقة الجديدة لإضافة البرامج الى Startup في ويندوز 8/8.1/10.&lt;/p>
 &lt;p>لإضافة برنامج الى Startup تحتاج الى اضافة الاختصار الخاص به يدويا الى مجلد Startup الذي كان موجود سابقا في قائمة البداية، ولكن منذ إطلاق ويندوز 8 اختلفت الطريقة وصارت صعبة نسيبا.&lt;/p>
-&lt;h2 id="اولا-اذا-كان-البرنامج-له-اختصار-على-سطح-المكتب" data-numberify>أولا: إذا كان البرنامج له اختصار على سطح المكتب:&lt;a class="anchor ms-1 d-none" href="#اولا-اذا-كان-البرنامج-له-اختصار-على-سطح-المكتب">#&lt;/a>&lt;/h2>
+&lt;h2 id="اولا-اذا-كان-البرنامج-له-اختصار-على-سطح-المكتب" data-numberify>أولا: إذا كان البرنامج له اختصار على سطح المكتب:&lt;a class="anchor ms-1" href="#اولا-اذا-كان-البرنامج-له-اختصار-على-سطح-المكتب">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بالضغط بزر الفأرة الأيمن على البرنامج الذي تريد اضافته ثم اختر &amp;ldquo;نسخ Copy&amp;rdquo;.&lt;/li>
 &lt;/ol>
@@ -5848,7 +5850,7 @@ C:\Program Files\VideoLAN\VLC\lua\playlist&lt;/li>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="4" src="https://yshalsager.com/ar/posts/windows-startup-add-programs/images/2015-635634225029311515-931.png" loading="lazy" width="650" height="482" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثانيا-اذا-لم-يوجد-للبرنامج-اختصار-على-سطح-المكتب" data-numberify>ثانيا: إذا لم يوجد للبرنامج اختصار على سطح المكتب:&lt;a class="anchor ms-1 d-none" href="#ثانيا-اذا-لم-يوجد-للبرنامج-اختصار-على-سطح-المكتب">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-اذا-لم-يوجد-للبرنامج-اختصار-على-سطح-المكتب" data-numberify>ثانيا: إذا لم يوجد للبرنامج اختصار على سطح المكتب:&lt;a class="anchor ms-1" href="#ثانيا-اذا-لم-يوجد-للبرنامج-اختصار-على-سطح-المكتب">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بالدخول الى هذا المسار عن طريق اضافته في شريط العنوان:
 C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
@@ -5886,18 +5888,18 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/8638.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/8638.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>أفضل طرق تحويل الصور لأيقونات</title><link>https://yshalsager.com/ar/posts/convert-pictures-to-icons/</link><pubDate>Fri, 27 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/convert-pictures-to-icons/</guid><description>&lt;p>قد نحتاج في بعض الأحيان الى انشاء أيقونات خاصة بنا، أو نرغب في تحويل صورنا الى أيقونات، بالطبع تتعدد الطرق وتختلف البرامج المستخدمة، لذا حاولت عزيزي القارئ أن أقدم الملخص لأفضل طرق صور لأيقونات.&lt;/p>
-&lt;h2 id="اولا-عن-طريق-برنامج-quick-any2ico" data-numberify>أولا: عن طريق برنامج Quick Any2Ico&lt;a class="anchor ms-1 d-none" href="#اولا-عن-طريق-برنامج-quick-any2ico">#&lt;/a>&lt;/h2>
+&lt;h2 id="اولا-عن-طريق-برنامج-quick-any2ico" data-numberify>أولا: عن طريق برنامج Quick Any2Ico&lt;a class="anchor ms-1" href="#اولا-عن-طريق-برنامج-quick-any2ico">&lt;/a>&lt;/h2>
 &lt;p>هو برنامج صغير وسهل الاستخدام فضلا أنه لا يحتاج إلى التثبيت، سوف يفيدك كثيرا كلما احتجت إلى تحويل صورك الخاصة إلى أيقونات، ويسمح لك بالحصول على الصور الموجودة داخل البرامج والألعاب.&lt;/p>
 &lt;p>قم بتحميل البرنامج من &lt;a href="http://www.carifred.com/quick_any2ico/" target="_blank" rel="noopener noreferrer">موقعه الرسمي من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
 &lt;p>قم باختيار الايقونة من Select destination icon ثم حدد الدقة التي تريدها واضغط Convert It.&lt;/p>
-&lt;h2 id="ثانيا-عن-طريق-زر-الفارة-الايمن-وبرنامج-xnshellex" data-numberify>ثانيا: عن طريق زر الفأرة الأيمن وبرنامج XnShellEx:&lt;a class="anchor ms-1 d-none" href="#ثانيا-عن-طريق-زر-الفارة-الايمن-وبرنامج-xnshellex">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-عن-طريق-زر-الفارة-الايمن-وبرنامج-xnshellex" data-numberify>ثانيا: عن طريق زر الفأرة الأيمن وبرنامج XnShellEx:&lt;a class="anchor ms-1" href="#ثانيا-عن-طريق-زر-الفارة-الايمن-وبرنامج-xnshellex">&lt;/a>&lt;/h2>
 &lt;p>هو برنامج صغير الحجم كبير الإمكانيات مصمم خصيصا لعرض أي نوع من الصور وتحويل صيغ الصور المختلفة، كما يسمح بتحرير الصور (اقتصاص، التناوب، وإعادة تلوين، الخ) وكل هذا عن طريق القائمة الخاصة به التي تستطيع الوصول اليها من قائمة زر الفأرة الأيمن بعد تثبيت البرنامج.&lt;/p>
 &lt;p>قم بتحميل البرنامج من &lt;a href="http://www.xnview.com/en/xnshell/" target="_blank" rel="noopener noreferrer">موقعه الرسمي من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="2" src="https://yshalsager.com/ar/posts/convert-pictures-to-icons/images/2015-635630855723627286-362.jpg" loading="lazy" width="500" height="640" />
 &lt;/picture>
 &lt;/p>
 &lt;p>قم بالضغط بزر الفأرة الأيمن على الصورة المراد تحويلها، قف على قائمة البرنامج، اختر Convert قم باختيار الصيغة التي تود التحويل اليها (.ico) ثم اختر Convert.&lt;/p>
-&lt;h2 id="ثالثا-عن-طريق-خدمات-تحويل-الصيغ-على-الانترنت" data-numberify>ثالثا: عن طريق خدمات تحويل الصيغ على الانترنت:&lt;a class="anchor ms-1 d-none" href="#ثالثا-عن-طريق-خدمات-تحويل-الصيغ-على-الانترنت">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-عن-طريق-خدمات-تحويل-الصيغ-على-الانترنت" data-numberify>ثالثا: عن طريق خدمات تحويل الصيغ على الانترنت:&lt;a class="anchor ms-1" href="#ثالثا-عن-طريق-خدمات-تحويل-الصيغ-على-الانترنت">&lt;/a>&lt;/h2>
 &lt;p>توجد العديد من المواقع التي تقدم لك خدمة تحويل الصور الى أيقونات، ولك أقدم لك أفضلها.&lt;/p>
 &lt;ol>
 &lt;li>موقع &lt;a href="http://image.online-convert.com/convert-to-ico" target="_blank" rel="noopener noreferrer">online-convert.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/li>
@@ -5908,7 +5910,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/8205.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/8205.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>اختصارات لوحة المفاتيح التي تعمل مع جميع المتصفحات</title><link>https://yshalsager.com/ar/posts/browsers-shortcuts/</link><pubDate>Tue, 24 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/browsers-shortcuts/</guid><description>&lt;p>لدى كل متصفح عدد ضخم من اختصارات لوحة المفاتيح الشائعة، ولكن بالطبع تختلف من متصفح لآخر فإذا كنت تستخدم جوجل كروم سيختلف عن فايرفوكس أو انترنت اكسبلورر، في هذا الموضوع نقدم لك كل اختصارات لوحة المفاتيح التي تعمل مع جميع المتصفحات.&lt;/p>
-&lt;h2 id="اولا-اختصارات-التبويبات" data-numberify>أولا: اختصارات التبويبات&lt;a class="anchor ms-1 d-none" href="#اولا-اختصارات-التبويبات">#&lt;/a>&lt;/h2>
+&lt;h2 id="اولا-اختصارات-التبويبات" data-numberify>أولا: اختصارات التبويبات&lt;a class="anchor ms-1" href="#اولا-اختصارات-التبويبات">&lt;/a>&lt;/h2>
 &lt;p>&lt;strong>Ctrl+1-8&lt;/strong> التبديل بين التبويبات المفتوحة، العد يكون من اليسار لليمين.&lt;/p>
 &lt;p>&lt;strong>Ctrl+9&lt;/strong> الانتقال الى التبويب الأخير.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="1" src="https://yshalsager.com/ar/posts/browsers-shortcuts/images/2015-635628119962691079-269.png" loading="lazy" width="650" height="51" />
@@ -5924,14 +5926,14 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>&lt;strong>Ctrl+T&lt;/strong> فتح تبويب جديد.&lt;/p>
 &lt;p>&lt;strong>Ctrl+N&lt;/strong> فتح نافذة تصفح جديدة.&lt;/p>
 &lt;p>&lt;strong>Alt+F4&lt;/strong> إغلاق المتصفح.&lt;/p>
-&lt;h2 id="ثانيا-اختصارات-التنقل" data-numberify>ثانيا: اختصارات التنقل&lt;a class="anchor ms-1 d-none" href="#ثانيا-اختصارات-التنقل">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-اختصارات-التنقل" data-numberify>ثانيا: اختصارات التنقل&lt;a class="anchor ms-1" href="#ثانيا-اختصارات-التنقل">&lt;/a>&lt;/h2>
 &lt;p>&lt;strong>Alt+Left Arrow, Backspace&lt;/strong> الرجوع للخلف.&lt;/p>
 &lt;p>&lt;strong>Alt+Right Arrow, Shift+Backspace&lt;/strong> الانتقال الى الأمام.&lt;/p>
 &lt;p>&lt;strong>F5&lt;/strong> إعادة تحميل الصفحة الحالية.&lt;/p>
 &lt;p>&lt;strong>Ctrl+F5&lt;/strong> إعادة تحميل الصفحة الحالية مع تخطى ملفات الكاش (الملفات المؤقتة).
 &lt;strong>Escape&lt;/strong> إيقاف.&lt;/p>
 &lt;p>&lt;strong>Alt+Home&lt;/strong> فتح الصفحة الرئيسية.&lt;/p>
-&lt;h2 id="ثالثا-اختصارات-التكبير-والتصغير" data-numberify>ثالثا: اختصارات التكبير والتصغير&lt;a class="anchor ms-1 d-none" href="#ثالثا-اختصارات-التكبير-والتصغير">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-اختصارات-التكبير-والتصغير" data-numberify>ثالثا: اختصارات التكبير والتصغير&lt;a class="anchor ms-1" href="#ثالثا-اختصارات-التكبير-والتصغير">&lt;/a>&lt;/h2>
 &lt;p>&lt;strong>Ctrl&lt;/strong> + &lt;strong>+&lt;/strong> أو &lt;strong>Ctrl&lt;/strong> + &lt;strong>عجلة الماوس لأعلى&lt;/strong>- التكبير&lt;/p>
 &lt;p>&lt;strong>-&lt;/strong> أو &lt;strong>Ctrl&lt;/strong> + **عجلة الماوس لأسفل-**التصغير.&lt;/p>
 &lt;p>&lt;strong>Ctrl+0&lt;/strong> ارجاع الشاشة للحجم الطبيعي.&lt;/p>
@@ -5939,7 +5941,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="4" src="https://yshalsager.com/ar/posts/browsers-shortcuts/images/2015-635628122584582859-458.jpg" loading="lazy" width="705" height="335" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="رابعا-اختصارات-التحرك-داخل-الصفحات-scrolling" data-numberify>رابعا: اختصارات التحرك داخل الصفحات Scrolling&lt;a class="anchor ms-1 d-none" href="#رابعا-اختصارات-التحرك-داخل-الصفحات-scrolling">#&lt;/a>&lt;/h2>
+&lt;h2 id="رابعا-اختصارات-التحرك-داخل-الصفحات-scrolling" data-numberify>رابعا: اختصارات التحرك داخل الصفحات Scrolling&lt;a class="anchor ms-1" href="#رابعا-اختصارات-التحرك-داخل-الصفحات-scrolling">&lt;/a>&lt;/h2>
 &lt;p>&lt;strong>Space&lt;/strong>, &lt;strong>Page Down&lt;/strong> النزول لأسفل مقطع كامل.&lt;/p>
 &lt;p>&lt;strong>Shift+Space, Page Up&lt;/strong> الصعود لأعلى مقطع كامل.&lt;/p>
 &lt;p>&lt;strong>Home&lt;/strong> الانتقال لأعلى الصفحة.&lt;/p>
@@ -5948,11 +5950,11 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="5" src="https://yshalsager.com/ar/posts/browsers-shortcuts/images/2015-635628124531782821-178.png" loading="lazy" width="650" height="150" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="خامسا-اختصارات-شريط-العنوان" data-numberify>خامسا: اختصارات شريط العنوان&lt;a class="anchor ms-1 d-none" href="#خامسا-اختصارات-شريط-العنوان">#&lt;/a>&lt;/h2>
+&lt;h2 id="خامسا-اختصارات-شريط-العنوان" data-numberify>خامسا: اختصارات شريط العنوان&lt;a class="anchor ms-1" href="#خامسا-اختصارات-شريط-العنوان">&lt;/a>&lt;/h2>
 &lt;p>&lt;strong>Ctrl+L&lt;/strong>, &lt;strong>Alt+D&lt;/strong>, &lt;strong>F6&lt;/strong> الانتقال الى شريط العنوان.&lt;/p>
 &lt;p>&lt;strong>Ctrl+Enter&lt;/strong> بعد كتابة اسم الموقع يضيف هذا الاختصار www. و .com&lt;/p>
 &lt;p>&lt;strong>Alt+Enter&lt;/strong> فتح الموقع المكتوب في تبويب جديد.&lt;/p>
-&lt;h2 id="سادسا-اختصارات-البحث" data-numberify>سادسا: اختصارات البحث&lt;a class="anchor ms-1 d-none" href="#سادسا-اختصارات-البحث">#&lt;/a>&lt;/h2>
+&lt;h2 id="سادسا-اختصارات-البحث" data-numberify>سادسا: اختصارات البحث&lt;a class="anchor ms-1" href="#سادسا-اختصارات-البحث">&lt;/a>&lt;/h2>
 &lt;p>&lt;strong>Ctrl+K&lt;/strong>, &lt;strong>Ctrl+E&lt;/strong> الانتقال الى شريط البحث (الاختصار الثاني لا يعمل في انترنت اكسبلورر).&lt;/p>
 &lt;p>&lt;strong>Ctrl+F&lt;/strong>, &lt;strong>F3&lt;/strong> &lt;strong>البحث داخل الصفحة المفتوحة.&lt;/strong>
 &lt;strong>Ctrl+G&lt;/strong>, &lt;strong>F3&lt;/strong> الانتقال الى نتيجة البحث التالية (في البحث داخل الصفحة).&lt;/p>
@@ -5960,12 +5962,12 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="6" src="https://yshalsager.com/ar/posts/browsers-shortcuts/images/2015-635628124900847683-84.jpg" loading="lazy" width="705" height="335" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="سابعا-اختصارات-السجل-والمفضلات" data-numberify>سابعا: اختصارات السجل والمفضلات&lt;a class="anchor ms-1 d-none" href="#سابعا-اختصارات-السجل-والمفضلات">#&lt;/a>&lt;/h2>
+&lt;h2 id="سابعا-اختصارات-السجل-والمفضلات" data-numberify>سابعا: اختصارات السجل والمفضلات&lt;a class="anchor ms-1" href="#سابعا-اختصارات-السجل-والمفضلات">&lt;/a>&lt;/h2>
 &lt;p>&lt;strong>Ctrl+H&lt;/strong> فتح السجل.&lt;/p>
 &lt;p>&lt;strong>Ctrl+J&lt;/strong> فتح سجل التحميلات.&lt;/p>
 &lt;p>&lt;strong>Ctrl+D&lt;/strong> إضافة الموقع الحالي للمفضلات.&lt;/p>
 &lt;p>&lt;strong>Ctrl+Shift+Del&lt;/strong> فتح نافذة محو بيانات التصفح,&lt;/p>
-&lt;h2 id="ثامنا-اختصارات-اخرى" data-numberify>ثامنا: اختصارات أخرى&lt;a class="anchor ms-1 d-none" href="#ثامنا-اختصارات-اخرى">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثامنا-اختصارات-اخرى" data-numberify>ثامنا: اختصارات أخرى&lt;a class="anchor ms-1" href="#ثامنا-اختصارات-اخرى">&lt;/a>&lt;/h2>
 &lt;p>&lt;strong>Ctrl+P&lt;/strong> طباعة الصفحة الحالية.&lt;/p>
 &lt;p>&lt;strong>Ctrl+S&lt;/strong> حفظ الصفحة الحالية الى الجهاز.&lt;/p>
 &lt;p>&lt;strong>Ctrl+U&lt;/strong> عرض مصدر الصفحة (لا تعمل في انترنت اكسبلورر).&lt;/p>
@@ -5977,25 +5979,28 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/7918.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/7918.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>بالفيديو.. إلغاء البحث عبر الإنترنت في الويندوز 10</title><link>https://yshalsager.com/ar/posts/windows-10-disable-web-search/</link><pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-disable-web-search/</guid><description>&lt;p>يستعرض الفيديو شرحا لكيفية إلغاء البحث عبر الإانترنت في الويندوز 10 والتي تسبب بعض المشاكل للمستخدمين .&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/Mto0zzqhbAY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Mto0zzqhbAY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="الغاء البحث عبر الانترنت في الويندوز 10"
+>&lt;/iframe>
 &lt;/div>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/7567.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/7567.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>بالفيديو.. تعرف على وضع توفير الطاقة فى ويندوز 10</title><link>https://yshalsager.com/ar/posts/windows-10-battery-saver/</link><pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-battery-saver/</guid><description>&lt;p>تعرفنا في الدرس السابق من سلسلة دروس ويندوز 10 على خفايا وأسرار ميزة الوصول السريع، واليوم في الدرس الثالث عشر سنتعرف على إحدى المميزات الجديدة بويندوز 10 ألا وهي وضع توفير الطاقة.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/0YNJzy5Istk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0YNJzy5Istk?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="تعرف على وضع توفير الطاقة فى ويندوز 10"
+>&lt;/iframe>
 &lt;/div>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/7568.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/7568.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>بالفيديو.. طريقة تخطى شاشة تسجيل الدخول في ويندوز 10</title><link>https://yshalsager.com/ar/posts/windows-10-skip-login-screen/</link><pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-skip-login-screen/</guid><description>&lt;p>تعرفنا في الدرس السابق من سلسلة دروس ويندوز 10 على كيفية إعادة اسم My Computer بدلا من This PC، واليوم في الدرس التاسع سنتعرف على طريقة تخطى شاشة تسجيل الدخول في ويندوز 10.&lt;/p>
 &lt;p>تقوم هذه الطريقة بتسجيل الدخول التلقائي بالنيابة عن المستخدم لتسهيل عملية تسجيل الدخول وزيادة سرعتها، ولكن لا يفضل تطبيقها إلا على الحاسب الشخصي لأنها ستتيح الدخول إلى الويندوز بدون ادخال كلمة المرور.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/dy5Y9SvZtRI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dy5Y9SvZtRI?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="تخطى شاشة تسجيل 9 الدخول"
+>&lt;/iframe>
 &lt;/div>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/7564.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/7564.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>كيف تسترجع مفتاح نسختك الأصلية من الويندوز</title><link>https://yshalsager.com/ar/posts/windows-recover-original-keys/</link><pubDate>Thu, 19 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-recover-original-keys/</guid><description>&lt;p>بالتأكيد قد تحتاج يوما ما لإعادة تثبيت نسخة الويندوز على جهازك ولكن المشكلة تكون إذا كانت النسخة المثبتة على جهازك هي النسخة الأصلية التي جاء بها الجهاز، نقدم لك عزيزي القارئ طريقة استرجاع مفتاح نسختك الأصلية من الويندوز Serial Key.&lt;/p>
-&lt;h2 id="اين-يمكن-ان-تجد-مفتاح-نسخة-الويندوز" data-numberify>أين يمكن أن تجد مفتاح نسخة الويندوز؟&lt;a class="anchor ms-1 d-none" href="#اين-يمكن-ان-تجد-مفتاح-نسخة-الويندوز">#&lt;/a>&lt;/h2>
+&lt;h2 id="اين-يمكن-ان-تجد-مفتاح-نسخة-الويندوز" data-numberify>أين يمكن أن تجد مفتاح نسخة الويندوز؟&lt;a class="anchor ms-1" href="#اين-يمكن-ان-تجد-مفتاح-نسخة-الويندوز">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>مخزن على برنامج داخل جهازك، سواء كان برنامج وضعته الشركة المصنعة أم داخل ملفات الريجسترى registry.&lt;/li>
 &lt;li>مطبوع على ملصق، غالبا ما يكون أسفل اللاب توب، ويكون هذا الملصق موجود بكثره مع اجهزه اللاب توب التي تعمل بنظام ويندوز 7.&lt;/li>
@@ -6003,7 +6008,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="1" src="https://yshalsager.com/ar/posts/windows-recover-original-keys/images/2015-635623856464342583-434.jpg" loading="lazy" width="650" height="425" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="كيف-يمكن-استرجاع-مفتاح-النسخة" data-numberify>كيف يمكن استرجاع مفتاح النسخة؟&lt;a class="anchor ms-1 d-none" href="#كيف-يمكن-استرجاع-مفتاح-النسخة">#&lt;/a>&lt;/h2>
+&lt;h2 id="كيف-يمكن-استرجاع-مفتاح-النسخة" data-numberify>كيف يمكن استرجاع مفتاح النسخة؟&lt;a class="anchor ms-1" href="#كيف-يمكن-استرجاع-مفتاح-النسخة">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بتحميل برنامج ProduKey من &lt;a href="http://www.nirsoft.net/utils/product_cd_key_viewer.html" target="_blank" rel="noopener noreferrer">موقعه الرسمي&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>، البرنامج متاح باللغة العربية.&lt;/li>
 &lt;li>بمجرد أن يفتح البرنامج ستظهر لك المنتجات المثبتة على جهازك وكود المنتج ومفتاح التسجيل الخاص به.&lt;/li>
@@ -6013,19 +6018,22 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/7584.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/7584.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>بالفيديو..كيفية التحكم في شريط البحث وزر المهام في ويندوز 10</title><link>https://yshalsager.com/ar/posts/windows-10-search-bar/</link><pubDate>Thu, 12 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-search-bar/</guid><description>&lt;p>تعرفنا في الدرس السابق من سلسلة دروس ويندوز 10 على طريقة ازالة العلامة المائية من ويندوز 10، واليوم في الدرس الخامس سنتعرف على كيفية التحكم في شريط البحث وزر المهام في ويندوز 10.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/NIMn65UcD5c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/NIMn65UcD5c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="التحكم فى شريط البحث وزر المهام"
+>&lt;/iframe>
 &lt;/div>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="https://aitmag.ahram.org.eg/News/7112.aspx" target="_blank" rel="noopener noreferrer">https://aitmag.ahram.org.eg/News/7112.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>بالفيديو.. طريقة إزالة العلامة المائية من ويندوز 10</title><link>https://yshalsager.com/ar/posts/windows-10-removing-watermark/</link><pubDate>Thu, 05 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-removing-watermark/</guid><description>&lt;p>تعرفنا في الدرس السابق من سلسلة دروس ويندوز 10 على طريقة الترقية الى ويندوز 10 بدون فورمات، واليوم في الدرس الرابع سنتعرف على طريقة ازالة العلامة المائية من ويندوز 10.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/lQiiCyBhMts" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/lQiiCyBhMts?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="الترقية بدون فورمات"
+>&lt;/iframe>
 &lt;/div>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/6688.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/6688.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>بالفيديو.. طريقة الترقية إلى ويندوز 10 بدون فورمات</title><link>https://yshalsager.com/ar/posts/windows-10-upgrade-without-format/</link><pubDate>Thu, 05 Mar 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-upgrade-without-format/</guid><description>&lt;p>تعرفنا في الدرس السابق من سلسلة دروس ويندوز 10 على طريقة تثبيت الويندوز، واليوم في الدرس الثالث سنتعرف على طريقة الترقية الى ويندوز 10 بدون فورمات أو فقد أي بيانات.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/nfYWmoymtv0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nfYWmoymtv0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="المقدمة وطريقة التحميل ويندوز 10"
+>&lt;/iframe>
 &lt;/div>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
@@ -6058,9 +6066,10 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>وبجانب الخيارات التقليدية في قائمة إبدأ، فقد قامت مايكروسوفت بدمج واجهة المربعات التي ظهرت مع &amp;ldquo;ويندوز 8′′ في القائمة، مع توفير إمكانية كاملة للمستخدم للتحكم بحجم تلك الواجهة.&lt;/p>
 &lt;p>وحسنت مايكروسوفت كذلك من خيارات البحث عبر قائمة إبدا، حيث أصبح بالإمكان البحث عبر الإنترنت من خلال صندوق البحث بها، والحصول على نتائج البحث بداخل نفس القائمة.&lt;/p>
 &lt;p>هذا، وأضافت مايكروسوفت للنظام زر جديد، يحمل اسم Task View، يسهل من عملية التنقل بين النوافذ والتطبيقات العاملة، وهو الزر الذي أكدت الشركة أن يعزز من مميزات تعدد المهام في نظام &amp;ldquo;ويندوز 10′′.&lt;/p>
-&lt;h2 id="المقدمة-وطريقة-التحميل-ويندوز-10" data-numberify>المقدمة وطريقة التحميل ويندوز 10&lt;a class="anchor ms-1 d-none" href="#المقدمة-وطريقة-التحميل-ويندوز-10">#&lt;/a>&lt;/h2>
+&lt;h2 id="المقدمة-وطريقة-التحميل-ويندوز-10" data-numberify>المقدمة وطريقة التحميل ويندوز 10&lt;a class="anchor ms-1" href="#المقدمة-وطريقة-التحميل-ويندوز-10">&lt;/a>&lt;/h2>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/nfYWmoymtv0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nfYWmoymtv0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="المقدمة وطريقة التحميل ويندوز 10"
+>&lt;/iframe>
 &lt;/div>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
@@ -6159,7 +6168,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/4553.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/4553.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>أسهل طريقة لعمل رووت ببرنامج Kingo Android Root</title><link>https://yshalsager.com/ar/posts/android-kingo-root/</link><pubDate>Sat, 24 Jan 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/android-kingo-root/</guid><description>&lt;p>يعتبر برنامج Kingo Android Root من أسهل برامج الكمبيوتر المتخصصة في عمل رووت لغالبية هواتف الأندرويد وبطريقة آمنة جدا تنعدم فيها نسبة الخطر، تم تجربة هذا البرنامج على العديد من الأجهزة وكانت النتائج أن تمت العملية بنجاح تام.
 سبق أن تكلمنا بالتفصيل عن الرووت في موضوع: &amp;ldquo;&amp;ldquo;تعرف على الرووت في نظام الأندرويد&amp;rdquo;.&lt;/p>
-&lt;h2 id="مميزات-البرنامج" data-numberify>مميزات البرنامج&lt;a class="anchor ms-1 d-none" href="#مميزات-البرنامج">#&lt;/a>&lt;/h2>
+&lt;h2 id="مميزات-البرنامج" data-numberify>مميزات البرنامج&lt;a class="anchor ms-1" href="#مميزات-البرنامج">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>يدعم مجموعة كبيرة جدا من الهواتف.&lt;/li>
 &lt;li>البرنامج مجانا تماما.&lt;/li>
@@ -6175,7 +6184,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;li>تأكد من فتح &amp;ldquo;تصحيح أخطاء USB &amp;quot; &amp;ldquo;‘USB Debugging&amp;rdquo;.&lt;/li>
 &lt;li>البرنامج يحتاج الى وجود اتصال بالإنترنت.&lt;/li>
 &lt;/ul>
-&lt;h2 id="شرح-البرنامج" data-numberify>شرح البرنامج&lt;a class="anchor ms-1 d-none" href="#شرح-البرنامج">#&lt;/a>&lt;/h2>
+&lt;h2 id="شرح-البرنامج" data-numberify>شرح البرنامج&lt;a class="anchor ms-1" href="#شرح-البرنامج">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بتحميل البرنامج &lt;a href="http://www.kingoapp.com/" target="_blank" rel="noopener noreferrer">من الموقع الرسمي&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/li>
 &lt;li>قم بتثبيت البرنامج، ثم قم بتوصيل هاتفك وافتح البرنامج.&lt;/li>
@@ -6243,7 +6252,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/4350.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/4350.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>طرق إزالة الرووت من أي هاتف أندرويد</title><link>https://yshalsager.com/ar/posts/android-unroot/</link><pubDate>Tue, 20 Jan 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/android-unroot/</guid><description>&lt;p>بعدما تقوم بعمل رووت لهاتفك الأندرويد قد تحتاج الى الذهاب الى مركز الصيانة أو تثبيت تحديث رسمي وفى هذه الحالة لابد من إزالة الرووت كاملا من هاتفك لتتمكن من استرجاع الضمان الخاص بهاتفك.&lt;/p>
 &lt;p>نقدم لك عزيزي القارئ طريقتين لإزالة الرووت كاملا من هاتفك الأندرويد.&lt;/p>
-&lt;h2 id="الطريقة-الاولى-بواسطة-تطبيق-supersu" data-numberify>الطريقة الأولى: بواسطة تطبيق SuperSU&lt;a class="anchor ms-1 d-none" href="#الطريقة-الاولى-بواسطة-تطبيق-supersu">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الاولى-بواسطة-تطبيق-supersu" data-numberify>الطريقة الأولى: بواسطة تطبيق SuperSU&lt;a class="anchor ms-1" href="#الطريقة-الاولى-بواسطة-تطبيق-supersu">&lt;/a>&lt;/h2>
 &lt;p>وهو التطبيق المسئول عن إدارة صلاحيات الرووت إذا لم يكن مثبتا على جهازك قم بتحميله &lt;a href="https://play.google.com/store/apps/details?id=eu.chainfire.supersu" target="_blank" rel="noopener noreferrer">من متجر جوجل بلاي من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
 &lt;ol>
 &lt;li>قم بالدخول على التطبيق.&lt;/li>
@@ -6258,7 +6267,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;li>قم بإعادة تشغيل هاتفك.&lt;/li>
 &lt;li>إذا وجدت برنامج SuperSu لايزال موجودا قم بإلغاء تثبيته.&lt;/li>
 &lt;/ol>
-&lt;h2 id="الطريقة-الثانية-بواسطة-تطبيق-es-file-explorer" data-numberify>الطريقة الثانية: بواسطة تطبيق Es File Explorer&lt;a class="anchor ms-1 d-none" href="#الطريقة-الثانية-بواسطة-تطبيق-es-file-explorer">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الثانية-بواسطة-تطبيق-es-file-explorer" data-numberify>الطريقة الثانية: بواسطة تطبيق Es File Explorer&lt;a class="anchor ms-1" href="#الطريقة-الثانية-بواسطة-تطبيق-es-file-explorer">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بتحميل التطبيق &lt;a href="https://play.google.com/store/apps/details?id=com.estrongs.android.pop" target="_blank" rel="noopener noreferrer">من جوجل بلاي&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> ثم قم بتثبيته.&lt;/li>
 &lt;li>افتح التطبيق ثم قم بالضغط على زر القائمة.&lt;/li>
@@ -6282,7 +6291,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/4250.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/4250.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>طريقة عمل بريد الكتروني مؤقت</title><link>https://yshalsager.com/ar/posts/temporary-mail/</link><pubDate>Sun, 18 Jan 2015 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/temporary-mail/</guid><description>&lt;p>نحتاج في كثير من الأحيان الى التسجيل في بعض المواقع ولكن المشكلة تكمن في الرسائل الدعائية التي تصلنا بعد التسجيل في هذه المواقع، أو لا نريد التسجيل بواسطة البريد الالكتروني الشخصي فيكون الحل هو انشاء بريد الكتروني جديد.&lt;/p>
 &lt;p>نقدم لك طريقة عمل بريد الكتروني مؤقت لاستخدامه عند التسجيل في المواقع.&lt;/p>
-&lt;h2 id="ما-هو-البريد-الموقت" data-numberify>ما هو البريد المؤقت؟&lt;a class="anchor ms-1 d-none" href="#ما-هو-البريد-الموقت">#&lt;/a>&lt;/h2>
+&lt;h2 id="ما-هو-البريد-الموقت" data-numberify>ما هو البريد المؤقت؟&lt;a class="anchor ms-1" href="#ما-هو-البريد-الموقت">&lt;/a>&lt;/h2>
 &lt;p>هو بريد إلكتروني تنتهي صلاحيته بعد مدة معينة من إنشائه ويمكنك استخدامه خلال هذه المدة. أيضا يمكنك استخدامه عند الاشتراك في أي موقع لكي لا تضطر إلى وضع بريدك الشخصي ليمتلئ فيما بعد بالرسائل الدعائية المزعجة، تنتهي صلاحية استخدام البريد بعد إنشائه بمدة وقدرها 45 دقيقة قابلة للتمديد، وبعد انتهاء مدة صلاحية البريد المؤقت الذي قمت بإنشائه فإن جميع رسائلك سوف يتم حذفها من ذلك البريد لكي لا يتمكن أي مستخدم آخر من الاطلاع عليها في حال تم إنشاء بريد باستخدام نفس الاسم الذي قمت أنت باختياره سابقاً.&lt;/p>
 &lt;p>أولا: قم بالدخول الى رابط الموقع &lt;a href="http://www.mohmal.com/" target="_blank" rel="noopener noreferrer">من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>ثانيا: قم بالضغط على إنشاء بريد عشوائي.&lt;/p>
@@ -6365,7 +6374,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;ol start="7">
 &lt;li>انتظر حتى ينتهي البرنامج من النسخ الاحتياطي ويجب أن تتوافر لديك مساحة 300 ميجا أو أكثر فارغة للتخزين.&lt;/li>
 &lt;/ol>
-&lt;h2 id="طريقة-استرجاع-النسخة-الاحتياطية" data-numberify>طريقة استرجاع النسخة الاحتياطية&lt;a class="anchor ms-1 d-none" href="#طريقة-استرجاع-النسخة-الاحتياطية">#&lt;/a>&lt;/h2>
+&lt;h2 id="طريقة-استرجاع-النسخة-الاحتياطية" data-numberify>طريقة استرجاع النسخة الاحتياطية&lt;a class="anchor ms-1" href="#طريقة-استرجاع-النسخة-الاحتياطية">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>
 &lt;p>ستتبع نفس الخطوات السابقة من 1 الى 4.&lt;/p>
@@ -6386,28 +6395,28 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
 &lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/3235.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/3235.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>4 طرق لمعرفة إذا كان الراوتر الخاص بك مخترقًا أم لا؟</title><link>https://yshalsager.com/ar/posts/4-ways-to-know-if-your-router-is-hacked/</link><pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/4-ways-to-know-if-your-router-is-hacked/</guid><description>&lt;p>مع انتشار استخدام الشبكات اللاسلكية بالمنازل تزداد المخاطر التي تكمن في معرفة كلمة السر أو اختراق هذه الشبكات مما قد يؤدى إلى تحميل تكاليف إضافية للإنترنت وخصوصا المشتركين في الأنظمة محدودة التحميل ولذلك نقدم لك 4 طرق لمعرفة إذا كان الراوتر الواى فاى الخاص بك مخترق أم لا.&lt;/p>
-&lt;h2 id="الطريقة-الاولى" data-numberify>الطريقة الأولى&lt;a class="anchor ms-1 d-none" href="#الطريقة-الاولى">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الاولى" data-numberify>الطريقة الأولى&lt;a class="anchor ms-1" href="#الطريقة-الاولى">&lt;/a>&lt;/h2>
 &lt;p>يوجد عزيزي القارئ عدة لمبات إضاءة بالراوتر احداها هي الخاصة بالواى فاى فإذا لاحظت أن الإضاءة تظهر وتختفي في الوقت الذي لا يكون الإنترنت فيه مستخدما من أي جهاز بالمنزل (هاتف ذكي – لاب توب – حاسب شخصي) فقد تكون هذه إشارة إلى أن هناك أحدا غيرك يستخدم الإنترنت الخاص بك.&lt;/p>
-&lt;h2 id="الطريقة-الثانية" data-numberify>الطريقة الثانية&lt;a class="anchor ms-1 d-none" href="#الطريقة-الثانية">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الثانية" data-numberify>الطريقة الثانية&lt;a class="anchor ms-1" href="#الطريقة-الثانية">&lt;/a>&lt;/h2>
 &lt;p>عن طريق الدخول الى صفحة اعدادات الراوتر والتي غالبا ما تكون 192.168.1.1 (تجدها مكتوبة على علبة الراوتر)&lt;/p>
 &lt;p>بعد الدخول الى الصفحة وكتابة اسم المستخدم وكلمة السر قم بالانتقال الى التبويب Status ستجد في القسم Wireless عدد الأجهزة المتصلة بالواى فاى وعناوين MAC Address الخاصة بهم.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="3" src="https://yshalsager.com/ar/posts/4-ways-to-know-if-your-router-is-hacked/images/3.png" loading="lazy" width="705" height="355" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="الطريقة-الثالثة" data-numberify>الطريقة الثالثة&lt;a class="anchor ms-1 d-none" href="#الطريقة-الثالثة">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الثالثة" data-numberify>الطريقة الثالثة&lt;a class="anchor ms-1" href="#الطريقة-الثالثة">&lt;/a>&lt;/h2>
 &lt;p>عن طريق برنامج Who Is On My WiFi وهو برنامج مجاني حجمه 4 ميجا يقوم بالكشف عن جميع المتصلين بالراوتر الخاص بك، يتميز هذا البرنامج بأنه يقوم بعرض الأجهزة المتصلة مع عنواني الاى بي والماك، ثم يقوم بعرض وقت وتاريخ اتصال الجهاز وإذا كان متصلا حاليا أم لا، ليس هذا فحسب بل انه يمكنك من تحديد الأجهزة الخاصة بك كأجهزة معروفة وحينها سيقوم بإعطائك تنبيه إذا قام جهاز غير معروف بالاتصال بالشبكة.&lt;/p>
 &lt;p>رابط تحميل البرنامج: &lt;a href="http://www.whoisonmywifi.com/windows/" target="_blank" rel="noopener noreferrer">من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="4" src="https://yshalsager.com/ar/posts/4-ways-to-know-if-your-router-is-hacked/images/4.png" loading="lazy" width="705" height="355" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="الطريقة-الرابعة" data-numberify>الطريقة الرابعة&lt;a class="anchor ms-1 d-none" href="#الطريقة-الرابعة">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الرابعة" data-numberify>الطريقة الرابعة&lt;a class="anchor ms-1" href="#الطريقة-الرابعة">&lt;/a>&lt;/h2>
 &lt;p>باستخدام برنامج Fing -Network Tools للهواتف العاملة بنظام أندرويد:&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="5" src="https://yshalsager.com/ar/posts/4-ways-to-know-if-your-router-is-hacked/images/5.png" loading="lazy" width="480" height="801" />
 &lt;/picture>
 &lt;/p>
 &lt;p>هذالبرنامَجمج شبيه ببرنامج Who Is On My WiFi ولكنه يختلف عنه في أنه يستطيع جلب أسماء الهواتف المتصلة بالراوتر ويحددها تحديدا دقيقا.&lt;/p>
 &lt;p>لتحميالبرنامَجمج من &lt;a href="https://play.google.com/store/apps/details?id=com.overlook.android.fing" target="_blank" rel="noopener noreferrer">جوجل بلاي&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h2 id="ماذا-بعد-معرفة-ان-كان-راوتر-الواى-فاى-مخترقا-ام-لا" data-numberify>ماذا بعد معرفة إن كان راوتر الواى فاى مخترقا أم لا؟&lt;a class="anchor ms-1 d-none" href="#ماذا-بعد-معرفة-ان-كان-راوتر-الواى-فاى-مخترقا-ام-لا">#&lt;/a>&lt;/h2>
+&lt;h2 id="ماذا-بعد-معرفة-ان-كان-راوتر-الواى-فاى-مخترقا-ام-لا" data-numberify>ماذا بعد معرفة إن كان راوتر الواى فاى مخترقا أم لا؟&lt;a class="anchor ms-1" href="#ماذا-بعد-معرفة-ان-كان-راوتر-الواى-فاى-مخترقا-ام-لا">&lt;/a>&lt;/h2>
 &lt;p>طبعا عزيزي القارئ الحل الأفضل في هذه الحال هو تغيير كلمة السر في الحال مع تغيير نوعها إلى WPA2 وإغلاق WPS.&lt;/p>
 &lt;p>&lt;strong>نصائح لعمل كلمة سر قوية&lt;/strong>&lt;/p>
 &lt;ol>
@@ -6438,7 +6447,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;li>الشرائط الدعائية الخاصة بالمتصفحات.&lt;/li>
 &lt;li>برامج وإضافات تغيير الصفحة الرئيسية للمتصفح.&lt;/li>
 &lt;/ul>
-&lt;h2 id="طريقة-ازالة-البرامج" data-numberify>طريقة إزالة البرامج&lt;a class="anchor ms-1 d-none" href="#طريقة-ازالة-البرامج">#&lt;/a>&lt;/h2>
+&lt;h2 id="طريقة-ازالة-البرامج" data-numberify>طريقة إزالة البرامج&lt;a class="anchor ms-1" href="#طريقة-ازالة-البرامج">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بتحميل البرنامج من الرابط بالأعلى.&lt;/li>
 &lt;li>قم بفتح البرنامج كمسئول (Run As Administrator).&lt;/li>
@@ -6480,7 +6489,8 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>وبهذا تكون قد اكتملت عملية التنظيف بنجاح.&lt;/p>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
-&lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/1925.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/1925.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>التخلص من الإعلانات المزعجة على الإنترنت</title><link>https://yshalsager.com/ar/posts/removing-ads-from-internet/</link><pubDate>Sun, 26 Oct 2014 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/removing-ads-from-internet/</guid><description>&lt;h2 id="اولا-كيفية-التعرف-على-روابط-التحميل-المزيفة" data-numberify>أولا: كيفية التعرف على روابط التحميل المزيفة&lt;a class="anchor ms-1 d-none" href="#اولا-كيفية-التعرف-على-روابط-التحميل-المزيفة">#&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/1925.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/1925.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>التخلص من الإعلانات المزعجة على الإنترنت</title><link>https://yshalsager.com/ar/posts/removing-ads-from-internet/</link><pubDate>Sun, 26 Oct 2014 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/removing-ads-from-internet/</guid><description>
+&lt;h2 id="اولا-كيفية-التعرف-على-روابط-التحميل-المزيفة" data-numberify>أولا: كيفية التعرف على روابط التحميل المزيفة&lt;a class="anchor ms-1" href="#اولا-كيفية-التعرف-على-روابط-التحميل-المزيفة">&lt;/a>&lt;/h2>
 &lt;p>عندما نقوم بالدخول على معظم مواقع التحميل أو عندما نبحث عن البرامج المجانية نجد العديد من أزرار التحميل كما بالصورة، هذه الأزرار تكون ملونة وكبيرة ولامعة حتى تخدع المستخدم، وليس هذا فقط بل وتجد مكتوب عليها Start Download/Free Download/Download Now عند الضغط على أحد هذه الأزرار يقوم الموقع بتحميل ملف غير الملف المطلوب وغالبا ما يكون ملفًا ملغمًا ذا امتدادين (.rar.exe) مثلا.&lt;/p>
 &lt;p>هذه الأزرار المزيفة ما هي إلا عبارة عن إعلانات لربح المال عن طريق الضغط عليها (تخيل معى كم عدد الأشخاص الذين يضغطون على مثل هذه الأزرار كل يوم مما يدر أموال طائلة على الأشخاص الذين يضعون هذه الإعلانات).&lt;/p>
 &lt;p>للتمييز بين هذه الأزرار وأزرار التحميل الصحيحة لاحظ الرابط الذي سيظهر عندما تقف على زر التحميل:&lt;/p>
@@ -6489,7 +6499,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;/p>
 &lt;p>إذا وجدت كلمة AD في الرابط فأعلم أنه إعلان على الفور.&lt;/p>
 &lt;p>غالبا يجب أن يقودك الرابط الأصلي إلى الملف المرفوع على نفس الموقع.&lt;/p>
-&lt;h2 id="ثانيا-البرامج-الدعايية-المدمجة-مع-البرامج-المحملة-من-الانترنت" data-numberify>ثانيا: البرامج الدعائية المدمجة مع البرامج المحملة من الإنترنت&lt;a class="anchor ms-1 d-none" href="#ثانيا-البرامج-الدعايية-المدمجة-مع-البرامج-المحملة-من-الانترنت">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثانيا-البرامج-الدعايية-المدمجة-مع-البرامج-المحملة-من-الانترنت" data-numberify>ثانيا: البرامج الدعائية المدمجة مع البرامج المحملة من الإنترنت&lt;a class="anchor ms-1" href="#ثانيا-البرامج-الدعايية-المدمجة-مع-البرامج-المحملة-من-الانترنت">&lt;/a>&lt;/h2>
 &lt;p>تقوم معظم البرامج المحملة من الانترنت بوضع اختيار افتراضي لتحميل برامج مساندة أخرى أو برامج موصى بها من قِبل الشركة (وهذه البرامج ما هي إلا برامج دعائية مزعجة ليس لها أي استخدام مفيد).&lt;/p>
 &lt;p>على سبيل المثال برنامج أدوبى فلاش:
 فعندما تقوم بتحميل البرنامج من الموقع الرسمي تجد انه بشكل افتراضي سيتم تحميل برنامج McAfee Security Scan Plusإذا لم تقم بإزالة هذا الاختيار سيتم تثبيت برنامجين على جهازك.
@@ -6497,14 +6507,14 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="4" src="https://yshalsager.com/ar/posts/removing-ads-from-internet/images/2014-635499180019128207-912.png" loading="lazy" width="705" height="355" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ثالثا-البرامج-المزعجة-المدمجة-مع-ملفات-البرامج" data-numberify>ثالثا: البرامج المزعجة المدمجة مع ملفات البرامج&lt;a class="anchor ms-1 d-none" href="#ثالثا-البرامج-المزعجة-المدمجة-مع-ملفات-البرامج">#&lt;/a>&lt;/h2>
+&lt;h2 id="ثالثا-البرامج-المزعجة-المدمجة-مع-ملفات-البرامج" data-numberify>ثالثا: البرامج المزعجة المدمجة مع ملفات البرامج&lt;a class="anchor ms-1" href="#ثالثا-البرامج-المزعجة-المدمجة-مع-ملفات-البرامج">&lt;/a>&lt;/h2>
 &lt;p>هذا النوع من البرامج المزعجة يقوم بتحميل شرائط وإضافات للمتصفحات والتي تقوم بدورها بعرض الإعلانات المزعجة داخل المتصفح ولعل أشهر هذه الأشرطة هو شريط ASK المزعج الذي يوجد في معظم البرامج.
 على سبيل المثال برنامج الجافا:&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="5" src="https://yshalsager.com/ar/posts/removing-ads-from-internet/images/2014-635499180135378207-537.png" loading="lazy" width="705" height="355" />
 &lt;/picture>
 &lt;/p>
 &lt;p>كما ذكرت من قبل تأكد من العلامات الموضوعة ولا تقم بضغط Next دون أن تقرأ المعلومات.&lt;/p>
-&lt;h2 id="رابعا-برامج-الكوديك-والوسايط" data-numberify>رابعا: برامج الكوديك والوسائط&lt;a class="anchor ms-1 d-none" href="#رابعا-برامج-الكوديك-والوسايط">#&lt;/a>&lt;/h2>
+&lt;h2 id="رابعا-برامج-الكوديك-والوسايط" data-numberify>رابعا: برامج الكوديك والوسائط&lt;a class="anchor ms-1" href="#رابعا-برامج-الكوديك-والوسايط">&lt;/a>&lt;/h2>
 &lt;p>احترس عزيزي القارئ كل الحذر من تحميل هذه البرامج بالكامل، فهذا النوع بالتحديد هو فيروسات وتروجان.&lt;/p>
 &lt;p>صور لهذا النوع:&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="6" src="https://yshalsager.com/ar/posts/removing-ads-from-internet/images/2014-635499180243346957-334.png" loading="lazy" width="705" height="355" />
@@ -6516,7 +6526,7 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="8" src="https://yshalsager.com/ar/posts/removing-ads-from-internet/images/2014-635499180515690707-569.png" loading="lazy" width="705" height="355" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="الحل-النهايي-لتجنب-كل-هذه-المشكلات" data-numberify>الحل النهائي لتجنب كل هذه المشكلات&lt;a class="anchor ms-1 d-none" href="#الحل-النهايي-لتجنب-كل-هذه-المشكلات">#&lt;/a>&lt;/h2>
+&lt;h2 id="الحل-النهايي-لتجنب-كل-هذه-المشكلات" data-numberify>الحل النهائي لتجنب كل هذه المشكلات&lt;a class="anchor ms-1" href="#الحل-النهايي-لتجنب-كل-هذه-المشكلات">&lt;/a>&lt;/h2>
 &lt;p>قم بتحميل إضافة Adblock Plusلمنع ظهور الإعلانات نهائيا:&lt;/p>
 &lt;ol>
 &lt;li>قم بالدخول الى موقع الإضافة &lt;a href="https://adblockplus.org/en/" target="_blank" rel="noopener noreferrer">من هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/li>
@@ -6529,19 +6539,20 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 &lt;p>هذا هو زر التحميل الحقيقي الوحيد الموجود بالموقع وباقي الأزرار قد اختفت لأنها مجرد إعلانات.&lt;/p>
 &lt;hr>
 &lt;p>هذا الموضوع نٌشر باﻷصل على موقع مجلة لغة العصر.&lt;/p>
-&lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/2007.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/2007.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>كيفية التحميل من موقع ميجا باستخدام إنترنت داونلود مانجر</title><link>https://yshalsager.com/ar/posts/download-from-mega-using-idm/</link><pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/download-from-mega-using-idm/</guid><description>&lt;h2 id="عيوب-نظام-التحميل-الحالي-بموقع-ميجا" data-numberify>عيوب نظام التحميل الحالي بموقع ميجا&lt;a class="anchor ms-1 d-none" href="#عيوب-نظام-التحميل-الحالي-بموقع-ميجا">#&lt;/a>&lt;/h2>
+&lt;p>&lt;a href="http://aitmag.ahram.org.eg/News/2007.aspx" target="_blank" rel="noopener noreferrer">http://aitmag.ahram.org.eg/News/2007.aspx&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p></description></item><item><title>كيفية التحميل من موقع ميجا باستخدام إنترنت داونلود مانجر</title><link>https://yshalsager.com/ar/posts/download-from-mega-using-idm/</link><pubDate>Thu, 16 Oct 2014 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/download-from-mega-using-idm/</guid><description>
+&lt;h2 id="عيوب-نظام-التحميل-الحالي-بموقع-ميجا" data-numberify>عيوب نظام التحميل الحالي بموقع ميجا&lt;a class="anchor ms-1" href="#عيوب-نظام-التحميل-الحالي-بموقع-ميجا">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>لا يمكنك استئناف التحميل في حالة فقدان الاتصال بالإنترنت لديك.&lt;/li>
 &lt;li>لا يمكنك الوصول لسرعة التحميل القصوى الخاصة بك.&lt;/li>
 &lt;/ul>
-&lt;h2 id="الطريقة-الاولى-التحميل-باستخدام-ميجا-داونلود-مانجر" data-numberify>الطريقة الأولى: التحميل باستخدام ميجا داونلود مانجر&lt;a class="anchor ms-1 d-none" href="#الطريقة-الاولى-التحميل-باستخدام-ميجا-داونلود-مانجر">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الاولى-التحميل-باستخدام-ميجا-داونلود-مانجر" data-numberify>الطريقة الأولى: التحميل باستخدام ميجا داونلود مانجر&lt;a class="anchor ms-1" href="#الطريقة-الاولى-التحميل-باستخدام-ميجا-داونلود-مانجر">&lt;/a>&lt;/h2>
 &lt;ol>
 &lt;li>قم بتحميل البرنام مج من هنا :&lt;a href="https://mega.co.nz/#!nU8GnQzT!0RaJAcxouaHqfYAh-kFLPQp3GkXxLRTjVkpKwC6GDH4" target="_blank" rel="noopener noreferrer">https://mega.co.nz/#&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/li>
 &lt;li>بعد انتهاء التحميل قم بتثبيت البرنامج وتشغيله.&lt;/li>
 &lt;li>قم بإضافة رابط الملف الذى تريد تحميله عن طريق الزر add links.&lt;/li>
 &lt;li>سيظهر الملف المراد تحميله، اضغط OK ثم Start لبدء التحميل.&lt;/li>
 &lt;/ol>
-&lt;h2 id="الطريقة-الثانية-التحميل-باستخدام-انترنت-داونلود-مانجر" data-numberify>الطريقة الثانية: التحميل باستخدام إنترنت داونلود مانجر&lt;a class="anchor ms-1 d-none" href="#الطريقة-الثانية-التحميل-باستخدام-انترنت-داونلود-مانجر">#&lt;/a>&lt;/h2>
+&lt;h2 id="الطريقة-الثانية-التحميل-باستخدام-انترنت-داونلود-مانجر" data-numberify>الطريقة الثانية: التحميل باستخدام إنترنت داونلود مانجر&lt;a class="anchor ms-1" href="#الطريقة-الثانية-التحميل-باستخدام-انترنت-داونلود-مانجر">&lt;/a>&lt;/h2>
 &lt;p>تأخذ هذه الطريقة بعض الوقت، ولكن التحميل يكون بالسرعة القصوى.
 عيب هذه الطريقة:أن التحميل لا يمكن إيقافه(pause).&lt;/p>
 &lt;ol>

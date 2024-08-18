@@ -1,5 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>برمجيات حرة on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/categories/%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA-%D8%AD%D8%B1%D8%A9/</link><description>آخر التدوينات من in برمجيات حرة يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/categories/%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA-%D8%AD%D8%B1%D8%A9/rss.xml" rel="self" type="application/rss+xml"/><item><title>دليل تطبيقات أندرويد مفتوحة المصدر</title><link>https://yshalsager.com/ar/posts/android-open-source-apps-catalog/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/android-open-source-apps-catalog/</guid><description>&lt;p>يتميز أندرويد كنظام تشغيل بأنه مفتوح المصدر، وبذلك فهو يضمن للمستخدمين حرية التخصيص والتطوير بشكل كبير. ونتيجة لهذا الأمر نجد أن الشعبية الكبيرة لنظام أندرويد قد نتج عنها التنوع الكبير في التطبيقات المتوفرة والتي وصل عددها لأكثر من 2.7 مليون تطبيق حتى الربع الثاني من 2020. ومن ضمن هذه التطبيقات المتوفرة يوجد عدد كبير من التطبيقات مفتوحة المصدر تنافس التطبيقات المشهورة والأكثر تثبيتًا في مختلف التصنيفات وتوفر لمستخدميها الأمان والخصوصية بشكل مجاني. نستعرض في الصفحات التالية مجموعة من تطبيقات أندرويد مفتوحة المصدر بعضها متوفر على متجر جوجل بلاي وبعضها غير متوفر، يمكنك الاعتماد عليها بشكل يومي كبديل للبرامج مغلفة المصدر.&lt;/p>
-&lt;h2 id="متجر-f-droid" data-numberify>متجر F-Droid&lt;a class="anchor ms-1 d-none" href="#متجر-f-droid">#&lt;/a>&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>برمجيات حرة on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/categories/%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA-%D8%AD%D8%B1%D8%A9/</link><description>آخر التدوينات من in برمجيات حرة يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/categories/%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA-%D8%AD%D8%B1%D8%A9/rss.xml" rel="self" type="application/rss+xml"/><item><title>البرمجيات مفتوحة المصدر بديل حتمي لتفادي الكوارث العالمية</title><link>https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/</guid><description>
+&lt;h2 id="مقدمة" data-numberify>مقدمة&lt;a class="anchor ms-1" href="#مقدمة">&lt;/a>&lt;/h2>
+&lt;p>في عالم رقمي مترابط إلى أبعد مدى تنتشر فيه الأجهزة والأنظمة الإلكترونية وتؤثر في كل جزء في حياتنا، حينما يكون هناك اعتماد على منتج أو نظام واحد بشكل مركزي مثل نظام ويندوز، تبرز مخاوف بشأن حدوث مشاكل على نطاق كبير بسبب هذه الاعتمادية، فالطبيعة المركزية لهذه الأنظمة تعني أن نقطة فشل واحدة سواء كانت بسبب اختراق أمني أو خطأ برمجي أو مشكلة في البنية التحتية سيكون لها عواقب ضخمة تؤثر على ملايين المستخدمين والشركات في جميع أنحاء العالم وتسبب خسائر مالية كبيرة.&lt;/p>
+&lt;p>وهذا ما حصل فعلًا ظهيرة يوم 19 يوليو 2024 حيث تعطلت الآلاف من الأجهزة العاملة بنظام ويندوز التي تستخدم برمجية CrowdStrike الأمنية سواءًا كانت شخصية أو أجهزة سيرفرات، وعرضت جميعها شاشة الموت الزرقاء الشهيرة في حادثة وصفها البعض بأنها &amp;ldquo;أكبر عطل تقني في التاريخ&amp;rdquo;، واحتاج الأمر لتدخل يدوي من مهندسي الصيانة لإعادة الأجهزة إلى العمل، مسببًا خسائر ضخمة وتعطل في حركة الطيران العالمية وقنوات التليفزيون وخدمات البنوك وقطاعات الصحة والأعمال وغيرها.&lt;/p>
+&lt;p>وبذلك يتضح جليًا مشكلة الاعتماد على نظام تشغيل مركزي أو برمجية مدارة من طرف واحد، فتأثيرات المشاكل تكون مدمرة كلما زادت المركزية. فالاعتماد على أنظمة لامركزية مثل لينكس والبرمجيات مفتوحة المصدر يوفر خيارات أكثر مرونة وقوة بالنسبة إلى الأفراد والشركات على حد سواء، ويقلل الاعتمادية على كيان واحد والمخاطر المرتبطة بالأعطال العالمية، ويعيد السيطرة على البيئات الرقمية والبيانات الشخصية بدلًا من إتاحتها لكل طرف خارجي تعتمد على خدماته.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="airport-skyler-smith-9xdho4stJQ8-unsplash" src="https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/images/airport-skyler-smith-9xdho4stJQ8-unsplash.jpg" loading="lazy" width="1919" height="1316" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="وقت-التغيير" data-numberify>وقت التغيير&lt;a class="anchor ms-1" href="#وقت-التغيير">&lt;/a>&lt;/h2>
+&lt;p>ويسلط هذا الحادث العالمي الضوء على الحاجة الملحة لعمل تغييرات جذرية في استراتيجيات تكنولوجيا المعلومات للشركات والمؤسسات مثل:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>إعطاء الأولوية للمرونة&lt;/strong>: بدلًا من التركيز فقط على الكفاءة، يجب إعطاء الأولوية للأنظمة التي يمكنها تحمل الإخفاقات غير المتوقعة والتعافي منها.&lt;/li>
+&lt;li>&lt;strong>تبني اللامركزية&lt;/strong>: النظر في اعتماد أنظمة لامركزية لتقليل التعرض للانقطاعات واسعة النطاق.&lt;/li>
+&lt;li>&lt;strong>تنويع التكنولوجيا&lt;/strong>: تجنب الاعتماد المفرط على مورد أو نظام واحد لتقليل تأثير الإخفاقات المحتملة.&lt;/li>
+&lt;li>&lt;strong>تعزيز الخبرة الداخلية&lt;/strong>: التعامل مع أقسام تكنولوجيا المعلومات كأصول تجارية حاسمة، وليس فقط مراكز تكلفة يجب الاستعانة بمصادر خارجية لها.&lt;/li>
+&lt;/ol>
+&lt;h2 id="المركزية-وتأثير-الفراشة" data-numberify>المركزية وتأثير الفراشة&lt;a class="anchor ms-1" href="#المركزية-وتأثير-الفراشة">&lt;/a>&lt;/h2>
+&lt;p>تأثير الفراشة هو مفهوم في نظرية الفوضى يوضح أن التغييرات الصغيرة في الظروف الأولية يمكن أن تؤدي إلى نتائج كبيرة وغير متوقعة على المدى الطويل. وقد أبرزت حادثة CrowdStrike العالمية مثالًا واضحا لخطورة هذا التأثير في عالمنا اليوم وأظهرت للنور عدة مشكلات حرجة مع الأنظمة المركزية منها:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>نقطة فشل واحدة&lt;/strong>: أدى تحديث برمجي بسيط إلى سلسلة من الإخفاقات عبر قطاعات مختلفة.&lt;/li>
+&lt;li>&lt;strong>تأثير واسع النطاق&lt;/strong>: تأثرت الأنظمة الحيوية في المستشفيات والمطارات والمؤسسات المالية في وقت واحد في العديد من دول العالم مثل بعض الدول العربية والولايات المتحدة وأستراليا واليابان والهند وتركيا.&lt;/li>
+&lt;li>&lt;strong>نقاط ضعف مع امتيازات عالية&lt;/strong>: وصول برامج الأمان عالي المستوى إلى نظام التشغيل يعني أن التحديث المعيب أو الخطأ أو الاختراق يمكن أن يسبب تأثيرات كارثية.&lt;/li>
+&lt;/ol>
+&lt;h2 id="لماذا-اللامركزية" data-numberify>لماذا اللامركزية؟&lt;a class="anchor ms-1" href="#لماذا-اللامركزية">&lt;/a>&lt;/h2>
+&lt;p>تعد اللامركزية نموذجًا قويًا لتصميم الأنظمة والشبكات في عصرنا الرقمي ولعل أبرز مثال يقرب تطبيق فكرتها شبكات ال Blockchain، وتمثل تحولًا جذريًا عن النماذج التقليدية المركزية، حيث يتم توزيع السلطة والمسؤولية بدلاً من تركيزها في نقطة واحدة. ويوفر هذا النهج العديد من المزايا مثل زيادة الأمان والمرونة والكفاءة.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>التحكم الموزع&lt;/strong>: من خلال توزيع التحكم والمعالجة عبر أنظمة وعقد مستقلة متعددة، تقلل الأنظمة اللامركزية من خطر تسبب نقطة فشل واحدة في تعطيل واسع النطاق.&lt;/li>
+&lt;li>&lt;strong>تعزيز المرونة&lt;/strong>: إذا واجهت عقدة أو مكون واحد مشكلات، تستمر العقد الأخرى في العمل، مما يضمن استمرارية النظام.&lt;/li>
+&lt;li>&lt;strong>تقليل التعرض للمخاطر&lt;/strong>: الطبيعة الموزعة لهذه الأنظمة تجعلها أقل عرضة للإخفاقات الكارثية التي تؤثر على الشبكات جميعها في وقت واحد.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="featured" src="https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/featured.jpg" loading="lazy" width="5001" height="3335" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="نظام-لينكس-بديل-لامركزي-لكل-فرد-أو-مؤسسة" data-numberify>نظام لينكس: بديل لامركزي لكل فرد أو مؤسسة&lt;a class="anchor ms-1" href="#نظام-لينكس-بديل-لامركزي-لكل-فرد-أو-مؤسسة">&lt;/a>&lt;/h2>
+&lt;p>يقدم لينكس نظام التشغيل مفتوح المصدر العديد من المزايا التي يمكن أن تخفف من المخاطر التي كشف عنها انهيار ويندوز العالمي:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>نظام بيئي متنوع&lt;/strong>: مع توفر العديد من التوزيعات يطورها شركات وأفراد مختلفة، لا توجد نقطة فشل واحدة إلا في حالات نادرة.&lt;/li>
+&lt;li>&lt;strong>الشفافية&lt;/strong>: يسمح الكود مفتوح المصدر بعمليات تدقيق أمنية مستقلة وحل أسرع للمشكلات.&lt;/li>
+&lt;li>&lt;strong>قابلية التخصيص&lt;/strong>: يمكن للشركات تخصيص نظام التشغيل وفقًا لاحتياجاتها الخاصة دون الاعتماد على حلول طرف ثالث تتدخل بشكل كبير.&lt;/li>
+&lt;li>&lt;strong>تنوع الحلول&lt;/strong>: تتيح طبيعة لينكس مفتوحة المصدر للشركات الاختيار من بين مجموعات مساحة المستخدم المختلفة والموزعين ومزودي الأمان.&lt;/li>
+&lt;/ol>
+&lt;p>وهناك العديد من الدول التي تتبنى التحول إلى لينكس حاليًا لما ترى فيه من مزايا إلى جانب ضمان أمان البيانات وتقليل الاعتمادية على الشركات من دول أخرى مثل:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>الصين:&lt;/strong> استثمرت بشكل كبير في تطوير توزيعات لينكس الخاصة بها (مثل Red Flag Linux) وتشجع على استخدامها في الحكومة والتعليم.&lt;/li>
+&lt;li>&lt;strong>روسيا:&lt;/strong> تطور بنشاط نظام التشغيل خاص بها مبني على لينكس Astra Linux للاستخدام الحكومي والعسكري بسبب مخاوف الأمن والسيادة.&lt;/li>
+&lt;li>&lt;strong>الهند:&lt;/strong> لديها مجتمع برمجيات مفتوحة قوي وشجعت على استخدام لينكس في أقسام الحكومة والمؤسسات التعليمية.&lt;/li>
+&lt;li>&lt;strong>سويسرا&lt;/strong>: سنّت في مايو 2024 قانونًا يجبر جميع المؤسسات الحكومية على فتح مصدر أي برنامج يطورون أو يُطوّر لأجلهم.&lt;/li>
+&lt;li>&lt;strong>البرازيل:&lt;/strong> استخدمت لينكس في مشروعات حكومية مختلفة وتشجع على استخدام البرمجيات مفتوحة المصدر.&lt;/li>
+&lt;li>&lt;strong>فرنسا:&lt;/strong> بذلت جهودًا لتعزيز البرمجيات مفتوحة المصدر، بما في ذلك استخدام لينكس في وكالات الحكومة.&lt;/li>
+&lt;li>&lt;strong>ألمانيا:&lt;/strong> تستخدم بعض وكالات الحكومة والمؤسسات الألمانية أنظمة لينكس فقط.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="linux-lukas-NLSXFjl_nhc-unsplash" src="https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/images/linux-lukas-NLSXFjl_nhc-unsplash.jpg" loading="lazy" width="1920" height="1280" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="أفضل-وقت-للانتقال-إلى-لينكس-هو-الآن" data-numberify>أفضل وقت للانتقال إلى لينكس هو الآن&lt;a class="anchor ms-1" href="#أفضل-وقت-للانتقال-إلى-لينكس-هو-الآن">&lt;/a>&lt;/h2>
+&lt;p>هل تعلم أن نظام لينكس وعائلة توزيعاته موجودون منذ 33 عامًا؟ وعلى الرغم من نجاحه لينكس على الهواتف الذكية (أندرويد) والخوادم حيث يسيطر على أكثر من 70٪ من حصة السوق، لا يزال انتشاره على الأجهزة المكتبة محدودًا حيث يبلغ نسبة 4٪ فقط من حصة السوق، لكن شعبية وانتشار لينكس ينموان باطراد خصوصًا على مدى السنوات القليلة الماضية، وأصبح نظامه البيئي أكثر نضجًا من قبل.&lt;/p>
+&lt;p>وهناك سبب آخر يجب أن يدفعك نحو لينكس إلى جانب مشكلات المركزية هو المستقبل القاتم مع ويندوز وغيره من الأنظمة الاحتكارية مع قدوم ميزات الذكاء الاصطناعي التي ستستخدم كل ما يمكن من بيانات شخصية بما لا يبقي أي نوع خصوصية خلال استخدام الجهاز، حيث سيسجل النظام جميع أنشطتك مثل كلمات المرور، وكيف تتصفح الصور العائلية، وماذا تشاهد، وما هي الحسابات المجهولة التي تمتلكها وكل حياتك الرقمية بهدف تقديم خدمات ذكية لك.&lt;/p>
+&lt;p>وقد أعلنت مايكروسوفت فعلًا من مدّة قريبة عن &amp;ldquo;Copilot+ PC&amp;rdquo; وهي أجهزة كمبيوتر محمولة قوية مناسبة لتشغيل تطبيقات الذكاء الاصطناعي، واستعرضت ميزة تسمى &amp;ldquo;Recall&amp;rdquo; التي تأخذ لقطات شاشة لشاشتك كل بضع ثوانٍ حتى تتمكن من سؤال نموذج الذكاء الاصطناعي عن أنشطتك السابقة في أي وقت تريد بالاعتماد على التطورات الجديدة لنماذج الذكاء الاصطناعي مثل نموذج GPT-4o من OpenAI الذي يضيف إمكانات الرؤية والتعرف الصوت في الوقت شبه الفعلي مما يعد كابوسًا أمنيًا وانتهاكًا محتملاً لكل قانون خصوصية حول العالم.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="windows-alexander-andrews-m5kv39fdFnQ-unsplash" src="https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/images/windows-alexander-andrews-m5kv39fdFnQ-unsplash.jpg" loading="lazy" width="1920" height="1770" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وهنا يأتي لينكس المنقذ، فهو نظام التشغيل التقليدي الجميل الذي يمكنك تخصيصه وتعديله، ويخلو من أي &amp;ldquo;ميزات الذكاء الاصطناعي&amp;rdquo; على الإطلاق، وهو مفتوح المصدر مما يعني أنه يمكن لأي شخص الاطلاع على شفرته المصدرية والمساعدة في تطويره، آمن في الغالب لأن فيروسات ويندوز لا تعمل عليه ولا يحتاج إلى برنامج مضاد للفيروسات، مجاني التكلفة ويحترم خصوصيتك حيث لا يشارك أي من بياناتك الشخصية مع مطوريه ويخلو من أي حافز للتجسس عليك أو محاولة بيع أي شيء لك لأنه في الغالب جهد مجتمعي.&lt;/p>
+&lt;p>وعلى الرغم من أن لينكس لا يحتوي على ميزات تعتمد على الذكاء الاصطناعي إلا باختيارك واستخدام نماذج محلية، فقد نضج نظام التشغيل أكثر بكثير من قبل، وسيجد الشخص العادي كل ما يحتاج في توزيعة لينكس التي يختارها لاستخدامه اليومي.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="linux-pop-os" src="https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/images/linux-pop-os.jpg" loading="lazy" width="1600" height="900" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="الخاتمة" data-numberify>الخاتمة&lt;a class="anchor ms-1" href="#الخاتمة">&lt;/a>&lt;/h2>
+&lt;p>إذا، لقد أظهرت حادثة CrowdStrike العالمية التي أوقفت العالم تقريبًا، بوضوح مخاطر الاعتماد المفرط على أنظمة مركزية مثل ويندوز، وكشفت عن هشاشة البِنَى التحتية الرقمية الحالية وضرورة البحث عن بدائل أكثر مرونة وأمانًا. ويبرز لينكس كحلّ جذريّ لمشاكل المركزية لكونه نظام تشغيل مفتوح المصدر، يوفر العديد من المزايا التي تجعله بديلًا مثاليًا ويمثل أيضًا ملاذًا آمنًا في عالم ينتشر فيه انتهاك الخصوصية من الشركات الكبرى.&lt;/p>
+&lt;p>ومع الانتقال إلى بدائل لامركزية سواءًا على مستوى نظام التشغيل أو البرمجيات ستزيد مرونة وأمان واستقرار بنيتنا التحتية الرقمية، وبالاستفادة من قوة المجتمعات مفتوحة المصدر يمكننا بناء أساس تكنولوجي أكثر قوة وموثوقية للمجتمعات الرقمية سواء على المستوى الفردي أو المجموعات أو محليًا وحتى عالميًا.&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 359 شهر 07-2024 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1fpmE3YbUvyTONpPpMoHaSOtmdK66sMvg/view?usp=drive_link" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/images/359-1.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/images/359-2.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/images/359-3.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p></description></item><item><title>دليل تطبيقات أندرويد مفتوحة المصدر</title><link>https://yshalsager.com/ar/posts/android-open-source-apps-catalog/</link><pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/android-open-source-apps-catalog/</guid><description>&lt;p>يتميز أندرويد كنظام تشغيل بأنه مفتوح المصدر، وبذلك فهو يضمن للمستخدمين حرية التخصيص والتطوير بشكل كبير. ونتيجة لهذا الأمر نجد أن الشعبية الكبيرة لنظام أندرويد قد نتج عنها التنوع الكبير في التطبيقات المتوفرة والتي وصل عددها لأكثر من 2.7 مليون تطبيق حتى الربع الثاني من 2020. ومن ضمن هذه التطبيقات المتوفرة يوجد عدد كبير من التطبيقات مفتوحة المصدر تنافس التطبيقات المشهورة والأكثر تثبيتًا في مختلف التصنيفات وتوفر لمستخدميها الأمان والخصوصية بشكل مجاني. نستعرض في الصفحات التالية مجموعة من تطبيقات أندرويد مفتوحة المصدر بعضها متوفر على متجر جوجل بلاي وبعضها غير متوفر، يمكنك الاعتماد عليها بشكل يومي كبديل للبرامج مغلفة المصدر.&lt;/p>
+&lt;h2 id="متجر-f-droid" data-numberify>متجر F-Droid&lt;a class="anchor ms-1" href="#متجر-f-droid">&lt;/a>&lt;/h2>
 &lt;p>هناك العديد من التطبيقات مفتوحة المصدر غير المتوفرة على متجر جوجل بلاي، للعديد من الأسباب مثل عدم التوافق مع سياسيات جوجل أو عدم رغبة مطوريها في الاعتماد على جوجل. لكن لحسن الحظ، هناك مكان آخر يمكنك الوصول إلى تطبيقات أندرويد مفتوحة المصدر من خلاله وهو متجر F-Droid.&lt;/p>
 &lt;p>F-Droid هو متجر تطبيقات أندرويد مثل جوجل بلاي يحتوي فقط على التطبيقات الحرة أو مفتوحة المصدر، ويمكن من خلاله تصفح وتحميل التطبيقات دون الحاجة إلى التسجيل أو إنشاء حساب.&lt;/p>
 &lt;p>يوفر المتجر أيضًا معلومات مفصلة عما يسميه &amp;ldquo;مضاد الميزات&amp;rdquo; Anti-Features مثل الإعلانات والتتبع والاعتماد على برمجيات غير حرة، مما يجعل جميع الأمور واضحة للمستخدم. كما يتيح المتجر أيضا الكود المصدري للتطبيقات وبذلك يمكن لأي شخص بناء التطبيق بنفسه أو تفصحه أو تعديله أو إعادة توزيعه حسب رخصة الكود.&lt;/p>
@@ -9,210 +88,210 @@
 &lt;p>&lt;a href="https://www.f-droid.org" target="_blank" rel="noopener noreferrer">https://www.f-droid.org&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3lRe2lN" target="_blank" rel="noopener noreferrer">https://bit.ly/3lRe2lN&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>يعتمد F-Droid على نظام المستودعات لتخزين التطبيقات ووصفها ومختلف المعلومات الخاصة بها وصورها وملفات التثبيت الخاصة بها. ويتطلب لإضافة تطبيق جديد فتح طلب على المستودع الرسمي مفتوح المصدر وملء جميع المعلومات الخاصة بالتطبيق ومن ثم التنسيق مع المسؤولين الانتظار لتزويدهم بنسخه من التطبيق موقعه باستخدام توقيع signature المتجر. وبما أن كافة أجزاء المشروع مفتوحة المصدر فهناك العديد من الأشخاص والفرق التي تستخدم نفس البنية الأساسية ل F-Droidوتوفر مستودعات شبيهة مثل IzzyOnDroid وGuardian Project.&lt;/p>
-&lt;h2 id="تطبيق-aurora-droid" data-numberify>تطبيق Aurora Droid&lt;a class="anchor ms-1 d-none" href="#تطبيق-aurora-droid">#&lt;/a>&lt;/h2>
+&lt;h2 id="تطبيق-aurora-droid" data-numberify>تطبيق Aurora Droid&lt;a class="anchor ms-1" href="#تطبيق-aurora-droid">&lt;/a>&lt;/h2>
 &lt;p>هو تطبيق عميل لمتجر F-Droid مفتوح المصدر، يوفر العديد من المميزات التي تسهل التعامل مع تطبيقات أندرويد مفتوحة المصدر، مثل مدير المستودعات الذي يتيح للمستخدم التحكم في المستودعات المفعلة بضغط واحدة، والبحث المتقدم وفلترة التطبيقات، ومدير التحميلات والتصميم الحديث المميز.&lt;/p>
 &lt;p>ونظرًا لتفوق هذا التطبيق على التطبيق الرسمي ل F-Droid فأنصحك باستخدامه بدلًا من التطبيق الرسمي في إيجاد وتثبيت وإدارة التطبيقات مفتوحة المصدر التي سنستعرضها. ويمكنك تحميله من خلال موقعه الرسمي &lt;a href="https://auroraoss.com" target="_blank" rel="noopener noreferrer">https://auroraoss.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.
 &lt;a href="https://bit.ly/3k2b2CQ" target="_blank" rel="noopener noreferrer">https://bit.ly/3k2b2CQ&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/AuroraDroid.png" loading="lazy" width="1600" height="2880" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="1--تطبيقات-إدارة-التطبيقات" data-numberify>1- تطبيقات إدارة التطبيقات&lt;a class="anchor ms-1 d-none" href="#1--تطبيقات-إدارة-التطبيقات">#&lt;/a>&lt;/h2>
-&lt;h3 id="aurora-store" data-numberify>Aurora Store&lt;a class="anchor ms-1 d-none" href="#aurora-store">#&lt;/a>&lt;/h3>
+&lt;h2 id="1--تطبيقات-إدارة-التطبيقات" data-numberify>1- تطبيقات إدارة التطبيقات&lt;a class="anchor ms-1" href="#1--تطبيقات-إدارة-التطبيقات">&lt;/a>&lt;/h2>
+&lt;h3 id="aurora-store" data-numberify>Aurora Store&lt;a class="anchor ms-1" href="#aurora-store">&lt;/a>&lt;/h3>
 &lt;p>هو التطبيق الشقيق ل Aurora Droidوالذي يعمل كبديل لمتجر جوجل بلاي، ويمكن المستخدم من تحميل وتحديث التطبيقات من خلال بيانات جوجل بلاي دون الحاجة إلى وجود خدمات جوجل على الهاتف.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/aurora_store.png" loading="lazy" width="192" height="192" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/com.aurora.store" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/com.aurora.store&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3dw8sSS" target="_blank" rel="noopener noreferrer">https://bit.ly/3dw8sSS&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="app-warden" data-numberify>App Warden&lt;a class="anchor ms-1 d-none" href="#app-warden">#&lt;/a>&lt;/h3>
+&lt;h3 id="app-warden" data-numberify>App Warden&lt;a class="anchor ms-1" href="#app-warden">&lt;/a>&lt;/h3>
 &lt;p>تطبيق متميز لإدارة التطبيقات الموجودة على الهاتف وإزالة التطبيقات الدعاية المثبتة مسبقًا Bloatware، وإنشاء تقارير بالتطبيقات التي تحتوي على تتبع أو تسيء استغلال الصلاحيات. كما يمكن من خلاله تعطيل كافة آليات التتبع المدمجة بالتطبيقات على مستوي الهاتف بأكمله تلقائيا.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/app_warden.png" loading="lazy" width="192" height="192" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://apt.izzysoft.de/fdroid/repo/com.aurora.warden" target="_blank" rel="noopener noreferrer">https://apt.izzysoft.de/fdroid/repo/com.aurora.warden&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/2IxGYAZ" target="_blank" rel="noopener noreferrer">https://bit.ly/2IxGYAZ&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h2 id="2--تطبيقات-التواصل-والمراسلة" data-numberify>2- تطبيقات التواصل والمراسلة&lt;a class="anchor ms-1 d-none" href="#2--تطبيقات-التواصل-والمراسلة">#&lt;/a>&lt;/h2>
-&lt;h3 id="signal" data-numberify>Signal&lt;a class="anchor ms-1 d-none" href="#signal">#&lt;/a>&lt;/h3>
+&lt;h2 id="2--تطبيقات-التواصل-والمراسلة" data-numberify>2- تطبيقات التواصل والمراسلة&lt;a class="anchor ms-1" href="#2--تطبيقات-التواصل-والمراسلة">&lt;/a>&lt;/h2>
+&lt;h3 id="signal" data-numberify>Signal&lt;a class="anchor ms-1" href="#signal">&lt;/a>&lt;/h3>
 &lt;p>سيجنال تطبيق مجاني ومفتوح المصدر متوفر على أندرويد وiOS وأنظمة تشغيل سطح المكتب. يستخدم سيجنال التشفير التام من النهاية الى النهاية E2E، مما يسمح للمستخدمين بإرسال الرسائل النصية والجماعية والصور والفيديو والملفات وإجراء المكالمات الهاتفية بالصوت والفيديو مشفرة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/signal.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://signal.org/android/apk" target="_blank" rel="noopener noreferrer">https://signal.org/android/apk&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/37cdGC8" target="_blank" rel="noopener noreferrer">https://bit.ly/37cdGC8&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="element" data-numberify>Element&lt;a class="anchor ms-1 d-none" href="#element">#&lt;/a>&lt;/h3>
+&lt;h3 id="element" data-numberify>Element&lt;a class="anchor ms-1" href="#element">&lt;/a>&lt;/h3>
 &lt;p>تطبيق تواصل اجتماعي مفتوح المصدر يعتمد على بروتوكول Matrix، ومتوفر على جميع منصات التشغيل مثل ويندوز ولينكس وماك وأندرويد وiOS وكذلك المتصفحات. لدى Element العديد من الميزات مثل المجموعات والقنوات ومشاركة الملفات بين المستخدمين، كما أن التسجيل به لا يتطلب رقم هاتف.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/element.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/im.vector.app" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/im.vector.app&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3j1ssy8" target="_blank" rel="noopener noreferrer">https://bit.ly/3j1ssy8&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="telegram" data-numberify>Telegram&lt;a class="anchor ms-1 d-none" href="#telegram">#&lt;/a>&lt;/h3>
+&lt;h3 id="telegram" data-numberify>Telegram&lt;a class="anchor ms-1" href="#telegram">&lt;/a>&lt;/h3>
 &lt;p>أحد أفضل تطبيقات التواصل الموجودة حاليًا، ويستخدمه أكثر من 400 مليون مستخدم نشط. يميز تيليجرام العديد من الأمور مثل تخزين المحادثات سحابيًا، وإمكانية إرسال الوسائط والملفات بحجم يصل إلى 2 جيجا بايت، وإمكانية إنشاء مجموعات يصل أعضاؤها إلى 200000 عضو، والمكالمات الصوتية والمرئية، والعديد من بوتات الدردشة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/Telegram.webp" loading="lazy" width="128" height="128" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/packages/org.telegram.messenger" target="_blank" rel="noopener noreferrer">https://f-droid.org/packages/org.telegram.messenger&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/378Q2GQ" target="_blank" rel="noopener noreferrer">https://bit.ly/378Q2GQ&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="wire" data-numberify>Wire&lt;a class="anchor ms-1 d-none" href="#wire">#&lt;/a>&lt;/h3>
+&lt;h3 id="wire" data-numberify>Wire&lt;a class="anchor ms-1" href="#wire">&lt;/a>&lt;/h3>
 &lt;p>تطبيق سويسري تقع خوادمه في أراضي الاتحاد الأوروبي. يدعم التراسل الآمن والمكالمات، ومشاركة الصور والفيديوهات، والملفات. يستخدم التطبيق التشفير التام من النهاية الى النهاية، وبذلك يمكن للمرسل والمستلم فقط قراءة الرسائل ورؤية محتواها. يمكن التسجيل في التطبيق عن طريق رقم الهاتف أو البريد الإلكتروني واستخدام نفس الحساب على مختلف المنصات، كما لا تحتاج إلى مشاركة بياناتك مع الأشخاص حيث كل ما يحتاجونه للتواصل معاك هو اسم المستخدم.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/wire.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://wire.com/en/download" target="_blank" rel="noopener noreferrer">https://wire.com/en/download&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3j1sx4U" target="_blank" rel="noopener noreferrer">https://bit.ly/3j1sx4U&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="jitsi-meet" data-numberify>Jitsi Meet&lt;a class="anchor ms-1 d-none" href="#jitsi-meet">#&lt;/a>&lt;/h3>
+&lt;h3 id="jitsi-meet" data-numberify>Jitsi Meet&lt;a class="anchor ms-1" href="#jitsi-meet">&lt;/a>&lt;/h3>
 &lt;p>جيتسي هي منصة لمكالمات الفيديو والمؤتمرات الرقمية متوفرة بشكل مجاني ومفتوح المصدر. يتيح التطبيق إجراء المحادثات عبر الصوت والفيديو بدون قيود زمنية ويدعم عدد لا محدود من الأعضاء مما يجعل منه منافسًا شرسًا لتطبيق Zoom الشهير. تعمل منصة جيتسي على مختلف أنظمة التشغيل والمتصفحات أيضًا.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/JitsiMeet.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/org.jitsi.meet" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/org.jitsi.meet&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/2SWTTyf" target="_blank" rel="noopener noreferrer">https://bit.ly/2SWTTyf&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="frost-for-facebook" data-numberify>Frost for Facebook&lt;a class="anchor ms-1 d-none" href="#frost-for-facebook">#&lt;/a>&lt;/h3>
+&lt;h3 id="frost-for-facebook" data-numberify>Frost for Facebook&lt;a class="anchor ms-1" href="#frost-for-facebook">&lt;/a>&lt;/h3>
 &lt;p>تطبيق Frost عبارة عن متصفح فيسبوك يهدف لاستبدال التطبيق الرسمي الذي يجمع الكثير من البيانات حول المستخدم ويتطلب العديد من الصلاحيات. يحتوي التطبيق على ميزات عديدة منها: دعم الحسابات المتعددة والتبديل السريع بينها، وتخصيص شكل الفيسبوك عن طريق الثيمات، وعرض مقاطع فيديو في نافذة صغيرة أثناء التصفح.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/FrostforFacebook.png" loading="lazy" width="192" height="192" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/packages/com.pitchedapps.frost" target="_blank" rel="noopener noreferrer">https://f-droid.org/packages/com.pitchedapps.frost&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/2HeyePq" target="_blank" rel="noopener noreferrer">https://bit.ly/2HeyePq&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h2 id="3--تطبيقات-البريد-الإلكتروني" data-numberify>3- تطبيقات البريد الإلكتروني&lt;a class="anchor ms-1 d-none" href="#3--تطبيقات-البريد-الإلكتروني">#&lt;/a>&lt;/h2>
-&lt;h3 id="k-9-mail" data-numberify>K-9 Mail&lt;a class="anchor ms-1 d-none" href="#k-9-mail">#&lt;/a>&lt;/h3>
+&lt;h2 id="3--تطبيقات-البريد-الإلكتروني" data-numberify>3- تطبيقات البريد الإلكتروني&lt;a class="anchor ms-1" href="#3--تطبيقات-البريد-الإلكتروني">&lt;/a>&lt;/h2>
+&lt;h3 id="k-9-mail" data-numberify>K-9 Mail&lt;a class="anchor ms-1" href="#k-9-mail">&lt;/a>&lt;/h3>
 &lt;p>تطبيق بريد إلكتروني حر لنظام تشغيل أندرويد متاح مجانًا منذ عام 2008 ومفتوح المصدر تحت ترخيص أباتشي الإصدار 2.0. يعتبر هذا التطبيق أشهر تطبيقات البريد الإلكتروني مفتوحة المصدر على الإطلاق. ويدعم التطبيق بروتوكولات البريد POP3 وIMAP، كما يدعم IMAP IDLE لاستلام الإشعارات في الوقت الحقيقي.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/K-9.webp" loading="lazy" width="192" height="191" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/packages/com.fsck.k9" target="_blank" rel="noopener noreferrer">https://f-droid.org/packages/com.fsck.k9&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/2SYBeST" target="_blank" rel="noopener noreferrer">https://bit.ly/2SYBeST&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="fairemail" data-numberify>FairEmail&lt;a class="anchor ms-1 d-none" href="#fairemail">#&lt;/a>&lt;/h3>
+&lt;h3 id="fairemail" data-numberify>FairEmail&lt;a class="anchor ms-1" href="#fairemail">&lt;/a>&lt;/h3>
 &lt;p>تطبيق بريد إلكتروني جديد نسبيًا يركز بشكل كبير على الخصوصية ويدعم مختلف مزودي خدمات البريد الإلكتروني مثل جيمل وأوتلوك وياهوو. كما يدعم التطبيق إضافة عدد لا نهائي من الحسابات وخدمات البريد، ويتسم بالبساطة وسهولة الواجهة مما يجعله ملائمًا للمبتدئين.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/FairEmail.png" loading="lazy" width="512" height="512" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/eu.faircode.email" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/eu.faircode.email&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3nUxhNe" target="_blank" rel="noopener noreferrer">https://bit.ly/3nUxhNe&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h2 id="4--متصفحات-الإنترنت" data-numberify>4- متصفحات الإنترنت&lt;a class="anchor ms-1 d-none" href="#4--متصفحات-الإنترنت">#&lt;/a>&lt;/h2>
-&lt;h3 id="firefox" data-numberify>Firefox&lt;a class="anchor ms-1 d-none" href="#firefox">#&lt;/a>&lt;/h3>
+&lt;h2 id="4--متصفحات-الإنترنت" data-numberify>4- متصفحات الإنترنت&lt;a class="anchor ms-1" href="#4--متصفحات-الإنترنت">&lt;/a>&lt;/h2>
+&lt;h3 id="firefox" data-numberify>Firefox&lt;a class="anchor ms-1" href="#firefox">&lt;/a>&lt;/h3>
 &lt;p>موزيلا فايرفوكس هو أحد أشهر متصفح الويب المجانية الموجودة منذ زمن طويل. فقد تم إصداره في 2002 ويعمل على تطويره مؤسسة موزيلا والعديد من المتطوعين حول العالم. يتميز فايرفوكس بالسرعة والأداء المرتفع ودعم عدد ضخم من الإضافات، ومزامنة سجل التصفح والمفضلات عبر مختلف الأجهزة والحماية من التتبع بشكل تلقائي.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/Firefox.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" target="_blank" rel="noopener noreferrer">https://play.google.com/store/apps/details?id=org.mozilla.firefox&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3lS02s9" target="_blank" rel="noopener noreferrer">https://bit.ly/3lS02s9&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="bromite" data-numberify>Bromite&lt;a class="anchor ms-1 d-none" href="#bromite">#&lt;/a>&lt;/h3>
+&lt;h3 id="bromite" data-numberify>Bromite&lt;a class="anchor ms-1" href="#bromite">&lt;/a>&lt;/h3>
 &lt;p>متصفح مبني على متصفح Chromium مفتوح المصدر (الذي يستخدمه جوجل كروم كذلك)، يهدف بشكل رئيسي إلى توفير تجربة تصفح منظمة مع ميزات حماية الخصوصية ومنع الإعلانات بشكل افتراضي. ويتوفر متصفح Bromite لأجهزة أندرويد التي تعمل بإصدار أندرويد 5.0 أو أعلى.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/Bromite.png" loading="lazy" width="600" height="600" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://github.com/bromite/bromite/releases/latest" target="_blank" rel="noopener noreferrer">https://github.com/bromite/bromite/releases/latest&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/2IEsWxL" target="_blank" rel="noopener noreferrer">https://bit.ly/2IEsWxL&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="kiwi-browser" data-numberify>Kiwi Browser&lt;a class="anchor ms-1 d-none" href="#kiwi-browser">#&lt;/a>&lt;/h3>
+&lt;h3 id="kiwi-browser" data-numberify>Kiwi Browser&lt;a class="anchor ms-1" href="#kiwi-browser">&lt;/a>&lt;/h3>
 &lt;p>متصفح آخر مبني على Chromium يركز بشكل كبير على الأداء السريع ودعم إضافات كروم خلافًا لأغلب المتصفحات المعروفة. ويأتي المتصفح كذلك مع العديد من الميزات الأخرى مثل الوضع الليلي والحماية من برمجيات التعدين والإعلانات المزعجة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/KiwiBrowser.png" loading="lazy" width="512" height="512" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser" target="_blank" rel="noopener noreferrer">https://play.google.com/store/apps/details?id=com.kiwibrowser.browser&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/31csLQw" target="_blank" rel="noopener noreferrer">https://bit.ly/31csLQw&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="lightning-browser" data-numberify>Lightning Browser&lt;a class="anchor ms-1 d-none" href="#lightning-browser">#&lt;/a>&lt;/h3>
+&lt;h3 id="lightning-browser" data-numberify>Lightning Browser&lt;a class="anchor ms-1" href="#lightning-browser">&lt;/a>&lt;/h3>
 &lt;p>متصفح ويب بسيط وسريع يركز على التصميم والأمان ويعمل على الأجهزة ذات المواصفات الضعيفة بكفاءة عالية حيث يصل حجمه الإجمالي إلى 3 ميجا بايت فقط.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/LightningBrowser.png" loading="lazy" width="192" height="192" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/app/acr.browser.lightning" target="_blank" rel="noopener noreferrer">https://f-droid.org/app/acr.browser.lightning&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3jadFkQ" target="_blank" rel="noopener noreferrer">https://bit.ly/3jadFkQ&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h2 id="5--تطبيقات-قراءة-الكتب" data-numberify>5- تطبيقات قراءة الكتب&lt;a class="anchor ms-1 d-none" href="#5--تطبيقات-قراءة-الكتب">#&lt;/a>&lt;/h2>
-&lt;h3 id="librera" data-numberify>Librera&lt;a class="anchor ms-1 d-none" href="#librera">#&lt;/a>&lt;/h3>
+&lt;h2 id="5--تطبيقات-قراءة-الكتب" data-numberify>5- تطبيقات قراءة الكتب&lt;a class="anchor ms-1" href="#5--تطبيقات-قراءة-الكتب">&lt;/a>&lt;/h2>
+&lt;h3 id="librera" data-numberify>Librera&lt;a class="anchor ms-1" href="#librera">&lt;/a>&lt;/h3>
 &lt;p>أحد أفضل برامج قراءة الكتب المجانية ومفتوحة المصدر الموجودة على نظام أندرويد، حيث يدعم العشرات من الصيغ المختلفة، وتحويل النص إلى كلام، والعديد من الخصائص الأخرى مثل: سمات القراءة الخاصة بالنهار والليل لتوفير قراءة مريحة، ورف الكتب والمفضلات، وإمكانية أخذ ملاحظات داخل الكتب. كما يأتي بميزات أخرى تجعل منه خيارًا ممتازًا لدارسي اللغات الأجنبية مثل: تشغيل ملفات الصوت داخل الكتاب، والبحث في برامج القواميس أو القواميس المتاحة عبر الإنترنت.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/librera.png" loading="lazy" width="240" height="240" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/com.foobnix.pro.pdf.reader" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/com.foobnix.pro.pdf.reader&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3duKrM2" target="_blank" rel="noopener noreferrer">https://bit.ly/3duKrM2&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="book-reader" data-numberify>Book Reader&lt;a class="anchor ms-1 d-none" href="#book-reader">#&lt;/a>&lt;/h3>
+&lt;h3 id="book-reader" data-numberify>Book Reader&lt;a class="anchor ms-1" href="#book-reader">&lt;/a>&lt;/h3>
 &lt;p>بديل بسيط وخفيف الحجم لفتح لملفات fb2 - html - txt - epub - mobi - rtf - doc - pdf - djvu - cbz - cbr ويعدم مختلف أجهزة أندرويد بداية من الإصدار 2.3.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/book-reader.png" loading="lazy" width="512" height="512" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/packages/com.github.axet.bookreader" target="_blank" rel="noopener noreferrer">https://f-droid.org/packages/com.github.axet.bookreader&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/379R7Ou" target="_blank" rel="noopener noreferrer">https://bit.ly/379R7Ou&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h2 id="6--تطبيقات-الصور-والصوت-والفيديو" data-numberify>6- تطبيقات الصور والصوت والفيديو&lt;a class="anchor ms-1 d-none" href="#6--تطبيقات-الصور-والصوت-والفيديو">#&lt;/a>&lt;/h2>
-&lt;h3 id="vlc" data-numberify>VLC&lt;a class="anchor ms-1 d-none" href="#vlc">#&lt;/a>&lt;/h3>
+&lt;h2 id="6--تطبيقات-الصور-والصوت-والفيديو" data-numberify>6- تطبيقات الصور والصوت والفيديو&lt;a class="anchor ms-1" href="#6--تطبيقات-الصور-والصوت-والفيديو">&lt;/a>&lt;/h2>
+&lt;h3 id="vlc" data-numberify>VLC&lt;a class="anchor ms-1" href="#vlc">&lt;/a>&lt;/h3>
 &lt;p>مشغل الوسائط المعروف والمتوفر بشكل مجاني ومفتوح المصدر على مختلف أنظمة التشغيل. يدعم VLC معظم صيغ ملفات الوسائط المتعددة بالإضافة إلى الأقراص وبروتوكولات تدفق الشبكة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/vlc.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/org.videolan.vlc" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/org.videolan.vlc&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3dt6F16" target="_blank" rel="noopener noreferrer">https://bit.ly/3dt6F16&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="vinyl-music-player" data-numberify>Vinyl Music Player&lt;a class="anchor ms-1 d-none" href="#vinyl-music-player">#&lt;/a>&lt;/h3>
+&lt;h3 id="vinyl-music-player" data-numberify>Vinyl Music Player&lt;a class="anchor ms-1" href="#vinyl-music-player">&lt;/a>&lt;/h3>
 &lt;p>تطبيق مشغل صوتيات خفيف الحجم ذو تصميم مميز، يتسم ببساطة الواجهة وسهولة التخصيص وتغيير الثيمات. كما يدعم أيضًا تصفح المجلدات ومؤقت النوم ومحرر بطاقات معلومات الصوتيات.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/VinylMusicPlayer.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/com.poupa.vinylmusicplayer" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/com.poupa.vinylmusicplayer&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3nXy7sr" target="_blank" rel="noopener noreferrer">https://bit.ly/3nXy7sr&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="simple-gallery-pro" data-numberify>Simple Gallery Pro&lt;a class="anchor ms-1 d-none" href="#simple-gallery-pro">#&lt;/a>&lt;/h3>
+&lt;h3 id="simple-gallery-pro" data-numberify>Simple Gallery Pro&lt;a class="anchor ms-1" href="#simple-gallery-pro">&lt;/a>&lt;/h3>
 &lt;p>Simple Gallery هو أحد أفضل تطبيقات معرض الصور التي لا تستخدم الإنترنت وتوفر إمكانيات تخصيص لكل تفاصيل التطبيق. كما يوفر أيضًا ميزات تعديل الصور وحمايتها بكلمة مرور وإخفائها وإنشاء ألبوم صور سري واقتصاص الصور بسهولة. ويدعم التطبيق مجموعة كبيرة من تنسيقات الصور والفيديو المختلفة مثل RAW وSVG وGIF والصور البانورامية وغير ذلك الكثير.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/SimpleGalleryPro.webp" loading="lazy" width="109" height="109" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/packages/com.simplemobiletools.gallery.pro" target="_blank" rel="noopener noreferrer">https://f-droid.org/packages/com.simplemobiletools.gallery.pro&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3nV7kgz" target="_blank" rel="noopener noreferrer">https://bit.ly/3nV7kgz&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="newpipe" data-numberify>NewPipe&lt;a class="anchor ms-1 d-none" href="#newpipe">#&lt;/a>&lt;/h3>
+&lt;h3 id="newpipe" data-numberify>NewPipe&lt;a class="anchor ms-1" href="#newpipe">&lt;/a>&lt;/h3>
 &lt;p>أفضل تطبيق بديل لمشغل اليوتيوب الرسمي بلا منازع. حيث يمكنك من مشاهدة اليوتيوب دون قيود أو قلق من اختراق خصوصيتك. ويدعم العديد من الأمور التي لن تحصل عليها في تطبيق الرسمي بدون الاشتراك المدفوع مثل التشغيل في الخلفية. كما يدعم أيضَا التحميلات وتشغيل الفيديوهات في نافذة منبثقة واختيار جودة التشغيل والتحكم في الاشتراكات والعلامات المرجعية والسجل بشكل كامل وبدون أي إعلانات مزعجة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/NewPipe.webp" loading="lazy" width="100" height="100" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/packages/org.schabi.newpipe" target="_blank" rel="noopener noreferrer">https://f-droid.org/packages/org.schabi.newpipe&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/342RV5R" target="_blank" rel="noopener noreferrer">https://bit.ly/342RV5R&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="antennapod" data-numberify>AntennaPod&lt;a class="anchor ms-1 d-none" href="#antennapod">#&lt;/a>&lt;/h3>
+&lt;h3 id="antennapod" data-numberify>AntennaPod&lt;a class="anchor ms-1" href="#antennapod">&lt;/a>&lt;/h3>
 &lt;p>AntennaPod هو تطبيق مدير بودكاست مرن وسهل الاستخدام ومفتوح المصدر لنظام أندرويد. يعدم التطبيق التحميل تلقائي للحلقات الجديدة من برامج البودكاست التي تتابعها وتشغيلها بالسرعة التي تريدها، ويدعم خلاصات البرامج بصيغ RSS وAtom، كما يدعم استيراد وتصدير اشتراكات البرامج بصيغة OPML والمزامنة عبر خدمة gpodder.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/AntennaPod.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod" target="_blank" rel="noopener noreferrer">https://play.google.com/store/apps/details?id=de.danoeh.antennapod&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/2SXhBKK" target="_blank" rel="noopener noreferrer">https://bit.ly/2SXhBKK&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h2 id="7--أدوات-وتطبيقات-متنوعة" data-numberify>7- أدوات وتطبيقات متنوعة&lt;a class="anchor ms-1 d-none" href="#7--أدوات-وتطبيقات-متنوعة">#&lt;/a>&lt;/h2>
-&lt;h3 id="collabora-office" data-numberify>Collabora Office&lt;a class="anchor ms-1 d-none" href="#collabora-office">#&lt;/a>&lt;/h3>
+&lt;h2 id="7--أدوات-وتطبيقات-متنوعة" data-numberify>7- أدوات وتطبيقات متنوعة&lt;a class="anchor ms-1" href="#7--أدوات-وتطبيقات-متنوعة">&lt;/a>&lt;/h2>
+&lt;h3 id="collabora-office" data-numberify>Collabora Office&lt;a class="anchor ms-1" href="#collabora-office">&lt;/a>&lt;/h3>
 &lt;p>تطبيق حزمة مكتبية يحتوي على محرر نصوص وجداول بيانات ومنشئ عروض تقديمية يعتمد على حزمة LibreOffice وهي أشهر مجموعة مكتبية مفتوحة المصدر في العالم. يدعم التطبيق مختلف صيغ الملفات المكتبية مثل Open Document وامتدادات ملفات الأوفيس بداية من إصدار 97 وحتى 2019.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/CollaboraOffice.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://play.google.com/store/apps/details?id=com.collabora.libreoffice" target="_blank" rel="noopener noreferrer">https://play.google.com/store/apps/details?id=com.collabora.libreoffice&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3lRLetE" target="_blank" rel="noopener noreferrer">https://bit.ly/3lRLetE&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="joplin" data-numberify>Joplin&lt;a class="anchor ms-1 d-none" href="#joplin">#&lt;/a>&lt;/h3>
+&lt;h3 id="joplin" data-numberify>Joplin&lt;a class="anchor ms-1" href="#joplin">&lt;/a>&lt;/h3>
 &lt;p>Joplin هو تطبيق مجاني ومفتوح المصدر لتدوين الملاحظات والمهام، يمكنه التعامل مع عدد كبير من الملاحظات المنظمة في دفاتر الملاحظات. الملاحظات المخزنة به تكون قابلة للبحث ويمكن نسخها وإضافة التسميات لها وتعديلها إما من التطبيقات مباشرة أو من محرر النصوص الخاص بك حيث يتم حفظ الملاحظات بتنسيق Markdown. يدعم التطبيق مزامنة الملاحظات مع العديد من الخدمات السحابية بما أو مجلدات الشبكة، وعند مزامنة الملاحظات يتم حفظ دفاتر الملاحظات والعلامات والبيانات الوصفية الأخرى في ملفات نصية عادية يمكن فتحها ونسخها احتياطيًا ونقلها بسهولة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/Joplin.png" loading="lazy" width="256" height="256" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://play.google.com/store/apps/details?id=net.cozic.joplin" target="_blank" rel="noopener noreferrer">https://play.google.com/store/apps/details?id=net.cozic.joplin&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3lJEpKy" target="_blank" rel="noopener noreferrer">https://bit.ly/3lJEpKy&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="my-expenses" data-numberify>My Expenses&lt;a class="anchor ms-1 d-none" href="#my-expenses">#&lt;/a>&lt;/h3>
+&lt;h3 id="my-expenses" data-numberify>My Expenses&lt;a class="anchor ms-1" href="#my-expenses">&lt;/a>&lt;/h3>
 &lt;p>تطبيق إدارة نفقات متميز يتسم بالسهولة وكثرة المميزات التي تعينك على إدارة الأموال بكفاءة مثل تجميع معاملاتك حسب اليوم والأسبوع والشهر والسنة، وتلخيص إجمالي الأموال بحساباتك مع المعالجة التقائي لأسعار الصرف لكل حساب ولكل معاملة)، وتحديد المبلغ الذي تنوي إنفاقه في بشكل سنوي أو شهري أو أسبوعي، ومزامنة بيانات الحساب المشفرة عبر الأجهزة المتعددة باستخدام الخدمات السحابية الخاصة أو العامة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/MyExpenses.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/packages/org.totschnig.myexpenses" target="_blank" rel="noopener noreferrer">https://f-droid.org/packages/org.totschnig.myexpenses&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3nQqEM1" target="_blank" rel="noopener noreferrer">https://bit.ly/3nQqEM1&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="blokada" data-numberify>Blokada&lt;a class="anchor ms-1 d-none" href="#blokada">#&lt;/a>&lt;/h3>
+&lt;h3 id="blokada" data-numberify>Blokada&lt;a class="anchor ms-1" href="#blokada">&lt;/a>&lt;/h3>
 &lt;p>تطبيق لمنع الإعلانات يعتمد على استخدام خدمة VPN محلية لحجب الإعلانات دون الحاجة إلى صلاحيات الرووت، ويتسم بالاستهلاك القليل للبطارية وسهولة الاستخدام والكفاءة.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/Blokada.png" loading="lazy" width="433" height="433" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/org.blokada.alarm" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/org.blokada.alarm&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3k2tafG" target="_blank" rel="noopener noreferrer">https://bit.ly/3k2tafG&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="open-camera" data-numberify>Open Camera&lt;a class="anchor ms-1 d-none" href="#open-camera">#&lt;/a>&lt;/h3>
+&lt;h3 id="open-camera" data-numberify>Open Camera&lt;a class="anchor ms-1" href="#open-camera">&lt;/a>&lt;/h3>
 &lt;p>أحد أفضل تطبيقات الكاميرا المجانية المتوفرة على أندرويد ويحتوي على عدد كبير من الخصائص والميزات التي تسمح لك بالتحكم بكل شيء يخص الكاميرا تقريبًا بشكل يفوق التطبيق الأصلي للكاميرا الموجود على الهاتف وبدون الحاجة إلى صلاحيات الرووت.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/OpenCamera.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/en/packages/net.sourceforge.opencamera" target="_blank" rel="noopener noreferrer">https://f-droid.org/en/packages/net.sourceforge.opencamera&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/378Sey4" target="_blank" rel="noopener noreferrer">https://bit.ly/378Sey4&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="material-files" data-numberify>Material Files&lt;a class="anchor ms-1 d-none" href="#material-files">#&lt;/a>&lt;/h3>
+&lt;h3 id="material-files" data-numberify>Material Files&lt;a class="anchor ms-1" href="#material-files">&lt;/a>&lt;/h3>
 &lt;p>مدير ملفات قوي وخفيف الحجم وذو تصميم رائع يمكنك من التعامل مع مختلف الملفات على هاتفك بسهولة وفاعلية، ويدعم التخصيص من خلال مجموعة كبيرة من الثيمات.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/MaterialFiles.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
 &lt;/p>
 &lt;p>&lt;a href="https://f-droid.org/packages/me.zhanghai.android.files" target="_blank" rel="noopener noreferrer">https://f-droid.org/packages/me.zhanghai.android.files&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://bit.ly/3j17GOT" target="_blank" rel="noopener noreferrer">https://bit.ly/3j17GOT&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
-&lt;h3 id="andotp" data-numberify>andOTP&lt;a class="anchor ms-1 d-none" href="#andotp">#&lt;/a>&lt;/h3>
+&lt;h3 id="andotp" data-numberify>andOTP&lt;a class="anchor ms-1" href="#andotp">&lt;/a>&lt;/h3>
 &lt;p>andOTP هو تطبيق مصادقة ثنائية لهواتف أندرويد التي تعمل بإصدار 4.4 أو أعلى. ويتميز التطبيق بالبساطة الشديدة حيث كل ما تحتاج إلى عمله هو مسح كود QR ليتم توليد رموز المصادقة الثنائية تلقائيا. ويدعم التطبيق التشفير باستخدام كلمات المرور وأرقام التعريف الشخصية ومفاتيح التشفير.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/android-open-source-apps-catalog/images/andOTP.png" loading="lazy" width="360" height="360" />
 &lt;/picture>
@@ -233,21 +312,23 @@
 &lt;li>
 &lt;p>&lt;strong>أفضل تطبيق للحفظ و المراجعة و التكرار &amp;hellip; وفر وقتك واضبط حفظك مع تطبيق أنكي للتكرار المتباعد&lt;/strong>&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/ssVeNsyYjQg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ssVeNsyYjQg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="أفضل تطبيق للحفظ و المراجعة و التكرار ... وفر وقتك واضبط حفظك مع تطبيق أنكي للتكرار المتباعد"
+>&lt;/iframe>
 &lt;/div>
 &lt;/br>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>وسيلة نافعة لتنظيم مراجعة المحفوظات - برنامج أنكي anki - الشيخ عامر بهجت&lt;/strong>&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/0Li0NYfI9Xc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0Li0NYfI9Xc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="وسيلة نافعة لتنظيم مراجعة المحفوظات - برنامج أنكي anki"
+>&lt;/iframe>
 &lt;/div>
 &lt;/li>
 &lt;/ul>
 &lt;p>وهناك أيضا قناة &lt;a href="https://t.me/Anki_arabic" target="_blank" rel="noopener noreferrer">Anki_arabic&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> على تليجرام بها العديد من الشروح والكثير من الرزم الجاهزة في القرآن والمتون وكتب الحديث والعلوم الشرعية ولهم قناة &lt;a href="https://www.youtube.com/channel/UC7xKLK_qzrAg6Ue0NNsIasA" target="_blank" rel="noopener noreferrer">يوتيوب&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> أيضا.&lt;/p>
 &lt;p>شخصيًا أستخدم التطبيق على هاتفي بشكل يومي لمراجعة المحفوظ ومدارسة بعض مقررات البرامج العلمية التي أدرس بها، ووجدت فائدة كبيرة في مراجعة المحفوظ بشكل مستمر وخصوصًا أنني لست من النوع الذي يحفظ بسهولة.&lt;/p></description></item><item><title>البرمجيات مفتوحة المصدر.. الخيار الأمثل لتوفير الأمان والخصوصية</title><link>https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/</guid><description>&lt;p>لطالما اشتهرت البرمجيات مفتوحة المصدر بأنها أكثر أمانًا من نظيراتها من البرمجيات مغلقة المصدر. وفي ظل التهديدات الأمنية الإلكترونية المتزايدة خلال الفترة السابقة منذ بداية تفشي فيروس كورونا، أصبح الاعتماد على البرمجيات مفتوحة المصدر خيارًا ممتازًا لزيادة الأمان الرقمي وتقليل تكاليف البرمجيات المغلقة. ولكن ما الذي يجعل البرمجيات مفتوحة المصدر أكثر أمانًا؟ وما هي التعقيدات التي تواجه المستخدمون الجدد وتجعل من عملية الانتقال إلى البرمجيات مفتوحة المصدر أمرًا صعبًا؟&lt;/p>
-&lt;h2 id="لماذا-البرمجيات-مفتوحة-المصدر-أكثر-أمانا" data-numberify>لماذا البرمجيات مفتوحة المصدر أكثر أمانًا؟&lt;a class="anchor ms-1 d-none" href="#لماذا-البرمجيات-مفتوحة-المصدر-أكثر-أمانا">#&lt;/a>&lt;/h2>
-&lt;h3 id="المصدر-المفتوح" data-numberify>المصدر المفتوح&lt;a class="anchor ms-1 d-none" href="#المصدر-المفتوح">#&lt;/a>&lt;/h3>
+&lt;h2 id="لماذا-البرمجيات-مفتوحة-المصدر-أكثر-أمانا" data-numberify>لماذا البرمجيات مفتوحة المصدر أكثر أمانًا؟&lt;a class="anchor ms-1" href="#لماذا-البرمجيات-مفتوحة-المصدر-أكثر-أمانا">&lt;/a>&lt;/h2>
+&lt;h3 id="المصدر-المفتوح" data-numberify>المصدر المفتوح&lt;a class="anchor ms-1" href="#المصدر-المفتوح">&lt;/a>&lt;/h3>
 &lt;p>أحد أسباب كون البرمجيات مفتوحة المصدر آمنة أكثر من مغلقة المصدر هو كون الشفرة المصدرية لهذه البرمجيات متاحة بشكل عام على الإنترنت، وذلك يعني الشفافية التامة حيث يمكن لأي مطور الاطلاع على الكود ومعرفة كيفية عمل البرنامج، كما يؤدي ذلك أيضا إلى قيام المزيد من الأشخاص بالبحث عن المشاكل وحلها بجانب المطورين الرئيسيين.&lt;/p>
 &lt;p>وعلى الرغم من أن هذا السبب قد يعتبره بعض معارضو البرمجيات مفتوحة المصدر حجة عليها حيث إن إتاحة الشفرة المصدرية بشكل عام تجعل من السهل على المخترقين العثور على نقاط الضعف الأمنية وغيرها من نقاط الضعف الموجودة بالبرنامج وإساءة استخدامها، إلا أنه من نفس المنطلق فمن المرجح أن يتم اكتشاف هذه المشكلات بشكل أسرع من قبل المساهمين أو المستخدمين، فهناك العديد من المشاريع مفتوحة المصدر التي لديها المئات والآلاف من المساهمين.&lt;/p>
 &lt;p>وحتى لو كان معظم مستخدمي البرمجيات مفتوحة المصدر لا يقومون بمراجعة الكود قبل استخدام البرنامج في البداية، إلا أنهم قد يفعلون ذلك إذا واجهوا أخطاء أو أرادوا تعديل الكود حسب احتياجاتهم. ووفقًا لآراء الخبراء، فالمطورين المتمرسين لا يحتاجون إلى إلقاء نظرة على الشفرة المصدرية للبرنامج أو البحث في آلاف الأسطر من التعليمات البرمجية للعثور على جزء ذو حماية ضعيفة عند قيامهم بتحليل أو تعديل البرامج.&lt;/p>
@@ -255,7 +336,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/images/open-source-repo.webp" loading="lazy" width="1050" height="700" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="إصلاح-نقاط-الضعف-وإصدار-النسخ-الجديدة-بشكل-أسرع" data-numberify>إصلاح نقاط الضعف وإصدار النسخ الجديدة بشكل أسرع&lt;a class="anchor ms-1 d-none" href="#إصلاح-نقاط-الضعف-وإصدار-النسخ-الجديدة-بشكل-أسرع">#&lt;/a>&lt;/h3>
+&lt;h3 id="إصلاح-نقاط-الضعف-وإصدار-النسخ-الجديدة-بشكل-أسرع" data-numberify>إصلاح نقاط الضعف وإصدار النسخ الجديدة بشكل أسرع&lt;a class="anchor ms-1" href="#إصلاح-نقاط-الضعف-وإصدار-النسخ-الجديدة-بشكل-أسرع">&lt;/a>&lt;/h3>
 &lt;p>عندما يتم الإبلاغ عن ثغرة أمنية في مشروع مفتوح المصدر، غالبًا ما يتم إصدار الإصلاح في غضون يوم أو يومين وخاصة إذا كانت ثغرة شديدة الخطورة.&lt;/p>
 &lt;p>وذلك على النقيض من البرمجيات مغلقة المصدر التي لديها دورات تحديث أطول لأسباب ذلك كثيرة منها قلة عدد الأشخاص الذين يعملون على البرنامج، وإعطاء الأولوية لتحديثات البرامج بناءً على الاعتبارات التجارية والمالية، واعتماد الكثير من البرامج على دورات إصدار تتراوح بين 6 إلى 12 شهرًا مما يجعل إصلاح ثغرة أمنية يستغرق وقتًا طويلاً ليصل إلى الإصدار المستقر من البرنامج.&lt;/p>
 &lt;p>فغالبًا ما يشتكي الباحثون الأمنيون من طول مدة معالجة الثغرة الأمنية التي اكتشفوها وقاموا بإبلاغ الشركة المطورة لبرنامج ما بها، والتي قد تستغرق شهورًا وحتى سنوات لإصلاح المشكلة وإطلاق إصدار جديد من البرنامج مما يعرض العملاء للخطر.&lt;/p>
@@ -263,7 +344,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-for-security-and-privacy/images/whitesourceopensourcebugs.jpg" loading="lazy" width="1530" height="981" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="كيف-تنتقل-إلى-استخدام-البرمجيات-مفتوحة-المصدر" data-numberify>كيف تنتقل إلى استخدام البرمجيات مفتوحة المصدر؟&lt;a class="anchor ms-1 d-none" href="#كيف-تنتقل-إلى-استخدام-البرمجيات-مفتوحة-المصدر">#&lt;/a>&lt;/h2>
+&lt;h2 id="كيف-تنتقل-إلى-استخدام-البرمجيات-مفتوحة-المصدر" data-numberify>كيف تنتقل إلى استخدام البرمجيات مفتوحة المصدر؟&lt;a class="anchor ms-1" href="#كيف-تنتقل-إلى-استخدام-البرمجيات-مفتوحة-المصدر">&lt;/a>&lt;/h2>
 &lt;p>في الواقع، لا توجد إجابة محددة على هذا السؤال لأن الإجابة تتوقف على المستخدم ومدي استعداده للانتقال إلى البدائل مفتوحة المصدر، ولأن الانتقال عملية واسعة ستشمل التخلي عن برامج قد اعتدت استخدامها وليس مجرد خطوات معدودة تقوم بها. فقد يجد مستخدم أنه من السهل التحول إلى استخدام برامج معروفة مفتوحة المصدر مثل متصفح فايرفوكس ومشغل الوسائط VLC، بينما قد يجد آخر أن خطوة الانتقال إلى استخدام نظام لينكس هي أمرٌ صعبٌ للغاية.&lt;/p>
 &lt;p>ويوفر موقع gofoss دليلًا رائعا للمستخدمين الجدد، حيث يقسم عملية الانتقال إلى البرمجيات مفتوحة المصدر إلى مجموعة من المراحل، بداخل كل مرحلة عدد من الخطوات للقيام بها.&lt;/p>
 &lt;p>&lt;a href="https://gofoss.today/" target="_blank" rel="noopener noreferrer">https://gofoss.today&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
@@ -422,30 +503,30 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/how-to-contribute-to-open-source-projects/images/2.png" loading="lazy" width="1095" height="541" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="قبل-القيام-بمساهمتك-الأولى" data-numberify>قبل القيام بمساهمتك الأولى&lt;a class="anchor ms-1 d-none" href="#قبل-القيام-بمساهمتك-الأولى">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--قيم-نفسك" data-numberify>1- قيّم نفسك&lt;a class="anchor ms-1 d-none" href="#1--قيم-نفسك">#&lt;/a>&lt;/h3>
+&lt;h2 id="قبل-القيام-بمساهمتك-الأولى" data-numberify>قبل القيام بمساهمتك الأولى&lt;a class="anchor ms-1" href="#قبل-القيام-بمساهمتك-الأولى">&lt;/a>&lt;/h2>
+&lt;h3 id="1--قيم-نفسك" data-numberify>1- قيّم نفسك&lt;a class="anchor ms-1" href="#1--قيم-نفسك">&lt;/a>&lt;/h3>
 &lt;p>الخطوة الأولى هي تقييم أي مهارة فنية أو غير فنية لديك، ومعرفة المهارات التي ترغب في تحسينها. اسأل نفسك أين يمكنني المساهمة بشكل أكثر قيمة؟ قد يساعدك هذا بشكل مباشر في تحديد ما إذا كنت ستشارك في كتابة التعليمات البرمجية أو اختبار الأخطاء أو حتى المساعدة في تحسين الوثائق حتى يتمكن الآخرون من استخدام البرنامج بشكل أكثر كفاءة.&lt;/p>
-&lt;h3 id="2--تعرف-على-github" data-numberify>2- تعرف على GitHub&lt;a class="anchor ms-1 d-none" href="#2--تعرف-على-github">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--تعرف-على-github" data-numberify>2- تعرف على GitHub&lt;a class="anchor ms-1" href="#2--تعرف-على-github">&lt;/a>&lt;/h3>
 &lt;p>تستخدم جميع المشاريع مفتوحة المصدر تقريبًا نظام للتحكم في الإصدارات، وهو أداة تساعد في دمج الأكواد والتغييرات الجديدة في المشروع (&amp;ldquo;المستودع&amp;rdquo; الرئيسي) بشكل فعّال. وغالبا ما يتم هذا التعاون من خلال موقع ويب يستضيف المستودع الأساسي. مثل مواقع Bitbucket وGitlab، وبالأخص GitHub الأكثر شعبية والأوسع استخداما من قبل مطوري المشروعات مفتوحة المصدر.&lt;/p>
 &lt;p>بشكل عام، تسمح أنظمة التحكم في الإصدارات بتتبع كافة التغييرات في أحد المشروعات دون حفظ العديد من الملفات. قم بإنشاء حساب على GitHub، وتسجيل الدخول واستكشف كل علامات التبويب المختلفة الموجودة أعلى الموقع لتتضح لديك الفكرة بشكل أفضل. كما ستجد دليل رسمي على الرابط &lt;a href="https://guides.github.com" target="_blank" rel="noopener noreferrer">https://guides.github.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> يمكنك معرفة كل شيء عن أساسيات GitHub من خلاله، وإرشادات التطوير، والمشاريع مفتوحة المصدر، والأحداث، والمؤتمرات وما إلى ذلك.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/how-to-contribute-to-open-source-projects/images/3.png" loading="lazy" width="1353" height="532" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="3--ابحث-عن-المشاريع-المناسبة-لك-وانضم-للمجتمع" data-numberify>3- ابحث عن المشاريع المناسبة لك وانضم للمجتمع&lt;a class="anchor ms-1 d-none" href="#3--ابحث-عن-المشاريع-المناسبة-لك-وانضم-للمجتمع">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--ابحث-عن-المشاريع-المناسبة-لك-وانضم-للمجتمع" data-numberify>3- ابحث عن المشاريع المناسبة لك وانضم للمجتمع&lt;a class="anchor ms-1" href="#3--ابحث-عن-المشاريع-المناسبة-لك-وانضم-للمجتمع">&lt;/a>&lt;/h3>
 &lt;p>الآن قم بالبحث عن المشاريع الملائمة لك على GitHub بناءً على مهارتك البرمجية. يمكنك استخدام مستكشف GitHub أو التسجيل في موقع Code Triage &lt;a href="https://www.codetriage.com" target="_blank" rel="noopener noreferrer">https://www.codetriage.com&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> لهذا الغرض، حتى يتم إرسال رسالة بريد إلكتروني لك بشكل يومي يحتوي على المشاكل الجديدة التي تم التبليغ عنها على مستودعات المشاريع التي تقوم بمتابعتها. وأثناء اختيار مشروع للبدء، ابحث عن مشروع يتم صيانته بشكل نشط (الذي يتم إضافة كمية جيدة من التغييرات commits إليه)، ولديه الكثير من المشكلات للعمل عليها. وبمجرد العثور على المشروع المناسب، قم بتمييزه عن طريق زرStar ونسخه إلى مستودعاتك عن طريق Fork، ثم اشترك في قائمته البريدية وقناة Slack أو أي وسائل تواصل أخري متاحة. هذه هي أفضل طريقة للحصول على المساعدة إذا كنت عالقًا أثناء إعداد المشروع أو تقديم مساهمتك الأولى.&lt;/p>
-&lt;h2 id="مساهمتك-الأولى" data-numberify>مساهمتك الأولى&lt;a class="anchor ms-1 d-none" href="#مساهمتك-الأولى">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--اللعب-بالبرنامج-ابحث-عن-الأخطاء" data-numberify>1- اللّعب بالبرنامج: ابحث عن الأخطاء&lt;a class="anchor ms-1 d-none" href="#1--اللعب-بالبرنامج-ابحث-عن-الأخطاء">#&lt;/a>&lt;/h3>
+&lt;h2 id="مساهمتك-الأولى" data-numberify>مساهمتك الأولى&lt;a class="anchor ms-1" href="#مساهمتك-الأولى">&lt;/a>&lt;/h2>
+&lt;h3 id="1--اللعب-بالبرنامج-ابحث-عن-الأخطاء" data-numberify>1- اللّعب بالبرنامج: ابحث عن الأخطاء&lt;a class="anchor ms-1" href="#1--اللعب-بالبرنامج-ابحث-عن-الأخطاء">&lt;/a>&lt;/h3>
 &lt;p>أولاً، جرب البرنامج، قم بتثبيته، ثم توغل فيه وحاول كسره، وتأكد ما إذا كان يفعل ما هو موجود في الوصف. يعد هذا &amp;ldquo;الملعب&amp;rdquo; مكانًا رائعًا للبدء في المساهمة بإضافات قيّمة بصورة بالغة السهولة، من خلال الإبلاغ عن أي مشكلات تجدها. فكل مشروع غالبا ما يقوم بإعداد نموذج للإبلاغ عن الأخطاء، قد يكون مختلف قليلاً من مشروع لأخر، لكنه سيحتوي بشكل أساسي على معلومات متشابهة. فمثلا يمكنك إلقاء نظرة على إرشادات المساهمة في MindsDB هنا &lt;a href="https://github.com/mindsdb/mindsdb/blob/master/.github/ISSUE_TEMPLATE/bug_report.md" target="_blank" rel="noopener noreferrer">https://github.com/mindsdb/mindsdb/blob/master/.github/ISSUE_TEMPLATE/bug_report.md&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
-&lt;h3 id="2--تفقد-المشكلات-الحالية" data-numberify>2- تفقد المشكلات الحالية&lt;a class="anchor ms-1 d-none" href="#2--تفقد-المشكلات-الحالية">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--تفقد-المشكلات-الحالية" data-numberify>2- تفقد المشكلات الحالية&lt;a class="anchor ms-1" href="#2--تفقد-المشكلات-الحالية">&lt;/a>&lt;/h3>
 &lt;p>بعد تحديد المشروع الذي ترغب في المساهمة فيه، قم باستكشاف مستودع GitHub الخاص به، واقرأ مستندات المشروع ثم انتقل إلى علامة تبويب المشكلات Issues. ستجد به جميع المشكلات المفتوحة التي يمكنك العمل عليها. يمكن أن تتنوع هذه المشكلات من مستوى المبتدئين إلى المستوى المتقدم. وإذا كان المستودع يتم إدارته بشكل صحيح، فسيتم وضع علامات على المشكلات مثل &amp;ldquo;المبتدئين beginner&amp;rdquo; و &amp;ldquo;المساعدة المطلوبة help-wanted&amp;rdquo; وما إلى ذلك.&lt;/p>
-&lt;h3 id="3--ساعد-في-تحسين-الوثائق" data-numberify>3- ساعد في تحسين الوثائق&lt;a class="anchor ms-1 d-none" href="#3--ساعد-في-تحسين-الوثائق">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--ساعد-في-تحسين-الوثائق" data-numberify>3- ساعد في تحسين الوثائق&lt;a class="anchor ms-1" href="#3--ساعد-في-تحسين-الوثائق">&lt;/a>&lt;/h3>
 &lt;p>لا تحتاج إلى البدء في كتابة الأكواد على الفور للمساهمة في المشروعات. فيمكنك المساهمة في التوثيق، وإنشاء إرشادات المطورين، ومساعدة الأشخاص الآخرين في حل مشكلاتهم، وما إلى ذلك. اقرأ الوثائق بتمعن وإذا شعرت أن هناك شيء مفقود، يمكن أن يكون هذا أول مكان رائع للمساهمة فيه. يمكنك إنشاء تقرير مشكلة جديدة، أو إذا كنت تشعر بالثقة الكافية، يمكنك إضافة الأجزاء المفقودة بنفسك. وبشكل عام يمكنك إيجاد الوثائق في أغلب المشاريع في مجلد docs، كما هو الحال مع MindsDB هنا &lt;a href="https://github.com/mindsdb/mindsdb/tree/master/docs" target="_blank" rel="noopener noreferrer">https://github.com/mindsdb/mindsdb/tree/master/docs&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/how-to-contribute-to-open-source-projects/images/4.png" loading="lazy" width="500" height="300" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="4--اقترح-ميزات-جديدة" data-numberify>4- اقترح ميزات جديدة&lt;a class="anchor ms-1 d-none" href="#4--اقترح-ميزات-جديدة">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--اقترح-ميزات-جديدة" data-numberify>4- اقترح ميزات جديدة&lt;a class="anchor ms-1" href="#4--اقترح-ميزات-جديدة">&lt;/a>&lt;/h3>
 &lt;p>إذا كنت تجد أن المشروع مفيد، يمكنك أيضًا البدء في طلب ميزات جديدة التي ستساهم في تحسين المشروع بشكل كبير، والأفضل بكل تأكيد أن تحاول إضافتها بنفسك.&lt;/p>
-&lt;h2 id="استراتيجيات-التطوير" data-numberify>استراتيجيات التطوير&lt;a class="anchor ms-1 d-none" href="#استراتيجيات-التطوير">#&lt;/a>&lt;/h2>
+&lt;h2 id="استراتيجيات-التطوير" data-numberify>استراتيجيات التطوير&lt;a class="anchor ms-1" href="#استراتيجيات-التطوير">&lt;/a>&lt;/h2>
 &lt;p>يوجد نموذجان لتطوير المشاريع، النموذج الأول هو نهج صعودي يعطي القوة للمطورين والمستخدمين (نهج السوق)، والنموذج الثاني هو نهج نزولي تكون فيه السلطة مع المديرين ومالكي المنتجات (نهج الكاتدرائية).&lt;/p>
 &lt;p>وعلى الرغم من محاولة الشركات لمحاكة النموذج الأول، فإنها لا تستطيع أن تفعل ذلك بشكل جيد جدا مثل المشاريع مفتوحة المصدر.&lt;/p>
 &lt;p>ففي عالم مشاريع الشركات، يقود المهندسون والمديرون وأصحاب المنتج الطريق. لكن في عالم المصادر المفتوحة، يكون المستخدمون والمطورون هم من يقومون بتحديد مواصفات البرنامج.&lt;/p>
@@ -455,15 +536,15 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/how-to-contribute-to-open-source-projects/images/5.png" loading="lazy" width="600" height="461" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="الأهداف-التالية-كمطور-برمجيات-مفتوحة-المصدر" data-numberify>الأهداف التالية كمطور برمجيات مفتوحة المصدر&lt;a class="anchor ms-1 d-none" href="#الأهداف-التالية-كمطور-برمجيات-مفتوحة-المصدر">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--حضور-المؤتمرات" data-numberify>1- حضور المؤتمرات&lt;a class="anchor ms-1 d-none" href="#1--حضور-المؤتمرات">#&lt;/a>&lt;/h3>
+&lt;h2 id="الأهداف-التالية-كمطور-برمجيات-مفتوحة-المصدر" data-numberify>الأهداف التالية كمطور برمجيات مفتوحة المصدر&lt;a class="anchor ms-1" href="#الأهداف-التالية-كمطور-برمجيات-مفتوحة-المصدر">&lt;/a>&lt;/h2>
+&lt;h3 id="1--حضور-المؤتمرات" data-numberify>1- حضور المؤتمرات&lt;a class="anchor ms-1" href="#1--حضور-المؤتمرات">&lt;/a>&lt;/h3>
 &lt;p>كمطور برمجيات مفتوحة المصدر، يمكنك حضور المؤتمرات والأحداث المتعلقة بالبرمجة والتكنولوجيا. يمكنك التحقق من الأحداث المختلفة على GitHub Explore ومحاولة حضور أحد تلك الأحداث إذا كانت قريبة منك.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/how-to-contribute-to-open-source-projects/images/6.png" loading="lazy" width="1143" height="332" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="2--تقاضي-أجر-مقابل-تطوير-البرمجيات-مفتوحة-المصدر" data-numberify>2- تقاضي أجر مقابل تطوير البرمجيات مفتوحة المصدر&lt;a class="anchor ms-1 d-none" href="#2--تقاضي-أجر-مقابل-تطوير-البرمجيات-مفتوحة-المصدر">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--تقاضي-أجر-مقابل-تطوير-البرمجيات-مفتوحة-المصدر" data-numberify>2- تقاضي أجر مقابل تطوير البرمجيات مفتوحة المصدر&lt;a class="anchor ms-1" href="#2--تقاضي-أجر-مقابل-تطوير-البرمجيات-مفتوحة-المصدر">&lt;/a>&lt;/h3>
 &lt;p>بصفة عامة، لا يتم الدفع لك مقابل القيام بتطوير برمجية مفتوحة المصدر، حيث أن معظم العمل المنجز يتم بشكل تطوعي. ومع ذلك، إذا كنت لا تستطيع إنفاق بعض الوقت في تطوير المصادر المفتوحة بشكل مجاني، يمكنك إما التحدث مع صاحب العمل، وطرح فكرة لمشروع قد يثير اهتمامه أو العثور على مشروع يدفع لمطور البرامج مفتوحة المصدر. يمكنك معرفة المزيد من خلال دليل GitHub للحصول على أموال مقابل تطوير برمجيات مفتوحة المصدر. &lt;a href="https://opensource.guide/getting-paid" target="_blank" rel="noopener noreferrer">https://opensource.guide/getting-paid&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> وكما أسلفت الذكر، تقوم العديد من الشركات بتعيين أو استئجار خدمات المطورين الأكثر مساهمة في مشاريعها، أو الدفع لهم نظير مساهماتهم.&lt;/p>
-&lt;h3 id="3--أضئ-سيرتك-الذاتية-كن-مرشدا-وشارك-المسابقات-مفتوحة-المصدر" data-numberify>3- أضئ سيرتك الذاتية، كن مرشدًا وشارك المسابقات مفتوحة المصدر&lt;a class="anchor ms-1 d-none" href="#3--أضئ-سيرتك-الذاتية-كن-مرشدا-وشارك-المسابقات-مفتوحة-المصدر">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--أضئ-سيرتك-الذاتية-كن-مرشدا-وشارك-المسابقات-مفتوحة-المصدر" data-numberify>3- أضئ سيرتك الذاتية، كن مرشدًا وشارك المسابقات مفتوحة المصدر&lt;a class="anchor ms-1" href="#3--أضئ-سيرتك-الذاتية-كن-مرشدا-وشارك-المسابقات-مفتوحة-المصدر">&lt;/a>&lt;/h3>
 &lt;p>يمكنك أن تذكر جميع المشاريع التي ساهمت بها في سيرتك الذاتية أو إضافة رابط حسابك على GitHub عندما تتقدم لوظيفة ذات صلة بالبرمجيات. فمعظم أصحاب العمل يعجبون بالمساهمين الناشطين وتكون لهم الأولوية على باقي المرشحين للوظيفة.&lt;/p>
 &lt;p>ويمكنك أيضًا أن تصبح مرشدًا للأشخاص الذين يتخذون أول خطواتهم على طريق تطوير البرمجيات مفتوحة المصادر. لقد حان الوقت لرد الجميل للمجتمع وإعطاء التوجيه للأشخاص الذين بدؤوا للتو.&lt;/p>
 &lt;p>هناك العديد من البرامج التي يمكنك الالتحاق بها كمشرف أو كمشارك، على سبيل المثال Google Summer of Code، Rails Girls Summer of Code، Outreachy، وما إلى ذلك، أو حتى مجرد مساعدة الأشخاص من خلال الرد على استفساراتهم في القوائم البريدية أو موقع StackOverflow.&lt;/p>
@@ -480,14 +561,14 @@
 &lt;/p></description></item><item><title>كيف يمكن للبرمجيات مفتوحة المصدر أن تساعد الشركات الناشئة؟</title><link>https://yshalsager.com/ar/posts/how-open-source-software-can-help-startup-companies/</link><pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/how-open-source-software-can-help-startup-companies/</guid><description>&lt;p>لا يخفي على الكثير حاليا أن البرمجيات مفتوحة المصدر تحمل العديد من الفوائد للأعمال والأنشطة التجارية التي تتطلع إلى جني ثمار الجهود التعاونية والمبتكرة والمجانية للعديد من المطورين حول العالم. فحتى الشركات الكبرى مثل Netflix وSalesforce وTwitter قد قامت بفتح مصدر برامجها للمطورين، حتى يستطيعوا القيام بعمليات الاختبار وتصحيح الأخطاء والتحسين. وفي الواقع، تعتمد 78% من الشركات الآن على برمجيات مفتوحة المصدر. إذن، بالاعتماد على البرمجيات الحرة يمكن للشركات الناشئة أن تستغل ميزاتها المختلفة لتحسين الأداء وتوسيع نطاق الأعمال. دعونا نستعرض الأسباب.&lt;/p>
 &lt;p>لقد قامت البرمجيات مفتوحة المصدر بتغيير أبعاد اللعبة بشكل كبير، فاستخدام التقنيات المتقدمة لم يعد مقتصرا على الشركات الكبرى فقط، فأي شركة ناشئة تستطيع الآن الاستفادة من هذه التقنيات ودون الحاجة إلى إعداد ميزانية كبيرة لاستخدامها كما هو الحال مع البرمجيات الاحتكارية التي تتطلب شراء تراخيص أو حتى دفع مبالغ شهرية أو سنوية مقابل استخدامها.
 فيما يلي أهم الطرق التي يمكن أن تستفيد بها الشركات الناشئة بجدية من الاعتماد على حلول برمجيات مفتوحة المصدر:&lt;/p>
-&lt;h2 id="القوة-والتحكم" data-numberify>القوة والتحكم&lt;a class="anchor ms-1 d-none" href="#القوة-والتحكم">#&lt;/a>&lt;/h2>
+&lt;h2 id="القوة-والتحكم" data-numberify>القوة والتحكم&lt;a class="anchor ms-1" href="#القوة-والتحكم">&lt;/a>&lt;/h2>
 &lt;p>تعمل الشركات الناشئة حديثا مع قيود صارمة على الميزانية دائمًا، وذلك نظرًا لأنها بدأت للتو، مما يعني تنفيذ نموذج الأعمال الخاص بهم بالطريقة الأكثر اقتصادا. وتسمح البرمجيات الحرة بلا شك لهم بالقيام بذلك عن طريق إزالة أعباء دفع الرسوم الأولية الباهظة للبرامج الاحتكارية عن الشركة. ففي الحقيقة، توفر الشركات التي تستخدم نظام التشغيل لينكس ما يصل إلى 55% مقارنة بالحلول التجارية، وعلى سبيل المثال قام بنك باركليز البريطاني بتخفيض تكاليف تطوير البرمجيات الخاصة به بنسبة 90% عن طريق استخدام لينكس فقط.&lt;/p>
 &lt;p>وعلى الرغم من أنه من المحتمل أن تضطر الشركة في حالة الانتقال إلى البرمجيات مفتوحة المصدر إلى إنفاق الأموال على الدعم أو التدريب أو احتياجات التطوير حسب الطلب، إلا أن هذه الخيارات ليست إلزامية، ويمكن أن يتم إجراءها طبقا لخطة العمل الخاصة بهم وزخم الأعمال الفعلية، فيتم استخدامها فقط عند الحاجة لها.&lt;/p>
 &lt;p>وترجع القوة والقدرات الموسعة التي تأتي من البرمجيات مفتوحة المصدر بشكل كبير إلى مجتمع المطورين الموهوبين الذين يبنون ويصممون الحلول، مما يتيح استكشاف سريعا للمشاكل وتطويرا أسرع. لأن الكثرة دائما ما تغلب، ستحقق العديد من الأيدي نتائج أفضل.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/how-open-source-software-can-help-startup-companies/images/1.png" loading="lazy" width="800" height="500" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="الابتكار-والإنتاجية-والمرونة" data-numberify>الابتكار والإنتاجية والمرونة&lt;a class="anchor ms-1 d-none" href="#الابتكار-والإنتاجية-والمرونة">#&lt;/a>&lt;/h2>
+&lt;h2 id="الابتكار-والإنتاجية-والمرونة" data-numberify>الابتكار والإنتاجية والمرونة&lt;a class="anchor ms-1" href="#الابتكار-والإنتاجية-والمرونة">&lt;/a>&lt;/h2>
 &lt;p>تحتاج الشركات الناشئة أن تكون قادرة على التجربة بشكل حر، حتى تتمكن من فهم ما يصلح لأعمالها وما لا يصلح. وإذا كانت الحاجة لتجربة الخيارات المختلفة مقيدة بالتكاليف الباهظة أو التزامات التعاقدات، فإن الشركات لن تقوم بتجربة المسارات الجديدة أو ارتكاب الأخطاء الضرورية لفهم ما هو أفضل طريق للمضي عبره. أضف إلى ذلك عدم القدرة على الاستفادة من الأدوات الجديدة بمجرد توفرها، وخاصة قبل اللاعبين الكبار الآخرين، الذين يطورون برمجياتهم الاحتكارية الخاصة.&lt;/p>
 &lt;p>تسمح البرمجيات مفتوحة المصدر بهذا النوع من المرونة والرشاقة، والذي يولد الابتكار. فيمكن للشركات الناشئة استكشاف جميع السبل التي يحتاجون إليها حتى يعرفوا الطريق الصحيح بالنسبة لهم دون الحاجة إلى اتباع ما يمليه عليهم مورد معين.&lt;/p>
 &lt;p>على سبيل المثال، تحتاج الشركات الناشئة التي تعمل في مجال الذكاء الاصطناعي إلى تحديد أفضل خوارزمية تناسب احتياجات العمل الخاصة بهم. ولتحديد هذه الخوارزمية يتعين على علماء البيانات إجراء العديد من عمليات المحاولة والخطأ. ويتبع ذلك عادةً تحليل تفصيلي للبيانات ومرحلة الاكتشاف. وبعد المرور بكل هذه المراحل لمرات عديدة، سيكون لدي علماء البيانات فهم كامل لخوارزمية الاستخدام، ومعرفة أفضل طريقة لتقطيع وتشريح البيانات للحصول على النتائج المتوقعة للأعمال.&lt;/p>
@@ -496,7 +577,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/how-open-source-software-can-help-startup-companies/images/2.jpg" loading="lazy" width="2000" height="1200" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="الأمان-والموثوقية" data-numberify>الأمان والموثوقية&lt;a class="anchor ms-1 d-none" href="#الأمان-والموثوقية">#&lt;/a>&lt;/h2>
+&lt;h2 id="الأمان-والموثوقية" data-numberify>الأمان والموثوقية&lt;a class="anchor ms-1" href="#الأمان-والموثوقية">&lt;/a>&lt;/h2>
 &lt;p>نظرا لطبيعتها العامة، تكون الشفرة المصدرية للبرنامج في أغلب الأحيان أكثر موثوقية من أي شيء تم تطويره بواسطة مجموعات مستقلة من المطورين. وعلى الرغم من البرمجيات مفتوحة المصدر ليست أكثر أمانا من البرمجيات الاحتكارية بشكل تلقائي، فإنها بخلاف تلك الأخيرة شفافة ومتاحة للفحص من قبل الجميع. لذلك، من خلال فتح مصدر البرنامج والسماح لأي شخص بتصليح الأكواد التي تسبب مشاكل وقد تعرض البرنامج للخطأ، يمكن للشركات الاستفادة من روح المبادرة لدي المجتمع لتعزيز أمان برمجياتهم.&lt;/p>
 &lt;p>قد تكون الشركات الناشئة التي بدأت للتو خائفة من كمية خيارات البرامج مفتوحة المصدر المتاحة، لكن لا ينبغي لذلك أن يؤدي إلى إيقافها، فهناك قدر كبير من الأرباح يمكن الحصول عليه عن طريق اختيار التقنيات مفتوحة المصدر.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/how-open-source-software-can-help-startup-companies/images/3.png" loading="lazy" width="800" height="450" />
@@ -515,7 +596,7 @@
 &lt;/picture>
 &lt;/p></description></item><item><title>البرمجيات مفتوحة المصدر تجتاح العالم</title><link>https://yshalsager.com/ar/posts/open-source-software-everywhere/</link><pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/open-source-software-everywhere/</guid><description>&lt;p>منذ خمسة سنوات تقريبا شاع في أوساط المستثمرين موجة كبيرة من الجدال حول جدوى البرمجيات مفتوحة المصدر كنموذج عمل، وفي ذلك الوقت كان النموذج الوحيد الناجح هو شركة ريد هات Red Hat، التي رأي كثير من المختصين أنه لن تكون هناك أي شركة أخري بنفس أهميتها في عالم المصادر المفتوحة، على الأقل حتى وقت قريب.&lt;/p>
 &lt;p>وبالمرور سريعًا منذ ذلك الوقت حتى يومنا هذا، حدث العديد من التغيرات المثيرة للاهتمام، فقد تم الاستحواذ على شركة ريد هات Red Hat من قبل أي بي إم IBM في صفقة قيمتها 32 مليار دولار (ثلاثة أضعاف قيمتها السوقية في عام 2014)، وكذلك الاستحواذ على شركة MuleSoft مقابل 6.5 مليار دولار، ووصلت قيمة شركة MongoDB إلى 4 مليار دولار، وتقدر قيمة شركة Elastic ب 6 مليار، وبعد اندماج شركتي Cloudera وHortonworks وصلت القيمة السوقية للشركة الجديدة إلى 4 مليار دولار. بالإضافة إلى النمو المذهل لعدد من الشركات مفتوحة المصدر مثل Confluent - HashiCorp - DataBricks - Kong - Cockroach Labs، وغيرها الكثير. فبالنظر إلى الوضع الحالي لهذه الشركات والمستثمرين فيها يبدو أن هناك شيئًا خاصًا يحدث. ما الذي جعل هذه الحركة التي كانت تمثل مقدمة اتجاهات البرمجيات في وقت سابق مكانًا يعج بالاستثمارات؟ هناك عدد من التغييرات الأساسية التي أسفرت عن ازدهار أعمال البرمجيات مفتوحة المصدر وزيادة فرصها السوقية.&lt;/p>
-&lt;h2 id="من-البرمجيات-مفتوحة-المصدر-إلى-البرمجيات-كخدمة" data-numberify>من البرمجيات مفتوحة المصدر إلى البرمجيات كخدمة&lt;a class="anchor ms-1 d-none" href="#من-البرمجيات-مفتوحة-المصدر-إلى-البرمجيات-كخدمة">#&lt;/a>&lt;/h2>
+&lt;h2 id="من-البرمجيات-مفتوحة-المصدر-إلى-البرمجيات-كخدمة" data-numberify>من البرمجيات مفتوحة المصدر إلى البرمجيات كخدمة&lt;a class="anchor ms-1" href="#من-البرمجيات-مفتوحة-المصدر-إلى-البرمجيات-كخدمة">&lt;/a>&lt;/h2>
 &lt;p>لم تكن المشروعات مفتوحة المصدر الأصلية شركات أو ذات أغراض تجارية في المقام الأول، بل كانت &amp;ldquo;ثورات&amp;rdquo; ضد الأرباح غير العادلة التي كانت شركات البرمجيات مغلقة المصدر تجنيها. فقد كانت الشركات مثل Microsoft، وOracle، وSAP تقوم &amp;ldquo;بتأجير&amp;rdquo; البرمجيات بطريقة شبه احتكارية، لم يعتقد كبار المطورين في ذلك الوقت أنها على المستوي العالمي. لذلك، بدءًا بالمكونات الأكثر استخدامًا على نطاق واسع في أنظمة التشغيل وقواعد البيانات، تعاون المطورون بشكل تدريجي وفي كثير من الأحيان غير متزامن، في كتابة أجزاء كبيرة من البرامج التي يمكن لكل شخص رؤيتها واستخدامها وإضافة ميزات إليها وتحسينها.&lt;/p>
 &lt;p>وقد تم إنشاء العديد من هذه البرامج في الأصل للمطورين، مما يعني أنها في البداية لم تكن صديقة للمستخدم. لكنها كانت قوية ومتينة ومرنة. هذه الميزات أصبحت منتشرة بشكل تدريجي عبر عالم البرمجيات الحرة، وأصبح لينكس على مدى عقد من الزمن ثاني أكثر أنظمة التشغيل للخوادم شيوعًا (بجانب Windows)، وقد أثبت MySQL هذه المفاهيم عن طريق سحب البساط من Oracle.&lt;/p>
 &lt;p>حاولت المشاريع الريادية الأولى الاستفادة من هذا التبني من خلال تقديم اشتراكات دعم للبرمجيات &amp;ldquo;على مستوى المؤسسات&amp;rdquo;. وقد برزت Red Hat الفائزة في سباق لينكس وشركة MySQL لقواعد البيانات. كان لهذه الأعمال التجارية بعض التقييدات الواضحة، فقد كان من الصعب الربح من خلال خدمات دعم هذه البرمجيات فقط، لكن حجم سوق نظام التشغيل وقواعد البيانات كان كبيرًا جدًا، فعلى الرغم من نماذج الأعمال الأكثر تحديًا، يمكن بناء شركات كبيرة.&lt;/p>
@@ -525,7 +606,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-everywhere/images/2.png" loading="lazy" width="2412" height="636" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="دور-المجتمع" data-numberify>دور المجتمع&lt;a class="anchor ms-1 d-none" href="#دور-المجتمع">#&lt;/a>&lt;/h2>
+&lt;h2 id="دور-المجتمع" data-numberify>دور المجتمع&lt;a class="anchor ms-1" href="#دور-المجتمع">&lt;/a>&lt;/h2>
 &lt;p>وفي حين أن برمجيات الجيل الثالث يتم التحكم بها بشكل رئيسي من قبل الشركات المضيفة، لا يزال مجتمع المصادر المفتوحة يلعب دورا محوريا في إنشاء وتطوير هذه المشاريع مفتوحة المصدر. فبالنسبة للمستخدم، يتم اكتشاف المشاريع الأكثر ابتكارًا عن طريق المجتمع، حيث يقوم المستخدمين بتمييز المشاريع على موقع GitHub، وتحميل البرامج بغرض تجربتها، ثم ترشيح ما يرون أنه أفضل مشروع حتى يتمكن الآخرون من الاستفادة من البرامج الرائعة. ويتم ذلك بشكل مشابه إلى حد كبير للانتشار واسع المدي للتدوينات أو التغريدات الجيدة، فتنتشر البرمجيات مفتوحة المصدر المتميزة على نطاق واسع بشكل سريع للغاية، وهذه هي قوة الترويج عن طريق المجتمع.&lt;/p>
 &lt;p>كما ينتهي الوضع بالنسبة للمجتمع في أغلب الأحيان إلى كونه &amp;ldquo;مدير الإنتاج&amp;rdquo; لهذه المشروعات، فيطلب التطوير والتحسينات ويشير إلى أوجه القصور في البرنامج. وطلبات الميزات هذه غير موجودة في مستند متطلبات المنتج داخل الشركة، ولكن على GitHub، وتعليقات الموضوعات وأخبار المبرمجين. وإذا كان المشروع مفتوح المصدر يستجيب لطلبات المجتمع، فسيغير من نفسه ليدمج الميزات والقدرات التي يريدها المطورون.&lt;/p>
 &lt;p>وإضافة إلى ذلك، يقوم المجتمع أيضا بدور قسم ضمان الجودة للبرامج مفتوحة المصدر. فيحدد الأخطاء والعيوب في البرنامج، ويختبر الإصدارات الفرعية بجد ويعطي الشركات التعليقات حول ما الذي يعمل، وما الذي لا يعمل. ويكافئ المجتمع أيضًا البرامج الجيدة بالتعليقات الإيجابية، والتي ستشجع على الاستخدام بشكل أوسع.&lt;/p>
@@ -534,26 +615,26 @@
 &lt;/picture>
 &lt;/p>
 &lt;p>(لينوس تورفالدس مصمم نظام التشغيل المفتوح المصدر لينكس)&lt;/p>
-&lt;h2 id="بروز-دور-المطورين" data-numberify>بروز دور المطورين&lt;a class="anchor ms-1 d-none" href="#بروز-دور-المطورين">#&lt;/a>&lt;/h2>
+&lt;h2 id="بروز-دور-المطورين" data-numberify>بروز دور المطورين&lt;a class="anchor ms-1" href="#بروز-دور-المطورين">&lt;/a>&lt;/h2>
 &lt;p>من المهم أيضًا إدراك الأهمية المتزايدة لدور المطور في هذه المشاريع مفتوحة المصدر. فنجد أن استراتيجية البرمجيات مغلقة المصدر &amp;ldquo;الذهاب للسوق&amp;rdquo; تستهدف قطاع تكنولوجيا المعلومات كمركز لشراء البرمجيات، وعلى الرغم من الدور الذي لا يمكن إنكاره لهذا القطاع، فإن العملاء الحقيقيون للبرمجيات مفتوحة المصدر هم المطورون الذين يكتشفون البرنامج، ومن ثم يقومون بتنزيله ودمجه في إصدارات النماذج الأولية للمشاريع التي يعملون عليها. وبمجرد أن &amp;ldquo;تصاب&amp;rdquo; المشاريع بالبرمجيات مفتوحة المصدر، فإنها تشق طريقها من خلال دورات تطوير المؤسسات، من التصميم إلى النماذج إلى التنمية إلى التكامل والاختبار إلى الترحيل، وأخيرا إلى الإنتاج. وبحلول الوقت الذي تصل فيه البرامج مفتوحة المصدر إلى الإنتاج نادرا ما يتم ابدالها. فبشكل أساسي لا يتم &amp;ldquo;بيع&amp;rdquo; البرنامج نهائيًا، لكن يتم تبنيه من قبل المطورين الذين يقدرونه، حيث يفضلون استخدامه بأنفسهم بدلاً من الخضوع لاتفاقيات استخدامه استنادًا إلى قرارات تنفيذية. بعبارة أخرى، تتغلغل البرمجيات مفتوحة المصدر في أوساط الخبراء، وتجعل عملية الاختيار أكثر جاذبية من أي وقت مضي، فالمطورون يقومون بالتصويت بأنفسهم، وهذا القالب في تناقض صارخ مع الطريقة التقليدية لبيع البرمجيات.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-everywhere/images/4.jpg" loading="lazy" width="2120" height="1414" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="مزايا-نموذج-عمل-البرمجيات-مفتوحة-المصدر" data-numberify>مزايا نموذج عمل البرمجيات مفتوحة المصدر&lt;a class="anchor ms-1 d-none" href="#مزايا-نموذج-عمل-البرمجيات-مفتوحة-المصدر">#&lt;/a>&lt;/h2>
+&lt;h2 id="مزايا-نموذج-عمل-البرمجيات-مفتوحة-المصدر" data-numberify>مزايا نموذج عمل البرمجيات مفتوحة المصدر&lt;a class="anchor ms-1" href="#مزايا-نموذج-عمل-البرمجيات-مفتوحة-المصدر">&lt;/a>&lt;/h2>
 &lt;p>إذًا، نموذج الأعمال الناتج عن شركة مفتوحة المصدر يبدو مختلفًا تماما عن أعمال البرمجيات التقليدية. في البداية، يختلف خط الدخل، فشركة برمجيات المصدر مغلقة قادرة على فرض رسوم أكثر لكل نسخة من شركة مفتوحة المصدر عموماً. فحتى اليوم، يتمتع العملاء بمستوى معين من المقاومة لدفع سعر مرتفع لكل نسخة من البرامج التي تكون نظريًا &amp;ldquo;مجانية&amp;rdquo;. وعلى الرغم من أن البرمجيات مفتوحة المصدر منخفضة التكلفة لكل نسخة، إلا أنها تشكل الحجم الإجمالي للسوق من خلال الاستفادة من مرونة السوق. فعندما يكون هناك شيء أرخص، يشتريه المزيد من الناس. ولهذا السبب لدي الشركات مفتوحة المصدر مثل هذا التبني الهائل والسريع عندما تحقق تناسبًا في سوق المنتجات.&lt;/p>
 &lt;p>وهناك أفضلية أخرى رائعة للشركات المفتوحة المصدر تتمثل في انتشارها بشكل فيروسي وأكثر فعالية. فالميزة الأولى والأكثر وضوحا هي أن المستخدم هو بالفعل &amp;ldquo;عميل&amp;rdquo; حتى قبل أن يدفع مقابل البرنامج. وذلك نظرًا لأن أغلب الاعتماد الأولي للبرامج مفتوحة المصدر يأتي من مطوري البرامج الذين يقومون بتنزيل البرامج واستخدامها بشكل طبيعي، وبذلك يمكن للشركات نفسها في كثير من الأحيان تجاوز كل من مراحل التسويق وإثبات الفكرة في دورة المبيعات. حيث تعتبر خطوة المبيعات شيئا مثل &amp;ldquo;أنت تستخدم بالفعل 500 نموذج من برامجنا في بيئة عملك، ألا ترغب في الترقية إلى الإصدار المؤسسي والحصول على هذه الميزات الإضافية؟&amp;rdquo; وهذا يُتَرجَم إلى دورات مبيعات أقصر بكثير، ويقلل الحاجة لمهندسي مبيعات لكل مسؤول تنفيذي، ويضمن فترات استرداد أسرع بكثير من تكلفة البيع.&lt;/p>
 &lt;p>تسمح هذه الميزات لشركات البرمجيات مفتوحة المصدر أن تكون أكثر كفاءة من شركات البرمجيات التقليدية بالنسبة لأساس الاستهلاك النقدي. فقد تمكنت بعض من أفضل الشركات المفتوحة المصدر من تنمية أعمالها بمعدلات نمو ثلاثية مع الحفاظ على معدلات صرف معتدلة. وهذا شيء من الصعب تخيله في شركة برمجيات تقليدية.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-everywhere/images/5.jpg" loading="lazy" width="2120" height="1414" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="من-المصدر-المفتوح-إلى-المجانية" data-numberify>من المصدر المفتوح إلى المجانية&lt;a class="anchor ms-1 d-none" href="#من-المصدر-المفتوح-إلى-المجانية">#&lt;/a>&lt;/h2>
+&lt;h2 id="من-المصدر-المفتوح-إلى-المجانية" data-numberify>من المصدر المفتوح إلى المجانية&lt;a class="anchor ms-1" href="#من-المصدر-المفتوح-إلى-المجانية">&lt;/a>&lt;/h2>
 &lt;p>وثمة جانب اخر من تغييرات الأعمال المفتوحة المصدر يستحق التفصيل، وهو التحول التدريجي من المصدر المفتوح الحقيقي إلى المجتمع الحر المدعوم من المجتمع. فكما ذكرت من قبل، اعتبرت المشروعات مفتوحة المصدر الأولى المجتمع كمساهمين رئيسيين في أساس البرنامج. وبالإضافة إلى ذلك، حتى بالنسبة للعناصر الطفيفة من البرامج المرخصة تجارياً، كان هناك تراجع كبير من المجتمع. أما في هذه الأيام، فالمجتمع المحلي وقاعدة العملاء يكونان أكثر دراية بنموذج العمل المفتوح المصدر، وهناك تقدير لحقيقة أن الشركات مفتوحة المصدر تستحق أن يكون لديها &amp;ldquo;ميزات مدفوعة&amp;rdquo; حتى تتمكن من الاستمرار في البناء والابتكار.&lt;/p>
 &lt;p>وفي الواقع، العرضان القيمان للبرامج مفتوحة المصدر من وجهة نظر العميل هما:&lt;/p>
 &lt;p>أ) قراءة التعليمات البرمجية
 ب) التعامل معها على أنها خدمة مجانية.&lt;/p>
 &lt;p>فمفهوم &amp;ldquo;خدمة مجانية&amp;rdquo; يعني أنه يمكنك استخدام البرنامج أساسًا بشكل مجانًا، إلى أن يتم توزيعة في الإنتاج أو بعض درجاته. وقد ذهبت شركات مثل &amp;quot; Elastic&amp;quot; و &amp;quot; Cockroach Labs&amp;quot; إلى حد فتح مصادر جميع برمجياتها ولكن مع تطبيق ترخيص تجاري على أجزاء من أساس البرنامج. وذلك لأن عملاء المؤسسة الحقيقية سيدفعون سواء كان البرنامج مفتوحًا أو مغلقًا، كما يتم تحفيزهم أكثر لاستخدام النسخة التجارية إذا كان بإمكانهم قراءة كود البرنامج. وبالطبع هناك خطر أن يقوم شخص ما يمكنه بقراءة الكود وتعديله بشكل طفيف والتوزيع بشكل فرعي، ولكن في الاقتصادات المتقدمة - حيث توجد الكثير من الإيجارات على أي حال - من غير المرجح أن تقوم الشركات التجارية باختيار المقلد كمورد للبرامج.&lt;/p>
 &lt;p>ومن العوامل الرئيسية لهذه الحركة تراخيص البرامج الحديثة التي اعتنقتها الشركة في الأصل أو انتقلت إليها مع مرور الوقت. فالترخيص الجديد ل Mongoوكذلك كلا من Elastic وCockroachهو مثال جيد على ذلك. فعلى عكس رخصة Apache - التي كانت في كثير من الأحيان نقطة الانطلاق لمشاريع مفتوحة المصدر قبل عقد من الزمان - فإن هذه التراخيص أكثر ملاءمة للأعمال، ومعظم الشركات مفتوحة المصدر النموذجية تتبنى هذه التراخيص.&lt;/p>
-&lt;h2 id="المستقبل" data-numberify>المستقبل&lt;a class="anchor ms-1 d-none" href="#المستقبل">#&lt;/a>&lt;/h2>
+&lt;h2 id="المستقبل" data-numberify>المستقبل&lt;a class="anchor ms-1" href="#المستقبل">&lt;/a>&lt;/h2>
 &lt;p>عام 2014 نشر موقع Tech Crunch مقالا حول مستقبل المصادر المفتوحة في وقت كان فيه نموذج واحد فقط (ريد هات) يأمل في أن يشهد العالم ميلاد شركات مفتوحة المصدر في وقت قريب. واليوم، نرى مجموعة من الشركات مفتوحة المصدر، وهو أمر مثير للغاية. فمن وجهة نظر واحدة، هذه الشركات التي تقدر قيمتها بالمليارات هي شهادة على قوة هذا النموذج من الأعمال. فما أصبح واضحا هو أن المصدر المفتوح لم يعد نهجًا هامشيًا للبرامج. فعندما تم استطلاع آراء كبار الشركات في جميع أنحاء العالم، فإن عددت منهم يعتزمون أن تكون أنظمة برمجياتهم الأساسية مفتوحة المصدر. وإذا كانت الشركات في قائمة &amp;ldquo;5000Fortune &amp;quot; تقوم بتحويل إنفاقها على البرمجيات مغلقة المصدر إلى مفتوحة المصدر، فسوف نشهد ظهور منظر جديد تمامًا لشركات البرمجيات، مع قادة هذه المجموعة الجديدة التي تقدر قيمتها بعشرات المليارات من الدولارات.&lt;/p>
 &lt;p>لكن من الواضح أن هذا اليوم ليس قريبا جدًا. ستحتاج هذه الشركات مفتوحة المصدر إلى النمو والنضج وتطوير منتجاتها وتنظيمها في العقد القادم. لكن هذا الاتجاه لا يمكن إنكاره، والعديد من الشركات أصبحت الآن في الأيام الأولى من هذه الرحلة.&lt;/p>
 &lt;p>&lt;a href="https://techcrunch.com/2019/01/12/how-open-source-software-took-over-the-world/" target="_blank" rel="noopener noreferrer">المصدر&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>&lt;/p>
@@ -568,22 +649,22 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/open-source-software-everywhere/images/218-8.png" loading="lazy" width="1240" height="1755" />
 &lt;/picture>
 &lt;/p></description></item><item><title>لماذا يجب الانتقال إلى استخدام البرمجيات الحرة؟</title><link>https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/</link><pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/</guid><description>&lt;p>هل تعرف نظام لينكس؟ ربما تساءلت يوما عن سبب تطوره السريع، ولماذا بدأت العديد من الشركات والمؤسسات الاعتماد عليه واستخدامه؟ ذلك لأن نظام لينكس هو نظام تشغيل حر ومفتوح المصدر، وبالتالي يمكن لأي شخص استخدامه مجانا وتطويره والتعديل عليه بما يتلاءم مع استخدامه! وذلك لأنه لا توجد قيود في عالم البرمجيات الحرة، حيث أن الكود المصدري متوفر للتعديل والمشاركة والنشر.&lt;/p>
-&lt;h2 id="البرمجيات-الحرة" data-numberify>البرمجيات الحرة&lt;a class="anchor ms-1 d-none" href="#البرمجيات-الحرة">#&lt;/a>&lt;/h2>
+&lt;h2 id="البرمجيات-الحرة" data-numberify>البرمجيات الحرة&lt;a class="anchor ms-1" href="#البرمجيات-الحرة">&lt;/a>&lt;/h2>
 &lt;p>Free/Open Source Software أوFOSS اختصارا، هي البرمجيات التي تحترم حرية المستخدمين والمجتمع. بصورة تقريبية، يملك المستخدمون الحرية في تشغيل ونسخ وتوزيع ودراسة وتعديل وتحسين البرمجيات، فكلمة &amp;ldquo;حرة&amp;rdquo; نطاقها أوسع بكثير من &amp;ldquo;مجانية&amp;rdquo; حيث أن هناك العديد من البرامج المجانية التي لا تعطي مستخدمها حرية الإطلاع على الكود المصدري للبرنامج أو تعديله.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/GNU.png" loading="lazy" width="1920" height="1080" />
 &lt;/picture>
 &lt;/p>
 &lt;p>يكون البرنامج حرًا إذا امتلك مستخدموه الحريات اﻷربع الأساسية:&lt;/p>
-&lt;h3 id="1--حرية-تشغيل-البرنامج-لأي-غرض-كان" data-numberify>1- حرية تشغيل البرنامج، لأي غرض كان.&lt;a class="anchor ms-1 d-none" href="#1--حرية-تشغيل-البرنامج-لأي-غرض-كان">#&lt;/a>&lt;/h3>
+&lt;h3 id="1--حرية-تشغيل-البرنامج-لأي-غرض-كان" data-numberify>1- حرية تشغيل البرنامج، لأي غرض كان.&lt;a class="anchor ms-1" href="#1--حرية-تشغيل-البرنامج-لأي-غرض-كان">&lt;/a>&lt;/h3>
 &lt;p>وهذا يضمن للمستخدم أن لا تقوم بعض الشركات مثلا بمنع المستخدم من تشغيل البرنامج في أغراض معينة.&lt;/p>
-&lt;h3 id="2--حرية-دراسة-كيفية-عمل-البرنامج-وتعديله-ليعمل-وفق-رغباتك" data-numberify>2- حرية دراسة كيفية عمل البرنامج، وتعديله ليعمل وفق رغباتك.&lt;a class="anchor ms-1 d-none" href="#2--حرية-دراسة-كيفية-عمل-البرنامج-وتعديله-ليعمل-وفق-رغباتك">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--حرية-دراسة-كيفية-عمل-البرنامج-وتعديله-ليعمل-وفق-رغباتك" data-numberify>2- حرية دراسة كيفية عمل البرنامج، وتعديله ليعمل وفق رغباتك.&lt;a class="anchor ms-1" href="#2--حرية-دراسة-كيفية-عمل-البرنامج-وتعديله-ليعمل-وفق-رغباتك">&lt;/a>&lt;/h3>
 &lt;p>فمع البرمجيات الحرة لا يوجد شيئا يستطيع المبرمج أو الشركة المطورة أن تخفيه عنك، فالجميع يستطيع أن يصلوا إلى الشفرة المصدرية للبرنامج، والمستخدم يستطيع أن يطوع البرنامج بإضافة مميزات جديدة يرغب بها.&lt;/p>
-&lt;h3 id="3--حرية-إعادة-توزيع-نسخ-من-البرنامج-لتتمكن-من-مساعدة-جارك-أو-صديقك" data-numberify>3- حرية إعادة توزيع نسخ من البرنامج لتتمكن من مساعدة جارك أو صديقك.&lt;a class="anchor ms-1 d-none" href="#3--حرية-إعادة-توزيع-نسخ-من-البرنامج-لتتمكن-من-مساعدة-جارك-أو-صديقك">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--حرية-إعادة-توزيع-نسخ-من-البرنامج-لتتمكن-من-مساعدة-جارك-أو-صديقك" data-numberify>3- حرية إعادة توزيع نسخ من البرنامج لتتمكن من مساعدة جارك أو صديقك.&lt;a class="anchor ms-1" href="#3--حرية-إعادة-توزيع-نسخ-من-البرنامج-لتتمكن-من-مساعدة-جارك-أو-صديقك">&lt;/a>&lt;/h3>
 &lt;p>فهذا الشرط يضمن للمستخدم النهائي حرية نسخ وإعادة توزيع البرنامج لأسرته و جيرانه وأصدقائه من دون قيد، كما هو الحال في بعض البرامج المدفوعة ومغلقة المصدر.&lt;/p>
-&lt;h3 id="4--حرية-توزيع-نسخ-من-إصداراتك-المعدلة-للآخرين" data-numberify>4- حرية توزيع نسخ من إصداراتك المعدَّلة للآخرين.&lt;a class="anchor ms-1 d-none" href="#4--حرية-توزيع-نسخ-من-إصداراتك-المعدلة-للآخرين">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--حرية-توزيع-نسخ-من-إصداراتك-المعدلة-للآخرين" data-numberify>4- حرية توزيع نسخ من إصداراتك المعدَّلة للآخرين.&lt;a class="anchor ms-1" href="#4--حرية-توزيع-نسخ-من-إصداراتك-المعدلة-للآخرين">&lt;/a>&lt;/h3>
 &lt;p>وبذلك يمكنك أن تمنح المجتمع بأسره فرصة الاستفادة من تعديلاتك. الوصول إلى الشفرة المصدرية شرط لازم لهذا.&lt;/p>
 &lt;p>فبعد أن عدلت البرنامج الحر لاحتياجاتك الخاصة وقمت بتخصيصه لمتطلباتك، فهذه الحرية تضمن لك القدرة على نشر تعديلاتك وتوزيعها من دون أخذ الإذن من المطور الأول.&lt;/p>
-&lt;h3 id="أمثلة-للبرمجيات-الحرة" data-numberify>أمثلة للبرمجيات الحرة&lt;a class="anchor ms-1 d-none" href="#أمثلة-للبرمجيات-الحرة">#&lt;/a>&lt;/h3>
+&lt;h3 id="أمثلة-للبرمجيات-الحرة" data-numberify>أمثلة للبرمجيات الحرة&lt;a class="anchor ms-1" href="#أمثلة-للبرمجيات-الحرة">&lt;/a>&lt;/h3>
 &lt;p>هناك العديد من البرمجيات الحرة الشهيرة التي رسخت مكانها وسط البرامج المختلفة والتي قد تكون تستخدمها دون معرفة أنها برمجيات حرة، أذكر لك منها:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -605,14 +686,14 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/firefox.png" loading="lazy" width="1285" height="720" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="لماذا-تنتقل-لاستخدام-البرمجيات-الحرة-بدلا-من-مغلقة-المصدر" data-numberify>لماذا تنتقل لاستخدام البرمجيات الحرة بدلا من مغلقة المصدر؟&lt;a class="anchor ms-1 d-none" href="#لماذا-تنتقل-لاستخدام-البرمجيات-الحرة-بدلا-من-مغلقة-المصدر">#&lt;/a>&lt;/h2>
+&lt;h2 id="لماذا-تنتقل-لاستخدام-البرمجيات-الحرة-بدلا-من-مغلقة-المصدر" data-numberify>لماذا تنتقل لاستخدام البرمجيات الحرة بدلا من مغلقة المصدر؟&lt;a class="anchor ms-1" href="#لماذا-تنتقل-لاستخدام-البرمجيات-الحرة-بدلا-من-مغلقة-المصدر">&lt;/a>&lt;/h2>
 &lt;p>يمر العالم الرقمي بفترة تغييرات مهمة بعد تسريب مجموعة الثغرات Valut7 التابعة للاستخبارات الأمريكية NSA، والتي أدت بعد ذلك بفترة قصيرة لظهور الجيل الجديد من برمجيات الفدية التي تستهدف نظام ويندوز، ثم بعد ذلك استيقظنا على خبر تسريب جزء من الكود المصدري لويندوز 10 بعد اختراق مايكروسوفت، وهنا أدرك العديد من خبراء أمن المعلومات أن القادم قد يكون أسوء لمستخدمي ويندوز، هذا من الناحية الأمنية، ومن ناحية الخصوصية فلا يخفي على أحد من مستخدمي ويندوز 10 أن مايكروسوفت قد دمجت برنامج خاص بها لتسجيل ما يقوم المستخدم بكتابته وذلك بغرض تحسين الويندوز، كما لدينا أيضا العديد من الشركات الأخري التي تقوم بنفس الشيء من تجميع للمعلومات مثل برامج مضادات الفيروسات الشهيرة Avast و AVG.&lt;/p>
 &lt;p>وبعد كل هذا ألم يحن الوقت عزيزي القارئ لنسلط الضوء على البديل لكل هذا؟ دعونا نتعرف أكثر على ما تقدمه البرمجيات الحرة:&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/open-source-software.jpg" loading="lazy" width="1024" height="520" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="ما-الذي-تقدمه-البرمجيات-الحرة" data-numberify>ما الذي تقدمه البرمجيات الحرة؟&lt;a class="anchor ms-1 d-none" href="#ما-الذي-تقدمه-البرمجيات-الحرة">#&lt;/a>&lt;/h2>
-&lt;h3 id="1--الحرية" data-numberify>1- الحرية&lt;a class="anchor ms-1 d-none" href="#1--الحرية">#&lt;/a>&lt;/h3>
+&lt;h2 id="ما-الذي-تقدمه-البرمجيات-الحرة" data-numberify>ما الذي تقدمه البرمجيات الحرة؟&lt;a class="anchor ms-1" href="#ما-الذي-تقدمه-البرمجيات-الحرة">&lt;/a>&lt;/h2>
+&lt;h3 id="1--الحرية" data-numberify>1- الحرية&lt;a class="anchor ms-1" href="#1--الحرية">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>فكما أوضحت بالأعلى، تعد الحرية الميزة الأقوى بالبرمجيات المفتوحة، فالحرية التي تتيحها البرمجيات الحرة مفتوحة المصدر لا تجعلنا فقط قادرين على قراءة الأكواد البرمجية بل أيضاً دراستها وتعديلاها بالشكل الذي يلائم كل بيئة، مما يدفع عجلة تطوير البرمجيات الحرة بشكل سريع جدا مقارنة بالبرامج مغلقة المصدر.&lt;/p>
@@ -624,7 +705,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/freedom.png" loading="lazy" width="580" height="328" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="2--الأمان" data-numberify>2- الأمان&lt;a class="anchor ms-1 d-none" href="#2--الأمان">#&lt;/a>&lt;/h3>
+&lt;h3 id="2--الأمان" data-numberify>2- الأمان&lt;a class="anchor ms-1" href="#2--الأمان">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>هنا في عالم البرمجيات الحرة لا يوجد ما يمكن إخفائه عن المستخدم، فلا وجود لبرامج التجسس الضارة التي تنقل كل بيانات المستخدم إلى طرف خارجي، وبالتالي فقد لا تحتاج لبرامج محاربة الفيروسات طالما أنك تعرف ما تقوم بفعله.&lt;/p>
@@ -639,14 +720,14 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/security.jpg" loading="lazy" width="1600" height="1200" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="3--الجودة" data-numberify>3- الجودة&lt;a class="anchor ms-1 d-none" href="#3--الجودة">#&lt;/a>&lt;/h3>
+&lt;h3 id="3--الجودة" data-numberify>3- الجودة&lt;a class="anchor ms-1" href="#3--الجودة">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>تقدم البرمجيات مفتوحة المصدر لمستخدميها كفاءة وجودة وسرعة لا تتأثر ولا تضعف مع مرور الوقت، ويرجع ذلك أيضا إلى توفر المصدر البرمجي للجميع فيستطيع الجميع سواء المبرمجين أو المستخدمين العاديين قراءة ومراجعة وتجربة الأكواد البرمجية وإفادة مطوري البرامج بأي ملاحظات مما يزيد من جودة هذه البرمجيات بشكل ملحوظ عن غيرها.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/ubuntu.jpg" loading="lazy" width="750" height="467" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="4--التكلفة-المنخفضة" data-numberify>4- التكلفة المنخفضة&lt;a class="anchor ms-1 d-none" href="#4--التكلفة-المنخفضة">#&lt;/a>&lt;/h3>
+&lt;h3 id="4--التكلفة-المنخفضة" data-numberify>4- التكلفة المنخفضة&lt;a class="anchor ms-1" href="#4--التكلفة-المنخفضة">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>تصل تكلفة استخدام البرمجيات الحرة إلى الصفر تقريبًا، وهذا يمنحها ميزة اقتصادية هائلة بالمقارنة بغيرها من البرمجيات المغلقة، فبدلا من التكاليف الباهظة التي يتم دفعها للحصول على نظام تشغيل أصلي غير مقرصن مغلق المصدر يمكن استخدام نظام لينكس مفتوح المصدر.&lt;/p>
@@ -661,7 +742,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/Payment.jpg" loading="lazy" width="1600" height="1200" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="5--المرونة" data-numberify>5- المرونة&lt;a class="anchor ms-1 d-none" href="#5--المرونة">#&lt;/a>&lt;/h3>
+&lt;h3 id="5--المرونة" data-numberify>5- المرونة&lt;a class="anchor ms-1" href="#5--المرونة">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>طالما يتوافر الكود المصدري للبرنامج فإنه لن يموت، هذه أحدي أهم نقاط قوة البرمجيات الحرة، فعلي سيبل المثال حينما قررت أوبنتو مؤخرا إيقاف تطوير واجهة Unity 8 قام مجموعة من المطورين بنسخ الكود المصدري والبدء في استكمال تطوير الواجهة بأنفسهم تحت اسم Yunit.&lt;/p>
@@ -676,12 +757,12 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/motherboard.jpg" loading="lazy" width="1280" height="720" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="6--الاستقلالية-والتشاركية" data-numberify>6- الاستقلالية والتشاركية&lt;a class="anchor ms-1 d-none" href="#6--الاستقلالية-والتشاركية">#&lt;/a>&lt;/h3>
+&lt;h3 id="6--الاستقلالية-والتشاركية" data-numberify>6- الاستقلالية والتشاركية&lt;a class="anchor ms-1" href="#6--الاستقلالية-والتشاركية">&lt;/a>&lt;/h3>
 &lt;p>ولأن الجميع بإمكانهم تعديل البرامج كما يريدون، فأنت غير مضطر مثلا لانتظار الشركة لتطويربرنامجها وإصلاح الأخطاء، فالأمر في البرمجيات مفتوحة المصدر تشاركي وفعال بشكل أفضل بكثير، حيث الآلاف من المبرمجين من مختلف دول العالم يعملون على علاج أي مشكلة أو ثغرة قد تظهر ببرنامج معين خلال وقت قياسي.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/cooperation.jpg" loading="lazy" width="1600" height="1200" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="7--الاستقرار-وسهولة-الاستخدام" data-numberify>7- الاستقرار وسهولة الاستخدام&lt;a class="anchor ms-1 d-none" href="#7--الاستقرار-وسهولة-الاستخدام">#&lt;/a>&lt;/h3>
+&lt;h3 id="7--الاستقرار-وسهولة-الاستخدام" data-numberify>7- الاستقرار وسهولة الاستخدام&lt;a class="anchor ms-1" href="#7--الاستقرار-وسهولة-الاستخدام">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>لا تعتقد عزيزي القارئ أن الانتقال إلى استخدام البرمجيات الحرة سيكلفك الكثير من الوقت للتعلم، أو أن هذه البرمجيات معقدة وصعبة الاستخدام، حيث أن هناك الكثير من الناس لديهم انطباع خاطئ عن لينكس مثلا، فهم يعتقدون أنه مجرد شاشة سوداء تُكتب بها الأكواد!&lt;/p>
@@ -693,7 +774,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/easy.png" loading="lazy" width="1200" height="675" />
 &lt;/picture>
 &lt;/p>
-&lt;h3 id="8--المجتمع" data-numberify>8- المجتمع&lt;a class="anchor ms-1 d-none" href="#8--المجتمع">#&lt;/a>&lt;/h3>
+&lt;h3 id="8--المجتمع" data-numberify>8- المجتمع&lt;a class="anchor ms-1" href="#8--المجتمع">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>لا يتوقف الأمر فقط على المطورين والمبرمجين في عالم البرمجيات الحرة، فالمستخدمين الآخرين يشكلون مجتمعات مختلفة على الإنترنت تجد بها نقاشات واقتراحات وحلول لأغلب المشاكل التي تواجه المستخدم سواء المبتدئ أو حتى المستخدم المتقدم.&lt;/p>
@@ -705,7 +786,7 @@
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/askubuntu.jpg" loading="lazy" width="550" height="550" />
 &lt;/picture>
 &lt;/p>
-&lt;h2 id="اﻹنتقال-إلى-البرمجيات-الحرة" data-numberify>اﻹنتقال إلى البرمجيات الحرة&lt;a class="anchor ms-1 d-none" href="#اﻹنتقال-إلى-البرمجيات-الحرة">#&lt;/a>&lt;/h2>
+&lt;h2 id="اﻹنتقال-إلى-البرمجيات-الحرة" data-numberify>اﻹنتقال إلى البرمجيات الحرة&lt;a class="anchor ms-1" href="#اﻹنتقال-إلى-البرمجيات-الحرة">&lt;/a>&lt;/h2>
 &lt;p>إذا كيف تنتقل إلى استخدام البرمجيات الحرة؟&lt;/p>
 &lt;p>بداية دعني أوضح لك أن التحول من استخدام البرامج المغلقة إلى البرمجيات الحرة ليس بالصعوبة التي تتصورها، فأنت ستجد بدائل لكل البرمجيات التي تستخدمها، وأيضا لن تواجه مشاكل في مشاركة الملفات مع مستخدمي البرمجيات الغير الحرة.&lt;/p>
 &lt;p>يمكنك اختيار احدي طريقين:&lt;/p>
@@ -717,7 +798,7 @@
 &lt;p>استبدال البرامج المغلقة ببرامج حرة تعمل على ويندوز وبعد الاستقرار والتعود على استخدامها تنتقل إلى لينكس.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="أولا-لماذا-لينكس" data-numberify>أولا: لماذا لينكس؟&lt;a class="anchor ms-1 d-none" href="#أولا-لماذا-لينكس">#&lt;/a>&lt;/h3>
+&lt;h3 id="أولا-لماذا-لينكس" data-numberify>أولا: لماذا لينكس؟&lt;a class="anchor ms-1" href="#أولا-لماذا-لينكس">&lt;/a>&lt;/h3>
 &lt;p>كما أوضحت سابقا، لينكس نظام تشغيل حر ومفتوح المصدر، يقوم الناس من مختلف أنحاء العالم بتطويره ويستخدمه الملايين من الناس حول العالم، وهو يتطور بسرعة رهيبة ويتميز بالمجانية والتنوع ودرجة الأمان العالية.&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/Linux.jpg" loading="lazy" width="1920" height="1080" />
 &lt;/picture>
@@ -741,7 +822,7 @@
 &lt;p>حتى تأخذ صورة أكثر وضوحا عن نظام لينكس، أنصحك بالعودة إلى سلسلة دروس نظام لينكس التي سبق ونشرتها مجلة لغة العصر ابتداء من العدد 181، والتي تجدها متوفرة على موقع المجلة الإلكتروني أيضا.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h3 id="ويندوز-ضد-لينكس" data-numberify>ويندوز ضد لينكس!&lt;a class="anchor ms-1 d-none" href="#ويندوز-ضد-لينكس">#&lt;/a>&lt;/h3>
+&lt;h3 id="ويندوز-ضد-لينكس" data-numberify>ويندوز ضد لينكس!&lt;a class="anchor ms-1" href="#ويندوز-ضد-لينكس">&lt;/a>&lt;/h3>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/wins-vs-linux.jpg" loading="lazy" width="583" height="271" />
 &lt;/picture>
 &lt;/p>
@@ -831,7 +912,7 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h3 id="ثانيا-بدائل-البرمجيات-المغلقة" data-numberify>ثانيا: بدائل البرمجيات المغلقة&lt;a class="anchor ms-1 d-none" href="#ثانيا-بدائل-البرمجيات-المغلقة">#&lt;/a>&lt;/h3>
+&lt;h3 id="ثانيا-بدائل-البرمجيات-المغلقة" data-numberify>ثانيا: بدائل البرمجيات المغلقة&lt;a class="anchor ms-1" href="#ثانيا-بدائل-البرمجيات-المغلقة">&lt;/a>&lt;/h3>
 &lt;p>يوجد عدد كبير جدا من البرمجيات الحرة التي تعمل على ويندوز ولينكس وماك، أذكر لك منها:&lt;/p>
 &lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/images/foss.jpg" loading="lazy" width="420" height="373" />
 &lt;/picture>
