@@ -1,4 +1,425 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/</link><description>آخر التدوينات من يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/rss.xml" rel="self" type="application/rss+xml"/><item><title>البرمجيات مفتوحة المصدر بديل حتمي لتفادي الكوارث العالمية</title><link>https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/</link><description>آخر التدوينات من يوسف شعبان الصغير</description><generator>Hugo -- gohugo.io</generator><language>ar-eg</language><copyright>جميع الحقوق محفوطة © 2013-{year} yshalsager.</copyright><lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yshalsager.com/ar/rss.xml" rel="self" type="application/rss+xml"/><item><title>ما الجديد في تحديث macOS 15 Sequoia؟</title><link>https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/</link><pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/</guid><description>
+&lt;h2 id="مقدمة" data-numberify>مقدمة&lt;a class="anchor ms-1" href="#مقدمة">&lt;/a>&lt;/h2>
+&lt;p>أصدرت أبل الإصدار الجديد من نظام iOS 18 وكذلك نظام macOS يوم الإثنين 16 سبتمبر في وقت أبكر من المعتاد كل عام، ويسمى التحديث الجديد Sequoia وهو اسم أحد أطول الأشجار في العالم الموجودة في حديقة Redwood الوطنية في كاليفورنيا، ويأتي بالعديد من الميزات الجديدة ومجموعة من تعديلات الواجهة وإصلاحات الأخطاء.&lt;/p>
+&lt;h2 id="الأجهزة-المتوافقة-مع-الإصدار-الجديد" data-numberify>الأجهزة المتوافقة مع الإصدار الجديد&lt;a class="anchor ms-1" href="#الأجهزة-المتوافقة-مع-الإصدار-الجديد">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>iMac بداية من 2019 وأحدث&lt;/li>
+&lt;li>Mac Pro بداية من 2019 وأحدث&lt;/li>
+&lt;li>iMac Pro بداية من 2017&lt;/li>
+&lt;li>Mac Studio بداية من 2022 وأحدث&lt;/li>
+&lt;li>MacBook Air بداية من 2020 وأحدث&lt;/li>
+&lt;li>Mac mini بداية من 2018 وأحدث&lt;/li>
+&lt;li>MacBook Pro بداية من 2018 وأحدث&lt;/li>
+&lt;/ul>
+&lt;p>ستدعم أجهزة أبل العاملة بشريحة M1 أو M2 أو M3-series فقط ميزات الذكاء الاصطناعي الجديدة &amp;ldquo;Apple Intelligence&amp;rdquo; مثل:&lt;/p>
+&lt;ul>
+&lt;li>iMac بداية من 2021 وأحدث&lt;/li>
+&lt;li>Mac Pro بداية من 2023&lt;/li>
+&lt;li>Mac Studio بداية من 2022 وأحدث&lt;/li>
+&lt;li>MacBook Air بداية من أواخر 2020 وأحدث&lt;/li>
+&lt;li>Mac mini بداية من أواخر 2020 وأحدث&lt;/li>
+&lt;li>MacBook Pro بداية من أواخر 2020 وأحدث&lt;/li>
+&lt;/ul>
+&lt;h2 id="كيفية-التثبيت" data-numberify>كيفية التثبيت&lt;a class="anchor ms-1" href="#كيفية-التثبيت">&lt;/a>&lt;/h2>
+&lt;p>لتثبيت التحديث الجديد في حال كان جهازك يدعمه، افتح إعدادات النظام System Settings وانتقل إلى عام General ثم تحديث النظام Software Update ثم سيتحقق النظام من أي تحديثات متاحة ويرشدك خلال عملية تثبيتها.&lt;/p>
+&lt;h2 id="الميزات-الجديدة" data-numberify>الميزات الجديدة&lt;a class="anchor ms-1" href="#الميزات-الجديدة">&lt;/a>&lt;/h2>
+&lt;h3 id="انعكاس-شاشة-آيفون" data-numberify>انعكاس شاشة آيفون&lt;a class="anchor ms-1" href="#انعكاس-شاشة-آيفون">&lt;/a>&lt;/h3>
+&lt;p>انعكاس شاشة أيفون هو تحسين جديد في ميزة الاستمرارية Continuity، تتيح التحكم في هاتف أيفون عبر جهاز ماك حتى عندما يكون جهاز آيفون مقفلاً عند تسجيل الدخول إلى كلَا الجهازين بنفس حساب أبل.&lt;/p>
+&lt;p>لاستخدام الميزة الجديدة تحتاج فقط فتح التطبيق ثم تسجيل الدخول، ثم يمكنك ضبط حجم نافذة انعكاس شاشة الأيفون على الحجم الفعلي لشاشة الهاتف أو أصغر أو أكبر كما تريد. ستظهر إشعارات أيفون على جهاز الماك حتى تتفاعل معها وترد عليها، كما يمكنك فتح جميع تطبيقاتك واستخدامها وإرسال الرسائل إلخ. وتستطيع استخدام لوحة مفاتيح الماك أو لوحة اللمس أو الماوس مع جهاز الآيفون، ويمكنك سحب وإفلات الملفات والصور ومقاطع الفيديو بين الجهازين.&lt;/p>
+&lt;p>تخطط أبل لإضافة ميزة انعكاس شاشة الأيفون في وقت لاحق من عام 2024، ولن تكون متاحة عند إطلاق macOS Sequoia أول مرة، وستعمل الميزة مع الهواتف التي تعمل بنظام iOS 18 بشرط أن تكون مزودة بشريحة Apple silicon أو شريحة أمان T2 مثل الموجودة في أحدث طرازات Intel، كما تتطلب الميزة أن تكون أجهزتك قريبة من بعضها ويجب تشغيل البلوتوث و الـ Wi-Fi.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="iphone-mirroring" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/iphone-mirroring.jpg" loading="lazy" width="2000" height="1125" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="تنظيم-النوافذ" data-numberify>تنظيم النوافذ&lt;a class="anchor ms-1" href="#تنظيم-النوافذ">&lt;/a>&lt;/h3>
+&lt;p>يوفر macOS Sequoia طريقة جديدة أسهل وأفضل لترتيب النوافذ على الشاشة، بحيث يسحب المستخدم نافذة إلى حافَة الشاشة ليعرض النظام مكانًا لوضع تلك النافذة فيه، مما يسهل ترتيب النوافذ جنبًا إلى جنب بسرعة بحيث يعرض عدد أكبر من التطبيقات على الشاشة، كما يمكن استخدام اختصارات لوحة مفاتيح وقائمة الأوامر لتنظيم النوافذ بشكل أسرع.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="tiled-windows" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/tiled-windows.jpg" loading="lazy" width="1662" height="1108" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="تحسينات-مكالمات-الفيديو" data-numberify>تحسينات مكالمات الفيديو&lt;a class="anchor ms-1" href="#تحسينات-مكالمات-الفيديو">&lt;/a>&lt;/h3>
+&lt;p>عند مشاركة الشاشة في مكالمة سيعرض النظام معاينة للمحتوى المشارك قبل مشاركته فعليًا حتى تتحقق من عدم عرض معلومات مهمة بالخطأ، وستعمل هذه الميزة مع تطبيقات FaceTime وZoom وغيرها، كما أصبح من الممكن استخدام مجموعة من الخلفيات المدمجة والتدرجات اللونية في المكالمات عبر تطبيقات مكالمات الفيديو المختلفة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="presenter-preview" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/presenter-preview.jpg" loading="lazy" width="3840" height="2560" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="متصفح-safari-18" data-numberify>متصفح Safari 18&lt;a class="anchor ms-1" href="#متصفح-safari-18">&lt;/a>&lt;/h3>
+&lt;p>يحتوي الإصدار الجديد من متصفح Safari العديد من الميزات مثل ميزة Highlights التي تساعد المستخدمين على اكتشاف المعلومات في مواقع الإنترنت مثل الاتجاهات وساعات العمل وقوائم المطاعم وأسعار المنتجات، وميزة Reader لتقليل عوامل التشتيت عند قراءة المقالات وعرض ملخص وفهرس المحتويات.&lt;/p>
+&lt;p>وعندما تحتوى صفحة ويب على فيديو، سيضع المتصفح هذا المقطع في منتصف الشاشة، وسيستطيع المستخدم التحكم في المقطع عبر عناصر التحكم في شريط النظام، كما يمكن تغيير كيفية عرض الفيديو إلى نمط صورة داخل صورة.&lt;/p>
+&lt;p>وهناك أيضًا ميزة التحكم في المشتتات، التي توفر طريقة لتقليل العناصر المشتتة للانتباه على صفحات الويب مثل نوافذ تسجيل الدخول، والنوافذ المنبثقة وخيارات ملفات تعريف الارتباط، وإشعارات اللائحة العامة لحماية البيانات GDPR، ولافتات الاشتراك في النشرات الإخبارية، ومقاطع الفيديو التي يتم تشغيلها تلقائيًا، وغيرها.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="safari-highlights" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/safari-highlights.jpg" loading="lazy" width="2091" height="1176" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="تطبيق-كلمات-المرور-الجديد" data-numberify>تطبيق كلمات المرور الجديد&lt;a class="anchor ms-1" href="#تطبيق-كلمات-المرور-الجديد">&lt;/a>&lt;/h3>
+&lt;p>يضيف التحديث الجديد تطبيقًا مخصصًا لإدارة كلمات المرور ورموز الوصول لمرة واحدة للمصادقة الثنائية، وكلمات سر الـ Wi-Fi ومفاتيح المرور، كما يحتوي على أقسام مخصصة للتنبيهات الأمنية ومعرفة كلمات المرور القصيرة جدًا أو التي أعيد استخدامها أو عثر عليها في تسريبات أحد الاختراقات.&lt;/p>
+&lt;p>يمكنك كذلك مشاركة كلمات المرور مع الأصدقاء والعائلة عن طريق إنشاء مجموعة كلمات مرور مشتركة، ويمكنك إضافة معلومات تسجيل الدخول عبر زر الإضافة +، وستضاف كلمات المرور إلى التطبيق تلقائيًا عند استخدام ميزة الحفظ الآلي.&lt;/p>
+&lt;p>يحتوي التطبيق على شريط بحث في الأعلى للوصول السريع معلومات تسجيل الدخول التي تبحث عنها، وعند الضغط على إحدى كلمات المرور يمكنك تغييرها أو إضافة ملاحظات أو إعداد رمز التحقق.&lt;/p>
+&lt;p>وإذا فعلت التدوين التلقائي من خيارات النظام يمكن لتطبيق كلمات المرور توفير بيانات تسجيل الدخول للتطبيقات ومواقع الإنترنت بسهولة. ويمكنك مزامنة كلمات المرور عبر أجهزة أبل المختلفة وكذلك أجهزة ويندوز عبر تطبيق iCloud.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="passwords-app" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/passwords-app.jpg" loading="lazy" width="1960" height="1102" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="ميزات-جديدة-أخرى" data-numberify>ميزات جديدة أخرى&lt;a class="anchor ms-1" href="#ميزات-جديدة-أخرى">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>تطبيق الرسائل: جدولة الإرسال حتى وقت أسبوعين مقدمًا، ودعم تنسيق النصوص وإضافة تأثيرات بصرية إلى النص.&lt;/li>
+&lt;li>تطبيق التقويم: إدارة التذكيرات إلى جانب الأحداث والمهام.&lt;/li>
+&lt;li>تطبيق الملاحظات: تسجيل الصوت داخل الملاحظات وتحويل الصوت إلى كلام، ودعم المعادلات الرياضية.&lt;/li>
+&lt;li>تطبيق الآلة الحاسبة: إضافة عرض الحسابات السابقة وتحويل الوحدات.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ميزات-الذكاء-الاصطناعي" data-numberify>ميزات الذكاء الاصطناعي&lt;a class="anchor ms-1" href="#ميزات-الذكاء-الاصطناعي">&lt;/a>&lt;/h2>
+&lt;p>من المتوقع أن يصدر تحديث آخر للنظام برقم 15.1 في أكتوبر القادم ليضيف ميزات الذكاء الاصطناعي Apple Intelligence التي ستتكامل مع تطبيقات النظام الأساسية مثل أدوات تحسين الكتابة والتدقيق اللغوي والتلخيص وإعادة الصياغة والردود الذكية، وأدوات توليد الصور والرموز التعبيرية، وأدوات البحث السياقي والتكامل مع ChatGPT.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="intelligence-rewrite" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/intelligence-rewrite.jpg" loading="lazy" width="1960" height="1102" />
+&lt;/picture>
+&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 368 شهر 09-2024 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1d6uHFzElLPYSjT2CUjtUOIEMDXCxZuLF/view?usp=drive_link" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/368-1.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/368-2.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/whats-new-in-macos-15-sequoia/images/368-3.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p></description></item><item><title>دليلك الشامل للبدء في تعلم البرمجة</title><link>https://yshalsager.com/ar/posts/guide-to-start-learning-programming/</link><pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/guide-to-start-learning-programming/</guid><description>
+&lt;h2 id="مقدمة" data-numberify>مقدمة&lt;a class="anchor ms-1" href="#مقدمة">&lt;/a>&lt;/h2>
+&lt;p>في عصرنا الحالي أصبحت البرمجة من أكثر المهارات المطلوبة في سوق العمل في العديد من المجالات، فتعلّم البرمجة يفتح آفاقًا واسعة للفرص الوظيفية، ويمكّنك من بناء مشاريعك الخاصة. وسواء كنت ترغب في تطوير تطبيقات الويب، أو إنشاء تطبيقات الهواتف الذكية، أو العمل في مجال الذكاء الاصطناعي، فإن تعلم البرمجة الخطوة الأولى نحو تحقيق هذه الأهداف. نستعرض في هذا المقال خطوات عملية لمساعدتك في رحلتك لتعلم البرمجة، ونناقش العديد من النِّقَاط التي يجب مراعاتها عند بَدْء رحلتك في عالم البرمجة بداية من اختيار اللغة المناسبة حتى بناء مشروعات حقيقية.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="james-harrison-vpOeXr5wmR4-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/james-harrison-vpOeXr5wmR4-unsplash.jpg" loading="lazy" width="2400" height="1350" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="لماذا-تتعلم-البرمجة" data-numberify>لماذا تتعلم البرمجة؟&lt;a class="anchor ms-1" href="#لماذا-تتعلم-البرمجة">&lt;/a>&lt;/h2>
+&lt;ul>
+&lt;li>مسار مهني جيد من حيث العائد المادي وفرص التطور&lt;/li>
+&lt;li>مهارة تضيف قيمة كبيرة للعاملين في مجالات البحث العلمي وتقنيات التعلم وبعض فروع الهندسة&lt;/li>
+&lt;li>مهنة عالمية عابرة للقارات يمكن توظيفها في أيّ مكان مهما كانت ثقافته أو لغته&lt;/li>
+&lt;li>تمكّنك من العمل الحر عبر المنصات المختلفة دون التقيد بجهة معينة كما يمكنك العمل من أي مكان&lt;/li>
+&lt;li>توسيع المعرفة وأفق التفكير وتعلم تصميم حلول لأي مشكلة تواجهك وتسهل عليك عمل بأمور أخرى في الكمبيوتر&lt;/li>
+&lt;li>حتى تستطيع تعليمها لأطفالك أو الصغار الذين حولك&lt;/li>
+&lt;/ul>
+&lt;h2 id="قبل-أن-تبدأ" data-numberify>قبل أن تبدأ&lt;a class="anchor ms-1" href="#قبل-أن-تبدأ">&lt;/a>&lt;/h2>
+&lt;h3 id="أساسيات-التعامل-مع-الكمبيوتر" data-numberify>أساسيات التعامل مع الكمبيوتر&lt;a class="anchor ms-1" href="#أساسيات-التعامل-مع-الكمبيوتر">&lt;/a>&lt;/h3>
+&lt;p>معرفة أساسيات التعامل مع الكمبيوتر تسهل بشكل كبير تعلم البرمجة حيث تساعدك في التركيز على تعلم البرمجة نفسها بدلًا من التعثر في مشكلات تقنية بسيطة.&lt;/p>
+&lt;p>فيجب عليك الإلمام بمهارات التعامل مع نظام التشغيل وإدارة الملفات والمجلدات، واستخدام متصفح الإنترنت ومحركات البحث بكفاءة، والتعامل مع برامج معالجة النصوص وجداول البيانات، والفهم المجمل لأساسيات أمن الكمبيوتر والإنترنت.&lt;/p>
+&lt;p>وإذا كانت خبرتك في استخدام الكمبيوتر محدودة فاستثمر بعض الوقت في تعلم أساسيات استخدام الكمبيوتر، ولا تخف من التجربة والاستكشاف والفشل فهما أفضل طريقة للتعلم، ومع ممارسة البرمجة ستتحسن مهاراتك في استخدام الكمبيوتر بشكل طبيعي.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="nordwood-themes-EZSm8xRjnX0-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/nordwood-themes-EZSm8xRjnX0-unsplash.jpg" loading="lazy" width="2400" height="1600" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="هل-تحتاج-جهازا-قويا" data-numberify>هل تحتاج جهازًا قويًا؟&lt;a class="anchor ms-1" href="#هل-تحتاج-جهازا-قويا">&lt;/a>&lt;/h3>
+&lt;p>لا تحتاج جهاز كمبيوتر قوي للبدء في تعلم البرمجة بخلاف مجالات الجرافيك والمونتاج، فيكفيك جهاز متوسط المواصفات ومع التقدم في المستوى والعمل على مشروعات كبيرة يمكنك ترقية الجهاز لجهاز ذو معالج أقوى وذاكرة أكبر.&lt;/p>
+&lt;h3 id="اللغة-الإنجليزية" data-numberify>اللغة الإنجليزية&lt;a class="anchor ms-1" href="#اللغة-الإنجليزية">&lt;/a>&lt;/h3>
+&lt;p>يمكن البدء في تعلم البرمجة باللغة العربية، لكن الاقتصار عليها فقط سيحد من فرصك وتطورك في المجال على المدى الطويل.&lt;/p>
+&lt;p>وقد تكون الاستراتيجية الأفضل لبعض الأشخاص البَدْء بالمصادر العربية ثم التدرج نحو استخدام الموارد الإنجليزية، مما يفتح لك آفاقًا أوسع في عالم البرمجة والتطوير خصوصًا أن المراجع التقنية المتقدمة والوثائق الرسمية للغات البرمجة والأطر البرمجية غالبًا ما تكون باللغة الإنجليزية فقط، كما أن مجال التكنولوجيا وخصوصًا البرمجة يتطور بسرعة كبيرة والمعلومات الجديدة تتوفر أولًا باللغة الإنجليزية.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="ivan-shilov-ucUB9wxkPgY-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/ivan-shilov-ucUB9wxkPgY-unsplash.jpg" loading="lazy" width="2400" height="2449" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="الرياضيات" data-numberify>الرياضيات&lt;a class="anchor ms-1" href="#الرياضيات">&lt;/a>&lt;/h3>
+&lt;p>تساعد الرياضيات في تطوير مهارات التفكير المنطقي وحل المشكلات، وهي مهارات أساسية في البرمجة. وإذا كنت ستعمل في مجال برمجي عام مثل تطوير المواقع والتطبيقات فيكفيك المبادئ الأساسية للرياضيات حتى تبدأ في تعلم البرمجة.&lt;/p>
+&lt;p>وهناك بعض مجالات البرمجة تتطلب معرفة رياضية أعمق، مثل: الذكاء الاصطناعي وتعلم الآلة الذي يحتاج إلى الإحصاء والاحتمالات والجبر خطي، وتطوير الألعاب الذي يتطلب معرفة بالهندسة وحساب المثلثات.&lt;/p>
+&lt;p>إذن يمكنك البَدْء في تعلم البرمجة دون خلفية رياضية متقدمة، ومع تقدمك يمكنك تعلم المفاهيم الرياضية اللازمة حسب المجال الذي تختاره.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="antoine-dautry-05A-kdOH6Hw-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/antoine-dautry-05A-kdOH6Hw-unsplash.jpg" loading="lazy" width="2400" height="1600" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="كيف-تبدأ" data-numberify>كيف تبدأ؟&lt;a class="anchor ms-1" href="#كيف-تبدأ">&lt;/a>&lt;/h2>
+&lt;h3 id="تعلم-البرمجة-عبر-الجامعة" data-numberify>تعلم البرمجة عبر الجامعة&lt;a class="anchor ms-1" href="#تعلم-البرمجة-عبر-الجامعة">&lt;/a>&lt;/h3>
+&lt;p>قد يكون دخول إحدى التخصصات الجامعية التي تدرس البرمجة مثل علوم الحاسب أو هندسة البرمجيات متاحًا لك إذا كنت في سن الجامعة، وبذلك تحصل على شهادة جامعية رسمية معترف بها في سوق العمل بغض النظر عن الخبرة العملية المكتسبة خلال الدراسة.&lt;/p>
+&lt;p>مِيزة هذه الطريقة دراسة الكثير من المواد بعمق مثل الرياضيات المتقدمة وقواعد البيانات وأنظمة التشغيل والأنظمة المتقدمة، مما يعطي سالك هذا الطريق مِيزة التأسيس القوي مقارنة بالدراسة الذاتية.&lt;/p>
+&lt;p>أما سلبيات هذا الطريق فأولًا وجود معدل دراسي مطلوب لدخول الكلية نظرًا لعدد أماكن الدراسة المحدود، وطول مدة الدراسة حيث تكون 4-5 سنوات غالبا، والحاجة إلى التفرغ في الأغلب وأخيرًا دراسة تقنيات قديمة إما لم تعد مستخدمة أو تغيرت بشكل كبير حاليًا.&lt;/p>
+&lt;h3 id="التعلم-الحر" data-numberify>التعلم الحر&lt;a class="anchor ms-1" href="#التعلم-الحر">&lt;/a>&lt;/h3>
+&lt;p>الطريق الآخر لتعلم البرمجة هو التعلم الذاتي، وهو الطريق الأسرع والأنسب لكثير من الناس خصوصا مع توفر العديد من المصادر من دورات وفيديوهات وكتب على الإنترنت سواء بشكل مجاني أو مدفوع.&lt;/p>
+&lt;p>يمتاز هذا الطريق بانتظار الوقت الطويل مقارنة بالمسار الجامعي، لكنه يحتاج إلى ضبط شديد للنفس والتنظيم الجيد للوقت ووضع خُطَّة واضحة شاملة لا تخل بأحد جوانب التأسيس المطلوبة لتكون مبرمجًا قويا.&lt;/p>
+&lt;p>ويجدر الإشارة هنا إلى مبادرة جامعة المجتمع المفتوح المصدر OSSU على الإنترنت التي توفر منهجًا تعليمًا كاملًا في علوم الحاسب يمكن دراسته خلال عامين لمن يستطيع توفير 20 ساعة أسبوعيًا، وهو منهج مخصص لمن يريد التأسيس الشامل والعميق في للمفاهيم الأساسية لجميع تخصصات الحوسبة، حيث صمم هذا المنهج وفق نفس متطلبات درجة البكالوريوس في تخصصات علوم الكمبيوتر، ويحتوي على دورات تدريبية هي في الأصل مقررات من جامعات هارفارد وبرينستون ومعهد ماساتشوستس للتكنولوجيا وغيرهم وكذلك العديد من الكتب المنتقاة بعناية.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="jefferson-santos-V9sv7QrDUgc-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/jefferson-santos-V9sv7QrDUgc-unsplash.jpg" loading="lazy" width="2388" height="1658" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="اختيار-المجال" data-numberify>اختيار المجال&lt;a class="anchor ms-1" href="#اختيار-المجال">&lt;/a>&lt;/h3>
+&lt;p>تحديد هدفك من تعلم البرمجة يسهل عليك تحديد التخصص الذي تريد الدخول إليه ومن ثم اللغة المستعملة في هذا التخصص الأمر، فاللغات التي تُستخدم في مجال الويب تختلف عن المستخدمة في تطوير تطبيقات الهاتف المحمول.&lt;/p>
+&lt;p>كما أن الطريق الذي ستسير فيه يختلف باختلاف الهدف فالشخص الذي يتعلم حتى يحصل على وظيفة ذات دخل عالي سيختلف طريقه عن الشخص الذي يتعلم لبناء نظام أو برمجية خاصة به أو بعمل خاص، وكذلك عمّن يستهدف العمل في بلاده محليًا أو يستهدف العمل عن بعد مع شركات أجنبية.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="clay-banks-kpmwxeDoNR4-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/clay-banks-kpmwxeDoNR4-unsplash.jpg" loading="lazy" width="2400" height="1600" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وهناك العديد من المجالات البرمجية مثل:&lt;/p>
+&lt;ul>
+&lt;li>تطوير المواقع ويندرج تحته ثلاث أقسام:
+&lt;ul>
+&lt;li>مطور واجهات أمامية Front-end: مسؤول عن شكل وتصميم الموقع، والألوان والخطوط وغيره.&lt;/li>
+&lt;li>مطور واجهات خلفية Back-end: مسؤول عن التعامل مع قواعد البيانات والتعامل مع السيرفر وكل الأمور التي تحدث في الخلفية.&lt;/li>
+&lt;li>Full-stack: تطوير كلا من الواجهة الأمامية والخلفية للتطبيقات.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>تطوير برامج سطح المكتب&lt;/li>
+&lt;li>تطوير تطبيقات الهواتف المحمولة&lt;/li>
+&lt;li>تطوير الألعاب&lt;/li>
+&lt;li>الأنظمة المدمجة&lt;/li>
+&lt;li>الذكاء الاصطناعي وعلوم البيانات&lt;/li>
+&lt;li>الأمن السيبراني Cyber Security&lt;/li>
+&lt;li>اختبار الجودة QA Testing&lt;/li>
+&lt;li>عمليات التطوير DevOps&lt;/li>
+&lt;/ul>
+&lt;h3 id="اختيار-لغة-البرمجة" data-numberify>اختيار لغة البرمجة&lt;a class="anchor ms-1" href="#اختيار-لغة-البرمجة">&lt;/a>&lt;/h3>
+&lt;blockquote>
+&lt;p>من الأخطاء التي يقع فيها كثير من الناس الخلط بين العلم والأداة، فالبرمجة علم أما لغة البرمجة أداة ننفذ بها ما تعلمناه من معرفة برمجية، ومن هنا فهناك فرق بين تعلم البرمجة بصفتها تخصص أكاديمي أو مهارة.&lt;/p>
+&lt;/blockquote>
+&lt;p>بعد اختيار التخصص البرمجي يمكنك البَدْء في تعلم الأساسيات والمفاهيم الموجودة في كل لغات بالبرمجة بأحد اللغات المناسبة للبدء، مثل مفاهيم التعابير expressions والمتغيرات والثوابت variables وأنواع البيانات data types والعمليات وحلقات التكرار والتعابير الشرطية والدوال والأصناف …إلخ، ثم تطبيق هذه المفاهيم بلغة البرمجة التي تريد استخدامها والتقنيات والمكتبات المرتبطة بها، فتعلم المفاهيم البرمجية الأساسية يضمن لك عند إتقانها القدرة على تطبيقها مهما اختلفت الأدوات وكثرت.&lt;/p>
+&lt;p>وعلى الرغم من تشابه لغات البرمجة من حيث المفهوم إلا أنّ لكل لغة بنية لغوية syntax تختلف عن غيرها، لذلك تجنب تعلم أكثر من لغة على التوازي حتى لا تتشتت وتستطيع إتقان اللغة التي تتعلمها.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="chris-ried-ieic5Tq8YMk-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/chris-ried-ieic5Tq8YMk-unsplash.jpg" loading="lazy" width="2400" height="1602" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ولكل مجال لغات برمجة وأدوات مختلفة. فمثلا:&lt;/p>
+&lt;ul>
+&lt;li>تطوير الويب: HTML, CSS, JavaScript, PHP, Python&lt;/li>
+&lt;li>تطوير تطبيقات الهاتف المحمول: Java, Kotlin, Swift&lt;/li>
+&lt;li>علوم البيانات: Python, R&lt;/li>
+&lt;li>تطوير الألعاب: C++, C#, Unity&lt;/li>
+&lt;/ul>
+&lt;p>فعند اختيارك للغة البرمجة الأولى ضع في اعتبارك عوامل سهولة التعلم، وتوفر الموارد التعليمية، ومدى الطلب في سوق العمل، ومدى ملاءمتها للمجال الذي تريد التخصص فيه.&lt;/p>
+&lt;h3 id="التأسيس-المطول-أم-المعسكرات-المكثفة" data-numberify>التأسيس المطول أم المعسكرات المكثفة&lt;a class="anchor ms-1" href="#التأسيس-المطول-أم-المعسكرات-المكثفة">&lt;/a>&lt;/h3>
+&lt;p>تُعد معسكرات البرمجة (Bootcamps) خيارًا جذابًا للراغبين في تعلم البرمجة بشكل مكثف في مدّة زمنية قصيرة - من ستة أشهر إلى سنة - خصوصًا الراغبين في الانتقال من مجال آخر إلى البرمجة، حيث تُقدم تدريبًا عمليًا يركز على المهارات الأساسية وبعض التخصصات المطلوبة في سوق العمل.&lt;/p>
+&lt;p>لكن معسكرات البرمجة ليست مناسبة للجميع، فهي تتطلب التفرغ التام، وقد تكون مكلفة ماديًا. كما أنها نظرًا لطبيعتها السريعة قد لا تمنحك فهمًا عميقًا كافيًا للعديد من المفاهيم البرمجية النظرية.&lt;/p>
+&lt;p>أما التعلم طويل المدى، فهو خِيار مناسب لمن يرغب في بناء أساس قوي في البرمجة وهضم المفاهيم بشكل متعمق، ولا مشكلة لديه من ناحية تأخر الدخول في وظيفة. ويمكن تحقيق ذلك عبر الالتحاق بدورات تدريبية عبر الإنترنت أو في مكان ما، أو قراءة الكتب المتخصصة، أو الدراسة الجامعية.&lt;/p>
+&lt;h3 id="الأساسيات" data-numberify>الأساسيات&lt;a class="anchor ms-1" href="#الأساسيات">&lt;/a>&lt;/h3>
+&lt;p>هناك مجموعة من المهارات الأساسية لا غني عن تعلمها وإتقانها أيا كان التخصص البرمجي مثل:&lt;/p>
+&lt;ul>
+&lt;li>التفكير المنطقي وحل المشاكل&lt;/li>
+&lt;li>بِنَى التحكم والشروط&lt;/li>
+&lt;li>التعاود Recursion&lt;/li>
+&lt;li>البرمجة الكائنة Object-oriented programming&lt;/li>
+&lt;li>البرمجة الوظيفية functional programming&lt;/li>
+&lt;li>أنواع لغات البرمجة والفروق بينها&lt;/li>
+&lt;li>الخوارزميات وهياكل البيانات&lt;/li>
+&lt;li>المكتبات والحزم وأطر العمل&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="pankaj-patel-yEAOfWSdzgM-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/pankaj-patel-yEAOfWSdzgM-unsplash.jpg" loading="lazy" width="2400" height="1500" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="مصادر-التعلم" data-numberify>مصادر التعلم&lt;a class="anchor ms-1" href="#مصادر-التعلم">&lt;/a>&lt;/h3>
+&lt;h4 id="الدورات-التعليمية" data-numberify>الدورات التعليمية&lt;a class="anchor ms-1" href="#الدورات-التعليمية">&lt;/a>&lt;/h4>
+&lt;p>من أشهر الطرق التي يعتمد عليها من يرغب في تعلم البرمجة الدورات التعليمية سواءًا على أرض الواقع أو عبر الإنترنت، وميزة هذه الدورات أنها تأخذ بيد المتعلم من الصفر في طريق ذو تسلسل مدروس ينتج عنه في ختام الدورة تعلم الأساسيات والتمكن جزئيًا فيمَا تقدمه ليتابع بعدها المتعلم رحلة تعلمه عبر مصادر أخرى أو دورة جديدة ذات مستوى أعلى.&lt;/p>
+&lt;p>وغالبًا ما تحتوي الدورات التعليمية على جانب تطبيقي عملي يبني المتعلم خلاله مشروعات عملية تحاكي المشروعات المطلوبة في سوق العمل مما يفيده كذلك في بناء مَعْرِض أعمال يغنيه عن عرض الشهادات النظرية.&lt;/p>
+&lt;p>ومن الجدير بالذكر توفر العديد من المبادرات الرسمية أو المدعومة من الدولة لتعليم البرمجة مثل منحة معهد تكنولوجيا المعلومات ITI التابع لوزارة الاتصالات وتكنولوجيا المعلومات المتوفرة في نسختين مدتهما 3 و9 أشهر، ومبادرة مستقبلنا رقمي FWD، ومنصة مهارة-تك.&lt;/p>
+&lt;p>كما توجد العديد من الجامعات العالمية والمواقع المعتمدة التي تقدم دورات لتعلم البرمجة على الإنترنت مثل جامعة هارفارد التي تقدم دورة مقدمة في علوم الحاسب CS50 الشهيرة، ومواقع رواق وإدراك باللغة العربية، ومواقع إنجليزية مثل EDX - Coursera - Udemy - Pluralsight - Codecademy - freeCodeCamp - LinkedIn Learning - The Odin Project.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="bernd-dittrich-goOfWiurmnw-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/bernd-dittrich-goOfWiurmnw-unsplash.jpg" loading="lazy" width="2400" height="1600" />
+&lt;/picture>
+&lt;/p>
+&lt;h4 id="الكتب-والمقالات" data-numberify>الكتب والمقالات&lt;a class="anchor ms-1" href="#الكتب-والمقالات">&lt;/a>&lt;/h4>
+&lt;p>يعتمد 50.3% من المتعلمين على الكتب وفقًا لإحصائية موقع StackOverFlow لعام 2024، ويوفر التعلم عبر الكتب أساسًا قويًا ويمكن المتعلم من السير بوتيرته الخاصة دون ضغط. وهناك العديد من الكتب العربية المميزة لتعلم البرمجة مثل التي توفرها أكاديمية حسوب مجانًا، والكثير من الإنجليزية التي يُنصح بها مثل سلسلة Head First.&lt;/p>
+&lt;h4 id="قنوات-اليوتيوب" data-numberify>قنوات اليوتيوب&lt;a class="anchor ms-1" href="#قنوات-اليوتيوب">&lt;/a>&lt;/h4>
+&lt;p>هناك العديد من قنوات اليوتيوب المتخصصة في تعليم البرمجة باللغة العربية والإنجليزية بما يرضى جميع الأذواق ودون أي تكلفة مالية، فيمكنك البحث واختيار المعلم الذي ترتاح له وتعلم العديد من المواضيع النظرية والعملية، لكن احرص على التعلم وفق منهجية منضبطة حتى يكون أساس بناءك سليمًا، فيمكنك مثلا الاطّلاع على محتوى إحدى الدورات المدفوعة على منصة ما والبحث عن نفس هذا المحتوى على اليوتيوب.&lt;/p>
+&lt;h4 id="الذكاء-الاصطناعي" data-numberify>الذكاء الاصطناعي&lt;a class="anchor ms-1" href="#الذكاء-الاصطناعي">&lt;/a>&lt;/h4>
+&lt;p>مع التقدم السريع الذي نشهده حاليًا في مجال الذكاء الاصطناعي، ظهرت نماذج لغوية كبيرة (LLMs) مثل ChatGPT و Gemini و Claude تُتيح فرصًا لم تكن موجودة من قبل لتعزيز وتسريع عملية تعلم البرمجة. فيمكنك مثلا:&lt;/p>
+&lt;ul>
+&lt;li>السؤال عن مفهوم برمجي مُعين، مثل &amp;ldquo;ما هي البرمجة كائنيه التوجه؟&amp;rdquo; أو &amp;ldquo;كيف تعمل حلقة for؟&amp;rdquo; وستحصل على إجابة واضحة ومُبسطة.&lt;/li>
+&lt;li>توليد أمثلة برمجية توضح كيفية استخدام دالة مُعينة أو تنفيذ خوارزمية مُحددة.&lt;/li>
+&lt;li>المساعدة في تحديد الأخطاء في الكود واقتراح حلول مُمكنة.&lt;/li>
+&lt;li>إعادة صياغة الكود وتحسينه ليكون أكثر فعالية مع شرح التغييرات التي تم إجراؤها.&lt;/li>
+&lt;li>مُناقشة الأفكار البرمجية وطرح أسئلة حول تصميم برنامَج مُعين أو مناقشة أفضل الممارسات البرمجية في أمر محدد.&lt;/li>
+&lt;/ul>
+&lt;p>ومن المهم الانتباه لأمور مثل التحقق من صحة المعلومات التي تقدمها النماذج من مصادر موثوقة، وعدم الاعتماد الكلي عليها واستخدامها كأداة مُساعدة في رحلة التعلم فقط، وليس بديلًا عن الدراسة والممارسة الفعلية.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="solen-feyissa-hWSNT_Pp4x4-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/solen-feyissa-hWSNT_Pp4x4-unsplash.jpg" loading="lazy" width="2400" height="1601" />
+&lt;/picture>
+&lt;/p>
+&lt;h3 id="خرائط-التعلم" data-numberify>خرائط التعلم&lt;a class="anchor ms-1" href="#خرائط-التعلم">&lt;/a>&lt;/h3>
+&lt;p>لا شك أن تعلم البرمجة قد يبدو مُربكًا في البداية، خاصةً مع كثرة اللغات وأدوات التطوير المتوفرة. وهنا يأتي دور خرائط التعلم Roadmaps التي تسهل عليك هذه الرحلة وتُرشدك نحو الطريق الصحيح.&lt;/p>
+&lt;p>ومن أفضل الأماكن التي تجد بها خرائط تعلم موثوقة موقع roadmaps.sh، وهو منصة مفتوحة المصدر تقدم خرائط طريق تعليمية شاملة لمختلف مجالات تطوير البرمجيات ومسارات تعلم منظمة للمبرمجين المبتدئين والمتقدمين على حد سواء.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="roadmaps" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/roadmaps.jpg" loading="lazy" width="2380" height="2914" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وتكمن أهمية الاعتماد على خرائط الطريق خلال تعلم البرمجة من موقع مثل roadmaps.sh في:&lt;/p>
+&lt;ol>
+&lt;li>التنظيم: توفر هيكلًا واضحًا للمواضيع والمهارات التي يجب تعلمها، مما يساعد المتعلمين على التركيز وعدم التشتت.&lt;/li>
+&lt;li>الرؤية الشاملة: تمنح المتعلمين نَظْرَة عامة على المجال كُلََّه، مما يساعدهم على فهم كيفية ترابط المفاهيم المختلفة.&lt;/li>
+&lt;li>تحديد الأولويات: تساعد في تحديد المهارات الأساسية والمتقدمة، مما يمكن المتعلمين من التركيز على الأساسيات أولًا.&lt;/li>
+&lt;li>التحفيز: توفر إحساسًا بالتقدم والإنجاز مع اكتساب كل مهارة جديدة.&lt;/li>
+&lt;li>المرونة: تسمح للمتعلمين بالتنقل بين المواضيع وفقًا لاحتياجاتهم واهتماماتهم.&lt;/li>
+&lt;li>التحديث المستمر: تتطور باستمرار لتواكب التغيرات السريعة في عالم التكنولوجيا.&lt;/li>
+&lt;li>المجتمع: توفر نقطة مرجعية مشتركة للمناقشة والتعاون بين المتعلمين.&lt;/li>
+&lt;/ol>
+&lt;p>فبعد تحديدك لمجال التخصص، يمكنك الرجوع إلى الموقع والاطّلاع على خريطة التعلم للتأكد من سيرك في الطريق الصحيح.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="python-roadmap" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/python-roadmap.jpg" loading="lazy" width="2467" height="3503" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="خاتمة" data-numberify>خاتمة&lt;a class="anchor ms-1" href="#خاتمة">&lt;/a>&lt;/h2>
+&lt;p>تعلم البرمجة حاليًا أصبح أسهل من أي وقت مضى مع توفر العديد من المصادر والدورات التدريبية المناسبة لمختلف الأشخاص، وبالرغم من أنه قد يبدو أمرًا شاقًا في البداية، لكن مع الصبر والمثابرة والاستراتيجية الصحيحة يمكن لأي شخص أن يتقن هذه المهارة القيمة.&lt;/p>
+&lt;p>لا تقارن تقدمك بالآخرين وتذكر أن الرحلة تختلف من شخص لآخر، وتذكر أن أهم عامل للنجاح هو الاستمرارية والمثابرة فاحرص على تخصيص وقت يومي للبرمجة ولو كان قليلًا، ومن المهم أيضًا تطبيق ما تعلمته عمليًا عبر بناء مشروعات صغيرة أو شخصية حقيقة، فبناء المشروعات يساعدك على ترسيخ المفاهيم وفهم كيفية استخدامها في حل مشكلات حقيقية لاحقًا.&lt;/p>
+&lt;p>حاول أيضًا المشاركة في التحديات البرمجية على مواقع مثل HackerRank وLeetCode التي توفر مسائل برمجية لتحسين مهاراتك، وانضم إلى المجتمعات البرمجية وتواصل مع مبرمجين آخرين، وشارك في النقاشات، واطرح الأسئلة. واحرص على قراءة المدونات والمقالات المتخصصة والنشرات البريدية لتبقى على اطّلاع بأحدث التقنيات والتطورات في مجال البرمجة.&lt;/p>
+&lt;p>وأخيرًا لا تخف من ارتكاب الأخطاء فهي جزء لا يتجزأ من عملية التعلم، واستمتع برحلة التعلم فالبرمجة ليست مجرد مهارة بل أداة قوية للإبداع والابتكار.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="lewis-kang-ethe-ngugi-f5pTwLHCsAg-unsplash" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/lewis-kang-ethe-ngugi-f5pTwLHCsAg-unsplash.jpg" loading="lazy" width="2400" height="1733" />
+&lt;/picture>
+&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 367 شهر 09-2024 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1EDom5PEPChxUgJh6IvsKrOPXHumVknJx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/367-1.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/367-2.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/367-3.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/367-4.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/367-5.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/guide-to-start-learning-programming/images/367-6.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p></description></item><item><title>8 اختبارات مهمة قبل شراء حاسوب محمول مستعمل</title><link>https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/</link><pubDate>Sun, 08 Sep 2024 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/</guid><description>
+&lt;h2 id="مقدمة" data-numberify>مقدمة&lt;a class="anchor ms-1" href="#مقدمة">&lt;/a>&lt;/h2>
+&lt;p>لا شك أن شراء حاسوب محمول مستعمل يوفر كثيرًا من المال مقارنة بشراء الجديد، لكن يحمل هذا الأمر مخاطرة خصوصًا عند عدم الثقة في مصداقية البائع، وفيما يلي نستعرض أهم 8 نصائح لاختبار الحاسوب المحمول المستعمل الذي يعمل بنظام ويندوز التي يجب عليك التحقق منها قبل إتمام الصفقة لتجنب المفاجآت غير السارة لاحقًا.&lt;/p>
+&lt;h2 id="1-اختبار-لوحة-المفاتيح-ولوحة-اللمس" data-numberify>1. اختبار لوحة المفاتيح ولوحة اللمس&lt;a class="anchor ms-1" href="#1-اختبار-لوحة-المفاتيح-ولوحة-اللمس">&lt;/a>&lt;/h2>
+&lt;p>بداية يمكنك اختبار كلا من لوحة المفاتيح ولوحة اللمس. لاختبار لوحة المفاتيح يمكن استخدام برنامَج أو موقع للاختبار مثل &lt;a href="https://www.keyboardtester.com/tester.html" target="_blank" rel="noopener noreferrer">Keyboard Tester&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> واضغط على كل مفتاح في اللوحة من البداية إلى النهاية وتحقق من عمل جميع المفاتيح بشكل صحيح. تأكد أيضًا من أنك تشعر بالراحة عند الكتابة على لوحة المفاتيح.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="keyboard-tester" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/keyboard-tester.jpg" loading="lazy" width="910" height="584" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ولاختبار لوحة اللمس، حرك الماوس على الشاشة لقياس الاستجابة، ثم جرب إيماءات مختلفة عبر لوحة اللمس، مثل التكبير بالضغط وتمرير الأصبعين للتنقل لمعرفة الإيماءات التي يدعمها الجهاز، وإذا كان لديك حاسوب محمول آخر فيمكنك مقارنة استجابة لوحة اللمس بإجراء اختبار دِقَّة لوحة اللمس على كلَا الجهازين باستخدام موقع &lt;a href="https://no-cursor.com/" target="_blank" rel="noopener noreferrer">No-Cursor&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a> حيث سيساعدك هذا في التأكد مما إذا كانت لوحة اللمس على الحاسوب المحمول الجديد لديك أكثر استجابة أو مساوية للوحة اللمس الأخرى.&lt;/p>
+&lt;h2 id="2-اختبار-السماعات-والميكروفون" data-numberify>2. اختبار السماعات والميكروفون&lt;a class="anchor ms-1" href="#2-اختبار-السماعات-والميكروفون">&lt;/a>&lt;/h2>
+&lt;p>بعد ذلك انتقل لاختبار الميكروفون ومكبر الصوت المدمجين بالجهاز. يمكنك ببساطة تشغيل أي صوت وتسجيل شيء ما للتحقق ما إذا كانت أجهزة إدخال وإخراج الصوت تعمل بشكل جيد، كما أن ويندوز يوفر طريقة للاختبار عبر تطبيق الإعدادات، وذلك داخل قسم النظام ثم الصوت.&lt;/p>
+&lt;p>لاختبار مكبرات الصوت، اضغط على &amp;ldquo;مكبرات الصوت Speakers&amp;rdquo; تحت القسم الفرعي Output لفتح إعدادات الصوت، ثم اضغط على الزر &amp;ldquo;اختبار Test&amp;rdquo; بجانب خيارات تنسيق الصوت Format. إذا سمعت صوتًا واضحًا يخرج من مكبر الصوت دون تشويش أو خفوت فهو يعمل بشكل صحيح وإذا كان إخراج الصوت غير واضح فقد تكون هناك مشكلة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="speaker" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/speaker.jpg" loading="lazy" width="1529" height="451" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ولاختبار الميكروفون عد إلى إعدادات الصوت واضغط على &amp;ldquo;مصفوفة الميكروفون Microphone Array&amp;rdquo; ثم زر &amp;ldquo;بَدْء الاختبار Start Test&amp;rdquo; الموجود داخل خيارات اختبار الميكروفون Test Your Microphone. تحدث لبضع ثوانٍ، ثم أوقف الاختبار لترى مؤشر الصوت حسبما تتكلم، مما يدل على عمل الميكروفون كما ينبغي.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="microphone" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/microphone.jpg" loading="lazy" width="1508" height="366" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="3-اختبار-الكاميرا" data-numberify>3. اختبار الكاميرا&lt;a class="anchor ms-1" href="#3-اختبار-الكاميرا">&lt;/a>&lt;/h2>
+&lt;p>إذا كنت تنوي استخدام الحاسوب المحمول لإجراء مكالمات الفيديو فاحرص على اختبار الكاميرا المدمجة وقت الشراء عن طريق تطبيق الكاميرا الذي يمكنك فتحه عبر كتابة &amp;ldquo;كاميرا Camera&amp;rdquo; في شريط البحث.&lt;/p>
+&lt;p>إذا تعرف تطبيق الكاميرا على كاميرا الويب بنجاح وكانت الصورة واضحة وذات جودة مرضية، فهذا يعني أن الكاميرا تعمل بشكل صحيح ويمكن استخدامها في أي تطبيق فيديو.&lt;/p>
+&lt;h2 id="4-التحقق-من-صحة-البطارية" data-numberify>4. التحقق من صحة البطارية&lt;a class="anchor ms-1" href="#4-التحقق-من-صحة-البطارية">&lt;/a>&lt;/h2>
+&lt;p>كلما استخدم الحاسوب المحمول لعمر أطول قلّت سَعَة بطاريته. ولذلك عند شراء جهاز مستعمل يجب التأكد من حالة البطارية عن طريق إنشاء تقرير صحة البطارية بواسطة ويندوز.&lt;br>
+افتح أداة PowerShell مع صلاحيات المسؤول عبر الضغط بزر الماوس الأيمن على علامة قائمة البداية واختيار PowerShell، ثم أدخل الأمر التالي واضغط على Enter:&lt;/p>
+&lt;p>&lt;code>Powercfg /batteryreport&lt;/code>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="cmd" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/cmd.jpg" loading="lazy" width="650" height="164" />
+&lt;/picture>
+ينشيء هذا الأمر التقرير تلقائيًا ويحفظه في مجلد المستخدم الخاص بك الموجود في المسار التالي مع استبدال user باسم المستخدم الحقيقي لحسابك:&lt;br>
+&lt;code>C:\Users\[user]\battery-report.html.&lt;/code>&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="battery" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/battery.jpg" loading="lazy" width="650" height="290" />
+&lt;/picture>
+توجه لهذا المسار ثم افتح تقرير البطارية، وانتقل إلى قسم &amp;ldquo;البطاريات المثبتة Installed Batteries&amp;rdquo; وقارن قيمة &amp;ldquo;سَعَة التصميم Design Capacity&amp;rdquo; بـ &amp;ldquo;سَعَة الشحن الكامل Full Charge Capacity&amp;rdquo; حيث يوضح الفرق بين هاتين القيمتين مدى انخفاض سَعَة البطارية بسبب الاستخدام. إذا كانت سَعَة الشحن الكامل منخفضة بفارق كبير، فقد تضطر إلى استبدال البطارية.&lt;/p>
+&lt;h2 id="5-التأكد-من-أن-الجهاز-ليس-مسروقا" data-numberify>5. التأكد من أن الجهاز ليس مسروقًا&lt;a class="anchor ms-1" href="#5-التأكد-من-أن-الجهاز-ليس-مسروقا">&lt;/a>&lt;/h2>
+&lt;p>إذا كنت تفكر في شراء جهاز من بائع مجهول، فتحقق من أن هذا الجهاز ليس مسروقًا من شخص آخر. إحدى طرق التحقق من ذلك هي طلب إيصال الشراء من البائع، وإذا لم يتمكن من تقديم واحد فتوخى الحذر. وهناك علامات أخرى مثل أن يكون الجهاز محميًا بكلمة مرور، أو مقفل أو ما زال يحتوي على بيانات وقت الشراء، ويمكنك أيضًا تأكيد شكوكك في بعض الأحيان عن طريق الحصول على الرقم التسلسلي للجهاز والتواصل مع الشركة المصنعة للتحقق مما إذا كان قد أبلغ عن سرقة الجهاز أو لا.&lt;/p>
+&lt;h2 id="6-فحص-هيكل-الجهاز-والشاشة" data-numberify>6. فحص هيكل الجهاز والشاشة&lt;a class="anchor ms-1" href="#6-فحص-هيكل-الجهاز-والشاشة">&lt;/a>&lt;/h2>
+&lt;p>مظهر هيكل الجهاز يعبر بشكل صريح على مدى عناية المالك الأصلي بالجهاز، حيث تشير أي علامات للخدوش، أو الشقوق، أو حوامل الشاشة الرخوة أو التالفة إلى التعامل القاسي من المالك السابق، وتدل المسامير المفقودة على فتح الجهاز للإصلاح أو استبدال مكون من قبل. احذر أيضًا من الملصقات التي قد تغطي التآكل والتلف الموجود على سطح الجهاز فكثيرًا ما تستعمل لهذا الغرض.&lt;/p>
+&lt;p>كذلك تحقق من أن الشاشة خالية من العيوب عبر تغيير لون الخلفية إلى الألوان الأساسية مثل الأحمر والأزرق والأبيض والأسود وملاحظة وجود أي خلل مثل النِّقَاط السوداء أو الخدوش.&lt;/p>
+&lt;h2 id="7-اختبار-الاتصال-السلكي-واللاسلكي" data-numberify>7. اختبار الاتصال السلكي واللاسلكي&lt;a class="anchor ms-1" href="#7-اختبار-الاتصال-السلكي-واللاسلكي">&lt;/a>&lt;/h2>
+&lt;p>في بعض الأحيان قد تجد الجهاز المستعمل غير قادر على الاتصال بالإنترنت (عبر Wi-Fi أو كابل Ethernet)، أو تفشل منافذ USB في اكتشاف الأجهزة الخارجية، أو أن هناك خللًا في البلوتوث بعد إكمال عملية الشراء. ولذلك من المهم التأكد من عدم وجود مشكلات في الاتصال السلكي أو اللاسلكي.&lt;/p>
+&lt;p>ابدأ بتوصيل الجهاز بشبكة Wi-Fi ثم اختبر منفذ Ethernet عن طريق توصيله مباشرة بجهاز الراوتر للتأكد من أن الاتصال بالإنترنت يعمل بشكل جيد. ثم اختبر مقابس الصوت عبر توصيل سماعات الرأس، وكذلك منافذ USB، وأخيرًا تحقق من عمل البلوتوث عن طريق إقران سماعة أو أي جهاز يعمل بتقنية البلوتوث.&lt;/p>
+&lt;h2 id="8-التحقق-من-صحة-الرام-وقرص-التخزين" data-numberify>8. التحقق من صحة الرام وقرص التخزين&lt;a class="anchor ms-1" href="#8-التحقق-من-صحة-الرام-وقرص-التخزين">&lt;/a>&lt;/h2>
+&lt;p>آخر شيء تحتاج عمله هو التحقق من صحة ذاكرة الوصول العشوائي (RAM) ومحرك التخزين للتأكد من عدم وجود أي عيب فيهما. لاختبار الرام يمكنك استخدام أداة تشخيص الذاكرة Windows Memory Diagnostic في ويندوز، التي تكتشف المشكلات المحتملة وتعرضها. لإجراء الاختبار افتح موجه الأوامر مع صلاحيات المسؤول بالبحث عن cmd في قائمة البداية ثم الضغط بزر الماوس الأيمن واختيار Open as an administrator، ثم اكتب &lt;code>mdsched.exe&lt;/code> واضغط على Enter. بعد ذلك اضغط على &amp;ldquo;إعادة التشغيل الآن والتحقق من وجود مشكلات Restart Now and Check for Problems&amp;rdquo;.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="memory-diagnostic" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/memory-diagnostic.jpg" loading="lazy" width="1166" height="451" />
+&lt;/picture>
+&lt;/p>
+&lt;p>سيعاد تشغيل الويندوز لإجراء الاختبار، وبمجرد الانتهاء سيعاد تشغيل الجهاز مرة أخرى لعرض النتائج، وإذا لم تتمكن من رؤيتها، يمكنك استخدام عارض الأحداث Windows Event Viewer للبحث عن المشكلات المحتملة التي تم تحديدها أثناء الاختبار، حيث ستجدها في سجلات النظام Windows Logs &amp;gt; System. اضغط على &amp;ldquo;بحث Find&amp;rdquo;، واكتب MemoryDiagnostic، ثم اضغط &amp;ldquo;بحث عن التالي Find Next&amp;rdquo;.&lt;/p>
+&lt;p>بعد ذلك تحقق من نوع قرص تخزين بالجهاز لمعرفة ما إذا كان SSD وليس قرص ثابت HDD حيث يُفضل استخدام أقراص SSD نظرًا لسرعتها وكفاءة تشغيلها. وإذا كان الجهاز يستخدم HDD فقط فعلى الأرجح أنه جهاز قديم يجب أن تتأكد جيدًا من سلامته، وفي كل الأحوال تحقق من صحة القرص الصُّلْب عبر برنامَج مثل CrystalDiskInfo للتأكد من أن عمره جيد وليس في طريقه إلى التعطل حتى لا تخسر بيانات مهمة لاحقًا.&lt;/p>
+&lt;h2 id="خاتمة" data-numberify>خاتمة&lt;a class="anchor ms-1" href="#خاتمة">&lt;/a>&lt;/h2>
+&lt;p>نظرًا للفارق الكبير بين سعر الأجهزة الجديدة والمستعملة فأحيانا يكون شراء المستعمل هو الخِيار الأفضل للمستخدم، خصوصًا في حالة شراء جهاز ذو مواصفات منخفضة لغرض محدد، أما الجانب السلبي هو وجود مخاطرة في حال كان البائع ليس من المعارف الموثوقين واحتمالية التعرض للاحتيال، لذلك سيساعدك اتباع النصائح التي ذكرناها على اكتشاف كثير من المشاكل المحتملة بالجهاز وتقليل مخاطر شراء جهاز مستعمل مَعِيب.&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 365 شهر 09-2024 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1ph8jkWupYX_1XfReRxgEJLNFRfcbQa8o/view?usp=drive_link" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/365-1.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/365-2.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/8-things-to-check-when-buying-a-used-windows-laptop/images/365-3.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p></description></item><item><title>دليل المبتدئين للتعامل مع تحديثات برامج التشغيل في ويندوز</title><link>https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/</link><pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/</guid><description>
+&lt;h2 id="مقدمة" data-numberify>مقدمة&lt;a class="anchor ms-1" href="#مقدمة">&lt;/a>&lt;/h2>
+&lt;p>تعد برامج التشغيل صاحبة أكبر دور جوهري في عملية تشغيل أي نظام تشغيل سواء كان ويندوز أو لينكس أو حتى أندرويد، فهي بمنزلة المترجم بين طبقة قطع العتاد (الهاردوير) المختلفة مثل اللوحة الأم والرام والماوس، ونظام التشغيل المثبت على الجهاز، فبدونها لا يستطيع النظام التواصل مع العتاد والعكس. وهي كذلك ضمن أكبر العوامل المؤثرة في استقرار النظام، إذ تشير الإحصاءات أن قرابة ٧٥٪ من الأخطاء ومشاكل التشنج والتحطم يرجع سببها إلى برامج التشغيل. ونظرا لحساسية برامج التشغيل فإنها من المواضيع المحيرة لكثير من المستخدمين الذين لديهم تساؤلات حولها، وفي السطور القادمة سنجيب عن العديد من هذه التساؤلات مثل متى وكيف تحدث برامج التشغيل.&lt;/p>
+&lt;h2 id="من-المسؤول-عن-تطوير-برامج-التشغيل" data-numberify>من المسؤول عن تطوير برامج التشغيل؟&lt;a class="anchor ms-1" href="#من-المسؤول-عن-تطوير-برامج-التشغيل">&lt;/a>&lt;/h2>
+&lt;p>من البديهي اعتقاد أن صناع الأجهزة هم من يطورون برامج التشغيل الخاصة بها كذلك، لكن هذا صحيح في بعض الأحيان فقط مثل بطاقات الفيديو GPU، إذ توفر مايكروسوفت وبعض الشركات المصنعة برامج تشغيل عامة يمكن لأي شخص استخدامها، لتوفير التكلفة وتحقيق أداء ثابت مع الأجهزة المختلفة.&lt;/p>
+&lt;p>فيمكن للشركة المصنعة تعديل أجهزتها لتتناسب مع برنامج تشغيل معروف ومختبر جيدًا يلبي الاحتياجات المطلوبة، فمثلا ستجد أجهزة الماوس ولوحة المفاتيح وأقراص USB تستخدم برامج تشغيل عامة من صنع مايكروسوفت، لكن في حالات أخرى قد تؤدي أداءًا أفضل مع برامج التشغيل المخصصة للجهاز كما في لوحات المفاتيح المتقدمة وبطاقة الفيديو الحديثة.&lt;/p>
+&lt;p>وبغض النظر عن مطور برامج التشغيل ففي النهاية تستخدم البرمجيات المختلفة بما فيها نظام التشغيل نفسه واحد منها أو أكثر للتواصل مع العتاد لأداء مهام محددة.&lt;/p>
+&lt;h2 id="لماذا-تسبب-برامج-التشغيل-مشكلات-النظام" data-numberify>لماذا تسبب برامج التشغيل مشكلات النظام؟&lt;a class="anchor ms-1" href="#لماذا-تسبب-برامج-التشغيل-مشكلات-النظام">&lt;/a>&lt;/h2>
+&lt;p>ليتضح لنا مدى حساسية التعامل بين برامج التشغيل ونظام التشغيل دعونا نتخيل أن برامج التشغيل مترجم يتقن العربية والإنجليزية بينما النظام لا يتحدث إلا الفرنسية، والمترجم لا يتقنها لكن يعرف كيف يتكلم، ففي هذه الحالة لا بد أن يخطئ في نقل وتفسير المطلوب. وفي حالة برامج التشغيل قد يكون المشاكل سببها أمرين، الأول أن برنامج التشغيل نفسه قد لا يكون مثاليًا والثاني البرمجيات والعتاد نفسه.&lt;/p>
+&lt;p>وتصبح المشكلة أكبر في حال كان برنامج التشغيل يتعامل مع مكونات حساسة مثل اللوحة الأم والرام، فهنا لا يمتلك برنامج التشغيل القدرة الذاتية على علاج المشاكل وتصحيح الأخطاء البرمجية أو الفيزيائية ومن ثم تحدث المشاكل.&lt;/p>
+&lt;h2 id="ما-الذي-تحتاج-عمله-عندما-تشك-في-برنامج-تشغيل" data-numberify>ما الذي تحتاج عمله عندما تشك في برنامج تشغيل؟&lt;a class="anchor ms-1" href="#ما-الذي-تحتاج-عمله-عندما-تشك-في-برنامج-تشغيل">&lt;/a>&lt;/h2>
+&lt;p>إذا كنت تظن وجود مشكلة في أحد برامج التشغيل لديك فأول شيء يجب عليك فعله هو التوقف والرجوع خطوة إلى الوراء والتأمل في سبب وصولك إلى هذا الاستنتاج. فإذا أوصى أحد البرامج لديك بتحديث برنامج تشغيل قديم فتوقف، لأن هذا قد يكون مضرًا أكثر من النفع المرتقب والسلامة لا يعدلها شيء، وفي جميع الأحوال لا يوصى باستخدام البرامج المساعدة لتحديث برامج التشغيل بشكل آلي، وأفضل شيء يمكنك القيام به في حال وجود مشكلة حقيقة هو إلغاء تثبيت تحديث برنامج التشغيل الذي تشك فيه.&lt;/p>
+&lt;h2 id="متى-تحدث-برامج-التشغيل" data-numberify>متى تحدّث برامج التشغيل؟&lt;a class="anchor ms-1" href="#متى-تحدث-برامج-التشغيل">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>القاعدة العامة: لا تصلح ما لا يحتاج إصلاحًا.&lt;/strong>&lt;/p>
+&lt;p>عمومًا لا تحتاج في غالب الأحيان إلى تحديث برامج تشغيل الأجهزة إذا لم يكن هناك مشاكل في أجهزتك وكانت تعمل بشكل جيد، وفي ويندوز ١١ يحدث النظام تلقائيًا العديد من برامج التشغيل، بما في ذلك لوحات اللمس ووحدات تحكم USB، فمن الأفضل ترك الأمور كما هي بدلًا من المخاطرة بحدوث مشكلة. أما إذا كان هدفك من التحديث زيادة سرعة وأداء الجهاز فللأسف لن يحسن تحديث برامج التشغيل إلى الإصدار الأحدث الأداء بشكل سحري في غالب الأحيان.&lt;/p>
+&lt;p>ومن الملاحظات التي يجب الانتباه لها أنك إذا كنت ترقي برنامج تشغيل من إصدار إلى آخر فتأكد أن الأشياء الوحيدة المضمنة في هذا التحديث هي إصلاحات الأخطاء وربما بعض تحسينات الأداء، لأن هناك فرصة لتعطل أشياء إذا كانت التغييرات كبيرة جدًا وكنت لا تعرف ما هي.&lt;/p>
+&lt;p>والاستثناء الوحيد لهذه القاعدة تحديثات برامج تشغيل بطاقات الفيديو من شركات مثل AMD/ATI أو NVidia؛ حيث يجب تحديثها بانتظام لحل المشكلات وإضافة ميزات جديدة وتحسين الأداء لألعاب الكمبيوتر الجديدة.&lt;/p>
+&lt;p>ومن الحالات التي يجب عليك فيها تحديث برنامج التشغيل لمكون ما هي حدوث عطل وظهور شاشة الموت الزرقاء (BSOD) التي تعرض رسالة خطأ حول برنامج تشغيل ما بشكل مفاجئ.&lt;/p>
+&lt;h2 id="برامج-التشغيل-التي-تحتاج-إلى-تحديث" data-numberify>برامج التشغيل التي تحتاج إلى تحديث&lt;a class="anchor ms-1" href="#برامج-التشغيل-التي-تحتاج-إلى-تحديث">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>القاعدة العامة: استخدام الإصدار الأصح وليس الأحدث.&lt;/strong>&lt;/p>
+&lt;p>عند شراءك جهاز كمبيوتر جديد أو إعادة تثبيت ويندوز ستحتاج للتأكد من استخدام برامج التشغيل الصحيحة، فلا يقتصر الأمر على تحديث برامج التشغيل إلى آخر إصدار، بل استخدام برنامج التشغيل الخاص بالمكونات من مصنعها الأصلي بدلًا من العام للحصول على أداء واستقرار أفضل.&lt;/p>
+&lt;p>أما إذا كنت من هواة الألعاب أو لديك جهاز كمبيوتر مجمع بنفسك فغالبا ستحتاج إلى تحديث عدد من برامج التشغيل مثل:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>بطاقة الفيديو&lt;/strong>: سوف يفاجئك الفرق في السرعة بين برامج تشغيل الويندوز العامة لبطاقة الفيديو الخاصة بك وبرامج تشغيل NVidia أو ATI/AMD الرسمية، وحتى لو لم تكن لاعبًا، تحقق من تثبيت برامج التشغيل الحقيقية.&lt;/li>
+&lt;li>&lt;strong>اللوحة الأم/مجموعة الشرائح&lt;/strong>: ستحتاج للتأكد زيارة موقع الشركة المصنعة والحصول على برامج تشغيل الشرائح الخاصة بها. إذا اشتريت جهاز كمبيوتر فتوجه إلى موقع الشركة صاحبة الجهاز مثل Dell أو HP، أما إذا بنيت الجهاز بنفسك، فتوجه إلى موقع الشركة المصنعة للوحة الأم.&lt;/li>
+&lt;li>&lt;strong>بطاقة الصوت&lt;/strong>: لن تتضمن برامج تشغيل ويندوز العامة جميع ميزات الصوت الإضافية مثل لذلك تحتاج تحديثها تمامًا مثل اللوحة الأم.&lt;/li>
+&lt;li>&lt;strong>بطاقة الشبكة&lt;/strong>: على الأرجح أنك تستخدم نوعًا من البطاقات المدمجة التي تعد جزءًا من اللوحة الأم، وقد حدثتها فعلًا مع تحديث برنامج تشغيل اللوحة، أما إذا كنت تستخدم بطاقة منفصلة توجه إلى الموقع الرسمي لها للحصول على برامج التشغيل من هناك.&lt;/li>
+&lt;/ul>
+&lt;h2 id="التحقق-من-إصدار-برنامج-تشغيل" data-numberify>التحقق من إصدار برنامج تشغيل&lt;a class="anchor ms-1" href="#التحقق-من-إصدار-برنامج-تشغيل">&lt;/a>&lt;/h2>
+&lt;p>عندما تواجه مشكلة مع أحد المكونات فمن المفيد جدًا معرفة إصدار برنامج التشغيل الذي تستخدمه خاصة إذا كنت تحتاج سؤال أحد أو البحث عن المشكلة. ولعمل ذلك ما عليك سوى فتح مدير الجهاز Device Manager عبر مربع البحث في قائمة البداية والوصول إلى المكون الذي تريده مثل بطاقة الفيديو، ثم الضغط بزر الماوس الأيمن واختيار خصائص Properties، وستظهر نافذة تعرض معلومات كثيرة، من ضمنها معلومات الإصدار والتاريخ في تبويب برنامج التشغيل Driver. ويمكنك عبر هذه النافذة أيضًا تحديث برنامج التشغيل أو استرجاعه أو تعطيله أو إلغاء تثبيته، وهذه الخيارات مفيدة إذا رقيت برامج التشغيل وتسببت في حدوث مشكلة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="win11_start_device_manager" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/win11_start_device_manager.jpg" loading="lazy" width="650" height="349" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="Intel-driver" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/Intel-driver.jpg" loading="lazy" width="650" height="300" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="تحديث-برامج-التشغيل-بأمان" data-numberify>تحديث برامج التشغيل بأمان&lt;a class="anchor ms-1" href="#تحديث-برامج-التشغيل-بأمان">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>القاعدة العامة: لا تستخدم برنامج خارجي للتحديث.&lt;/strong>&lt;/p>
+&lt;p>ذكرنا سابقًا أن ويندوز يبقى العديد من برامج التشغيل محدثة تلقائيًا فإذا كانت هناك أية تحديثات بسيطة ضرورية للمكونات الشائعة مثل لوحات اللمس أو وحدات تحكم USB عادةً ما يكفيك البحث عن تحديثات الويندوز وتثبيتها لتحدث هي كذلك. كما يوجد أيضًا خيارات التحديات الاختيارية التي توصي مايكروسوفت بتثبيتها عند محاولة حل مشكلة معينة معروفة في إحدى الأجهزة.&lt;/p>
+&lt;p>ولمعرفة ما إذا كانت هناك أية تحديثات اختيارية متوفرة افتح الإعدادات بالضغط على Windows+i ثم تحديثات الويندوز Windows Update ثم اضغط زر الخيارات المتقدمة Advanced Options.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="windows_update_Advanced_options" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/windows_update_Advanced_options.jpg" loading="lazy" width="650" height="239" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ستجد زر التحديثات الاختيارية Optional Updates عند التمرير للأسفل قليلًا، اضغط عليه.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="click_optional_updates" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/click_optional_updates.jpg" loading="lazy" width="650" height="277" />
+&lt;/picture>
+&lt;/p>
+&lt;p>ثم ستجد قائمة التحديثات المتوفرة التي يمكنك اختيار ما تريد منها ثم الضغط على زر تحميل وتثبيت Download &amp;amp; Install.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="install_optional_updates" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/install_optional_updates.jpg" loading="lazy" width="650" height="447" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="تحميل-وتثبيت-برامج-التشغيل-يدويا" data-numberify>تحميل وتثبيت برامج التشغيل يدويًا&lt;a class="anchor ms-1" href="#تحميل-وتثبيت-برامج-التشغيل-يدويا">&lt;/a>&lt;/h2>
+&lt;p>من المتوقع ألا تجد كل برامج التشغيل المطلوبة عبر تحديثات الويندوز في أوقات كثيرة، وفي هذه الحالة يجب البحث عن التحديث يدويًا وتثبيته. وأفضل مكان تجد فيه برنامج التشغيل المطلوب هو الموقع الرسمي للشركة المصنعة، فعند دخولك للموقع ابحث عن قسم الدعم Support ثم عن التنزيلات Downloads أو التحديثات Updates أو برامج التشغيل Drivers الخاصة بجهازك، لكن احذر من وجود العديد من مواقع برامج التشغيل الاحتيالية التي تثبت برامج ضارة، ونفس هذا الخطر ينطبق على أغلب الأدوات المساعدة لتحديث برامج التشغيل التي قد تجدها عبر الإنترنت.&lt;/p>
+&lt;p>وبعد تنزيل حزمة برامج التشغيل الموثوقة من الشركة المصنعة لجهازك، تحتاج غالبا لفك الضغط عنها إذا كانت في صورة ملف مضغوط من نوع RAR أو ZIP أو غيرهما، ثم ابحث عن برنامج الإعداد Setup أو التثبيت Install لتشغيل مثبت برنامج التشغيل، وعادةً ما يتم التثبيت تلقائيًا ثم سيطلب إعادة التشغيل الجهاز، وبعد ذلك ستصبح برامج التشغيل الجديدة جاهزة للاستخدام.&lt;/p>
+&lt;p>أما في حالة برامج تشغيل بطاقات الفيديو GPU من شركات NVIDIA أو AMD أو Intel، قد يثبت برنامج تحديث برنامج التشغيل أداة مساعدة مثل GeForce Experience (لأجهزة NVIDIA) التي ستوفر لك تحديثات برنامج التشغيل كلما صدرت نسخة جديدة في المستقبل.&lt;/p>
+&lt;p>وفي حال كان التحديث لا يحتوى على مثبت فتحتاج إلى تثبيته يدويًا عبر مدير الجهاز Device Manager ثم اختيار المكون من قائمة التصنيفات ثم الضغط بزر الماوس الأيمن واختيار تحديث برنامج التشغيل Update Driver، سيظهر لك خياران:&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="device_manager_update_driver" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/device_manager_update_driver.jpg" loading="lazy" width="650" height="398" />
+&lt;/picture>
+&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>البحث تلقائيًا عن برامج التشغيل Search automatically for drivers: هذا الاختيار يجعل الويندوز يبحث عن برامج التشغيل المتوافقة ويثبتها تلقائيًا.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>اختيار برامج التشغيل من الكمبيوتر Browse my computer for drivers: يتيح لك هذا الخيار تحديد مكان برامج التشغيل الجديدة التي تريد تثبيتها يدويًا.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="how_search_drivers" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/how_search_drivers.jpg" loading="lazy" width="650" height="427" />
+&lt;/picture>
+&lt;/p>
+&lt;p>إذا اخترت البحث تلقائيًا عن برامج التشغيل، فسيقوم الويندوز بالبحث عن برامج تشغيل محدثة للجهاز وإذا عثر عليها سيثبتها ويطلب منك إعادة تشغيل الجهاز الكمبيوتر.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="drivers_restart_now_click_yes" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/drivers_restart_now_click_yes.jpg" loading="lazy" width="650" height="224" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وإذا لم يجد فسترى رسالة تفيد بأن أفضل برامج التشغيل مثبت فعلًا، ويمكنك حينها مواصلة بحثك باختيار البحث عبر محدث الويندوز أو إغلاق النافذة.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="best_drivers_installed" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/best_drivers_installed.jpg" loading="lazy" width="650" height="465" />
+&lt;/picture>
+&lt;/p>
+&lt;p>أما إذا اخترت تحديد برنامج التشغيل يدويًا فاضغط على زر التصفح Browse واختيار مجلد البرنامج.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="drivers_browse" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/drivers_browse.jpg" loading="lazy" width="650" height="464" />
+&lt;/picture>
+&lt;/p>
+&lt;p>وإذا تعرف عليه الويندوز أو اخترت زر اختيار برنامج تشغيل من قائمة البرامج المتوفرة على الكمبيوتر فسيعرض الويندوز برامج التشغيل المتاحة لتختار منها.ومثل الحالة السابقة إما سيظهر الويندوز أن أفضل برنامج مثبت أو سيثبته ويطلب إعادة التشغيل.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="select_from_list" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/select_from_list.jpg" loading="lazy" width="650" height="426" />
+&lt;/picture>
+&lt;/p>
+&lt;hr>
+&lt;p>هذا الموضوع نُشر باﻷصل في مجلة لغة العصر العدد 364 شهر 09-2024 ويمكن الإطلاع عليه &lt;a href="https://drive.google.com/file/d/1PV51yk3cvR614ShSWZKTXSVcNn0EjBK6/view?usp=drive_link" target="_blank" rel="noopener noreferrer">هنا&lt;i class="fas fa-external-link-square-alt ms-1">&lt;/i>&lt;/a>.&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/364-1.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/364-2.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/364-3.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p>
+&lt;p>&lt;picture>&lt;img class="img-fluid " alt="img" src="https://yshalsager.com/ar/posts/beginners-guide-to-driver-updates-in-windows/images/364-4.jpg" loading="lazy" width="1241" height="1713" />
+&lt;/picture>
+&lt;/p></description></item><item><title>البرمجيات مفتوحة المصدر بديل حتمي لتفادي الكوارث العالمية</title><link>https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/</link><pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-and-foss-as-an-alternatives-for-centralized-world/</guid><description>
 &lt;h2 id="مقدمة" data-numberify>مقدمة&lt;a class="anchor ms-1" href="#مقدمة">&lt;/a>&lt;/h2>
 &lt;p>في عالم رقمي مترابط إلى أبعد مدى تنتشر فيه الأجهزة والأنظمة الإلكترونية وتؤثر في كل جزء في حياتنا، حينما يكون هناك اعتماد على منتج أو نظام واحد بشكل مركزي مثل نظام ويندوز، تبرز مخاوف بشأن حدوث مشاكل على نطاق كبير بسبب هذه الاعتمادية، فالطبيعة المركزية لهذه الأنظمة تعني أن نقطة فشل واحدة سواء كانت بسبب اختراق أمني أو خطأ برمجي أو مشكلة في البنية التحتية سيكون لها عواقب ضخمة تؤثر على ملايين المستخدمين والشركات في جميع أنحاء العالم وتسبب خسائر مالية كبيرة.&lt;/p>
 &lt;p>وهذا ما حصل فعلًا ظهيرة يوم 19 يوليو 2024 حيث تعطلت الآلاف من الأجهزة العاملة بنظام ويندوز التي تستخدم برمجية CrowdStrike الأمنية سواءًا كانت شخصية أو أجهزة سيرفرات، وعرضت جميعها شاشة الموت الزرقاء الشهيرة في حادثة وصفها البعض بأنها &amp;ldquo;أكبر عطل تقني في التاريخ&amp;rdquo;، واحتاج الأمر لتدخل يدوي من مهندسي الصيانة لإعادة الأجهزة إلى العمل، مسببًا خسائر ضخمة وتعطل في حركة الطيران العالمية وقنوات التليفزيون وخدمات البنوك وقطاعات الصحة والأعمال وغيرها.&lt;/p>
