@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>دليل لينكس on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/series/%D8%AF%D9%84%D9%8A%D9%84-%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link><description>Recent content in دليل لينكس on يوسف شعبان الصغير</description><generator>Hugo</generator><language>ar-EG</language><copyright>جميع الحقوق محفوطة © 2013-2026 yshalsager.</copyright><lastBuildDate>Mon, 28 Mar 2022 08:23:51 +0200</lastBuildDate><atom:link href="https://yshalsager.com/ar/series/%D8%AF%D9%84%D9%8A%D9%84-%D9%84%D9%8A%D9%86%D9%83%D8%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>ما هي توزيعات لينكس وكيف تختار التوزيعة المناسبة لك؟</title><link>https://yshalsager.com/ar/posts/linux-guide-12-distros/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-12-distros/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن كيفية إدارة النظام، وتعرفنا على أكثر من طريقة للحصول على معلومات تفصيلية عن الجهاز، وفى حلقة هذا الشهر نصل إلى نهاية دروس أساسيات لينكس، وسنتعرف على توزيعات لينكس المختلفة وكيفية اختيار التوزيعة التي تلائمك.&lt;/p>
+&lt;p>ذكرنا في الحلقة الأولى أن لينكس يتميز بوجود العديد من التوزيعات التي يمكنك اختيار ما يناسبك منها، وذلك لأن لينكس نظام مفتوح المصدر، فهناك أكثر من 300 توزيعة موجودة حاليا، فما هي &amp;ldquo;توزيعات لينكس&amp;rdquo;؟&lt;/p></description></item><item><title>إدارة النظام في أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-11-system-managment/</link><pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-11-system-managment/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن الإعدادات في أوبنتو، وتعرفنا على كل قسم من أقسام لوحة الإعدادات بالتفصيل، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على كيفية إدارة النظام.&lt;/p>
+&lt;h2 id="أولا-التعرف-على-معلومات-الجهاز">أولا: التعرف على معلومات الجهاز&lt;/h2>
+&lt;p>تذكر معي عزيزي القارئ أننا قد تعرفنا سابقا على طريقة لمعرفة معلومات الجهاز من خلال الإعدادات.&lt;/p>
+&lt;ol>
+&lt;li>من القائمة العلوية قم باختيار About This Computer.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/1_hu_b95737966a3d6290.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/1.1074912d79249931731ff7727871f9d7.png" alt="img" loading="lazy" height="203" width="233" />
+&lt;/picture>
+&lt;/p>
+&lt;ol start="2">
+&lt;li>ستظهر لك معلومات الجهاز، لكن كما تلاحظ فهي معلومات بسيطة جدا.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/2_hu_66245bc47a155b6e.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/2.0053e8c1321a2db204e8a2f8659fd1ae.png" alt="img" loading="lazy" height="412" width="856" />
+&lt;/picture>
+&lt;/p></description></item><item><title>إعدادات نظام أوبنتو لينكس من الألف إلى الياء</title><link>https://yshalsager.com/ar/posts/linux-guide-10-settings/</link><pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-10-settings/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity باستخدام أداة بعض الأدوات، وتعرفنا على كيفية تغيير المؤثرات وحركة النوافذ، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على إعدادات النظام بشكل مفصل.&lt;/p>
+&lt;p>إعدادات النظام في أوبنتو لينكس (أو أي توزيعة أخرى) تحتوي على أغلب التفضيلات التي يحتاج المستخدم إلى التحكم فيها، ويتميز تطبيق الإعدادات في لينكس بسهولة الواجهة وحسن التنظيم للإعدادات المختلفة.&lt;/p>
+&lt;h2 id="كيف-تقوم-بالدخول-إلى-إعدادات-النظام">كيف تقوم بالدخول إلى إعدادات النظام&lt;/h2>
+&lt;p>1- قم بالضغط على اسم المستخدم أو رمز الطاقة الموجود بالشريط العلوي ثم اختر System Settings.&lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الثالث</title><link>https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/</link><pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity باستخدام أداة Unity Tweak، وتعرفنا على كيفية تغيير ثيمات النظام والخطوط والأيقونات، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على آخر مجموعة حيل لتخصيص واجهة Unity باستخدام بعض الأدوات.&lt;/p>
+&lt;h2 id="أولا-أداة-docky">أولا: أداة Docky&lt;/h2>
+&lt;p>أداة Docky هي أداة لإضافة شريط البرامج Dock أسفل سطح المكتب مثل الموجود في نظام ماك من آبل، وظيفة الأداة هي التنقل بين البرامج المفتوحة بطريقة جميلة، مقدمة بذلك بديلا لشريط المهام الكلاسيكي (المشغل) في أوبنتو.&lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الثاني</title><link>https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/</link><pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity بدون استخدام برامج خارجية، وتعرفنا على كيفية تغيير مكان المشغل ومكان القوائم، وأيضا تغيير خلفية سطح المكتب، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على طريقة تخصيص واجهة Unity باستخدام أداة Unity Tweak.&lt;/p>
+&lt;h2 id="أولا-تثبيت-أداة-unity-tweak">أولا: تثبيت أداة Unity Tweak&lt;/h2>
+&lt;p>1- قم بفتح مركز البرمجيات Ubuntu Software.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/1_hu_f3e6acaa2517e00b.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/1.fcc8811f5d1cb1103bf69b4b7ab87a9d.png" alt="img" loading="lazy" height="539" width="880" />
+&lt;/picture>
+&lt;/p>
+&lt;p>2- ابحث عن Unity Tweak Tool ستجد نتيجة بحث واحدة كما بالصورة، قم بفتحها.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/3_hu_fa00767aedd0175b.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/3.e49609b792bb7d9677ddbec7df27f4dc.png" alt="img" loading="lazy" height="200" width="860" />
+&lt;/picture>
+&lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الأول</title><link>https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/</link><pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن واجهة Unity، وتعرفنا على مكوناتها وطريقة التعامل مها، واليوم نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على طريقة تخصيص واجهة Unity بدون استخدام برامج خارجية.&lt;/p>
+&lt;h2 id="1--تغيير-مكان-شريط-المشغل-launcher">1- تغيير مكان شريط المشغل Launcher&lt;/h2>
+&lt;p>كما أوضحنا في عدد سابق، توفر نسخة أوبنتو 16.04 إمكانية تغيير مكان المشغل ونقله إلى الجزء الأسفل من الشاشة (مثل شريط المهام) بدلا من الجزء الأيسر، وللقيام بذلك كل ما عليك هو فتح الطرفية Terminal ثم كتابة هذا الأمر:
+&lt;code>gsettings set com.canonical.Unity.Launcher launcher-position Bottom&lt;/code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/1_hu_b61aa89b1af7302.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/1.39ef86ba0cbab7fb4c9079b0bf3667d7.jpg" alt="img" loading="lazy" height="303" width="800" />
+&lt;/picture>
+
+ولإعادة الشريط إلى مكانه الأصلي استخدم هذا الأمر:
+&lt;code>gsettings set com.canonical.Unity.Launcher launcher-position Left&lt;/code>&lt;/p></description></item><item><title>واجهة Unity.. من البداية وحتى الاحتراف</title><link>https://yshalsager.com/ar/posts/linux-guide-06-using-unity/</link><pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-06-using-unity/</guid><description>&lt;p>في العدد السابق (الحلقة 5) تكلمنا عن أهم برامج أوبنتو التي يجب عليك تجربتها، واليوم نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على واجهة Unity الخاصة بتوزيعه أوبنتو ونكتشف خفاياها وأسرارها.&lt;/p>
+&lt;h2 id="أولا-ما-هي-واجهة-unity">أولا: ما هي واجهة Unity&lt;/h2>
+&lt;ul>
+&lt;li>في أي نظام تشغيل معتمد على واجهة المستخدم الرسومية توجد بيئة سطح مكتب (واجهة) مميزة له، وكل واجهة لديها عدد من الخصائص تميزها عن الأخرى مثل (مظهر النظام، طريقة تنظيم سطح المكتب، كيفية التنقل في سطح المكتب).&lt;/li>
+&lt;li>من مميزات نظام لينكس التي سبق وذكرناها هي تعدد واجهات سطح المكتب ومن أمثلتها (Gnome, Unity, XFCE, MATE, KDE)، كما أن المستخدم يستطيع التنقل بحرية بين واجهات سطح المكتب المختلفة، وكما رأيت عزيزي القارئ تعتبر واجهة Unity بيئة سطح المكتب الافتراضية لتوزيعه أوبنتو.&lt;/li>
+&lt;/ul>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/1_hu_4dd61098773afc4c.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/1.bba3b27fb4e05fbf38d33dce419969ec.png" alt="img" loading="lazy" height="675" width="1200" />
+&lt;/picture>
+&lt;/p></description></item><item><title>أهم برامج أوبنتو التي يجب عليك تجربتها</title><link>https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/</link><pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/</guid><description>&lt;p>تحدثنا في الحلقات السابقة عن كيفية التعامل مع البرامج في أوبنتو لينكس واكتشفنا معا مدى سهولة تثبيت برامج جديدة، وعن أهم الخطوات التي يجب عليك فعلها بعد تثبيت أوبنتو وتوقفنا عند تثبيت البرامج التي تحتاج، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على أهم برامج أوبنتو التي يجب عليك تجربتها.&lt;/p>
+&lt;p>في البداية يجب أن أذكرك عزيزي القارئ بأن كل البرامج التي سيتم ذكرها في هذا الموضوع ستجدها على مركز برامج أوبنتو Ubuntu Software Center وفى حالة عدم وجود البرنامج على مركز البرامج سأذكر ذلك، أيضا ستجد بكل القسم العديد من البدائل اختر منها ما تريد فبالتأكيد لا تحتاج إلى تثبيتها جميعا.&lt;/p></description></item><item><title>كيفية الترقية إلى أوبنتو 16.04 LTS</title><link>https://yshalsager.com/ar/posts/linux-ubuntu-16.04/</link><pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-ubuntu-16.04/</guid><description>&lt;p>في يوم 21 من الشهر الماضي، أعلنت شركة كانونيكال أخيرا عن إطلاق الإصدار المنتظر من توزيعة Ubuntu وهو الإصدار 16.04 LTS والذي يعد سادس إصدار طويل الدعم من نظام أوبنتو وأكبر تحديث منذ عامين، شمل الإصدار العديد من التغييرات والتحسينات الجديدة التي سنتعرف إليها في هذا الموضوع، كما سنتعرف أيضا على طريقة الترقية والتحميل.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/1_hu_9513759c6beec5ec.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/1.36dd2aa0039cee35d5e785e7b889f98f.jpg" alt="img" loading="lazy" height="323" width="650" />
+&lt;/picture>
+&lt;/p>
+&lt;p>من أكبر ما يميز Ubuntu 16.04 LTS (‘Xenial Xerus’) هو الدعم المستمر لمدة 5 سنوات إلى جانب التحديثات الأمنية المستمرة وتحديثات البرامج، ويرجع هذا إلى أنه إصدار LTS (دعم المدى الطويل) فقد أصبح الإصدار الموصي بتحميله واستخدامه لكل من يرغب في تثبيت أوبنتو على جهازه إلى حين صدور الإصدار 18.04.&lt;/p></description></item><item><title>ماذا يجب أن تفعل بعد تثبيت أوبنتو لينكس؟</title><link>https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/</link><pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/</guid><description>&lt;p>تحدثنا في الجزء السابق عن كيفية التعامل مع البرامج في أوبنتو لينكس، وفي هذا الجزء سنواصل حديثنا وسنتعرف على أهم الخطوات التي يجب عليك فعلها بعد تثبيت أوبنتو.&lt;/p>
+&lt;p>1- إضافة دعم اللغة العربية – سبق تناولها في &lt;a
+ href="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/"
+ 
+ >الجزء 2&lt;/a>.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/1_hu_b340f4ad087ad57.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/1.fdc8e06d6610694b438b2415c323b598.png" alt="img" loading="lazy" height="335" width="370" />
+&lt;/picture>
+&lt;/p>
+&lt;p>2- تثبيت مدير الحزم Synaptic – سبق تناولها في &lt;a
+ href="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/"
+ 
+ >الجزء 3&lt;/a> (الجزء السابق).&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/2_hu_1f242645137985a8.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/2.c52897c4b5e50a493f642dc39444350e.png" alt="img" loading="lazy" height="506" width="718" />
+&lt;/picture>
+&lt;/p>
+&lt;p>3- التحقق من تحديثات النظام:&lt;/p>
+&lt;p>عادة ما يظهر مُحدّث البرامج Software Updater من تلقاء نفسه افتراضيًا عند بدء تشغيل النظام، فإذا لم يظهر قم بالدخول إلى قائمة البرامج ثم ابحث عن مُحدّث البرامج أو Software Updater.&lt;/p></description></item><item><title>كيفية التعامل مع البرامج في أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/</guid><description>&lt;p>تحدثنا في الجزء السابق عن اللغة العربية ونظام لينكس، وكيفية إضافة الدعم الكامل لها، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على طريقة التعامل مع البرامج، تثبيت البرامج من مركز البرمجيات ومن خارجه، التعامل مع الحزم، إدارة البرامج بواسطة الطرفية Terminal.&lt;/p>
+&lt;h2 id="التعامل-مع-البرامج-من-خلال-مركز-برمجيات-أوبنتو">التعامل مع البرامج من خلال مركز برمجيات أوبنتو&lt;/h2>
+&lt;p>مركز برمجيات أوبنتو هو المكان الذي يحتوي على أغلب برامج وألعاب نظام أوبنتو بمختلف أنواعها، ويتميز بواجهته البسيطة وسهولة الوصول إلى البرمجيات بداخله.&lt;/p></description></item><item><title>إضافة دعم اللغة العربية إلى أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/</link><pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/</guid><description>&lt;p>تحدثنا في الجزء السابق عن نظام لينكس، ما هو، مميزاته، وتوقفنا عند اكتمال تثبيت أوبنتو، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على كيفية إضافة الدعم الكامل للغة العربية إلى أوبنتو لينكس.&lt;/p>
+&lt;h2 id="أولا-تغيير-لغة-الواجهة-إلى-اللغة-العربية">أولا: تغيير لغة الواجهة إلى اللغة العربية&lt;/h2>
+&lt;ol>
+&lt;li>قم بالدخول إلى إعدادات النظام System settings عن طريق الضغط بزر الفأرة على رمز التحكم أعلى يمين الشاشة، ثم قم باختيار System settings.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/1_hu_74d78ea8b751e22f.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/1.d7dff5cf64de6ec97948a9b62027869f.png" alt="img" loading="lazy" height="266" width="281" />
+&lt;/picture>
+&lt;/p>
+&lt;ol start="2">
+&lt;li>ستجد الإعدادات كما بالصورة، قم بفتح Language Support.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/2_hu_610c3fbf40022734.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/2.7750d7018af46f9420c993cd633b9e9e.png" alt="img" loading="lazy" height="441" width="738" />
+&lt;/picture>
+&lt;/p></description></item><item><title>ما هو نظام لينكس وكيف يمكنني تثبيته؟</title><link>https://yshalsager.com/ar/posts/linux-guide-01-intro/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-01-intro/</guid><description>&lt;p>نظام لينكس هو نظام تشغيل مفتوح المصدر تم اختراعه عام 1984، مر بالعديد من مراحل التطوير أهمها عام 1991 وحاليا هو مشروع كبير يتم تطويره بواسطة مجموعة من المتطوعين من كل أنحاء العالم، أهم ما يميز نظام لينكس هو الثبات والسرعة والمجانية، نستعرض معا في الأسطر القادمة أهم ما يميز نظام لينكس وطريقة تثبيته على جهازك.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-01-intro/featured-1_hu_6ce7f3f2d3dae846.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-01-intro/featured-1.675e573aa60d9b94c6bc357f290e3f9d.png" alt="img" loading="lazy" height="145" width="125" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="لماذا-يجب-عليك-تجربة-لينكس">لماذا يجب عليك تجربة لينكس؟&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>نظام مجاني تماما ومفتوح المصدر.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>يعمل على أقل الأجهزة في المواصفات.&lt;/p></description></item></channel></rss>

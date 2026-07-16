@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>لينكس on يوسف شعبان الصغير</title><link>https://yshalsager.com/ar/categories/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link><description>Recent content in لينكس on يوسف شعبان الصغير</description><generator>Hugo</generator><language>ar-EG</language><copyright>جميع الحقوق محفوطة © 2013-2026 yshalsager.</copyright><lastBuildDate>Mon, 20 Feb 2023 14:40:53 +0200</lastBuildDate><atom:link href="https://yshalsager.com/ar/categories/%D9%84%D9%8A%D9%86%D9%83%D8%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>7 أخطاء يقع فيها مستخدمي لينكس الجدد وكيفية تجنبها</title><link>https://yshalsager.com/ar/posts/7-mistakes-new-linux-users-make/</link><pubDate>Sun, 19 Feb 2023 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/7-mistakes-new-linux-users-make/</guid><description>&lt;p>قد يكون تعلم نظام لينكس في البداية تجرِبة محبطة خصوصا عندما يبدو كل شيء معركةً يتحتم على المستخدم خوضها، وأحد أهم أسباب هذا اﻷمر هو ارتكاب بعض الأخطاء الشائعة بين مستخدمي لينكس الجدد، التي إن تجنبتها ستكون تجربتك اﻷولى مع نظام لينكس ومراحل تبنيك له أسهل بكثير وأقل إرهاقًا.&lt;/p>
+&lt;h2 id="أهلا-بك-في-عالم-لينكس">أهلا بك في عالم لينكس&lt;/h2>
+&lt;p>أصبح استخدام نظام لينكس أبسط بكثير مما كان عليه من قبل، ولكن مثل أي سهل ممتنع، قد يتعرض المستخدمون الجدد إلى الارتباك خلال التجارِب اﻷولى للنظام. وعلى الرغم أن نظام لينكس قد اشتهر بأنه صعبة التثبيت والاستخدام فيما مضى، لم يعد هذا هو الحال، فقد ولت أيام الكفاح أثناء ضبط تخطيط لوحة المفاتيح الخاص بجهازك في نظام لينكس مثبت حديثًا باستخدام لوحة المفاتيح التي حددها النظام وفرضها عليك بشكل خاطئ.&lt;/p></description></item><item><title>5 أسباب تجعل نظام لينكس أكثر أمانًا من ويندوز</title><link>https://yshalsager.com/ar/posts/5-reasons-why-linux-is-more-secure-than-windows/</link><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/5-reasons-why-linux-is-more-secure-than-windows/</guid><description>&lt;h2 id="مقدمة">مقدمة&lt;/h2>
+&lt;p>نظام لينكس حاليا هو أحد أفضل أنظمة التشغيل التي يمكنك استخدامها على أجهزة الكمبيوتر سواء في القطاع التجاري، حيث تستخدمه أكثر من 96% من أجهزة السيرفر، أو القطاع الشخصي. وذلك يرجع إلى كونه نظام تشغيل مفتوح المصدر وسهل الاستخدام. وعندما نقارن لينكس بأي نظام تشغيل آخر يكون الأمان أحد العوامل التي تميز لينكس عن غيره من المنافسين ولا سيما نظام ويندوز الذي يوجد على 73% من الأجهزة وفقًا لإحصائيات Statista لشهر ديسمبر 2021. نستعرض فيما يأتي أبرز خمس أسباب تجعل الأمان في لينكس أفضل من نظام ويندوز.&lt;/p></description></item><item><title>دليلك الشامل للهجرة من ويندوز 7 إلى لينكس</title><link>https://yshalsager.com/ar/posts/linux-migration-from-windows-7/</link><pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-migration-from-windows-7/</guid><description>&lt;p>صدر نظام التشغيل ويندوز 7 منذ عقد مضى وبالتحديد في عام 2009، ويعتبره الكثيرون أفضل إصدارات مايكروسوفت ويندوز على الإطلاق. لكن لكل شيء نهاية، فقد أعلنت مايكروسوفت يوم 14 من شهر يناير الماضي عن انتهاء الدعم الرسمي لويندوز 7، وبذلك لن يحصل على تحديثات جديدة ويشمل ذلك التحديثات الأمنية التي تعمل على سد الثغرات المكتشفة. وبعبارة أخرى فإن هذا يعنى أن مستخدمي ويندوز 7 أصبحوا في خطر التعرض للاختراق والقرصنة، فضلا عن مشكلة توقف البرامج عن دعم ويندوز 7 والتي ستحدث في القريب العاجل تماما كما حدث مع ويندوز XP. ولذلك يتبقى للمستخدم عدة اختيارات أهمها، الترقية إلى ويندوز 10، أو التحرر من نظام ويندوز والهجرة إلى لينكس.&lt;/p></description></item><item><title>elementary OS... التوزيعة الأمثل لمبتدئي لينكس</title><link>https://yshalsager.com/ar/posts/linux-elementary-os/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-elementary-os/</guid><description>&lt;p>منذ إصدار ويندوز 10 والشكوك المستمرة تنتاب مستخدميه حول مستوي الخصوصية بالنظام، وذلك بعيدا عن الإزعاج المتكرر للنوافذ الدعائية والتحديثات التي تسبب المشاكل. أما macOS فعلى الرغم من أنه يهتم بالخصوصية بشكل أفضل من الويندوز، إلا أن أبل تستمر باستمرار بإنهاء دعم الأجهزة الأقدم مع كل تحديث جديد. ولهذه الأسباب يكون نظام لينكس في كثير من الأحيان الخيار الأمثل لاستخدامه على أجهزة الكمبيوتر. فهو نظام مجاني بالكامل، ومفتوح المصدر، ويتسم بالتنوع الكبير بسبب طبيعة تطويره الغير معتمدة على جهة واحدة بخلاف النظامين السابقين. ونظرا لكون لينكس نظاما يهتم بالأداء والتوافق إلى حد كبير، فقد تم إهمال الجانب الجمالي لكثير من الوقت. لكن هذا الأمر قد بدأ بالتغير منذ فترة ليست ببعيدة. فتوزيعة elementary OS تقدم للمستخدم واجهة أنيقة تنافس macOS في الجمال، مع العديد من المميزات والبرمجيات التي تجعل استخدام لينكس على جهازك تجربة رائعة.&lt;/p></description></item><item><title>دليلك لفهم حزم البرامج في نظام لينكس</title><link>https://yshalsager.com/ar/posts/linux-understanding-packages/</link><pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-understanding-packages/</guid><description>&lt;p>تختلف طريقة تثبيت البرامج في نظام لينكس عن ويندوز اختلافًا كبيرًا، فبخلاف الطريقة المعروفة في ويندوز لتثبيت ملفات EXE وMSI تتوفر أكثر من طريقة في لينكس، كما تختلف صيغة البرامج من توزيعة إلى أخرى، وذلك راجع إلى طبيعة لينكس اللامركزية وتنوع أنظمة تحزيم البرامج. كما ظهر منذ فترة عدد من المحاولات التي تهدف إلى توفير ملفات تنفيذية للبرامج تعمل على مختلف التوزيعات. دعونا نلقى نظرة على حزم البرمجيات في لينكس.&lt;/p></description></item><item><title>تحديثات أنظمة التشغيل.. اتجاهات جديدة في الرفاهية الرقمية</title><link>https://yshalsager.com/ar/posts/os-2018-updates/</link><pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/os-2018-updates/</guid><description>&lt;p>ها نحن نصل إلى نهاية 2018، التي شهدت تغييرات كبيرة في جميع موازين التكنولوجيا، بما في ذلك أنظمة تشغيل كل من أجهزة الكمبيوتر والموبايل، حيث شهدنا زيادة الاعتماد على الذكاء الاصطناعي، ونهاية بعض أنظمة التشغيل مثل Remix OS، وولادة أنظمة جديدة مثل Fyde OS الذي يعتمد على Chromium OS والعديد من الأحداث اﻷخري. لكن لا يختلف أحد على أن أبرز التحديثات الجديدة كانت من نصيب ويندوز 10، وأندرويد، وMac OS وأخيرا iOS. لذلك نستعرض معا عزيزي القارئ في الصفحات القادمة التغييرات التي حدثت في النسخ اﻷخيرة من هذه الأنظمة، حتى نسلط الضوء على المميزات الجديدة التي تركز على تحسين اﻷداء وحماية الخصوصية وتوفير الرفاهية الرقمية للمستخدمين. فبالاعتماد على الذكاء الصناعي و &amp;ldquo;تعلّم الآلة&amp;rdquo; (Machine Learning) في العديد من المميزات، رسمت هذه التحديثات ملامح اتجاهات جديدة ﻷنظمة التشغيل التي يبدو بأنها أصبحت تركز أكثر على التفاصيل الصغيرة وزيادة الفاعلية، عوضا عن توفير إبداعات جديدة، حتى توفر تجربة خالية من الأخطاء للمستخدم.&lt;/p></description></item><item><title>أفضل البرامج التي يجب أن تجربها على أوبونتو</title><link>https://yshalsager.com/ar/posts/linux-best-ubuntu-apps/</link><pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-best-ubuntu-apps/</guid><description>&lt;p>دائما ما يعاني المستخدمون الجدد لنظام لينكس من الحيرة عند الإنتقال اليه، وذلك بسبب اختلاف طبيعة البرامج بينه وبين ويندوز، فهناك العديد من البرامج التي لن تجدها فى لينكس ويجب عليك استخدام البدائل المتوفرة. ولحسن الحظ يتمتع لينكس بتنوع كبير فى البرامج المتوفرة والتي يتزايد عددها يوما بعد يوم. وفى هذا الموضوع سنتاول قائمة شاملة لأفضل برامح أوبونتو المناسبة لجميع أنواع المستخدمين. حتي تساعدك هذه البرامج في الحصول على أفضل تجربة لنظام لينكس الخاص بك.&lt;/p></description></item><item><title>دليل شامل لتحديث جهازك على ويندوز ولينكس وماك</title><link>https://yshalsager.com/ar/posts/how-to-keep-your-pc-up-to-date/</link><pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/how-to-keep-your-pc-up-to-date/</guid><description>&lt;p>نعلم جميعا أن تحديث أجهزتنا هو أمر مرهق، لكن على الرغم من ذلك فالقيام به بشكل دوري هو شيء مهم جدا، وذلك لأن الأمور قد اختلفت عن الأوقات الماضية، فالتحديثات لا تقوم فقط بتصليح المشاكل الموجودة في البرامج لكنها تسبب أيضا الثغرات الأمنية التي أصبحت خطرا على المستخدم، لذلك نقدم لك عزيزي القارئ دليلا شاملا لكيفية تحديث النظام على ويندوز ولينكس وماك.&lt;/p>
+&lt;h2 id="أولا-نظام-ويندوز">أولا: نظام ويندوز&lt;/h2>
+&lt;p>إذا كنت تستخدم ويندوز 8 أو 10 فلا بد أن تكون لاحظت أن تحديثات الويندوز قد أصبحت إجبارية، فلم يعد لديك الإعدادات السهلة للتعامل مع التحديثات واختيار التحديثات التي ترغب في تثبيتها ولكن على الرغم من أن ويندوز يقوم بالكثير من الأمور بشكل تلقائي يجب على المستخدم التحقق من بعض الأشياء لإبقاء كل الأمور محدثة تماما على جهازك، مثل البرامج والتطبيقات من الجهات الخارجية وبعض تعريفات الأجهزة.&lt;/p></description></item><item><title>لماذا يجب الانتقال إلى استخدام البرمجيات الحرة؟</title><link>https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/</link><pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/why-should-you-use-open-source-software/</guid><description>&lt;p>هل تعرف نظام لينكس؟ ربما تساءلت يوما عن سبب تطوره السريع، ولماذا بدأت العديد من الشركات والمؤسسات الاعتماد عليه واستخدامه؟ ذلك لأن نظام لينكس هو نظام تشغيل حر ومفتوح المصدر، وبالتالي يمكن لأي شخص استخدامه مجانا وتطويره والتعديل عليه بما يتلاءم مع استخدامه! وذلك لأنه لا توجد قيود في عالم البرمجيات الحرة، حيث أن الكود المصدري متوفر للتعديل والمشاركة والنشر.&lt;/p>
+&lt;h2 id="البرمجيات-الحرة">البرمجيات الحرة&lt;/h2>
+&lt;p>Free/Open Source Software أوFOSS اختصارا، هي البرمجيات التي تحترم حرية المستخدمين والمجتمع. بصورة تقريبية، يملك المستخدمون الحرية في تشغيل ونسخ وتوزيع ودراسة وتعديل وتحسين البرمجيات، فكلمة &amp;ldquo;حرة&amp;rdquo; نطاقها أوسع بكثير من &amp;ldquo;مجانية&amp;rdquo; حيث أن هناك العديد من البرامج المجانية التي لا تعطي مستخدمها حرية الإطلاع على الكود المصدري للبرنامج أو تعديله.&lt;/p></description></item><item><title>7 حيل للحفاظ على البطارية في ويندوز ولينكس وماك</title><link>https://yshalsager.com/ar/posts/7-tricks-for-saving-battery-in-windows-linux-mac/</link><pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/7-tricks-for-saving-battery-in-windows-linux-mac/</guid><description>&lt;p>كم مرة عزيزي القارئ كنت تستخدم اللاب توب الخاص بك في العمل أو الطريق أو حتى الجامعة ووجدت أن نسبة شحن البطارية قد قاربت على الانتهاء وأنك قد نسيت محول الطاقة (الشاحن) الخاص بجهازك أو لم تجد منفذ متاح حتى تشحن جهازك منه، في هذا الموقف لا يجب عليك أن تفقد الأمل لأن هناك العديد من الحيل التي يمكنك فعلها لزيادة عمر البطارية وتقليل استهلاك الطاقة سواء كنت تستخدم ويندوز أو لينكس أو حتى ماك.&lt;/p></description></item><item><title>أفضل توزيعات لينكس المرتقبة لسنة 2017</title><link>https://yshalsager.com/ar/posts/linux-best-rising-distro-2017/</link><pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-best-rising-distro-2017/</guid><description>&lt;p>إحدى نقاط قوة نظام لينكس هي تعدد التوزيعات التي يمكن للمستخدم الاختيار من بينها، فلكل توزيعة من المتنافسين هدف لتحقيقه، وإذا نظرنا للوضع الحالي سنجد أن التوزيعات التي تحتل القمة هي Mint – Debian – Ubuntu – OpenSUSE – Manjaro على الترتيب. لكن هل سيظل الحال كما هو عليه في هذا العام؟ لا أظن ذلك لأن هناك العديد من التوزيعات التي تسعى جاهدة لتصدر الترتيب.&lt;/p>
+&lt;h2 id="توزيعة-antergos">توزيعة Antergos&lt;/h2>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-best-rising-distro-2017/images/antergos1_hu_bf100d5a235493c4.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-best-rising-distro-2017/images/antergos1.2272d8f0bfebcfd7c4ee521a1bbcaa01.jpg" alt="img" loading="lazy" height="600" width="750" />
+&lt;/picture>
+&lt;/p>
+&lt;p>هي توزيعة مبنية على Arch Linux الشهيرة بقابليتها للتخصيص كما تريد، وهذا النوع من التوزيعات (Arch وما بنى عليها) يحتاج القليل من الجهد للوصول للنتيجة المطلوبة في النهاية، فهي لا ينصح بها للمستخدمين المبتدئين في استعمال لينكس.
+وهنا يأتي دور توزيعة Antergos والتي تعد بمثابة توزيعة Ubuntu من Debian، مما يجعلها الإصدار المناسب جدا لكل من يريد الاعتماد على Arch وفى نفس الوقت الحصول على تحديثات وترقيات مستمرة، فهي توزيعة متدحرجة &amp;quot; rolling release&amp;quot; وهذا يعنى أن نظام التشغيل الأساسي والتطبيقات التي تعمل عليها ستحصل على التحديثات الجديدة بمجرد أن يتم إطلاقها من المصدر.&lt;/p></description></item><item><title>5 وسائل لتحرير مساحة القرص الصلب في ويندوز 10 وأوبنتو</title><link>https://yshalsager.com/ar/posts/free-disk-space-tricks-in-windows-and-linux/</link><pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/free-disk-space-tricks-in-windows-and-linux/</guid><description>&lt;p>بينما تتزايد سعة أجهزة التخزين يوما بعد يوم، وفى نفس الوقت يقل سعر كل جيجابايت، نواصل نحن المستخدمين ملء الأقراص الصلبة Hard disks بالبيانات، من ملفات فيديو وصور التقطت من هواتفنا، أو الملفات التي نقوم بتحميلها من الإنترنت، وهنا تأتى المشكلة عندما يكون لديك جهاز ذو سعة تخزين محدودة أو قرص من نوعية SSD.&lt;/p>
+&lt;p>إذا كنت بدأت تلاحظ أن المساحة لديك تنقص بسرعة، فلا تتسرع وتشتري وحدة تخزين جديدة، بدلا من ذلك يجب تحليل وحذف هذه الملفات التي تشغل مساحة القرص الصلب بلا فائدة.
+في هذا الموضوع ستتعرف عزيزي القارئ على 5 طرق في ويندوز 10 ومثلها في أوبنتو لينكس للتخلص من الملفات الزائدة وتحرير أكبر مساحة ممكنه من القرص الصلب على جهازك.&lt;/p></description></item><item><title>أفضل توزيعات لينكس لسنة 2017 وكيفية تحميلها</title><link>https://yshalsager.com/ar/posts/linux-best-distro-2017/</link><pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-best-distro-2017/</guid><description>&lt;p>ها قد انتهى عام 2016، الذي يعد من أفضل الأعوام التي مرت على لينكس منذ انشاءه، فقد أتم 25 عام وانضمت مايكروسوفت إلى مؤسسة لينكس، والعديد من الأحداث الهامة الأخرى، وعام 2017 ستكون أيضا مهمة لكل محبي نظام لينكس، فدعونا نتعرف على أفضل توزيعات لينكس لسنة 2017 كما جاء فى موقع &lt;a
+ href="https://www.linux.com/news/learn/sysadmin/best-linux-distributions-2017"
+ 
+ target="_blank" rel="noopener noreferrer">liunx.com&lt;/a>&lt;/p>
+
+&lt;div class="table-responsive">
+ &lt;table class="table table-bordered table-hover table-striped">
+ &lt;thead
+ >
+ &lt;tr>
+ &lt;th
+ >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-best-distro-2017/featured-Main_hu_44bea35566ac30b8.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-best-distro-2017/featured-Main.4dc3a828c8924830dd7f4595c0a543d8.png" alt="img" loading="lazy" height="800" width="1280" />
+&lt;/picture>
+&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody
+ >
+ &lt;tr>
+ &lt;td
+ >&lt;a
+ href="http://0rax0.deviantart.com/art/Linux-2014-Logo-457151181"
+ 
+ target="_blank" rel="noopener noreferrer">مصدر الصورة&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+ &lt;/table>
+&lt;/div>
+&lt;p>بالتأكيد لا يمكننا فقط إنشاء قائمة وقول &amp;ldquo;هذه هي الأفضل&amp;rdquo; لأنه في كثير من الأحيان تتخصص توزيعات لينكس لهدف معين، ولهذا سنستعرض أفضل توزيعات لينكس لسنة 2017 الصاعدة للقمة حسب الهدف المرجو منها.&lt;/p></description></item><item><title>ما هي توزيعات لينكس وكيف تختار التوزيعة المناسبة لك؟</title><link>https://yshalsager.com/ar/posts/linux-guide-12-distros/</link><pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-12-distros/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن كيفية إدارة النظام، وتعرفنا على أكثر من طريقة للحصول على معلومات تفصيلية عن الجهاز، وفى حلقة هذا الشهر نصل إلى نهاية دروس أساسيات لينكس، وسنتعرف على توزيعات لينكس المختلفة وكيفية اختيار التوزيعة التي تلائمك.&lt;/p>
+&lt;p>ذكرنا في الحلقة الأولى أن لينكس يتميز بوجود العديد من التوزيعات التي يمكنك اختيار ما يناسبك منها، وذلك لأن لينكس نظام مفتوح المصدر، فهناك أكثر من 300 توزيعة موجودة حاليا، فما هي &amp;ldquo;توزيعات لينكس&amp;rdquo;؟&lt;/p></description></item><item><title>إدارة النظام في أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-11-system-managment/</link><pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-11-system-managment/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن الإعدادات في أوبنتو، وتعرفنا على كل قسم من أقسام لوحة الإعدادات بالتفصيل، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على كيفية إدارة النظام.&lt;/p>
+&lt;h2 id="أولا-التعرف-على-معلومات-الجهاز">أولا: التعرف على معلومات الجهاز&lt;/h2>
+&lt;p>تذكر معي عزيزي القارئ أننا قد تعرفنا سابقا على طريقة لمعرفة معلومات الجهاز من خلال الإعدادات.&lt;/p>
+&lt;ol>
+&lt;li>من القائمة العلوية قم باختيار About This Computer.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/1_hu_b95737966a3d6290.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/1.1074912d79249931731ff7727871f9d7.png" alt="img" loading="lazy" height="203" width="233" />
+&lt;/picture>
+&lt;/p>
+&lt;ol start="2">
+&lt;li>ستظهر لك معلومات الجهاز، لكن كما تلاحظ فهي معلومات بسيطة جدا.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/2_hu_66245bc47a155b6e.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-11-system-managment/images/2.0053e8c1321a2db204e8a2f8659fd1ae.png" alt="img" loading="lazy" height="412" width="856" />
+&lt;/picture>
+&lt;/p></description></item><item><title>إعدادات نظام أوبنتو لينكس من الألف إلى الياء</title><link>https://yshalsager.com/ar/posts/linux-guide-10-settings/</link><pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-10-settings/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity باستخدام أداة بعض الأدوات، وتعرفنا على كيفية تغيير المؤثرات وحركة النوافذ، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على إعدادات النظام بشكل مفصل.&lt;/p>
+&lt;p>إعدادات النظام في أوبنتو لينكس (أو أي توزيعة أخرى) تحتوي على أغلب التفضيلات التي يحتاج المستخدم إلى التحكم فيها، ويتميز تطبيق الإعدادات في لينكس بسهولة الواجهة وحسن التنظيم للإعدادات المختلفة.&lt;/p>
+&lt;h2 id="كيف-تقوم-بالدخول-إلى-إعدادات-النظام">كيف تقوم بالدخول إلى إعدادات النظام&lt;/h2>
+&lt;p>1- قم بالضغط على اسم المستخدم أو رمز الطاقة الموجود بالشريط العلوي ثم اختر System Settings.&lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الثالث</title><link>https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/</link><pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-09-customizing-unity-3/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity باستخدام أداة Unity Tweak، وتعرفنا على كيفية تغيير ثيمات النظام والخطوط والأيقونات، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على آخر مجموعة حيل لتخصيص واجهة Unity باستخدام بعض الأدوات.&lt;/p>
+&lt;h2 id="أولا-أداة-docky">أولا: أداة Docky&lt;/h2>
+&lt;p>أداة Docky هي أداة لإضافة شريط البرامج Dock أسفل سطح المكتب مثل الموجود في نظام ماك من آبل، وظيفة الأداة هي التنقل بين البرامج المفتوحة بطريقة جميلة، مقدمة بذلك بديلا لشريط المهام الكلاسيكي (المشغل) في أوبنتو.&lt;/p></description></item><item><title>طريقة تفعيل Bash On Windows لتشغيل أوبونتو على ويندوز 10</title><link>https://yshalsager.com/ar/posts/windows-10-wsl-ubuntu/</link><pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/windows-10-wsl-ubuntu/</guid><description>&lt;p>تعد Bash On Windows من أكبر الإضافات وخصوصا للمطورين، حيث ستمكنهم من استخدام طرفية نظام أوبونتو لينكس بكل سهولة مباشرة من الويندوز.&lt;/p>
+&lt;ol>
+&lt;li>قم بالدخول إلى الإعدادات ثم القسم Update &amp;amp; Security ثم التبويب For Developers وقم بتفعيل وضع المطور باختيار Developer Mode.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/windows-10-wsl-ubuntu/images/1_hu_7b5ed539220e108e.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/windows-10-wsl-ubuntu/images/1.00fd1f4fe3ff33d74afc3de71d504a93.png" alt="1" loading="lazy" height="453" width="728" />
+&lt;/picture>
+&lt;/p>
+&lt;ol start="2">
+&lt;li>بعد ذلك قم بالبحث عن Windows features واختر Turn Windows features on or off.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/windows-10-wsl-ubuntu/images/2_hu_306a1dfa0b9e1e56.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/windows-10-wsl-ubuntu/images/2.042ac8101143863fa37279e45bda1bab.png" alt="2" loading="lazy" height="453" width="728" />
+&lt;/picture>
+&lt;/p>
+&lt;ol start="3">
+&lt;li>قم بالنزول إلى الأسفل ثم فعل الاختيار Windows Subsystem for Linux(beta).&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/windows-10-wsl-ubuntu/images/3_hu_571be6f42f7e9e01.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/windows-10-wsl-ubuntu/images/3.f1da4d3e393042fefdd7d955ab93e2bb.png" alt="3" loading="lazy" height="368" width="415" />
+&lt;/picture>
+&lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الثاني</title><link>https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/</link><pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن تخصيص واجهة Unity بدون استخدام برامج خارجية، وتعرفنا على كيفية تغيير مكان المشغل ومكان القوائم، وأيضا تغيير خلفية سطح المكتب، وفى حلقة هذا الشهر نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على طريقة تخصيص واجهة Unity باستخدام أداة Unity Tweak.&lt;/p>
+&lt;h2 id="أولا-تثبيت-أداة-unity-tweak">أولا: تثبيت أداة Unity Tweak&lt;/h2>
+&lt;p>1- قم بفتح مركز البرمجيات Ubuntu Software.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/1_hu_f3e6acaa2517e00b.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/1.fcc8811f5d1cb1103bf69b4b7ab87a9d.png" alt="img" loading="lazy" height="539" width="880" />
+&lt;/picture>
+&lt;/p>
+&lt;p>2- ابحث عن Unity Tweak Tool ستجد نتيجة بحث واحدة كما بالصورة، قم بفتحها.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/3_hu_fa00767aedd0175b.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-08-customizing-unity-2/images/3.e49609b792bb7d9677ddbec7df27f4dc.png" alt="img" loading="lazy" height="200" width="860" />
+&lt;/picture>
+&lt;/p></description></item><item><title>كيفية تخصيص واجهة Unity – الجزء الأول</title><link>https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/</link><pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/</guid><description>&lt;p>تحدثنا في الحلقة السابقة عن واجهة Unity، وتعرفنا على مكوناتها وطريقة التعامل مها، واليوم نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على طريقة تخصيص واجهة Unity بدون استخدام برامج خارجية.&lt;/p>
+&lt;h2 id="1--تغيير-مكان-شريط-المشغل-launcher">1- تغيير مكان شريط المشغل Launcher&lt;/h2>
+&lt;p>كما أوضحنا في عدد سابق، توفر نسخة أوبنتو 16.04 إمكانية تغيير مكان المشغل ونقله إلى الجزء الأسفل من الشاشة (مثل شريط المهام) بدلا من الجزء الأيسر، وللقيام بذلك كل ما عليك هو فتح الطرفية Terminal ثم كتابة هذا الأمر:
+&lt;code>gsettings set com.canonical.Unity.Launcher launcher-position Bottom&lt;/code>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/1_hu_b61aa89b1af7302.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-07-customizing-unity-1/images/1.39ef86ba0cbab7fb4c9079b0bf3667d7.jpg" alt="img" loading="lazy" height="303" width="800" />
+&lt;/picture>
+
+ولإعادة الشريط إلى مكانه الأصلي استخدم هذا الأمر:
+&lt;code>gsettings set com.canonical.Unity.Launcher launcher-position Left&lt;/code>&lt;/p></description></item><item><title>واجهة Unity.. من البداية وحتى الاحتراف</title><link>https://yshalsager.com/ar/posts/linux-guide-06-using-unity/</link><pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-06-using-unity/</guid><description>&lt;p>في العدد السابق (الحلقة 5) تكلمنا عن أهم برامج أوبنتو التي يجب عليك تجربتها، واليوم نستكمل طريقنا لاحتراف أوبنتو، وسنتعرف على واجهة Unity الخاصة بتوزيعه أوبنتو ونكتشف خفاياها وأسرارها.&lt;/p>
+&lt;h2 id="أولا-ما-هي-واجهة-unity">أولا: ما هي واجهة Unity&lt;/h2>
+&lt;ul>
+&lt;li>في أي نظام تشغيل معتمد على واجهة المستخدم الرسومية توجد بيئة سطح مكتب (واجهة) مميزة له، وكل واجهة لديها عدد من الخصائص تميزها عن الأخرى مثل (مظهر النظام، طريقة تنظيم سطح المكتب، كيفية التنقل في سطح المكتب).&lt;/li>
+&lt;li>من مميزات نظام لينكس التي سبق وذكرناها هي تعدد واجهات سطح المكتب ومن أمثلتها (Gnome, Unity, XFCE, MATE, KDE)، كما أن المستخدم يستطيع التنقل بحرية بين واجهات سطح المكتب المختلفة، وكما رأيت عزيزي القارئ تعتبر واجهة Unity بيئة سطح المكتب الافتراضية لتوزيعه أوبنتو.&lt;/li>
+&lt;/ul>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/1_hu_4dd61098773afc4c.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-06-using-unity/images/1.bba3b27fb4e05fbf38d33dce419969ec.png" alt="img" loading="lazy" height="675" width="1200" />
+&lt;/picture>
+&lt;/p></description></item><item><title>أهم برامج أوبنتو التي يجب عليك تجربتها</title><link>https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/</link><pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-05-ubuntu-apps/</guid><description>&lt;p>تحدثنا في الحلقات السابقة عن كيفية التعامل مع البرامج في أوبنتو لينكس واكتشفنا معا مدى سهولة تثبيت برامج جديدة، وعن أهم الخطوات التي يجب عليك فعلها بعد تثبيت أوبنتو وتوقفنا عند تثبيت البرامج التي تحتاج، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على أهم برامج أوبنتو التي يجب عليك تجربتها.&lt;/p>
+&lt;p>في البداية يجب أن أذكرك عزيزي القارئ بأن كل البرامج التي سيتم ذكرها في هذا الموضوع ستجدها على مركز برامج أوبنتو Ubuntu Software Center وفى حالة عدم وجود البرنامج على مركز البرامج سأذكر ذلك، أيضا ستجد بكل القسم العديد من البدائل اختر منها ما تريد فبالتأكيد لا تحتاج إلى تثبيتها جميعا.&lt;/p></description></item><item><title>كيفية الترقية إلى أوبنتو 16.04 LTS</title><link>https://yshalsager.com/ar/posts/linux-ubuntu-16.04/</link><pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-ubuntu-16.04/</guid><description>&lt;p>في يوم 21 من الشهر الماضي، أعلنت شركة كانونيكال أخيرا عن إطلاق الإصدار المنتظر من توزيعة Ubuntu وهو الإصدار 16.04 LTS والذي يعد سادس إصدار طويل الدعم من نظام أوبنتو وأكبر تحديث منذ عامين، شمل الإصدار العديد من التغييرات والتحسينات الجديدة التي سنتعرف إليها في هذا الموضوع، كما سنتعرف أيضا على طريقة الترقية والتحميل.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/1_hu_9513759c6beec5ec.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-ubuntu-16.04/images/1.36dd2aa0039cee35d5e785e7b889f98f.jpg" alt="img" loading="lazy" height="323" width="650" />
+&lt;/picture>
+&lt;/p>
+&lt;p>من أكبر ما يميز Ubuntu 16.04 LTS (‘Xenial Xerus’) هو الدعم المستمر لمدة 5 سنوات إلى جانب التحديثات الأمنية المستمرة وتحديثات البرامج، ويرجع هذا إلى أنه إصدار LTS (دعم المدى الطويل) فقد أصبح الإصدار الموصي بتحميله واستخدامه لكل من يرغب في تثبيت أوبنتو على جهازه إلى حين صدور الإصدار 18.04.&lt;/p></description></item><item><title>ماذا يجب أن تفعل بعد تثبيت أوبنتو لينكس؟</title><link>https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/</link><pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/</guid><description>&lt;p>تحدثنا في الجزء السابق عن كيفية التعامل مع البرامج في أوبنتو لينكس، وفي هذا الجزء سنواصل حديثنا وسنتعرف على أهم الخطوات التي يجب عليك فعلها بعد تثبيت أوبنتو.&lt;/p>
+&lt;p>1- إضافة دعم اللغة العربية – سبق تناولها في &lt;a
+ href="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/"
+ 
+ >الجزء 2&lt;/a>.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/1_hu_b340f4ad087ad57.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/1.fdc8e06d6610694b438b2415c323b598.png" alt="img" loading="lazy" height="335" width="370" />
+&lt;/picture>
+&lt;/p>
+&lt;p>2- تثبيت مدير الحزم Synaptic – سبق تناولها في &lt;a
+ href="https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/"
+ 
+ >الجزء 3&lt;/a> (الجزء السابق).&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/2_hu_1f242645137985a8.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-04-things-to-do-after-installation/images/2.c52897c4b5e50a493f642dc39444350e.png" alt="img" loading="lazy" height="506" width="718" />
+&lt;/picture>
+&lt;/p>
+&lt;p>3- التحقق من تحديثات النظام:&lt;/p>
+&lt;p>عادة ما يظهر مُحدّث البرامج Software Updater من تلقاء نفسه افتراضيًا عند بدء تشغيل النظام، فإذا لم يظهر قم بالدخول إلى قائمة البرامج ثم ابحث عن مُحدّث البرامج أو Software Updater.&lt;/p></description></item><item><title>كيفية التعامل مع البرامج في أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-03-dealing-with-programs/</guid><description>&lt;p>تحدثنا في الجزء السابق عن اللغة العربية ونظام لينكس، وكيفية إضافة الدعم الكامل لها، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على طريقة التعامل مع البرامج، تثبيت البرامج من مركز البرمجيات ومن خارجه، التعامل مع الحزم، إدارة البرامج بواسطة الطرفية Terminal.&lt;/p>
+&lt;h2 id="التعامل-مع-البرامج-من-خلال-مركز-برمجيات-أوبنتو">التعامل مع البرامج من خلال مركز برمجيات أوبنتو&lt;/h2>
+&lt;p>مركز برمجيات أوبنتو هو المكان الذي يحتوي على أغلب برامج وألعاب نظام أوبنتو بمختلف أنواعها، ويتميز بواجهته البسيطة وسهولة الوصول إلى البرمجيات بداخله.&lt;/p></description></item><item><title>إضافة دعم اللغة العربية إلى أوبنتو لينكس</title><link>https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/</link><pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/</guid><description>&lt;p>تحدثنا في الجزء السابق عن نظام لينكس، ما هو، مميزاته، وتوقفنا عند اكتمال تثبيت أوبنتو، في حلقة هذا العدد سنواصل حديثنا وسنتعرف على كيفية إضافة الدعم الكامل للغة العربية إلى أوبنتو لينكس.&lt;/p>
+&lt;h2 id="أولا-تغيير-لغة-الواجهة-إلى-اللغة-العربية">أولا: تغيير لغة الواجهة إلى اللغة العربية&lt;/h2>
+&lt;ol>
+&lt;li>قم بالدخول إلى إعدادات النظام System settings عن طريق الضغط بزر الفأرة على رمز التحكم أعلى يمين الشاشة، ثم قم باختيار System settings.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/1_hu_74d78ea8b751e22f.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/1.d7dff5cf64de6ec97948a9b62027869f.png" alt="img" loading="lazy" height="266" width="281" />
+&lt;/picture>
+&lt;/p>
+&lt;ol start="2">
+&lt;li>ستجد الإعدادات كما بالصورة، قم بفتح Language Support.&lt;/li>
+&lt;/ol>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/2_hu_610c3fbf40022734.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-02-arabic-support/images/2.7750d7018af46f9420c993cd633b9e9e.png" alt="img" loading="lazy" height="441" width="738" />
+&lt;/picture>
+&lt;/p></description></item><item><title>نظرة علي أهم مميزات توزيعة OpenSUSE Leap 42.1</title><link>https://yshalsager.com/ar/posts/linux-opensuse-42/</link><pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-opensuse-42/</guid><description>&lt;p>تعد توزيعة OpenSUSE من أفضل توزيعات لينكس وأكثرها انتشارا، ومع نهاية عام 2015 تم إطلاق الإصدار الأخير من التوزيعة وهو Leap 42.1 نقدم لك عزيزي القارئ مراجعة سريعة لأهم التغييرات الجديدة في توزيعة OpenSUSE Leap 42.1.&lt;/p>
+&lt;p>وفقًا لمدونة أوبن سوزي فإن الإصدار الجديد 42.1 يوفر مستوى أعلى من الاستقرار في النظام والذي يُضاهي بل ويتفوق على معظم توزيعات لينكس الأخرى، وعلى رأس هذه التحسينات.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>تحديث اصدار النواة إلى 4.1 مما يقدم دعم متميز لأنظمة ملفات EXT4, GFS2, CIFS, HFS, HFS+, HostFS, HPFS, OCFS2, OverlayFS, ReiserFS, وXFS كما يقدم أيضا تحسينات إلى ARM, x86, PowerPC وBtrfs.&lt;/p></description></item><item><title>ما هو نظام لينكس وكيف يمكنني تثبيته؟</title><link>https://yshalsager.com/ar/posts/linux-guide-01-intro/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/ar/posts/linux-guide-01-intro/</guid><description>&lt;p>نظام لينكس هو نظام تشغيل مفتوح المصدر تم اختراعه عام 1984، مر بالعديد من مراحل التطوير أهمها عام 1991 وحاليا هو مشروع كبير يتم تطويره بواسطة مجموعة من المتطوعين من كل أنحاء العالم، أهم ما يميز نظام لينكس هو الثبات والسرعة والمجانية، نستعرض معا في الأسطر القادمة أهم ما يميز نظام لينكس وطريقة تثبيته على جهازك.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture >
+ &lt;source srcset="https://yshalsager.com/ar/posts/linux-guide-01-intro/featured-1_hu_6ce7f3f2d3dae846.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/ar/posts/linux-guide-01-intro/featured-1.675e573aa60d9b94c6bc357f290e3f9d.png" alt="img" loading="lazy" height="145" width="125" />
+&lt;/picture>
+&lt;/p>
+&lt;h2 id="لماذا-يجب-عليك-تجربة-لينكس">لماذا يجب عليك تجربة لينكس؟&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>نظام مجاني تماما ومفتوح المصدر.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>يعمل على أقل الأجهزة في المواصفات.&lt;/p></description></item></channel></rss>

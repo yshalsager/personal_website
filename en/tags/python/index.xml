@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on yshalsager</title><link>https://yshalsager.com/en/tags/python/</link><description>Recent content in Python on yshalsager</description><generator>Hugo</generator><language>en-US</language><copyright>Copyright © 2013-2026 yshalsager. All Rights Reserved.</copyright><lastBuildDate>Wed, 30 Nov 2022 23:51:11 +0200</lastBuildDate><atom:link href="https://yshalsager.com/en/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Parsel instead of Beautiful Soup for Web Scraping</title><link>https://yshalsager.com/en/posts/using-parsel-instead-of-beautiful-soup-for-web-scraping/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/using-parsel-instead-of-beautiful-soup-for-web-scraping/</guid><description>&lt;p>&lt;a
+ href="https://en.wikipedia.org/wiki/Web_scraping"
+ 
+ target="_blank" rel="noopener noreferrer">Web scraping&lt;/a> is an automated process to extract data from web page, and since &lt;a
+ href="https://www.python.org/"
+ 
+ target="_blank" rel="noopener noreferrer">Python&lt;/a> is one the most popular programming languages it&amp;rsquo;s common to see people use it for doing web scraping tasks like me :)&lt;/p>
+&lt;p>For a long time, I have been using &lt;a
+ href="http://www.crummy.com/software/BeautifulSoup/"
+ 
+ target="_blank" rel="noopener noreferrer">Beautiful Soup 4&lt;/a> to extract data from web pages&amp;rsquo; HTML markup, it&amp;rsquo;s popular, easy, robust, and battle-tested library for navigating, searching, and modifying the &lt;a
+ href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+ 
+ target="_blank" rel="noopener noreferrer">DOM&lt;/a> tree. But, recently I came across &lt;a
+ href="https://github.com/scrapy/parsel"
+ 
+ target="_blank" rel="noopener noreferrer">Parsel&lt;/a>, another HTML parsing library that supports &lt;a
+ href="https://developer.mozilla.org/en-US/docs/Web/XPath"
+ 
+ target="_blank" rel="noopener noreferrer">XPath&lt;/a> selectors, which is missing in Beautiful Soup, and I was in need of using something that can extract data from HTML using XPath (rather than &lt;a
+ href="https://scrapy.org/"
+ 
+ target="_blank" rel="noopener noreferrer">Scrapy&lt;/a>, funny enough, later I knew that Scrapy uses Parsel under the hood :D), so I decided to get it a try.&lt;/p></description></item><item><title>Debugging and fixing Selenium's send_keys() wrong text input</title><link>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</link><pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</guid><description>&lt;p>&lt;em>There are many kinds of bugs you may face while programming, but without a doubt, ghost bugs are the worse!&lt;/em>&lt;/p>
+&lt;p>I recently faced a weird problem while working on a freelance &lt;a
+ href="https://www.selenium.dev/"
+ 
+ target="_blank" rel="noopener noreferrer">Selenium&lt;/a> (A portable framework for testing web applications) project in Python which is: &lt;a
+ href="https://selenium-python.readthedocs.io/api.html?highlight=execute_script#selenium.webdriver.remote.webelement.WebElement.send_keys"
+ 
+ target="_blank" rel="noopener noreferrer">send_keys&lt;/a> method is sending random wrong input. Here are the details of the problem, how did I debug it, and how I managed to fix after hours of investigating!&lt;/p></description></item></channel></rss>

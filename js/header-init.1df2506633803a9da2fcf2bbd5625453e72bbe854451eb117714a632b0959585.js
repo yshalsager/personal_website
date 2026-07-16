@@ -1,0 +1,1 @@
+(()=>{var e={prefix:"hb-",sticky:!0};(()=>{let t=document.querySelector(".hb-header-nav");if(!t)return;let r=()=>{let o=t.clientHeight+24;document.body.style.setProperty(`--${e.prefix}top-offset`,o+"px")};e.sticky&&(r(),window.addEventListener("resize",()=>{r()}))})();})();

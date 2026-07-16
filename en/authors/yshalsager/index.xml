@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youssif Shaaban Alsager on yshalsager</title><link>https://yshalsager.com/en/authors/yshalsager/</link><description>Recent content in Youssif Shaaban Alsager on yshalsager</description><generator>Hugo</generator><language>en-US</language><copyright>Copyright © 2013-2026 yshalsager. All Rights Reserved.</copyright><atom:link href="https://yshalsager.com/en/authors/yshalsager/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Parsel instead of Beautiful Soup for Web Scraping</title><link>https://yshalsager.com/en/posts/using-parsel-instead-of-beautiful-soup-for-web-scraping/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/using-parsel-instead-of-beautiful-soup-for-web-scraping/</guid><description>&lt;p>&lt;a
+ href="https://en.wikipedia.org/wiki/Web_scraping"
+ 
+ target="_blank" rel="noopener noreferrer">Web scraping&lt;/a> is an automated process to extract data from web page, and since &lt;a
+ href="https://www.python.org/"
+ 
+ target="_blank" rel="noopener noreferrer">Python&lt;/a> is one the most popular programming languages it&amp;rsquo;s common to see people use it for doing web scraping tasks like me :)&lt;/p>
+&lt;p>For a long time, I have been using &lt;a
+ href="http://www.crummy.com/software/BeautifulSoup/"
+ 
+ target="_blank" rel="noopener noreferrer">Beautiful Soup 4&lt;/a> to extract data from web pages&amp;rsquo; HTML markup, it&amp;rsquo;s popular, easy, robust, and battle-tested library for navigating, searching, and modifying the &lt;a
+ href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+ 
+ target="_blank" rel="noopener noreferrer">DOM&lt;/a> tree. But, recently I came across &lt;a
+ href="https://github.com/scrapy/parsel"
+ 
+ target="_blank" rel="noopener noreferrer">Parsel&lt;/a>, another HTML parsing library that supports &lt;a
+ href="https://developer.mozilla.org/en-US/docs/Web/XPath"
+ 
+ target="_blank" rel="noopener noreferrer">XPath&lt;/a> selectors, which is missing in Beautiful Soup, and I was in need of using something that can extract data from HTML using XPath (rather than &lt;a
+ href="https://scrapy.org/"
+ 
+ target="_blank" rel="noopener noreferrer">Scrapy&lt;/a>, funny enough, later I knew that Scrapy uses Parsel under the hood :D), so I decided to get it a try.&lt;/p></description></item><item><title>Debugging and fixing Selenium's send_keys() wrong text input</title><link>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</link><pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/debugging-and-fixing-selenium-send-keys-wrong-text-input/</guid><description>&lt;p>&lt;em>There are many kinds of bugs you may face while programming, but without a doubt, ghost bugs are the worse!&lt;/em>&lt;/p>
+&lt;p>I recently faced a weird problem while working on a freelance &lt;a
+ href="https://www.selenium.dev/"
+ 
+ target="_blank" rel="noopener noreferrer">Selenium&lt;/a> (A portable framework for testing web applications) project in Python which is: &lt;a
+ href="https://selenium-python.readthedocs.io/api.html?highlight=execute_script#selenium.webdriver.remote.webelement.WebElement.send_keys"
+ 
+ target="_blank" rel="noopener noreferrer">send_keys&lt;/a> method is sending random wrong input. Here are the details of the problem, how did I debug it, and how I managed to fix after hours of investigating!&lt;/p></description></item><item><title>How to build a Project Treble GSI ROM from source?</title><link>https://yshalsager.com/en/posts/how-to-build-gsi-rom-from-source/</link><pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/how-to-build-gsi-rom-from-source/</guid><description>&lt;p>&lt;strong>Note:&lt;/strong> &lt;em>This guide is super old and some steps might be changed, please refer to the community edited guide for a more recent guide.&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>As you read this guide now I&amp;rsquo;ll assume you already have a previous knowledge about How to build android from source, so I won&amp;rsquo;t cover some points with too many basic details.
+So, let&amp;rsquo;s start:&lt;/p>
+&lt;p>What you’ll need:&lt;/p>
+&lt;ul>
+&lt;li>A treble enabled device, basically all devices that come with Android 8.1 out of box support it.&lt;/li>
+&lt;li>A relatively recent 64-bit computer (Linux, OS X, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable ccache or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster build times than traditional hard drives.&lt;/li>
+&lt;li>A USB cable compatible with your device&lt;/li>
+&lt;li>A decent internet connection &amp;amp; reliable electricity&lt;/li>
+&lt;li>Some familiarity with basic Android operation and terminology. It would help if you’ve installed custom ROMs on other devices and are familiar with recovery. It may also be useful to know some basic command line concepts such as cd for “change directory”, the concept of directory hierarchies, that in Linux they are separated by /. etc.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Summary&lt;/strong>&lt;/p></description></item><item><title>DualBootPatcher Ultimate Guide: How to use, build and add new devices!</title><link>https://yshalsager.com/en/posts/dualboot-patcher-ultimate-guide/</link><pubDate>Sat, 26 Aug 2017 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/dualboot-patcher-ultimate-guide/</guid><description>&lt;h2 id="introduction--how-to-use-dualbootpatcher">Introduction &amp;amp; How to use DualBootPatcher?&lt;/h2>
+&lt;h3 id="what-is-dualbootpatcher">What is DualBootPatcher?&lt;/h3>
+
+ &lt;blockquote
+ 
+ class="blockquote border-start ps-3 py-1 border-primary border-4">
+ &lt;p>DualBootPatcher is an open-source app that allows multiple ROMs to be installed on a single Android device. It does its best to work with existing code and does not require explicit support from ROMs. There are currently 270+ supported devices and their variations.
+It&amp;rsquo;s originally developed by the amazing developer @chenxiaolong with help of many &lt;a
+ href="https://github.com/chenxiaolong/DualBootPatcher/graphs/contributors"
+ 
+ target="_blank" rel="noopener noreferrer">contributors&lt;/a>&lt;/p></description></item><item><title>How to use more than keyboard layout and switch between them in Android x86?</title><link>https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/</link><pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate><guid>https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/</guid><description>&lt;p>Android x86 supports multiple keyboard layouts but it doesn&amp;rsquo;t support switching between them easily using a shortcut like alt+shift. Here&amp;rsquo;s how you can do this!&lt;/p>
+&lt;p>1- Install &lt;a
+ href="https://play.google.com/store/apps/details?id=com.apedroid.hwkeyboardhelper&amp;amp;hl=ar"
+ 
+ target="_blank" rel="noopener noreferrer">External Keyboard Helper Pro App&lt;/a>.&lt;/p>
+&lt;p>2- Open Setting - Language &amp;amp; input, then active External Keyboard.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture class="d-block text-center" >
+ &lt;source srcset="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/01_hu_163a6cae20eb13c4.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/01.d564ce242d44ec19244617a8c20f8be9.png" alt="img" loading="lazy" height="526" width="520" />
+&lt;/picture>
+&lt;/p>
+&lt;p>3- Open External Keyboard Helper Settings, Choose your first keyboard layout then open Advanced settings.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture class="d-block text-center" >
+ &lt;source srcset="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/02_hu_32743dd9bd5ebd3b.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/02.3708492356f4019da6f69f228dee2dd7.png" alt="img" loading="lazy" height="532" width="396" />
+&lt;/picture>
+&lt;/p>
+&lt;p>4- Choose Language switching.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture class="d-block text-center" >
+ &lt;source srcset="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/03_hu_1158c1f933e891e0.webp" type="image/webp" />
+ &lt;img class="img-fluid" src="https://yshalsager.com/en/posts/how-to-use-more-than-keyboard-layout-android-x86/images/03.b7b773d24f09af428fbaacef1d9a4330.png" alt="img" loading="lazy" height="532" width="396" />
+&lt;/picture>
+&lt;/p></description></item></channel></rss>
