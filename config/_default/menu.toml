@@ -1,12 +1,48 @@
 [[main]]
   name = "Projects"
   identifier = "projects"
-  pre = '<i class="fas fa-fw fa-code"></i>'
-  url = "en/projects"
+  pageRef = "/projects"
   weight = 80
+  [main.params.icon]
+    vendor = "fas"
+    name = "code"
 [[main]]
   name = "Digital Garden"
   identifier = "digital-garden"
-  pre = '<i class="fas fa-fw fa-leaf"></i>'
   url = "https://notes.yshalsager.com/en/"
   weight = 90
+  [main.params.icon]
+    vendor = "fas"
+    name = "leaf"
+[[main]]
+  name = "Archives"
+  identifier = "archives"
+  pageRef = "/archives"
+  weight = 100
+  [main.params.icon]
+    vendor = "fas"
+    name = "box-archive"
+[[main]]
+  name = "Categories"
+  identifier = "categories"
+  pageRef = "/categories"
+  weight = 110
+  [main.params.icon]
+    vendor = "fas"
+    name = "folder"
+[[main]]
+  name = "Series"
+  identifier = "series"
+  pageRef = "/series"
+  weight = 120
+  [main.params.icon]
+    vendor = "fas"
+    name = "layer-group"
+[[main]]
+  name = "Tags"
+  identifier = "tags"
+  pageRef = "/tags"
+  weight = 130
+  [main.params.icon]
+    vendor = "fas"
+    name = "tags"

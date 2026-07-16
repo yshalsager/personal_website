@@ -1,187 +1,19 @@
-mainSections = ["posts"]
-# mainSections = ["post", "posts"] # Default to ["posts"].
-# titleSeparator = "|" # Title separator. Default to "-".
 description = "yshalsager's personal website and blog."
-keywords = "yshalsager, Youssif Shaaban, Youssif Shaaban Alsager"
-# images = ["site-feature-image.jpg"]
-rssDescription = "Latest posts from "
 
-logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
-# logo = false # Disable Logo
-brand = "" 
-color = "auto" 
-palette = "blue" # Default palette. Optional.
-# palettes = ["blue", "blue gray", "brown"] # Available palettes. Default to ALL.
-# palettes = [] # Disable palette switcher.
+[hb]
+full_width = false
+logo = "favicon.png"
+sass_transpiler = "libsass"
 
-# color = "dark" # light, dark or dynamic. Default to dynamic.
+[hb.header]
+brand = ""
 
-# fullWidth = true # Full width.
-# fixedHeader = false # Turn on/off fixed header.
+[hb.header.socials]
+email = "contact@yshalsager.com"
+github = "yshalsager"
+rss = true
 
-dateFormat = "2 Jan, 2006"
-
-# Google Adsense
-googleAdsense = ""
-
-# math = true # Enable math globally.
-# toc = false # Disable TOC globally.
-breadcrumb = true # Disable breadcrumb
-tocPosition = "content" 
-# diagram = true
-# socialshare = false # disable social network sharing
-# searchBar = false # disable search-bar
-
-poweredBy = false # Whether to show powered by.
-
-# readingTime = false # Whether to display the reading time.
-# postDate = false # Whether to display the post date in the post meta section.
-
-# featuredPostCount = 10 # The number of featured posts shown in sidebar. Turn off by setting it to false.
-# recentPostCount = 10 # The number of recent posts shown in sidebar. Turn off by setting it to false.
-# relatedPostCount = 10 # The number of related posts. Turn off by setting it to false.
-# categoryCount = 10 # The number of categories shown in sidebar. Turn off by setting it to false.
-# tagCount = 10 # The number of tags shown in sidebar. Turn off by setting it to false.
-# seriesCount = 10 # The number of series shown in sidebar. Turn off by setting it to false.
-countTaxonomyPosts = false # Count posts of taxonomy.
-taxonomyPaginate = 10 # Default to 10.
-taxonomyPostCount = 20 # The number of posts of taxonomy. Turn off by setting it to false.
-
-sidebarTaxonomies = ["categories", "tags", "series"] # The order of taxonomies on the sidebar.
-
-# pinnedPost = false # Turn on/off pinned posts.
-pinnedPostCount = 3 # The number of pinned posts.
-
-# Custom CSS and JS
-customCSS = []
-customJS = []
-
-tocWordCount = 120 # TOC is displayed only if the post's word count exceeds this value.
-
-titleCase = true # Capitalized title.
-
-viewer = true # Image Viewer
-
-[sidebar]
-fixed = false
-
-[codeBlock]
-# maxLines = 8
-lineNos = true # true/false represents that show/hide the line numbers by default.
-
-[post]
-excerpt = "description" 
-excerptMaxLength = 300 
-featuredImage = true 
-numberifyHeadings = false # Count headings automatically.
-# numberifyHeadingsEndLevel = 4 # The depth of headings to count. Default to 6.
-numberifyHeadingsSeparator = "." # The separator between of number and headings.
-# tocStyleType = "decimal" # The TOC's CSS list-style-type property.
-imageTitleAsCaption = true
-
-[archive]
-basePath = "/archives" # The base path of archive pages.
-# dateFormat = "01-02" # Archive date format. Default to "Jan 2".
-
-[analytics]
-# baidu = "" # Baidu Analytics
-
-# Site verification
-[siteVerification]
-baidu = "" 
-baiduUnion = "" # Baidu Union
-bing = "" 
-google = "" 
-shenma = "" 
-so = "" 
-sogou = "" 
-
-[creativeCommons]
-by = true # Credit must be given to you, the creator.
-# nc = true # Only noncommercial use of your work is permitted.
-# nd = true # No derivatives or adaptations of your work are permitted.
-# sa = true # Adaptations must be shared under the same terms.
-
-[giscus]
-category = "General"
-categoryId = "DIC_kwDOGTRR0s4B_pe_"
-repo = "yshalsager/personal_website"
-repoId = "R_kgDOGTRR0g="
-# theme = "dark" # Default to auto.
-# mapping = "title" # Default to pathname.
-# inputPosition = "bottom" # Default to top.
-reactions = true # Disable reactions.
-# metadata = true # Emit discussion metadata.
-# lang = "" # Specify language, default to site language.
-
-[search]
-paginate = 10 # Pagination. Default to 10.
-# resultContentWordCount = 240 # The maximum word count of result content for displaying.
-# Fuse.js options. See https://fusejs.io/api/options.html.
-[search.fuse]
-# ignoreLocation = true
-# location = 0
-isCaseSensitive = false
-minMatchCharLength = 3
-#threshold = 0.6
-# distance = 100
-useExtendedSearch = true
-
-[reward]
-liberapay = "images/reward/liberapay.png"
-paypal = "images/reward/paypal.png"
-
-#[share]
-#addThis = "" # AddThis pubid.
-
-[fontSize] # Comment or remove this settings to disable font size switcher.
-# extraSmall = ".8rem"
-# small = ".9rem"
-# large = "1.1rem"
-# extraLarge = "1.2rem"
-
-[pwa]
-[pwa.manifest]
-# name = "" # Default to site title.
-short_name = "yshalsager"
-# display = "fullscreen" # Default to standalone.
-# description = "" # Default to site description.
-background_color = "#f6f8fa"
-theme_color = "#1565c0"
-
-# Icons
-[[pwa.manifest.icons]]
-sizes = "96x96"
-src = "/images/favicons/favicon-96x96.png"
-[[pwa.manifest.icons]]
-sizes = "144x144"
-src = "/images/favicons/android-icon-144x144.png"
-[[pwa.manifest.icons]]
-sizes = "512x512"
-src = "/images/favicons/android-chrome-512x512.png"
-
-[repo]
-url = "https://github.com/yshalsager/personal_website"
-# branch = "main"
-#subPath = "exampleSite"
-# dateFormat = "02/01/2006, 15:04:05 PM"
-
-[fullWidthInSections]
-docs = true
-post = true
-
-[docs]
-[docs.nav]
-expand = true
-
-[actionsPanel]
-disabled = false
-
-[topAppBar]
-[topAppBar.social]
-github = "yshalsager/personal_website"
-
-[social]
+[hb.footer.socials]
 email = "contact@yshalsager.com"
 github = "yshalsager"
 gitlab = "yshalsager"
@@ -191,4 +23,87 @@ paypal = "yshalsager"
 telegram = "yshalsager"
 twitter = "yshalsager"
 youtube = "UCr6WUYZ1ErKbXwnCL_oxSCw"
-#patreon="XiaomiFirmwareUpdater"
+rss = true
+
+[hb.blog]
+paginate = 10
+list_cols_md = 2
+list_cols_lg = 3
+post_thumbnail = true
+post_thumbnail_placeholder = "yshalsager"
+
+[hb.blog.home]
+featured_posts = 5
+pinned_posts_position = "list"
+main_sections = ["posts"]
+
+[hb.blog.toc]
+position = "content"
+
+[hb.blog.sidebar]
+position = "start"
+width = 0.35
+sticky = true
+
+[hb.blog.sidebar.profile]
+avatar = "/images/profile.png"
+title = "Youssif Shaaban Alsager"
+description = "Software Developer and Technical Writer / Translator."
+location = "Egypt"
+avatar_size = 100
+
+[hb.blog.sidebar.profile.socials]
+email = "contact@yshalsager.com"
+github = "yshalsager"
+linkedin = "yshalsager"
+telegram = "yshalsager"
+twitter = "yshalsager"
+youtube = "UCr6WUYZ1ErKbXwnCL_oxSCw"
+rss = true
+
+[hb.blog.sidebar.posts]
+recent_count = 10
+featured_count = 10
+
+[hb.blog.sidebar.taxonomies]
+count = false
+limit = 20
+style = "pills"
+separate = false
+
+[hb.blog.giscus]
+repo = "yshalsager/personal_website"
+repo_id = "R_kgDOGTRR0g"
+category_id = "DIC_kwDOGTRR0s4B_pe_"
+
+[hb.content_panel.repo]
+service = "github"
+repo = "yshalsager/personal_website"
+branch = "master"
+
+[hb.google_fonts]
+[[hb.google_fonts.families]]
+name = "Noto Naskh Arabic"
+[[hb.google_fonts.families]]
+name = "Noto Sans"
+
+[search]
+stall_threshold = 300
+min_match_char_length = 2
+case_sensitive = false
+
+[pwa]
+icon_path = "favicon.png"
+
+[pwa.manifest]
+short_name = "yshalsager"
+background_color = "#f6f8fa"
+theme_color = "#1565c0"
+
+[hugopress.modules.hb-custom.hooks.hb-blog-post-content-end]
+
+[hugopress.modules.hb-blog-sidebar-taxonomies.hooks.hb-blog-sidebar]
+weight = 3
+
+[hugopress.modules.hb-blog-sidebar-posts.hooks.hb-blog-sidebar]
+weight = 2

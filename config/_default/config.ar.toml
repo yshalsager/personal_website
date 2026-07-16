@@ -1,9 +1,2 @@
 title = "يوسف شعبان الصغير"
 copyright = "جميع الحقوق محفوطة © 2013-{year} yshalsager."
-languageCode = 'ar-eg'
-
-[author]
-  name = "يوسف شعبان الصغير"
-  avatar = "images/profile.png"
-  bio = "مطور برمجيات وكاتب/مترجم تقني."
-  location = "مصر"

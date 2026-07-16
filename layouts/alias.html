@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-alias-head-begin" "Page" .) }}
+    <title>{{ .Permalink }}</title>
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    {{- $attrs := partial "hugopress/functions/render-attributes" (dict "Name" "hb-alias-refresh-meta" "Page" .) }}
+    <meta {{ $attrs | safeHTMLAttr }} />
+    {{ partialCached "hb/assets/css" .Page }}
+    {{ partial "hugopress/functions/render-hooks" (dict "Name" "hb-alias-head-end" "Page" .) }}
+  </head>
+  <body class="justify-content-center align-items-center">
+    <div class="spinner-grow text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </body>
+</html>

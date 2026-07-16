@@ -2,7 +2,6 @@
 title = "من أنا؟"
 date = "2020-08-23"
 aliases = ["about-us", "about-me"]
-author = "yshalsager"
 reward = false
 postDate = false
 readingTime = false

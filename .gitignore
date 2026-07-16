@@ -5,5 +5,7 @@
 venv/
 /index.md
 node_modules/
+/assets/jsconfig.json
+/public/
 /resources
 hugo_stats.json

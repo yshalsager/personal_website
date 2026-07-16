@@ -1,56 +1,58 @@
 baseURL = "/"
-copyright = "Copyright © 2013-{year} yshalsager. All Rights Reserved."
-theme = "hugo-theme-bootstrap"
 title = "yshalsager"
-
-# Multilingual mode
-defaultContentLanguage = "en" 
-defaultContentLanguageInSubdir = true # If you use only one language comment this option
-#disableLanguages = ["fr", "zh-cn" ,"zh-tw"] # For disable one or more language
-
-# Pagination
-paginate = 10
-# paginatePath = "page"
-
-# Disqus
-# disqusShortname = "yourdiscussshortname"
-
-# Google analytics
-# googleAnalytics = "UA-123-45"
-
+copyright = "Copyright © 2013-{year} yshalsager. All Rights Reserved."
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 enableRobotsTXT = true
-
 enableEmoji = true
+enableGitInfo = true
+timeout = "180s"
+title_sections = false
+ignoreLogs = ["err-youtube-remote"]
 
-# hasCJKLanguage = true # Turn on it if your content contains Chinese/Japanese/Korean Languages.
-
-pygmentsUseClasses = true
-
-timeout = "120s"
-
-[blackfriday]
-hrefTargetBlank = true
-
-[mediaTypes]
-[mediaTypes."application/manifest+json"]
-suffixes = ["json"]
-
-[outputFormats]
-[outputFormats.RSS]
-baseName = "rss"
-mediatype = "application/rss"
+[pagination]
+pagerSize = 10
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "Offline", "RSS", "SearchIndex", "WebAppManifest"]
 
 [taxonomies]
-category = "categories"
+authors = "authors"
+categories = "categories"
 series = "series"
-tag = "tags"
-
-enableGitInfo = true
+tags = "tags"
 
 [build]
 writeStats = true
 
-ignoreLogs = ["err-youtube-remote"]
+[related]
+includeNewer = true
+threshold = 10
+toLower = false
+
+[[related.indices]]
+name = "keywords"
+weight = 100
+
+[[related.indices]]
+name = "tags"
+weight = 80
+
+[[related.indices]]
+name = "categories"
+weight = 60
+
+[[related.indices]]
+name = "series"
+weight = 60
+
+[[related.indices]]
+name = "authors"
+weight = 10
+
+[[related.indices]]
+name = "date"
+weight = 10
+
+[security.funcs]
+getenv = ["^HUGO", "CI$", "PWD"]

@@ -1,4 +1,0 @@
-+++
-title = "البحث"
-layout = "search"
-+++

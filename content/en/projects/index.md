@@ -1,7 +1,6 @@
 +++
 title = "My Projects"
 date = "2020-08-23"
-author = "yshalsager"
 reward = false
 postDate = false
 readingTime = false

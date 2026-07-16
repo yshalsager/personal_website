@@ -1,0 +1,16 @@
+<div class="post-metadata mb-3 card hb-module" id="post-meta">
+  <div class="card-header">
+    <h2 class="card-title h5 mb-0"><span aria-hidden="true">📂</span> {{ i18n "metadata" }}</h2>
+  </div>
+  <div class="card-body">
+    <ul class="mb-0">
+      <li><strong>{{ i18n "last_changed" }}:</strong> {{ .Page.Lastmod.Format "Mon, 02 Jan 2006 03:04 PM" }}</li>
+      {{ if .Page.GitInfo }}
+      <li>
+        <strong>{{ i18n "change_id" }}:</strong>
+        <a href="https://github.com/yshalsager/personal_website/commit/{{ .Page.GitInfo.Hash }}">{{ .Page.GitInfo.AbbreviatedHash }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

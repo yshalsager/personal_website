@@ -1,0 +1,4 @@
+[tools]
+go = "1.26.5"
+hugo-extended = "0.146.5"
+node = "24"

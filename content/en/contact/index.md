@@ -2,7 +2,6 @@
 title = "Contact Me"
 date = "2020-08-23"
 aliases = ["contact-us", "contact-me"]
-author = "yshalsager"
 reward = false
 postDate = false
 readingTime = false

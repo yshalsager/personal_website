@@ -1,0 +1,14 @@
+[pwa.caches.font]
+strategy = "network-first"
+
+[pwa.caches.image]
+strategy = "network-first"
+
+[pwa.caches.script]
+strategy = "network-first"
+
+[pwa.caches.style]
+strategy = "network-first"
+
+[hugopress.modules.pwa]
+disable = true

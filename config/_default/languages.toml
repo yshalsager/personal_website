@@ -1,10 +1,12 @@
 [en]
   languageName = "English"
+  languageCode = "en-US"
   weight = 1
   contentDir = "content/en"
 
 [ar]
   languageName = "العربية"
-  LanguageDirection = 'rtl'
+  languageCode = "ar-EG"
+  languageDirection = "rtl"
   weight = 2
   contentDir = "content/ar"
